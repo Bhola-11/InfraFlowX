@@ -1,0 +1,15 @@
+{
+  "name": "infraflowx",
+  "version": "1.0.0",
+  "description": "InfraFlowX Enterprise Infrastructure & Asset Lifecycle Management Platform",
+  "private": true,
+  "scripts": {
+    "test": "pytest",
+    "lint": "flake8 apps"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "leaflet": "^1.9.4",
+    "chart.js": "^4.4.2"
+  }
+}

@@ -1,0 +1,18 @@
+[run]
+source = apps
+omit =
+    */migrations/*
+    */tests/*
+    */tests.py
+    */venv/*
+    */scratch/*
+
+[report]
+show_missing = True
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if self.debug:
+    raise AssertionError
+    raise NotImplementedError
+    if __name__ == .__main__.:

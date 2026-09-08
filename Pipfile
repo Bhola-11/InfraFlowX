@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = ">=5.0,<6.0"
+djangorestframework = ">=3.14.0"
+pytest = ">=8.0.0"
+pytest-django = ">=4.8.0"
+pytest-cov = ">=4.1.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
