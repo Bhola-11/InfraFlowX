@@ -56,7 +56,7 @@ def maintenance_list_view(request):
         'total_cost': total_cost,
         'active_jobs': plans_qs.filter(status='IN_PROGRESS').count(),
     }
-    return render(request, 'maintenance/maintenance_list.html', context)
+    return render(request, 'maintenance/plan_list.html', context)
 
 
 @login_required
@@ -74,7 +74,7 @@ def maintenance_detail_view(request, pk):
         'plan': plan,
         'action_logs': action_logs,
     }
-    return render(request, 'maintenance/maintenance_detail.html', context)
+    return render(request, 'maintenance/plan_detail.html', context)
 
 
 @login_required
@@ -96,7 +96,7 @@ def maintenance_create_view(request):
             return redirect('maintenance:detail', pk=plan.pk)
     else:
         form = MaintenancePlanForm()
-    return render(request, 'maintenance/maintenance_form.html', {'form': form, 'title': 'Create Maintenance Job'})
+    return render(request, 'maintenance/plan_form.html', {'form': form, 'title': 'Create Maintenance Job'})
 
 
 @login_required
@@ -119,7 +119,7 @@ def maintenance_update_view(request, pk):
             return redirect('maintenance:detail', pk=plan.pk)
     else:
         form = MaintenancePlanForm(instance=plan)
-    return render(request, 'maintenance/maintenance_form.html', {'form': form, 'title': f'Edit Maintenance: {plan.maintenance_code}', 'plan': plan})
+    return render(request, 'maintenance/plan_form.html', {'form': form, 'title': f'Edit Maintenance: {plan.maintenance_code}', 'plan': plan})
 
 
 @login_required
@@ -137,7 +137,7 @@ def maintenance_action_log_add_view(request, plan_pk):
             return redirect('maintenance:detail', pk=plan.pk)
     else:
         form = MaintenanceActionLogForm()
-    return render(request, 'maintenance/generic_form.html', {'form': form, 'title': f'Log Task Step for {plan.maintenance_code}'})
+    return render(request, 'maintenance/action_form.html', {'form': form, 'title': f'Log Task Step for {plan.maintenance_code}'})
 
 
 @login_required

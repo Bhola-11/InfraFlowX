@@ -116,7 +116,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="{% url 'inventory:list' %}" class="nav-link {% if request.resolver_match.app_name == 'inventory' %}active{% endif %}">
+            <a href="{% url 'inventory:sparepart_list' %}" class="nav-link {% if request.resolver_match.app_name == 'inventory' %}active{% endif %}">
                 <i class="bi bi-boxes"></i>
                 <span>Spare Parts Inventory</span>
             </a>
@@ -125,25 +125,25 @@
         <!-- Section: Safety, Support & Documents -->
         <li class="sidebar-heading">Safety & Intelligence</li>
         <li class="nav-item">
-            <a href="{% url 'incidents:list' %}" class="nav-link {% if request.resolver_match.app_name == 'incidents' %}active{% endif %}">
+            <a href="{% url 'incidents:incident_list' %}" class="nav-link {% if request.resolver_match.app_name == 'incidents' %}active{% endif %}">
                 <i class="bi bi-exclamation-triangle"></i>
                 <span>Incidents & Hazards</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="{% url 'documents:list' %}" class="nav-link {% if request.resolver_match.app_name == 'documents' %}active{% endif %}">
+            <a href="{% url 'documents:document_list' %}" class="nav-link {% if request.resolver_match.app_name == 'documents' %}active{% endif %}">
                 <i class="bi bi-folder2-open"></i>
                 <span>Document Repository</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="{% url 'reports:list' %}" class="nav-link {% if request.resolver_match.app_name == 'reports' %}active{% endif %}">
+            <a href="{% url 'reports:catalog' %}" class="nav-link {% if request.resolver_match.app_name == 'reports' %}active{% endif %}">
                 <i class="bi bi-file-earmark-bar-graph"></i>
                 <span>Executive Reports</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="{% url 'support:list' %}" class="nav-link {% if request.resolver_match.app_name == 'support' %}active{% endif %}">
+            <a href="{% url 'support:ticket_list' %}" class="nav-link {% if request.resolver_match.app_name == 'support' %}active{% endif %}">
                 <i class="bi bi-headset"></i>
                 <span>Support & Helpdesk</span>
             </a>

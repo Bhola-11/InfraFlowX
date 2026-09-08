@@ -7,4 +7,6 @@ urlpatterns = [
     path('', views.dashboard_view, name='dashboard'),
     path('degradation/', views.degradation_analytics_view, name='degradation'),
     path('search/', views.global_search_view, name='global_search'),
+    path('search/query/', views.global_search_view, name='search'),
 ]
+

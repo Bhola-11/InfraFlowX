@@ -20,18 +20,18 @@ from apps.expenses.models import Expense
 @login_required
 def dashboard_view(request):
     total_assets = Asset.objects.count()
-    operational_assets = Asset.objects.filter(status='OPERATIONAL').count()
-    active_workorders = WorkOrder.objects.filter(status__in=['OPEN', 'ASSIGNED', 'IN_PROGRESS']).count()
-    critical_incidents = Incident.objects.filter(severity__in=['HIGH', 'CRITICAL'], status__in=['REPORTED', 'INVESTIGATING']).count()
+    operational_assets = Asset.objects.filter(status='ACTIVE').count()
+    active_workorders = WorkOrder.objects.filter(status__in=['CREATED', 'ASSIGNED', 'IN_PROGRESS', 'SCHEDULED']).count()
+    critical_incidents = Incident.objects.filter(severity__in=['HIGH', 'CRITICAL'], status__in=['REPORTED', 'DISPATCHED', 'UNDER_INVESTIGATION']).count()
     pending_inspections = Inspection.objects.filter(status__in=['SCHEDULED', 'IN_PROGRESS']).count()
 
-    total_budget = Budget.objects.aggregate(t=Sum('total_allocated_amount'))['t'] or Decimal('0.00')
-    total_spent = Expense.objects.filter(status='APPROVED').aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
+    total_budget = Budget.objects.aggregate(t=Sum('allocated_amount'))['t'] or Decimal('0.00')
+    total_spent = Expense.objects.filter(approval_status='APPROVED').aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
     budget_utilization_pct = (total_spent / total_budget * 100) if total_budget > 0 else Decimal('0.0')
 
-    recent_workorders = WorkOrder.objects.select_related('asset', 'assigned_to').order_by('-created_at')[:6]
-    recent_incidents = Incident.objects.select_related('asset', 'location', 'reported_by').order_by('-created_at')[:5]
-    recent_inspections = Inspection.objects.select_related('asset', 'inspector').order_by('-scheduled_date')[:5]
+    recent_workorders = WorkOrder.objects.select_related('asset', 'assigned_employee').order_by('-created_at')[:6]
+    recent_incidents = Incident.objects.select_related('asset', 'location', 'reported_by').order_by('-reported_at')[:5]
+    recent_inspections = Inspection.objects.select_related('asset', 'inspector').order_by('-inspection_date')[:5]
 
     # Chart datasets
     type_chart = get_asset_distribution_by_type()
@@ -47,7 +47,7 @@ def dashboard_view(request):
     for a in map_assets:
         map_markers.append({
             'name': a.name,
-            'code': a.asset_code,
+            'code': a.asset_id,
             'type': a.get_asset_type_display(),
             'status': a.get_status_display(),
             'lat': float(a.location.latitude),
@@ -100,10 +100,10 @@ def global_search_view(request):
     documents = []
 
     if q:
-        assets = Asset.objects.filter(Q(name__icontains=q) | Q(asset_code__icontains=q) | Q(description__icontains=q))[:10]
-        workorders = WorkOrder.objects.filter(Q(wo_number__icontains=q) | Q(title__icontains=q) | Q(description__icontains=q))[:10]
-        inspections = Inspection.objects.filter(Q(inspection_number__icontains=q) | Q(title__icontains=q))[:10]
-        incidents = Incident.objects.filter(Q(incident_number__icontains=q) | Q(title__icontains=q) | Q(description__icontains=q))[:10]
+        assets = Asset.objects.filter(Q(name__icontains=q) | Q(asset_id__icontains=q) | Q(description__icontains=q))[:10]
+        workorders = WorkOrder.objects.filter(Q(workorder_id__icontains=q) | Q(title__icontains=q) | Q(description__icontains=q))[:10]
+        inspections = Inspection.objects.filter(Q(inspection_id__icontains=q) | Q(findings__icontains=q))[:10]
+        incidents = Incident.objects.filter(Q(incident_id__icontains=q) | Q(title__icontains=q) | Q(description__icontains=q))[:10]
         contractors = Contractor.objects.filter(Q(company_name__icontains=q) | Q(registration_number__icontains=q))[:10]
         documents = Document.objects.filter(Q(title__icontains=q) | Q(doc_number__icontains=q) | Q(tags__icontains=q))[:10]
 
