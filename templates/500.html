@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}System Error (500){% endblock %}
+{% block content %}
+<div class="container py-5 text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-enterprise p-5 my-4 border-warning border-opacity-25 shadow-lg">
+                <div class="mb-4">
+                    <i class="bi bi-exclamation-octagon-fill text-warning" style="font-size: 4rem;"></i>
+                </div>
+                <h1 class="display-4 fw-bold text-white mb-2">500</h1>
+                <h4 class="text-light mb-3">Internal Server Exception</h4>
+                <p class="text-secondary mb-4">
+                    An unexpected system condition occurred. The error has been logged to the enterprise audit log.
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="{% url 'analytics:dashboard' %}" class="btn btn-enterprise-primary">
+                        <i class="bi bi-arrow-clockwise me-1"></i> Reload Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

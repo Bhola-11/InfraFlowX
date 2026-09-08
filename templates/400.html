@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Bad Request (400){% endblock %}
+{% block content %}
+<div class="container py-5 text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-enterprise p-5 my-4 border-secondary shadow-lg">
+                <div class="mb-4">
+                    <i class="bi bi-patch-question-fill text-info" style="font-size: 4rem;"></i>
+                </div>
+                <h1 class="display-4 fw-bold text-white mb-2">400</h1>
+                <h4 class="text-light mb-3">Invalid Request Parameters</h4>
+                <p class="text-secondary mb-4">
+                    The server could not understand the request due to invalid syntax or corrupted parameters.
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="{% url 'analytics:dashboard' %}" class="btn btn-enterprise-primary">
+                        <i class="bi bi-speedometer2 me-1"></i> Return to Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

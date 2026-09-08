@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Access Restricted (403){% endblock %}
+{% block content %}
+<div class="container py-5 text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-enterprise p-5 my-4 border-danger border-opacity-25 shadow-lg">
+                <div class="mb-4">
+                    <i class="bi bi-shield-lock-fill text-danger" style="font-size: 4rem;"></i>
+                </div>
+                <h1 class="display-4 fw-bold text-white mb-2">403</h1>
+                <h4 class="text-light mb-3">Permission Denied / Access Restricted</h4>
+                <p class="text-secondary mb-4">
+                    Your account role does not possess the required governance permissions to access or modify this resource.
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="{% url 'analytics:dashboard' %}" class="btn btn-enterprise-primary">
+                        <i class="bi bi-speedometer2 me-1"></i> Return to Dashboard
+                    </a>
+                    <a href="{% url 'support:ticket_list' %}" class="btn btn-enterprise-outline">
+                        <i class="bi bi-headset me-1"></i> Request Access
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

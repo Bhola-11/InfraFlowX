@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Page Not Found (404){% endblock %}
+{% block content %}
+<div class="container py-5 text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-enterprise p-5 my-4 border-info border-opacity-25 shadow-lg">
+                <div class="mb-4">
+                    <i class="bi bi-geo-alt-fill text-info" style="font-size: 4rem;"></i>
+                </div>
+                <h1 class="display-4 fw-bold text-white mb-2">404</h1>
+                <h4 class="text-light mb-3">Infrastructure Asset or Page Not Found</h4>
+                <p class="text-secondary mb-4">
+                    The requested URL, asset identifier, or operational resource does not exist or may have been relocated.
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="{% url 'analytics:dashboard' %}" class="btn btn-enterprise-primary">
+                        <i class="bi bi-speedometer2 me-1"></i> Command Center
+                    </a>
+                    <a href="{% url 'assets:list' %}" class="btn btn-enterprise-outline">
+                        <i class="bi bi-box-seam me-1"></i> Browse Assets
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
