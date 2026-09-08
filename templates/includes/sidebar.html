@@ -1,0 +1,187 @@
+{% load static %}
+<aside class="app-sidebar">
+    <!-- Brand Header -->
+    <a href="{% url 'analytics:dashboard' %}" class="sidebar-brand">
+        <i class="bi bi-diagram-3-fill text-info fs-4"></i>
+        <span>Infra<span class="brand-flow">FlowX</span></span>
+        <span class="badge-tag ms-auto">ENTERPRISE</span>
+    </a>
+
+    <!-- Navigation Menu -->
+    <ul class="sidebar-nav">
+        <!-- Main Dashboard -->
+        <li class="nav-item">
+            <a href="{% url 'analytics:dashboard' %}" class="nav-link {% if request.resolver_match.app_name == 'analytics' and request.resolver_match.url_name == 'dashboard' %}active{% endif %}">
+                <i class="bi bi-speedometer2"></i>
+                <span>Main Dashboard</span>
+            </a>
+        </li>
+
+        <!-- Section: Asset Management -->
+        <li class="sidebar-heading">Asset Infrastructure</li>
+        <li class="nav-item">
+            <a href="{% url 'assets:list' %}" class="nav-link {% if request.resolver_match.app_name == 'assets' %}active{% endif %}">
+                <i class="bi bi-box-seam"></i>
+                <span>Central Assets</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'roads:list' %}" class="nav-link {% if request.resolver_match.app_name == 'roads' %}active{% endif %}">
+                <i class="bi bi-signpost-2"></i>
+                <span>Road Network</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'bridges:list' %}" class="nav-link {% if request.resolver_match.app_name == 'bridges' %}active{% endif %}">
+                <i class="bi bi-water"></i>
+                <span>Bridge Engineering</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'buildings:list' %}" class="nav-link {% if request.resolver_match.app_name == 'buildings' %}active{% endif %}">
+                <i class="bi bi-building"></i>
+                <span>Building Facilities</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'facilities:list' %}" class="nav-link {% if request.resolver_match.app_name == 'facilities' %}active{% endif %}">
+                <i class="bi bi-gear-wide-connected"></i>
+                <span>Facilities & MEP</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'locations:map' %}" class="nav-link {% if request.resolver_match.app_name == 'locations' %}active{% endif %}">
+                <i class="bi bi-geo-alt"></i>
+                <span>Locations & GIS Map</span>
+            </a>
+        </li>
+
+        <!-- Section: Operations & Maintenance -->
+        <li class="sidebar-heading">Operations & Workflows</li>
+        <li class="nav-item">
+            <a href="{% url 'inspections:list' %}" class="nav-link {% if request.resolver_match.app_name == 'inspections' %}active{% endif %}">
+                <i class="bi bi-clipboard2-check"></i>
+                <span>Inspections</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'conditions:list' %}" class="nav-link {% if request.resolver_match.app_name == 'conditions' %}active{% endif %}">
+                <i class="bi bi-graph-down-arrow"></i>
+                <span>Condition Scoring</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'maintenance:list' %}" class="nav-link {% if request.resolver_match.app_name == 'maintenance' %}active{% endif %}">
+                <i class="bi bi-tools"></i>
+                <span>Maintenance</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'workorders:list' %}" class="nav-link {% if request.resolver_match.app_name == 'workorders' %}active{% endif %}">
+                <i class="bi bi-card-checklist"></i>
+                <span>Work Orders</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'projects:list' %}" class="nav-link {% if request.resolver_match.app_name == 'projects' %}active{% endif %}">
+                <i class="bi bi-kanban"></i>
+                <span>Capital Projects</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'contractors:list' %}" class="nav-link {% if request.resolver_match.app_name == 'contractors' %}active{% endif %}">
+                <i class="bi bi-briefcase"></i>
+                <span>Contractors</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'schedules:calendar' %}" class="nav-link {% if request.resolver_match.app_name == 'schedules' %}active{% endif %}">
+                <i class="bi bi-calendar3"></i>
+                <span>Maintenance Schedules</span>
+            </a>
+        </li>
+
+        <!-- Section: Financials & Supply Chain -->
+        <li class="sidebar-heading">Financials & Logistics</li>
+        <li class="nav-item">
+            <a href="{% url 'budgets:list' %}" class="nav-link {% if request.resolver_match.app_name == 'budgets' %}active{% endif %}">
+                <i class="bi bi-cash-stack"></i>
+                <span>Budgets & Allocations</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'expenses:list' %}" class="nav-link {% if request.resolver_match.app_name == 'expenses' %}active{% endif %}">
+                <i class="bi bi-receipt"></i>
+                <span>Expenses & Invoices</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'inventory:list' %}" class="nav-link {% if request.resolver_match.app_name == 'inventory' %}active{% endif %}">
+                <i class="bi bi-boxes"></i>
+                <span>Spare Parts Inventory</span>
+            </a>
+        </li>
+
+        <!-- Section: Safety, Support & Documents -->
+        <li class="sidebar-heading">Safety & Intelligence</li>
+        <li class="nav-item">
+            <a href="{% url 'incidents:list' %}" class="nav-link {% if request.resolver_match.app_name == 'incidents' %}active{% endif %}">
+                <i class="bi bi-exclamation-triangle"></i>
+                <span>Incidents & Hazards</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'documents:list' %}" class="nav-link {% if request.resolver_match.app_name == 'documents' %}active{% endif %}">
+                <i class="bi bi-folder2-open"></i>
+                <span>Document Repository</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'reports:list' %}" class="nav-link {% if request.resolver_match.app_name == 'reports' %}active{% endif %}">
+                <i class="bi bi-file-earmark-bar-graph"></i>
+                <span>Executive Reports</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'support:list' %}" class="nav-link {% if request.resolver_match.app_name == 'support' %}active{% endif %}">
+                <i class="bi bi-headset"></i>
+                <span>Support & Helpdesk</span>
+            </a>
+        </li>
+
+        <!-- Section: Organization & Governance -->
+        <li class="sidebar-heading">Governance & Administration</li>
+        <li class="nav-item">
+            <a href="{% url 'organizations:list' %}" class="nav-link {% if request.resolver_match.app_name == 'organizations' %}active{% endif %}">
+                <i class="bi bi-diagram-2"></i>
+                <span>Organizations & Units</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'employees:list' %}" class="nav-link {% if request.resolver_match.app_name == 'employees' %}active{% endif %}">
+                <i class="bi bi-people"></i>
+                <span>Employees & Skills</span>
+            </a>
+        </li>
+        {% if user.is_org_admin %}
+        <li class="nav-item">
+            <a href="{% url 'accounts:user_list' %}" class="nav-link {% if request.resolver_match.app_name == 'accounts' and request.resolver_match.url_name == 'user_list' %}active{% endif %}">
+                <i class="bi bi-person-badge"></i>
+                <span>User Directory</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'permissions:matrix' %}" class="nav-link {% if request.resolver_match.app_name == 'permissions' %}active{% endif %}">
+                <i class="bi bi-shield-lock"></i>
+                <span>Permission Matrix</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'audit:list' %}" class="nav-link {% if request.resolver_match.app_name == 'audit' %}active{% endif %}">
+                <i class="bi bi-journal-text"></i>
+                <span>Audit Logs</span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</aside>

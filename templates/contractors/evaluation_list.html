@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}Contractor Evaluations | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-star-half text-warning me-2"></i>Vendor Performance Evaluations</h2>
+        <p class="text-muted mb-0">Quality, safety, timeliness, and cost compliance ratings for engineering contractors.</p>
+    </div>
+    <div>
+        <a href="{% url 'contractors:evaluation_create' %}" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>New Evaluation</a>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Contractor</th>
+                        <th>Project</th>
+                        <th>Evaluation Date</th>
+                        <th>Quality</th>
+                        <th>Timeliness</th>
+                        <th>Safety</th>
+                        <th>Overall Rating</th>
+                        <th>Evaluator</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for e in page_obj %}
+                    <tr>
+                        <td class="fw-semibold">
+                            <a href="{% url 'contractors:contractor_detail' e.contractor.id %}" class="text-decoration-none">{{ e.contractor.company_name }}</a>
+                        </td>
+                        <td>{{ e.project.name|default:"General Empanelment" }}</td>
+                        <td>{{ e.evaluation_date }}</td>
+                        <td><span class="badge bg-secondary">{{ e.quality_score }}/100</span></td>
+                        <td><span class="badge bg-secondary">{{ e.timeliness_score }}/100</span></td>
+                        <td><span class="badge bg-secondary">{{ e.safety_score }}/100</span></td>
+                        <td><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill"></i> {{ e.overall_rating|floatformat:1 }} / 5.0</span></td>
+                        <td>{{ e.evaluated_by.get_full_name|default:e.evaluated_by.username }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="8" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No performance evaluations recorded.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page_obj.has_other_pages %}
+    <div class="card-footer bg-transparent">
+        {% include 'includes/pagination.html' %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

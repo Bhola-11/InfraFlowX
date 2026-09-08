@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Active Road Pavement Defects{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-exclamation-triangle-fill text-danger me-2"></i> Active Road Defects & Hazards</h3>
+        <p class="text-secondary small mb-0">Unresolved potholes, fatigue cracking, and drainage obstructions</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'roads:defect_create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Log Road Defect
+        </a>
+    </div>
+</div>
+
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Road Corridor</th>
+                    <th>Defect Type</th>
+                    <th>Severity</th>
+                    <th>Chainage</th>
+                    <th>Reported Date</th>
+                    <th>Description</th>
+                    <th class="text-end">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for d in defects %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'roads:detail' d.road.pk %}" class="text-white fw-semibold text-decoration-none">{{ d.road.road_name }}</a>
+                            <div class="font-monospace text-info small">{{ d.road.road_code }}</div>
+                        </td>
+                        <td><span class="badge bg-secondary">{{ d.get_defect_type_display }}</span></td>
+                        <td>
+                            <span class="badge {% if d.severity == 'CRITICAL' %}bg-danger{% elif d.severity == 'HIGH' %}bg-warning text-dark{% else %}bg-secondary{% endif %}">
+                                {{ d.get_severity_display }}
+                            </span>
+                        </td>
+                        <td class="font-monospace text-info small">KM {{ d.chainage_km }}</td>
+                        <td class="text-secondary small">{{ d.reported_date|date:"Y-m-d" }}</td>
+                        <td class="text-truncate text-secondary small" style="max-width: 250px;">{{ d.description }}</td>
+                        <td class="text-end">
+                            <a href="{% url 'roads:defect_resolve' d.pk %}" class="btn btn-sm btn-outline-success">
+                                <i class="bi bi-check-lg me-1"></i> Mark Repaired
+                            </a>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="7" class="text-center text-muted p-4">No active unrepaired road defects on file.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

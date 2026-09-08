@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}{{ equipment.equipment_name }} ({{ equipment.equipment_code }}) - Facility Equipment Dossier{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="badge bg-dark border border-secondary text-info font-monospace fs-6">{{ equipment.equipment_code }}</span>
+            <span class="badge bg-secondary">{{ equipment.get_equipment_type_display }}</span>
+        </div>
+        <h3 class="fw-bold text-white mb-0">{{ equipment.equipment_name }}</h3>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'assets:detail' equipment.asset.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-box-arrow-up-right me-1"></i> Central Asset Dossier
+        </a>
+        <a href="{% url 'facilities:add_service_log' equipment.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-wrench me-1"></i> Log Maintenance Service
+        </a>
+        <a href="{% url 'facilities:edit' equipment.pk %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-pencil me-1"></i> Edit Equipment
+        </a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left Column: Specs -->
+    <div class="col-lg-4">
+        <div class="card-enterprise p-4 mb-4">
+            <h5 class="fw-bold text-white mb-3"><i class="bi bi-info-circle text-info me-2"></i> Plant Equipment Specs</h5>
+            <div class="small">
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Classification:</span>
+                    <strong class="text-white">{{ equipment.get_equipment_type_display }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Manufacturer:</span>
+                    <strong class="text-white">{{ equipment.manufacturer|default:"OEM" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Model / Part No:</span>
+                    <strong class="text-white">{{ equipment.model_number|default:"-" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Power Rating:</span>
+                    <strong class="text-white">{{ equipment.power_rating_kw|default:"-" }} kW</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Cumulative Run Hours:</span>
+                    <strong class="text-info font-monospace">{{ equipment.operating_hours }} hrs</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Last Service Date:</span>
+                    <strong class="text-white">{{ equipment.last_service_date|date:"Y-m-d"|default:"None" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Next Due Date:</span>
+                    <strong class="text-warning">{{ equipment.next_service_due|date:"Y-m-d"|default:"Not Scheduled" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>SLA Service Vendor:</span>
+                    <strong class="text-white">{{ equipment.service_contract_vendor|default:"Internal Facility Team" }}</strong>
+                </div>
+                <div class="pt-3 text-secondary">
+                    <div class="text-muted mb-1">Notes:</div>
+                    <div class="text-white">{{ equipment.notes|default:"Standard operational condition." }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Column: Service Logs -->
+    <div class="col-lg-8">
+        <div class="card-enterprise">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-tools text-warning me-2"></i> Maintenance & Service Log History ({{ service_logs.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Service Date</th>
+                            <th>Service Type</th>
+                            <th>Technician</th>
+                            <th>Run Hours</th>
+                            <th>Cost</th>
+                            <th>Summary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for s in service_logs %}
+                            <tr>
+                                <td class="small text-secondary">{{ s.service_date|date:"Y-m-d" }}</td>
+                                <td><span class="badge bg-secondary">{{ s.get_service_type_display }}</span></td>
+                                <td class="text-white">{{ s.technician_name }}</td>
+                                <td class="font-monospace text-info small">{{ s.operating_hours_at_service }} hrs</td>
+                                <td class="text-success fw-bold">${{ s.cost|intcomma }}</td>
+                                <td class="text-secondary small text-truncate" style="max-width: 200px;">{{ s.notes|default:"Routine maintenance complete" }}</td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="6" class="text-center text-muted p-4">No service interventions logged yet for this equipment unit.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

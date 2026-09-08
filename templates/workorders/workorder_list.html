@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+
+{% block title %}Work Orders & Field Operations | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-gear-wide-connected text-primary me-2"></i>Work Orders & Field Operations</h2>
+        <p class="text-muted mb-0">Track infrastructure maintenance tickets, task execution workflows, and labor/contractor assignments.</p>
+    </div>
+    <div>
+        <a href="{% url 'workorders:workorder_create' %}" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>Create Work Order</a>
+    </div>
+</div>
+
+<div class="card mb-4 shadow-sm border-0">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input type="text" name="q" class="form-control" placeholder="Search by WO#, title, asset..." value="{{ search_query }}">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <select name="status" class="form-select">
+                    <option value="">All Statuses</option>
+                    {% for key, label in statuses %}
+                        <option value="{{ key }}" {% if selected_status == key %}selected{% endif %}>{{ label }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select name="priority" class="form-select">
+                    <option value="">All Priorities</option>
+                    {% for key, label in priorities %}
+                        <option value="{{ key }}" {% if selected_priority == key %}selected{% endif %}>{{ label }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select name="type" class="form-select">
+                    <option value="">All Types</option>
+                    {% for key, label in types %}
+                        <option value="{{ key }}" {% if selected_type == key %}selected{% endif %}>{{ label }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2 d-flex">
+                <button type="submit" class="btn btn-primary w-100 me-2">Filter</button>
+                <a href="{% url 'workorders:workorder_list' %}" class="btn btn-outline-secondary">Reset</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>WO Number</th>
+                        <th>Title</th>
+                        <th>Asset</th>
+                        <th>Type</th>
+                        <th>Priority</th>
+                        <th>Assigned To</th>
+                        <th>Est. Cost</th>
+                        <th>Status</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for wo in page_obj %}
+                    <tr>
+                        <td><code>{{ wo.wo_number }}</code></td>
+                        <td class="fw-semibold">
+                            <a href="{% url 'workorders:workorder_detail' wo.id %}" class="text-decoration-none">{{ wo.title }}</a>
+                        </td>
+                        <td>
+                            {% if wo.asset %}
+                                <a href="{% url 'assets:asset_detail' wo.asset.id %}" class="text-decoration-none">{{ wo.asset.name }}</a>
+                            {% else %}
+                                <span class="text-muted">General Facility</span>
+                            {% endif %}
+                        </td>
+                        <td><span class="badge bg-secondary">{{ wo.get_work_type_display }}</span></td>
+                        <td>
+                            {% if wo.priority == 'EMERGENCY' %}
+                                <span class="badge bg-danger">Emergency</span>
+                            {% elif wo.priority == 'HIGH' %}
+                                <span class="badge bg-warning text-dark">High</span>
+                            {% elif wo.priority == 'MEDIUM' %}
+                                <span class="badge bg-info text-dark">Medium</span>
+                            {% else %}
+                                <span class="badge bg-secondary">Low</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if wo.assigned_contractor %}
+                                <div><i class="bi bi-briefcase me-1"></i>{{ wo.assigned_contractor.company_name }}</div>
+                            {% elif wo.assigned_to %}
+                                <div><i class="bi bi-person me-1"></i>{{ wo.assigned_to.get_full_name|default:wo.assigned_to.username }}</div>
+                            {% else %}
+                                <span class="text-muted fst-italic">Unassigned</span>
+                            {% endif %}
+                        </td>
+                        <td>₹{{ wo.estimated_cost|floatformat:2 }}</td>
+                        <td>
+                            {% if wo.status == 'COMPLETED' %}
+                                <span class="badge bg-success">Completed</span>
+                            {% elif wo.status == 'IN_PROGRESS' %}
+                                <span class="badge bg-primary">In Progress</span>
+                            {% elif wo.status == 'ASSIGNED' %}
+                                <span class="badge bg-info text-dark">Assigned</span>
+                            {% else %}
+                                <span class="badge bg-secondary">{{ wo.get_status_display }}</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            <a href="{% url 'workorders:workorder_detail' wo.id %}" class="btn btn-sm btn-outline-info me-1"><i class="bi bi-eye"></i></a>
+                            <a href="{% url 'workorders:workorder_edit' wo.id %}" class="btn btn-sm btn-outline-primary"><i class="bi bi-pencil"></i></a>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="9" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No work orders found.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page_obj.has_other_pages %}
+    <div class="card-footer bg-transparent">
+        {% include 'includes/pagination.html' %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

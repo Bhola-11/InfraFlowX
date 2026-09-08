@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}{{ building.building_name }} ({{ building.building_id_code }}) - Building Profile{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="badge bg-dark border border-secondary text-info font-monospace fs-6">{{ building.building_id_code }}</span>
+            <span class="badge bg-secondary">{{ building.get_building_type_display }}</span>
+            <span class="badge bg-success-subtle text-success">{{ building.get_energy_rating_display }}</span>
+        </div>
+        <h3 class="fw-bold text-white mb-0">{{ building.building_name }}</h3>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'assets:detail' building.asset.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-box-arrow-up-right me-1"></i> Central Asset Dossier
+        </a>
+        <a href="{% url 'buildings:add_floor' building.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-layers me-1"></i> Add Floor Level
+        </a>
+        <a href="{% url 'buildings:edit' building.pk %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-pencil me-1"></i> Edit Building
+        </a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left Column: Specs -->
+    <div class="col-lg-4">
+        <div class="card-enterprise p-4 mb-4">
+            <h5 class="fw-bold text-white mb-3"><i class="bi bi-info-circle text-info me-2"></i> Building Specifications</h5>
+            <div class="small">
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Classification:</span>
+                    <strong class="text-white">{{ building.get_building_type_display }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Gross Floor Area:</span>
+                    <strong class="text-white">{{ building.total_area_sqft|intcomma }} sq ft</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Floor Levels:</span>
+                    <strong class="text-white">{{ building.floor_count }} levels</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Year Built:</span>
+                    <strong class="text-white">{{ building.construction_year }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Max Occupancy:</span>
+                    <strong class="text-white">{{ building.occupancy_capacity }} persons</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>HVAC System:</span>
+                    <strong class="text-white">{{ building.hvac_system_type|default:"Standard" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Roofing System:</span>
+                    <strong class="text-white">{{ building.roof_type|default:"Standard" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Fire Safety:</span>
+                    <strong class="{% if building.is_fire_safety_certified %}text-success{% else %}text-danger{% endif %}">
+                        {% if building.is_fire_safety_certified %}Certified / Pass{% else %}Audit Due{% endif %}
+                    </strong>
+                </div>
+                <div class="pt-3 text-secondary">
+                    <div class="text-muted mb-1">Physical Address:</div>
+                    <div class="text-white">{{ building.address }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Column: Floor Breakdown -->
+    <div class="col-lg-8">
+        <div class="card-enterprise">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-layers text-warning me-2"></i> Floor Space Breakdown ({{ floors.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Level</th>
+                            <th>Floor Name / Zone</th>
+                            <th>Floor Area</th>
+                            <th>Usage Allocation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for f in floors %}
+                            <tr>
+                                <td><span class="badge bg-secondary font-monospace">Level {{ f.floor_number }}</span></td>
+                                <td class="text-white fw-semibold">{{ f.floor_name }}</td>
+                                <td class="text-secondary small">{{ f.area_sqft|intcomma }} sq ft</td>
+                                <td><span class="badge bg-dark border border-secondary">{{ f.usage_type }}</span></td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="4" class="text-center text-muted p-4">No individual floor subdivisions created yet.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

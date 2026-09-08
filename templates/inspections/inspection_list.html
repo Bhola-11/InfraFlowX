@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% block title %}Infrastructure Inspections{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-clipboard2-check-fill text-info me-2"></i> Infrastructure Inspections</h3>
+        <p class="text-secondary small mb-0">Structural health audits, routine condition checks, and safety compliance reports</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'inspections:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Log Inspection
+        </a>
+    </div>
+</div>
+
+<!-- Stats Ribbon -->
+<div class="row g-3 mb-4">
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-info-subtle text-info"><i class="bi bi-clipboard2-data"></i></div>
+            <div class="kpi-val">{{ total_inspections }}</div>
+            <div class="kpi-label">Conducted Audits</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-warning-subtle text-warning"><i class="bi bi-hourglass-split"></i></div>
+            <div class="kpi-val">{{ pending_count }}</div>
+            <div class="kpi-label">Scheduled / In Progress</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-success-subtle text-success"><i class="bi bi-shield-check"></i></div>
+            <div class="kpi-val">{{ avg_score }}/100</div>
+            <div class="kpi-label">Avg Inspection Score</div>
+        </div>
+    </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="card-enterprise p-3 mb-4">
+    <form method="GET" class="row g-2 align-items-center">
+        <div class="col-md-4">
+            <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary"><i class="bi bi-search"></i></span>
+                <input type="text" name="q" class="form-control" placeholder="Search ID, asset name, findings..." value="{{ query }}">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <select name="type" class="form-select">
+                <option value="">-- Inspection Type --</option>
+                {% for ic, il in inspection_types %}
+                    <option value="{{ ic }}" {% if type_filter == ic %}selected{% endif %}>{{ il }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="status" class="form-select">
+                <option value="">-- Status --</option>
+                {% for sc, sl in statuses %}
+                    <option value="{{ sc }}" {% if status_filter == sc %}selected{% endif %}>{{ sl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2 d-flex gap-2">
+            <button type="submit" class="btn btn-enterprise-primary w-100">Filter</button>
+            <a href="{% url 'inspections:list' %}" class="btn btn-enterprise-outline" title="Reset"><i class="bi bi-arrow-counterclockwise"></i></a>
+        </div>
+    </form>
+</div>
+
+<!-- Inspections Table -->
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Ref ID</th>
+                    <th>Asset Inspected</th>
+                    <th>Classification</th>
+                    <th>Inspector</th>
+                    <th>Date</th>
+                    <th>Score</th>
+                    <th>Status</th>
+                    <th class="text-end">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for insp in page_obj %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'inspections:detail' insp.pk %}" class="font-monospace text-info fw-bold text-decoration-none">{{ insp.inspection_id }}</a>
+                        </td>
+                        <td>
+                            <a href="{% url 'assets:detail' insp.asset.pk %}" class="text-white text-decoration-none fw-semibold">{{ insp.asset.name }}</a>
+                            <div class="text-muted small">{{ insp.asset.asset_id }}</div>
+                        </td>
+                        <td><span class="badge bg-secondary">{{ insp.get_inspection_type_display }}</span></td>
+                        <td>{{ insp.inspector.get_full_name|default:insp.inspector.username|default:"Unassigned" }}</td>
+                        <td class="text-secondary small">{{ insp.inspection_date|date:"Y-m-d" }}</td>
+                        <td>
+                            <span class="badge-condition-{% if insp.condition_score >= 90 %}excellent{% elif insp.condition_score >= 70 %}good{% elif insp.condition_score >= 50 %}fair{% elif insp.condition_score >= 25 %}poor{% else %}critical{% endif %}">
+                                {{ insp.condition_score }}/100
+                            </span>
+                        </td>
+                        <td>
+                            {% if insp.status == 'COMPLETED' or insp.status == 'REVIEWED' %}
+                                <span class="badge bg-success-subtle text-success border border-success">{{ insp.get_status_display }}</span>
+                            {% elif insp.status == 'IN_PROGRESS' %}
+                                <span class="badge bg-info-subtle text-info">{{ insp.get_status_display }}</span>
+                            {% else %}
+                                <span class="badge bg-secondary">{{ insp.get_status_display }}</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'inspections:detail' insp.pk %}" class="btn btn-outline-secondary text-white" title="Report"><i class="bi bi-eye"></i></a>
+                                <a href="{% url 'inspections:edit' insp.pk %}" class="btn btn-outline-secondary text-white" title="Edit"><i class="bi bi-pencil"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="8" class="text-center text-muted p-4">No inspection reports found matching search criteria.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

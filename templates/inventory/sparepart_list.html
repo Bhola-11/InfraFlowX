@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% block title %}Materials & Spare Parts Catalog | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-gear text-primary me-2"></i>Materials & Spare Parts Master Catalog</h2>
+        <p class="text-muted mb-0">Track asphalt, cement, steel rebar, electrical components, safety barriers, and maintenance spare parts.</p>
+    </div>
+    <div>
+        <a href="{% url 'inventory:category_list' %}" class="btn btn-outline-secondary me-2"><i class="bi bi-tags me-1"></i>Categories</a>
+        <a href="{% url 'inventory:sparepart_create' %}" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>Register Part</a>
+    </div>
+</div>
+
+<div class="card mb-4 shadow-sm border-0">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input type="text" name="q" class="form-control" placeholder="Search by part number, name, manufacturer..." value="{{ search_query }}">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <select name="category" class="form-select">
+                    <option value="">All Categories</option>
+                    {% for cat in categories %}
+                        <option value="{{ cat.id }}" {% if selected_category == cat.id|stringformat:"s" %}selected{% endif %}>{{ cat.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2 d-flex">
+                <button type="submit" class="btn btn-primary w-100 me-2">Filter</button>
+                <a href="{% url 'inventory:sparepart_list' %}" class="btn btn-outline-secondary">Reset</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Part Number</th>
+                        <th>Material Name</th>
+                        <th>Category</th>
+                        <th>Unit Cost</th>
+                        <th>Total Stock</th>
+                        <th>Reorder Level</th>
+                        <th>Lead Time</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for part in page_obj %}
+                    <tr>
+                        <td><code>{{ part.part_number }}</code></td>
+                        <td class="fw-semibold">
+                            <a href="{% url 'inventory:sparepart_detail' part.id %}" class="text-decoration-none">{{ part.name }}</a>
+                        </td>
+                        <td><span class="badge bg-secondary">{{ part.category.name|default:"General" }}</span></td>
+                        <td class="fw-bold">₹{{ part.unit_cost|floatformat:2 }} / {{ part.unit_of_measure }}</td>
+                        <td>
+                            {% if part.is_low_stock %}
+                                <span class="badge bg-danger animate-pulse">{{ part.total_quantity_on_hand }} {{ part.unit_of_measure }} (Low)</span>
+                            {% else %}
+                                <span class="badge bg-success">{{ part.total_quantity_on_hand }} {{ part.unit_of_measure }}</span>
+                            {% endif %}
+                        </td>
+                        <td>{{ part.minimum_reorder_level }} {{ part.unit_of_measure }}</td>
+                        <td>{{ part.lead_time_days }} days</td>
+                        <td class="text-end">
+                            <a href="{% url 'inventory:sparepart_detail' part.id %}" class="btn btn-sm btn-outline-info me-1"><i class="bi bi-eye"></i></a>
+                            <a href="{% url 'inventory:sparepart_edit' part.id %}" class="btn btn-sm btn-outline-primary"><i class="bi bi-pencil"></i></a>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="8" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No spare parts registered.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page_obj.has_other_pages %}
+    <div class="card-footer bg-transparent">
+        {% include 'includes/pagination.html' %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

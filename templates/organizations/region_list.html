@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}Regional Directorates{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-geo-alt-fill text-info me-2"></i> Regions & Zones</h3>
+        <p class="text-secondary small mb-0">Geographic command regions and sub-zone administration</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'organizations:region_create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Add Region
+        </a>
+    </div>
+</div>
+
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Region Name</th>
+                    <th>Code</th>
+                    <th>Parent Organization</th>
+                    <th>Regional Director</th>
+                    <th>Zones Count</th>
+                    <th>Created</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in regions %}
+                    <tr>
+                        <td class="text-white fw-semibold">{{ r.name }}</td>
+                        <td><span class="badge bg-info-subtle text-info font-monospace">{{ r.code }}</span></td>
+                        <td>{{ r.organization.name }}</td>
+                        <td>{{ r.regional_head.get_full_name|default:"Unassigned" }}</td>
+                        <td><span class="badge bg-secondary">{{ r.zone_count }} zones</span></td>
+                        <td class="text-muted small">{{ r.created_at|date:"Y-m-d" }}</td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="6" class="text-center text-muted p-4">No regions found.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

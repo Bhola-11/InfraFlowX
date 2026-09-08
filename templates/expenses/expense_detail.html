@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ expense.expense_number }} | Expense Record{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ expense.expense_number }}</span>
+            <span class="badge bg-info text-dark me-2">{{ expense.category }}</span>
+            <span class="badge bg-success">{{ expense.get_status_display }}</span>
+        </div>
+        <h2 class="fw-bold mb-0">{{ expense.title }}</h2>
+    </div>
+    <div>
+        <a href="{% url 'expenses:expense_edit' expense.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Expense</a>
+    </div>
+</div>
+
+<div class="row g-4 justify-content-center">
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Disbursement & Accounting Particulars</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Expense Amount:</th><td><h4 class="text-success fw-bold mb-0">₹{{ expense.amount|floatformat:2 }}</h4></td></tr>
+                    <tr><th class="text-muted">Expense Date:</th><td>{{ expense.expense_date }}</td></tr>
+                    <tr><th class="text-muted">Vendor / Payee:</th><td>{{ expense.vendor_name|default:"Internal / Direct" }}</td></tr>
+                    <tr><th class="text-muted">Invoice Reference:</th><td><code>{{ expense.invoice_reference|default:"N/A" }}</code></td></tr>
+                    <tr><th class="text-muted">Budget Line:</th><td>{% if expense.budget_allocation %}{{ expense.budget_allocation.category_name }} ({{ expense.budget_allocation.budget.title }}){% else %}General Unallocated{% endif %}</td></tr>
+                    <tr><th class="text-muted">Logged By:</th><td>{{ expense.logged_by.get_full_name|default:expense.logged_by.username }}</td></tr>
+                    <tr><th class="text-muted">Approved By:</th><td>{{ expense.approved_by.get_full_name|default:expense.approved_by.username|default:"Pending Approval" }}</td></tr>
+                </table>
+            </div>
+        </div>
+
+        {% if expense.description %}
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Payment Description & Notes</div>
+            <div class="card-body">
+                <p class="mb-0 text-muted">{{ expense.description|linebreaks }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

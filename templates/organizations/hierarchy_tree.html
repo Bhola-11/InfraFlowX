@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+
+{% block title %}Organizational Hierarchy Tree{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-diagram-3 text-info me-2"></i> Organizational Hierarchy Tree</h3>
+        <p class="text-secondary small mb-0">Structural visualization of authorities, regional directorates, zones, departments, and field units</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'organizations:list' %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-list-ul me-1"></i> Card View
+        </a>
+    </div>
+</div>
+
+<div class="row g-4">
+    {% for org in orgs %}
+        <div class="col-12">
+            <div class="card-enterprise p-4">
+                <!-- Org Node Header -->
+                <div class="d-flex align-items-center justify-content-between p-3 rounded-3 mb-4" style="background: linear-gradient(90deg, rgba(0, 229, 255, 0.1) 0%, rgba(59, 130, 246, 0.15) 100%); border: 1px solid rgba(0, 229, 255, 0.3);">
+                    <div class="d-flex align-items-center gap-3">
+                        <i class="bi bi-building-fill text-info fs-3"></i>
+                        <div>
+                            <h4 class="fw-bold text-white mb-0">{{ org.name }}</h4>
+                            <div class="text-info small font-monospace">{{ org.code }} &bull; {{ org.get_org_type_display }}</div>
+                        </div>
+                    </div>
+                    <a href="{% url 'organizations:detail' org.pk %}" class="btn btn-enterprise-outline btn-sm">Manage Org</a>
+                </div>
+
+                <div class="row g-4 ps-md-3">
+                    <!-- Column: Regions & Zones Branch -->
+                    <div class="col-lg-6">
+                        <div class="p-3 rounded-3 border border-secondary" style="background-color: rgba(255, 255, 255, 0.02);">
+                            <h6 class="fw-bold text-info mb-3"><i class="bi bi-geo-alt-fill me-2"></i> Regional & Territorial Hierarchy</h6>
+                            {% for reg in org.regions.all %}
+                                <div class="mb-3 ps-3 border-start border-2 border-info">
+                                    <div class="fw-bold text-white fs-6">{{ reg.name }} <span class="badge bg-dark border border-secondary font-monospace">{{ reg.code }}</span></div>
+                                    <div class="text-muted small mb-2">Director: {{ reg.regional_head.get_full_name|default:"Unassigned" }}</div>
+                                    
+                                    <!-- Zones under Region -->
+                                    <div class="ps-3 border-start border-secondary">
+                                        {% for zone in reg.zones.all %}
+                                            <div class="small text-secondary py-1">
+                                                <i class="bi bi-pin-map text-warning me-1"></i> {{ zone.name }} <span class="text-muted">({{ zone.code }})</span>
+                                            </div>
+                                        {% empty %}
+                                            <div class="text-muted small fst-italic">No operational zones defined</div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% empty %}
+                                <div class="text-muted small p-3 text-center">No regions registered.</div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <!-- Column: Functional Departments & Teams Branch -->
+                    <div class="col-lg-6">
+                        <div class="p-3 rounded-3 border border-secondary" style="background-color: rgba(255, 255, 255, 0.02);">
+                            <h6 class="fw-bold text-warning mb-3"><i class="bi bi-diagram-2-fill me-2"></i> Departments & Field Operations Teams</h6>
+                            {% for dept in org.departments.all %}
+                                <div class="mb-3 ps-3 border-start border-2 border-warning">
+                                    <div class="fw-bold text-white fs-6">{{ dept.name }} <span class="badge bg-dark border border-secondary font-monospace">{{ dept.code }}</span></div>
+                                    <div class="text-muted small mb-2">HOD: {{ dept.head_of_department.get_full_name|default:"Unassigned" }} &bull; Budget: ${{ dept.budget_allocation }}</div>
+                                    
+                                    <!-- Teams under Dept -->
+                                    <div class="ps-3 border-start border-secondary">
+                                        {% for team in dept.teams.all %}
+                                            <div class="small text-secondary py-1">
+                                                <i class="bi bi-people-fill text-success me-1"></i> {{ team.name }} <span class="text-muted">({{ team.specialization|default:"General" }})</span>
+                                            </div>
+                                        {% empty %}
+                                            <div class="text-muted small fst-italic">No field teams assigned</div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% empty %}
+                                <div class="text-muted small p-3 text-center">No functional departments created.</div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% empty %}
+        <div class="col-12 text-center text-muted p-5 card-enterprise">
+            No organizational hierarchy available to display.
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

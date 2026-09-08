@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block title %}Stock Movement Ledger | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-arrow-left-right text-primary me-2"></i>Stock Movement Ledger</h2>
+        <p class="text-muted mb-0">Audit log of all material inward receipts, work order issues, transfers, and inventory adjustments.</p>
+    </div>
+    <div>
+        <a href="{% url 'inventory:movement_create' %}" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>Record Movement</a>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Movement Number</th>
+                        <th>Type</th>
+                        <th>Material</th>
+                        <th>Source Depot</th>
+                        <th>Destination Depot</th>
+                        <th>Quantity</th>
+                        <th>Total Cost</th>
+                        <th>Moved By</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for m in page_obj %}
+                    <tr>
+                        <td><code>{{ m.movement_number }}</code></td>
+                        <td>
+                            {% if m.movement_type == 'INWARD' %}
+                                <span class="badge bg-success">Inward</span>
+                            {% elif m.movement_type == 'OUTWARD' %}
+                                <span class="badge bg-danger">Issue</span>
+                            {% elif m.movement_type == 'TRANSFER' %}
+                                <span class="badge bg-primary">Transfer</span>
+                            {% else %}
+                                <span class="badge bg-secondary">{{ m.get_movement_type_display }}</span>
+                            {% endif %}
+                        </td>
+                        <td class="fw-semibold">
+                            <a href="{% url 'inventory:sparepart_detail' m.spare_part.id %}">{{ m.spare_part.name }}</a>
+                        </td>
+                        <td>{{ m.source_warehouse.name|default:"External / Supplier" }}</td>
+                        <td>{{ m.destination_warehouse.name|default:"Job Site / Work Order" }}</td>
+                        <td class="fw-bold">{{ m.quantity }} {{ m.spare_part.unit_of_measure }}</td>
+                        <td>₹{{ m.total_cost|floatformat:2 }}</td>
+                        <td>{{ m.moved_by.get_full_name|default:m.moved_by.username }}</td>
+                        <td><small class="text-muted">{{ m.created_at|date:"M d, Y H:i" }}</small></td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="9" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No stock movements recorded.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page_obj.has_other_pages %}
+    <div class="card-footer bg-transparent">
+        {% include 'includes/pagination.html' %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

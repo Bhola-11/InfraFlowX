@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ pr.pr_number }} - {{ pr.title }} | Requisition Dossier{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ pr.pr_number }}</span>
+            <span class="badge bg-warning text-dark me-2">{{ pr.priority }}</span>
+            <span class="badge bg-primary">{{ pr.get_status_display }}</span>
+        </div>
+        <h2 class="fw-bold mb-0">{{ pr.title }}</h2>
+    </div>
+    <div>
+        <a href="{% url 'inventory:pr_edit' pr.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Requisition</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Requisition Header</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Department:</th><td>{{ pr.requesting_department.name }}</td></tr>
+                    <tr><th class="text-muted">Target Depot:</th><td>{{ pr.warehouse_destination.name|default:"Direct Drop-off" }}</td></tr>
+                    <tr><th class="text-muted">Requested By:</th><td>{{ pr.requested_by.get_full_name|default:pr.requested_by.username }}</td></tr>
+                    <tr><th class="text-muted">Approver:</th><td>{{ pr.approver.get_full_name|default:pr.approver.username|default:"Unassigned" }}</td></tr>
+                    <tr><th class="text-muted">Est. Total:</th><td><h5 class="text-success fw-bold mb-0">₹{{ pr.total_estimated_cost|floatformat:2 }}</h5></td></tr>
+                    <tr><th class="text-muted">Delivery Due:</th><td>{{ pr.delivery_due_date|default:"ASAP" }}</td></tr>
+                </table>
+            </div>
+        </div>
+
+        {% if pr.justification %}
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Procurement Justification</div>
+            <div class="card-body">
+                <p class="mb-0 text-muted">{{ pr.justification|linebreaks }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Required Items List ({{ items.count }})</span>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Quantity</th>
+                                <th>Est. Unit Cost</th>
+                                <th>Total</th>
+                                <th>Fulfilled</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in items %}
+                            <tr>
+                                <td class="fw-semibold">
+                                    {{ item.spare_part.name }}
+                                    <div class="small text-muted"><code>{{ item.spare_part.part_number }}</code></div>
+                                </td>
+                                <td>{{ item.quantity }} {{ item.spare_part.unit_of_measure }}</td>
+                                <td>₹{{ item.estimated_unit_cost|floatformat:2 }}</td>
+                                <td class="fw-bold">₹{{ item.total_amount|floatformat:2 }}</td>
+                                <td>{{ item.fulfilled_quantity }} / {{ item.quantity }}</td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="5" class="text-center py-4 text-muted">No items added to this requisition yet.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Add Line Item to Requisition</div>
+            <div class="card-body p-3">
+                <form method="post" action="{% url 'inventory:pr_add_item' pr.id %}" class="row g-2 align-items-end">
+                    {% csrf_token %}
+                    <div class="col-md-5">
+                        <label class="form-label small fw-semibold">Spare Part / Material</label>
+                        {{ item_form.spare_part }}
+                    </div>
+                    <div class="col-md-2">
+                        <label class="form-label small fw-semibold">Quantity</label>
+                        {{ item_form.quantity }}
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label small fw-semibold">Unit Cost (₹)</label>
+                        {{ item_form.estimated_unit_cost }}
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

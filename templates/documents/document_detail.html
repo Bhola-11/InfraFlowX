@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ doc.doc_number }} - {{ doc.title }} | Document Dossier{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ doc.doc_number }}</span>
+            <span class="badge bg-info text-dark me-2">v{{ doc.current_version }}</span>
+            <span class="badge bg-success">{{ doc.status }}</span>
+        </div>
+        <h2 class="fw-bold mb-0">
+            {% if doc.is_blueprint %}<i class="bi bi-compass text-info me-2"></i>{% endif %}
+            {{ doc.title }}
+        </h2>
+    </div>
+    <div>
+        {% if doc.file %}
+            <a href="{{ doc.file.url }}" target="_blank" class="btn btn-outline-success me-2"><i class="bi bi-download me-1"></i>Download File</a>
+        {% endif %}
+        <a href="{% url 'documents:document_edit' doc.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Metadata</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Document Metadata</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Category:</th><td>{{ doc.category.name|default:"General" }}</td></tr>
+                    <tr><th class="text-muted">Associated Asset:</th><td>{% if doc.asset %}<a href="{% url 'assets:asset_detail' doc.asset.id %}">{{ doc.asset.name }}</a>{% else %}N/A{% endif %}</td></tr>
+                    <tr><th class="text-muted">Associated Project:</th><td>{% if doc.project %}<a href="{% url 'projects:project_detail' doc.project.id %}">{{ doc.project.name }}</a>{% else %}N/A{% endif %}</td></tr>
+                    <tr><th class="text-muted">Organization:</th><td>{{ doc.organization.name }}</td></tr>
+                    <tr><th class="text-muted">File Size:</th><td>{{ doc.file_size_display }}</td></tr>
+                    <tr><th class="text-muted">Confidentiality:</th><td><span class="badge bg-info text-dark">{{ doc.confidentiality }}</span></td></tr>
+                    <tr><th class="text-muted">Uploaded By:</th><td>{{ doc.uploaded_by.get_full_name|default:doc.uploaded_by.username }}</td></tr>
+                    <tr><th class="text-muted">Uploaded At:</th><td>{{ doc.created_at|date:"Y-m-d H:i" }}</td></tr>
+                </table>
+            </div>
+        </div>
+
+        {% if doc.tags %}
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Tags</div>
+            <div class="card-body">
+                {% for tag in doc.tags.split %}
+                    <span class="badge bg-secondary me-1 mb-1">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if doc.description %}
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Document Abstract</div>
+            <div class="card-body">
+                <p class="mb-0 text-muted">{{ doc.description|linebreaks }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-lg-8">
+        {% if doc.is_blueprint and doc.blueprint_info %}
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold"><i class="bi bi-compass me-2"></i>Engineering CAD Blueprint Details</div>
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-md-6"><strong>Drawing Number:</strong> <code>{{ doc.blueprint_info.drawing_number }}</code></div>
+                    <div class="col-md-6"><strong>Scale Ratio:</strong> {{ doc.blueprint_info.scale_ratio }}</div>
+                    <div class="col-md-6"><strong>Sheet Size:</strong> <span class="badge bg-info text-dark">{{ doc.blueprint_info.get_sheet_size_display }}</span></div>
+                    <div class="col-md-6"><strong>CAD Software:</strong> {{ doc.blueprint_info.cad_software|default:"AutoCAD" }}</div>
+                    <div class="col-md-6"><strong>Sign-off Engineer:</strong> {{ doc.blueprint_info.engineer_signoff_name }}</div>
+                    <div class="col-md-6"><strong>Approval Date:</strong> {{ doc.blueprint_info.approval_date|default:"N/A" }}</div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Version History ({{ versions.count }})</div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Version</th>
+                                <th>Change Log</th>
+                                <th>Uploaded By</th>
+                                <th>Date</th>
+                                <th class="text-end">Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for v in versions %}
+                            <tr>
+                                <td><span class="badge bg-dark">v{{ v.version_number }}</span></td>
+                                <td>{{ v.change_log|default:"Initial upload" }}</td>
+                                <td>{{ v.uploaded_by.get_full_name|default:v.uploaded_by.username }}</td>
+                                <td><small class="text-muted">{{ v.uploaded_at|date:"M d, Y H:i" }}</small></td>
+                                <td class="text-end">
+                                    {% if v.file %}
+                                        <a href="{{ v.file.url }}" class="btn btn-sm btn-outline-success"><i class="bi bi-download"></i></a>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="5" class="text-center py-4 text-muted">No historical versions recorded.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Upload New Revision</div>
+            <div class="card-body p-3">
+                <form method="post" action="{% url 'documents:document_add_version' doc.id %}" enctype="multipart/form-data" class="row g-2 align-items-end">
+                    {% csrf_token %}
+                    <div class="col-md-3">
+                        <label class="form-label small fw-semibold">Version #</label>
+                        {{ version_form.version_number }}
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label small fw-semibold">File</label>
+                        {{ version_form.file }}
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label small fw-semibold">Change Log</label>
+                        {{ version_form.change_log }}
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

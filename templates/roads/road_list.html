@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}Road Networks & Highways{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-signpost-2-fill text-info me-2"></i> Road Networks & Expressways</h3>
+        <p class="text-secondary small mb-0">Highway corridors, pavement conditions, lane metrics, and distress logs</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'roads:defect_list' %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-exclamation-triangle me-1"></i> Active Road Defects
+        </a>
+        <a href="{% url 'roads:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Add Road Segment
+        </a>
+    </div>
+</div>
+
+<!-- Stats Ribbon -->
+<div class="row g-3 mb-4">
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-info-subtle text-info"><i class="bi bi-signpost"></i></div>
+            <div class="kpi-val">{{ total_roads }}</div>
+            <div class="kpi-label">Corridor Segments</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-success-subtle text-success"><i class="bi bi-pin-map"></i></div>
+            <div class="kpi-val">{{ total_km }} km</div>
+            <div class="kpi-label">Total Network Mileage</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-warning-subtle text-warning"><i class="bi bi-speedometer"></i></div>
+            <div class="kpi-val">{{ avg_pci }}/100</div>
+            <div class="kpi-label">Avg Pavement Index (PCI)</div>
+        </div>
+    </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="card-enterprise p-3 mb-4">
+    <form method="GET" class="row g-2 align-items-center">
+        <div class="col-md-4">
+            <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary"><i class="bi bi-search"></i></span>
+                <input type="text" name="q" class="form-control" placeholder="Search road code or name..." value="{{ query }}">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <select name="surface" class="form-select">
+                <option value="">-- All Surfaces --</option>
+                {% for sc, sl in surface_types %}
+                    <option value="{{ sc }}" {% if surface_filter == sc %}selected{% endif %}>{{ sl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="traffic" class="form-select">
+                <option value="">-- Traffic Density --</option>
+                {% for tc, tl in traffic_levels %}
+                    <option value="{{ tc }}" {% if traffic_filter == tc %}selected{% endif %}>{{ tl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2 d-flex gap-2">
+            <button type="submit" class="btn btn-enterprise-primary w-100">Filter</button>
+            <a href="{% url 'roads:list' %}" class="btn btn-enterprise-outline" title="Reset"><i class="bi bi-arrow-counterclockwise"></i></a>
+        </div>
+    </form>
+</div>
+
+<!-- Roads Table -->
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Road Code / Name</th>
+                    <th>Region</th>
+                    <th>Surface</th>
+                    <th>Dimensions</th>
+                    <th>Traffic Level</th>
+                    <th>PCI Score</th>
+                    <th>Active Defects</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in page_obj %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'roads:detail' r.pk %}" class="text-white fw-bold text-decoration-none">{{ r.road_name }}</a>
+                            <div class="font-monospace text-info small">{{ r.road_code }}</div>
+                        </td>
+                        <td>{{ r.region.name|default:"General Network" }}</td>
+                        <td><span class="badge bg-secondary">{{ r.get_surface_type_display }}</span></td>
+                        <td class="small text-secondary">{{ r.length_km }} km &bull; {{ r.width_meters }} m ({{ r.lanes_count }} lanes)</td>
+                        <td><span class="badge bg-dark border border-secondary">{{ r.get_traffic_level_display }}</span></td>
+                        <td>
+                            <span class="badge-condition-{% if r.pci_score >= 85 %}excellent{% elif r.pci_score >= 70 %}good{% elif r.pci_score >= 50 %}fair{% elif r.pci_score >= 25 %}poor{% else %}critical{% endif %}">
+                                PCI: {{ r.pci_score }}/100
+                            </span>
+                        </td>
+                        <td>
+                            {% if r.defect_count > 0 %}
+                                <span class="badge bg-danger">{{ r.defect_count }} active</span>
+                            {% else %}
+                                <span class="badge bg-success-subtle text-success">Clear</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'roads:detail' r.pk %}" class="btn btn-outline-secondary text-white" title="View"><i class="bi bi-eye"></i></a>
+                                <a href="{% url 'roads:edit' r.pk %}" class="btn btn-outline-secondary text-white" title="Edit"><i class="bi bi-pencil"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="8" class="text-center text-muted p-4">No road networks found matching search parameters.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

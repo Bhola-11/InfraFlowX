@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block title %}SLA Policies | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-stopwatch text-primary me-2"></i>Service Level Agreement (SLA) Policies</h2>
+        <p class="text-muted mb-0">Configured response time and resolution deadlines based on incident and ticket severity classifications.</p>
+    </div>
+    <div>
+        <a href="{% url 'support:ticket_list' %}" class="btn btn-outline-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Tickets</a>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Policy Name</th>
+                        <th>Priority Classification</th>
+                        <th>Max Response Time</th>
+                        <th>Max Resolution Time</th>
+                        <th>Escalation Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for p in policies %}
+                    <tr>
+                        <td class="fw-semibold">{{ p.name }}</td>
+                        <td>
+                            {% if p.priority == 'CRITICAL' %}
+                                <span class="badge bg-danger">Critical</span>
+                            {% elif p.priority == 'HIGH' %}
+                                <span class="badge bg-warning text-dark">High</span>
+                            {% elif p.priority == 'MEDIUM' %}
+                                <span class="badge bg-info text-dark">Medium</span>
+                            {% else %}
+                                <span class="badge bg-secondary">Low</span>
+                            {% endif %}
+                        </td>
+                        <td><strong>{{ p.response_time_hours }} hours</strong></td>
+                        <td><strong>{{ p.resolution_time_hours }} hours</strong></td>
+                        <td><code>{{ p.escalation_email|default:"emergency-dispatch@infraflowx.gov" }}</code></td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="5" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No custom SLA policies configured. Default standard response SLA applies.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

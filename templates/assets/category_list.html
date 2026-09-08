@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}Asset Taxonomy Categories{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-tags-fill text-info me-2"></i> Asset Categories</h3>
+        <p class="text-secondary small mb-0">Taxonomy classification and portfolio grouping</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'assets:category_create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Add Category
+        </a>
+    </div>
+</div>
+
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Category Name</th>
+                    <th>Code</th>
+                    <th>Assigned Assets</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for c in categories %}
+                    <tr>
+                        <td class="text-white fw-semibold">{{ c.name }}</td>
+                        <td><span class="badge bg-secondary font-monospace">{{ c.code }}</span></td>
+                        <td><span class="badge bg-info-subtle text-info">{{ c.asset_count }} assets</span></td>
+                        <td class="text-secondary small text-truncate" style="max-width: 350px;">{{ c.description|default:"-" }}</td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="4" class="text-center text-muted p-4">No asset categories registered.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

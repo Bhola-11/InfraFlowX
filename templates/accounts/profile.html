@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+
+{% block title %}User Profile - {{ profile_user.get_full_name|default:profile_user.username }}{% endblock %}
+
+{% block content %}
+<div class="row g-4">
+    <!-- Left: Profile Summary Card -->
+    <div class="col-lg-4">
+        <div class="card-enterprise text-center p-4">
+            <div class="position-relative d-inline-block mb-3">
+                <img src="{{ profile_user.get_avatar_url }}" alt="{{ profile_user.username }}" class="rounded-circle border border-3 border-info shadow" style="width: 120px; height: 120px; object-fit: cover;">
+                {% if profile_user.is_active %}
+                    <span class="position-absolute bottom-0 end-0 p-2 bg-success border border-dark rounded-circle" title="Active"></span>
+                {% endif %}
+            </div>
+
+            <h4 class="text-white fw-bold mb-1">{{ profile_user.get_full_name|default:profile_user.username }}</h4>
+            <div class="text-info fw-semibold small mb-2">{{ profile_user.job_title|default:"Staff Member" }}</div>
+            <span class="badge bg-secondary px-3 py-2 text-uppercase mb-3">{{ profile_user.get_role_display }}</span>
+
+            <div class="border-top border-secondary pt-3 text-start small">
+                <div class="d-flex justify-content-between py-1 text-secondary">
+                    <span><i class="bi bi-building me-2 text-info"></i> Organization</span>
+                    <strong class="text-white">{{ profile_user.organization.name|default:"Not Assigned" }}</strong>
+                </div>
+                <div class="d-flex justify-content-between py-1 text-secondary">
+                    <span><i class="bi bi-envelope me-2 text-warning"></i> Email</span>
+                    <strong class="text-white">{{ profile_user.email|default:"N/A" }}</strong>
+                </div>
+                <div class="d-flex justify-content-between py-1 text-secondary">
+                    <span><i class="bi bi-telephone me-2 text-success"></i> Phone</span>
+                    <strong class="text-white">{{ profile_user.phone_number|default:"N/A" }}</strong>
+                </div>
+                <div class="d-flex justify-content-between py-1 text-secondary">
+                    <span><i class="bi bi-shield-check me-2 text-primary"></i> 2FA Security</span>
+                    <strong class="{% if profile_user.is_two_factor_enabled %}text-success{% else %}text-muted{% endif %}">
+                        {% if profile_user.is_two_factor_enabled %}Enabled{% else %}Disabled{% endif %}
+                    </strong>
+                </div>
+                <div class="d-flex justify-content-between py-1 text-secondary">
+                    <span><i class="bi bi-calendar3 me-2 text-info"></i> Joined On</span>
+                    <strong class="text-white">{{ profile_user.date_joined|date:"M d, Y" }}</strong>
+                </div>
+            </div>
+
+            {% if is_own_profile %}
+                <div class="d-grid gap-2 mt-4">
+                    <a href="{% url 'accounts:settings' %}" class="btn btn-enterprise-primary btn-sm">
+                        <i class="bi bi-pencil-square me-1"></i> Edit Profile & Settings
+                    </a>
+                    <a href="{% url 'accounts:password_change' %}" class="btn btn-enterprise-outline btn-sm">
+                        <i class="bi bi-key me-1"></i> Change Security Password
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Right: Activity & Session History -->
+    <div class="col-lg-8">
+        <!-- Biography & Details -->
+        <div class="card-enterprise mb-4">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-info-circle text-info me-2"></i> Professional Bio & Address</h5>
+            </div>
+            <div class="p-4">
+                <p class="text-secondary mb-3">{{ profile.bio|default:"No professional bio added yet." }}</p>
+                <div class="small text-muted"><i class="bi bi-geo-alt me-1 text-warning"></i> Office Location: <span class="text-white">{{ profile.address|default:"Not specified" }}</span></div>
+            </div>
+        </div>
+
+        <!-- Recent User Audit Actions -->
+        <div class="card-enterprise mb-4">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-journal-text text-warning me-2"></i> Recent Actions & Activity</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Module</th>
+                            <th>Target</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for log in recent_audit_logs %}
+                            <tr>
+                                <td><span class="badge bg-secondary-subtle text-info border border-secondary">{{ log.get_action_display }}</span></td>
+                                <td>{{ log.module }}</td>
+                                <td class="text-truncate" style="max-width: 200px;">{{ log.object_repr|default:"-" }}</td>
+                                <td class="text-muted small">{{ log.timestamp|timesince }} ago</td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="4" class="text-center text-muted p-3">No activity logs recorded yet.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Recent Login Sessions -->
+        <div class="card-enterprise">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-laptop text-primary me-2"></i> Device & Session History</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>IP Address</th>
+                            <th>Client Browser</th>
+                            <th>Login Timestamp</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for s in recent_sessions %}
+                            <tr>
+                                <td class="fw-mono text-info">{{ s.ip_address|default:"127.0.0.1" }}</td>
+                                <td class="text-truncate text-secondary" style="max-width: 250px;">{{ s.user_agent }}</td>
+                                <td class="small">{{ s.login_time|date:"Y-m-d H:i" }}</td>
+                                <td>
+                                    {% if s.is_active %}
+                                        <span class="badge bg-success-subtle text-success border border-success">Active</span>
+                                    {% else %}
+                                        <span class="badge bg-secondary-subtle text-muted">Closed</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="4" class="text-center text-muted p-3">No login sessions recorded yet.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

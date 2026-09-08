@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}Warehouses & Stockyards | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-box-seam text-primary me-2"></i>Warehouses & Material Depots</h2>
+        <p class="text-muted mb-0">Manage physical inventory warehouses, depot stock levels, and supply yards.</p>
+    </div>
+    <div>
+        <a href="{% url 'inventory:sparepart_list' %}" class="btn btn-outline-secondary me-2"><i class="bi bi-gear me-1"></i>Materials Catalog</a>
+        <a href="{% url 'inventory:movement_list' %}" class="btn btn-outline-secondary me-2"><i class="bi bi-arrow-left-right me-1"></i>Stock Ledger</a>
+        <a href="{% url 'inventory:pr_list' %}" class="btn btn-outline-secondary me-2"><i class="bi bi-cart3 me-1"></i>Purchase Requisitions</a>
+        <a href="{% url 'inventory:warehouse_create' %}" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>New Warehouse</a>
+    </div>
+</div>
+
+<div class="card mb-4 shadow-sm border-0">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-9">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input type="text" name="q" class="form-control" placeholder="Search by warehouse name, code, address..." value="{{ search_query }}">
+                </div>
+            </div>
+            <div class="col-md-3 d-flex">
+                <button type="submit" class="btn btn-primary w-100 me-2">Search</button>
+                <a href="{% url 'inventory:warehouse_list' %}" class="btn btn-outline-secondary">Reset</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Warehouse Code</th>
+                        <th>Name</th>
+                        <th>Organization</th>
+                        <th>Location</th>
+                        <th>Capacity (sqm)</th>
+                        <th>Manager</th>
+                        <th>Stock Items</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for wh in page_obj %}
+                    <tr>
+                        <td><code>{{ wh.code }}</code></td>
+                        <td class="fw-semibold">
+                            <a href="{% url 'inventory:warehouse_detail' wh.id %}" class="text-decoration-none">{{ wh.name }}</a>
+                        </td>
+                        <td>{{ wh.organization.name }}</td>
+                        <td>{{ wh.location.name|default:"N/A" }}</td>
+                        <td>{{ wh.capacity_sqm }} m²</td>
+                        <td>{{ wh.manager.get_full_name|default:wh.manager.username|default:"Unassigned" }}</td>
+                        <td><span class="badge bg-secondary">{{ wh.total_stock_items_count }} items</span></td>
+                        <td class="text-end">
+                            <a href="{% url 'inventory:warehouse_detail' wh.id %}" class="btn btn-sm btn-outline-info me-1"><i class="bi bi-eye"></i></a>
+                            <a href="{% url 'inventory:warehouse_edit' wh.id %}" class="btn btn-sm btn-outline-primary"><i class="bi bi-pencil"></i></a>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="8" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No warehouses found.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page_obj.has_other_pages %}
+    <div class="card-footer bg-transparent">
+        {% include 'includes/pagination.html' %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

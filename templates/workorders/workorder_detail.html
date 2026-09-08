@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ workorder.wo_number }} - {{ workorder.title }} | Work Order{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ workorder.wo_number }}</span>
+            <span class="badge bg-info text-dark me-2">{{ workorder.get_work_type_display }}</span>
+            <span class="badge bg-warning text-dark me-2">{{ workorder.get_priority_display }}</span>
+            <span class="badge bg-primary">{{ workorder.get_status_display }}</span>
+        </div>
+        <h2 class="fw-bold mb-0">{{ workorder.title }}</h2>
+    </div>
+    <div>
+        <a href="{% url 'workorders:task_create' workorder.id %}" class="btn btn-outline-success me-2"><i class="bi bi-list-check me-1"></i>Add Subtask</a>
+        <a href="{% url 'workorders:workorder_edit' workorder.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Work Order</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Order Details</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Target Asset:</th><td>{% if workorder.asset %}<a href="{% url 'assets:asset_detail' workorder.asset.id %}">{{ workorder.asset.name }}</a>{% else %}General Infrastructure{% endif %}</td></tr>
+                    <tr><th class="text-muted">Organization:</th><td>{{ workorder.organization.name }}</td></tr>
+                    <tr><th class="text-muted">Department:</th><td>{{ workorder.department.name|default:"N/A" }}</td></tr>
+                    <tr><th class="text-muted">Assigned Team:</th><td>{{ workorder.assigned_team.name|default:"N/A" }}</td></tr>
+                    <tr><th class="text-muted">Assigned To:</th><td>{{ workorder.assigned_to.get_full_name|default:workorder.assigned_to.username|default:"Unassigned" }}</td></tr>
+                    <tr><th class="text-muted">Contractor:</th><td>{{ workorder.assigned_contractor.company_name|default:"Internal Operations" }}</td></tr>
+                    <tr><th class="text-muted">Est. Cost:</th><td><strong>₹{{ workorder.estimated_cost|floatformat:2 }}</strong></td></tr>
+                    <tr><th class="text-muted">Actual Cost:</th><td><strong class="text-primary">₹{{ workorder.actual_cost|floatformat:2 }}</strong></td></tr>
+                    <tr><th class="text-muted">Scheduled:</th><td>{{ workorder.scheduled_start_date|default:"TBD" }} to {{ workorder.scheduled_end_date|default:"TBD" }}</td></tr>
+                </table>
+            </div>
+        </div>
+
+        {% if workorder.description %}
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Description & Instructions</div>
+            <div class="card-body">
+                <p class="mb-0 text-muted">{{ workorder.description|linebreaks }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Task Breakdown & Progress Checklist ({{ tasks.count }})</span>
+                <a href="{% url 'workorders:task_create' workorder.id %}" class="btn btn-sm btn-outline-light"><i class="bi bi-plus-lg me-1"></i>Add Task</a>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Sequence</th>
+                                <th>Task Description</th>
+                                <th>Status</th>
+                                <th>Assigned To</th>
+                                <th>Est. Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for t in tasks %}
+                            <tr>
+                                <td><span class="badge bg-secondary">#{{ t.sequence_order }}</span></td>
+                                <td class="fw-semibold">{{ t.task_description }}</td>
+                                <td>
+                                    {% if t.status == 'COMPLETED' %}
+                                        <span class="badge bg-success">Done</span>
+                                    {% elif t.status == 'IN_PROGRESS' %}
+                                        <span class="badge bg-primary">In Progress</span>
+                                    {% else %}
+                                        <span class="badge bg-secondary">{{ t.get_status_display }}</span>
+                                    {% endif %}
+                                </td>
+                                <td>{{ t.assigned_technician.get_full_name|default:"Team" }}</td>
+                                <td>{{ t.estimated_hours }} hrs</td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="5" class="text-center py-4 text-muted">No subtasks defined for this work order.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Sign-off & Field Notes</div>
+            <div class="card-body">
+                <p class="mb-2"><strong>Actual Execution Period:</strong> {{ workorder.actual_start_date|default:"Not Started" }} to {{ workorder.actual_end_date|default:"In Progress" }}</p>
+                <p class="mb-0"><strong>Closure Notes:</strong> {{ workorder.closure_notes|default:"No closure remarks submitted." }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }} | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold py-3">
+                <h5 class="mb-0"><i class="bi bi-gear me-2"></i>{{ title }}</h5>
+            </div>
+            <div class="card-body p-4">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        {{ form.non_field_errors }}
+                    </div>
+                    {% endif %}
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Part Number / Item SKU *</label>
+                            {{ form.part_number }}
+                            {{ form.part_number.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Material / Part Name *</label>
+                            {{ form.name }}
+                            {{ form.name.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Category</label>
+                            {{ form.category }}
+                            {{ form.category.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Unit of Measure</label>
+                            {{ form.unit_of_measure }}
+                            {{ form.unit_of_measure.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Standard Unit Cost (₹)</label>
+                            {{ form.unit_cost }}
+                            {{ form.unit_cost.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Min Reorder Level</label>
+                            {{ form.minimum_reorder_level }}
+                            {{ form.minimum_reorder_level.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Max Stock Level</label>
+                            {{ form.maximum_stock_level }}
+                            {{ form.maximum_stock_level.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Supplier Lead Time (Days)</label>
+                            {{ form.lead_time_days }}
+                            {{ form.lead_time_days.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Manufacturer / Brand</label>
+                            {{ form.manufacturer }}
+                            {{ form.manufacturer.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Barcode / EAN Code</label>
+                            {{ form.barcode }}
+                            {{ form.barcode.errors }}
+                        </div>
+
+                        <div class="col-md-6 d-flex align-items-center">
+                            <div class="form-check me-4">
+                                {{ form.is_hazardous }}
+                                <label class="form-check-label fw-semibold text-danger">Hazardous Material</label>
+                            </div>
+                            <div class="form-check">
+                                {{ form.is_active }}
+                                <label class="form-check-label fw-semibold">Active Item</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Technical Specifications & Notes</label>
+                            {{ form.description }}
+                            {{ form.description.errors }}
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end gap-2 mt-4">
+                        <a href="{% url 'inventory:sparepart_list' %}" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary px-4">Save Material</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
