@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ budget.budget_code }} - {{ budget.title }} | Budget Dossier{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ budget.budget_code }}</span>
+            <span class="badge bg-info text-dark me-2">FY {{ budget.fiscal_year }}</span>
+            <span class="badge bg-success">{{ budget.get_status_display }}</span>
+        </div>
+        <h2 class="fw-bold mb-0">{{ budget.title }}</h2>
+    </div>
+    <div>
+        <a href="{% url 'budgets:allocation_create' budget.id %}" class="btn btn-outline-success me-2"><i class="bi bi-wallet2 me-1"></i>New Allocation Line</a>
+        <a href="{% url 'budgets:budget_edit' budget.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Budget</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Financial Envelope</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Organization:</th><td>{{ budget.organization.name }}</td></tr>
+                    <tr><th class="text-muted">Total Budget:</th><td><h5 class="text-success fw-bold mb-0">₹{{ budget.total_allocated_amount|floatformat:2 }}</h5></td></tr>
+                    <tr><th class="text-muted">Total Spent:</th><td><h6 class="text-primary fw-bold mb-0">₹{{ budget.spent_amount|floatformat:2 }}</h6></td></tr>
+                    <tr><th class="text-muted">Remaining Balance:</th><td><h6 class="text-info fw-bold mb-0">₹{{ budget.remaining_balance|floatformat:2 }}</h6></td></tr>
+                    <tr><th class="text-muted">Approved By:</th><td>{{ budget.approved_by.get_full_name|default:budget.approved_by.username|default:"Pending Approval" }}</td></tr>
+                </table>
+            </div>
+        </div>
+
+        {% if budget.description %}
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Budget Narrative</div>
+            <div class="card-body">
+                <p class="mb-0 text-muted">{{ budget.description|linebreaks }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Departmental & Category Line Allocations ({{ allocations.count }})</span>
+                <a href="{% url 'budgets:allocation_create' budget.id %}" class="btn btn-sm btn-outline-light"><i class="bi bi-plus-lg me-1"></i>Add Line</a>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Allocation Code</th>
+                                <th>Department / Category</th>
+                                <th>Allocated (₹)</th>
+                                <th>Spent (₹)</th>
+                                <th>Remaining (₹)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for a in allocations %}
+                            <tr>
+                                <td><code>{{ a.allocation_code }}</code></td>
+                                <td>
+                                    <div class="fw-semibold">{{ a.category_name }}</div>
+                                    <small class="text-muted">{{ a.department.name|default:"Organization Wide" }}</small>
+                                </td>
+                                <td class="fw-bold">₹{{ a.allocated_amount|floatformat:2 }}</td>
+                                <td class="text-primary">₹{{ a.spent_amount|floatformat:2 }}</td>
+                                <td class="text-success fw-semibold">₹{{ a.remaining_amount|floatformat:2 }}</td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="5" class="text-center py-4 text-muted">No budget allocation lines added yet.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

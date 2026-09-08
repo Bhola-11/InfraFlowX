@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}Offices & Field Depots{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-buildings-fill text-success me-2"></i> Offices & Depots</h3>
+        <p class="text-secondary small mb-0">Physical administrative headquarters, regional division offices, and maintenance depots</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'organizations:office_create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Register Office
+        </a>
+    </div>
+</div>
+
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Office Name</th>
+                    <th>Type</th>
+                    <th>Organization</th>
+                    <th>Region</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for o in offices %}
+                    <tr>
+                        <td class="text-white fw-semibold">{{ o.name }}</td>
+                        <td><span class="badge bg-secondary-subtle text-info">{{ o.get_office_type_display }}</span></td>
+                        <td>{{ o.organization.name }}</td>
+                        <td>{{ o.region.name|default:"General HQ" }}</td>
+                        <td class="text-secondary small">{{ o.phone|default:"-" }}</td>
+                        <td class="text-truncate text-muted small" style="max-width: 250px;">{{ o.address }}</td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="6" class="text-center text-muted p-4">No offices registered.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

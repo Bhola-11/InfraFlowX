@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }} | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold py-3">
+                <h5 class="mb-0"><i class="bi bi-pencil-square me-2"></i>{{ title }}</h5>
+            </div>
+            <div class="card-body p-4">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        {{ form.non_field_errors }}
+                    </div>
+                    {% endif %}
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Company Name *</label>
+                            {{ form.company_name }}
+                            {{ form.company_name.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Registration Number *</label>
+                            {{ form.registration_number }}
+                            {{ form.registration_number.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Primary Specialization</label>
+                            {{ form.primary_specialization }}
+                            {{ form.primary_specialization.errors }}
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-semibold">Tier Classification</label>
+                            {{ form.tier_classification }}
+                            {{ form.tier_classification.errors }}
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-semibold">Status</label>
+                            {{ form.status }}
+                            {{ form.status.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Primary Contact Name</label>
+                            {{ form.primary_contact_name }}
+                            {{ form.primary_contact_name.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Phone Number</label>
+                            {{ form.phone }}
+                            {{ form.phone.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Email Address</label>
+                            {{ form.email }}
+                            {{ form.email.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Office Address</label>
+                            {{ form.address }}
+                            {{ form.address.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Tax Identification (GSTIN/PAN)</label>
+                            {{ form.tax_identification_number }}
+                            {{ form.tax_identification_number.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Max Contract Value Capacity (₹)</label>
+                            {{ form.max_contract_value_capacity }}
+                            {{ form.max_contract_value_capacity.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Empanelment Start Date</label>
+                            {{ form.empanelment_start_date }}
+                            {{ form.empanelment_start_date.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Empanelment Expiry Date</label>
+                            {{ form.empanelment_expiry_date }}
+                            {{ form.empanelment_expiry_date.errors }}
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end gap-2 mt-4">
+                        <a href="{% url 'contractors:contractor_list' %}" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary px-4">Save Contractor</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

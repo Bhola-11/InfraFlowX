@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}CAD Blueprints & Schematics | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-compass text-info me-2"></i>CAD Blueprints & Structural Drawings</h2>
+        <p class="text-muted mb-0">Engineering drawing sheets, CAD revisions, scale blueprints, and sign-offs for bridges, roads, and facilities.</p>
+    </div>
+    <div>
+        <a href="{% url 'documents:document_create' %}" class="btn btn-primary"><i class="bi bi-upload me-1"></i>Upload Blueprint</a>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Drawing Number</th>
+                        <th>Blueprint Title</th>
+                        <th>Target Asset</th>
+                        <th>Scale Ratio</th>
+                        <th>Sheet Size</th>
+                        <th>CAD Software</th>
+                        <th>Sign-off Engineer</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for bp in page_obj %}
+                    <tr>
+                        <td><code>{{ bp.blueprint_info.drawing_number|default:bp.doc_number }}</code></td>
+                        <td class="fw-semibold">
+                            <a href="{% url 'documents:document_detail' bp.id %}" class="text-decoration-none">{{ bp.title }}</a>
+                        </td>
+                        <td>{% if bp.asset %}<a href="{% url 'assets:asset_detail' bp.asset.id %}">{{ bp.asset.name }}</a>{% else %}N/A{% endif %}</td>
+                        <td><span class="badge bg-secondary">{{ bp.blueprint_info.scale_ratio|default:"1:100" }}</span></td>
+                        <td><span class="badge bg-info text-dark">{{ bp.blueprint_info.sheet_size|default:"A1" }}</span></td>
+                        <td>{{ bp.blueprint_info.cad_software|default:"AutoCAD" }}</td>
+                        <td>{{ bp.blueprint_info.engineer_signoff_name|default:"PE Reviewer" }}</td>
+                        <td class="text-end">
+                            <a href="{% url 'documents:document_detail' bp.id %}" class="btn btn-sm btn-outline-info me-1"><i class="bi bi-eye"></i></a>
+                            {% if bp.file %}
+                                <a href="{{ bp.file.url }}" target="_blank" class="btn btn-sm btn-outline-success"><i class="bi bi-download"></i></a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="8" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No CAD blueprints cataloged.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page_obj.has_other_pages %}
+    <div class="card-footer bg-transparent">
+        {% include 'includes/pagination.html' %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}Asset Condition Scoring & History{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-graph-down-arrow text-info me-2"></i> Condition Scoring & Deterioration</h3>
+        <p class="text-secondary small mb-0">Structural health indices, degradation trends, and condition histories</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'conditions:curves' %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-graph-down me-1"></i> Deterioration Curves
+        </a>
+        <a href="{% url 'conditions:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Record Condition
+        </a>
+    </div>
+</div>
+
+<!-- Stats Ribbon -->
+<div class="row g-3 mb-4">
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-info-subtle text-info"><i class="bi bi-journal-medical"></i></div>
+            <div class="kpi-val">{{ total_logs }}</div>
+            <div class="kpi-label">Recorded Health Evaluations</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-success-subtle text-success"><i class="bi bi-speedometer2"></i></div>
+            <div class="kpi-val">{{ avg_score }}/100</div>
+            <div class="kpi-label">Portfolio Average Index</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="kpi-card">
+            <div class="kpi-icon-box bg-danger-subtle text-danger"><i class="bi bi-exclamation-diamond"></i></div>
+            <div class="kpi-val">{{ critical_count }}</div>
+            <div class="kpi-label">Critical Impairments</div>
+        </div>
+    </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="card-enterprise p-3 mb-4">
+    <form method="GET" class="row g-2 align-items-center">
+        <div class="col-md-6">
+            <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary"><i class="bi bi-search"></i></span>
+                <input type="text" name="q" class="form-control" placeholder="Search asset name, tag ID, or notes..." value="{{ query }}">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <select name="category" class="form-select">
+                <option value="">-- Condition Category --</option>
+                {% for cc, cl in categories %}
+                    <option value="{{ cc }}" {% if cat_filter == cc %}selected{% endif %}>{{ cl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2 d-flex gap-2">
+            <button type="submit" class="btn btn-enterprise-primary w-100">Filter</button>
+            <a href="{% url 'conditions:list' %}" class="btn btn-enterprise-outline" title="Reset"><i class="bi bi-arrow-counterclockwise"></i></a>
+        </div>
+    </form>
+</div>
+
+<!-- Condition Logs Table -->
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Asset Tag / Name</th>
+                    <th>Date</th>
+                    <th>Overall Score</th>
+                    <th>Category</th>
+                    <th>Structural Index</th>
+                    <th>Operational Index</th>
+                    <th>Safety Index</th>
+                    <th>Assessor</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for log in page_obj %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'assets:detail' log.asset.pk %}" class="text-white fw-bold text-decoration-none">{{ log.asset.name }}</a>
+                            <div class="font-monospace text-info small">{{ log.asset.asset_id }}</div>
+                        </td>
+                        <td class="text-secondary small">{{ log.recorded_date|date:"Y-m-d" }}</td>
+                        <td>
+                            <span class="badge-condition-{{ log.condition_category|lower }} fw-bold">
+                                {{ log.condition_score }}/100
+                            </span>
+                        </td>
+                        <td><span class="badge bg-secondary">{{ log.get_condition_category_display }}</span></td>
+                        <td><span class="text-info font-monospace small">{{ log.structural_index }}/100</span></td>
+                        <td><span class="text-info font-monospace small">{{ log.operational_index }}/100</span></td>
+                        <td><span class="text-info font-monospace small">{{ log.safety_index }}/100</span></td>
+                        <td>{{ log.assessor.get_full_name|default:log.assessor.username|default:"System" }}</td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="8" class="text-center text-muted p-4">No condition assessment logs on file.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

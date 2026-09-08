@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ plan.title }} | Maintenance Plan{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ plan.plan_code }}</span>
+            <span class="badge bg-info text-dark me-2">{{ plan.get_plan_type_display }}</span>
+            <span class="badge bg-success">{{ plan.status }}</span>
+        </div>
+        <h2 class="fw-bold mb-0">{{ plan.title }}</h2>
+    </div>
+    <div>
+        <a href="{% url 'maintenance:action_create' %}?plan={{ plan.id }}" class="btn btn-outline-success me-2"><i class="bi bi-play-circle me-1"></i>Log Action</a>
+        <a href="{% url 'maintenance:plan_edit' plan.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Plan</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Plan Details</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Target Asset:</th><td><a href="{% url 'assets:asset_detail' plan.asset.id %}">{{ plan.asset.name }}</a></td></tr>
+                    <tr><th class="text-muted">Type:</th><td>{{ plan.get_plan_type_display }}</td></tr>
+                    <tr><th class="text-muted">Estimated Cost:</th><td><strong>₹{{ plan.estimated_cost|floatformat:2 }}</strong></td></tr>
+                    <tr><th class="text-muted">Timeline:</th><td>{{ plan.start_date }} to {{ plan.end_date|default:"Ongoing" }}</td></tr>
+                    <tr><th class="text-muted">Created By:</th><td>{{ plan.created_by.get_full_name|default:plan.created_by.username }}</td></tr>
+                </table>
+            </div>
+        </div>
+
+        {% if plan.scope_description %}
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Scope & Objectives</div>
+            <div class="card-body">
+                <p class="mb-0 text-muted">{{ plan.scope_description|linebreaks }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Executed Maintenance Actions ({{ actions.count }})</span>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Action Taken</th>
+                                <th>Work Order</th>
+                                <th>Cost Incurred</th>
+                                <th>Performed By</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for a in actions %}
+                            <tr>
+                                <td class="fw-semibold">{{ a.action_taken }}</td>
+                                <td>{% if a.work_order %}<a href="{% url 'workorders:workorder_detail' a.work_order.id %}">{{ a.work_order.wo_number }}</a>{% else %}N/A{% endif %}</td>
+                                <td>₹{{ a.cost_incurred|floatformat:2 }}</td>
+                                <td>{{ a.performed_by.get_full_name|default:a.performed_by.username }}</td>
+                                <td><small class="text-muted">{{ a.action_date }}</small></td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="5" class="text-center py-4 text-muted">No maintenance actions logged yet.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

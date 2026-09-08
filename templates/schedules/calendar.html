@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}Preventive Maintenance Calendar | InfraFlowX{% endblock %}
+
+{% block extra_css %}
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet" />
+<style>
+    .fc-event { cursor: pointer; }
+    .fc-theme-standard th { background: var(--bg-surface); color: var(--text-main); }
+    .fc-daygrid-day-number { color: var(--text-main); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-calendar3 text-primary me-2"></i>Infrastructure Maintenance Calendar</h2>
+        <p class="text-muted mb-0">Visual timeline of upcoming inspections, statutory audits, and recurring asset service tasks.</p>
+    </div>
+    <div>
+        <a href="{% url 'schedules:schedule_list' %}" class="btn btn-outline-secondary me-2"><i class="bi bi-list-ul me-1"></i>List View</a>
+        <a href="{% url 'schedules:schedule_create' %}" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>New Schedule</a>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-4">
+        <div id="calendar"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var eventsData = JSON.parse('{{ events_json|escapejs }}');
+        
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,listMonth'
+            },
+            events: eventsData,
+            eventClick: function(info) {
+                if (info.event.url) {
+                    info.jsEvent.preventDefault();
+                    window.location.href = info.event.url;
+                }
+            }
+        });
+        calendar.render();
+    });
+</script>
+{% endblock %}

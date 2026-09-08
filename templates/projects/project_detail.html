@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ project.project_code }} - {{ project.name }} | Project Dossier{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ project.project_code }}</span>
+            <span class="badge bg-info text-dark me-2">{{ project.get_project_type_display }}</span>
+            <span class="badge bg-primary">{{ project.get_status_display }}</span>
+        </div>
+        <h2 class="fw-bold mb-0">{{ project.name }}</h2>
+    </div>
+    <div>
+        <a href="{% url 'projects:milestone_create' project.id %}" class="btn btn-outline-success me-2"><i class="bi bi-flag me-1"></i>Add Milestone</a>
+        <a href="{% url 'projects:project_edit' project.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Project</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Project Summary</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Organization:</th><td>{{ project.organization.name }}</td></tr>
+                    <tr><th class="text-muted">Lead Dept:</th><td>{{ project.department.name|default:"N/A" }}</td></tr>
+                    <tr><th class="text-muted">Manager:</th><td>{{ project.project_manager.get_full_name|default:project.project_manager.username|default:"Unassigned" }}</td></tr>
+                    <tr><th class="text-muted">Contractor:</th><td>{% if project.primary_contractor %}<a href="{% url 'contractors:contractor_detail' project.primary_contractor.id %}">{{ project.primary_contractor.company_name }}</a>{% else %}N/A{% endif %}</td></tr>
+                    <tr><th class="text-muted">Est. Budget:</th><td><strong>₹{{ project.estimated_budget|floatformat:2 }}</strong></td></tr>
+                    <tr><th class="text-muted">Actual Spent:</th><td><strong class="text-primary">₹{{ project.actual_spent|floatformat:2 }}</strong></td></tr>
+                    <tr><th class="text-muted">Timeline:</th><td>{{ project.start_date }} to {{ project.end_date|default:"Ongoing" }}</td></tr>
+                </table>
+            </div>
+        </div>
+
+        {% if project.description %}
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Objectives & Technical Scope</div>
+            <div class="card-body">
+                <p class="mb-0 text-muted">{{ project.description|linebreaks }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Key Milestones & Deliverables ({{ milestones.count }})</span>
+                <a href="{% url 'projects:milestone_create' project.id %}" class="btn btn-sm btn-outline-light"><i class="bi bi-plus-lg me-1"></i>New Milestone</a>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Milestone</th>
+                                <th>Target Date</th>
+                                <th>Payment Linked (₹)</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for m in milestones %}
+                            <tr>
+                                <td class="fw-semibold">
+                                    {{ m.title }}
+                                    {% if m.description %}<div class="small text-muted">{{ m.description }}</div>{% endif %}
+                                </td>
+                                <td>{{ m.target_completion_date }}</td>
+                                <td>₹{{ m.payment_tranche_amount|floatformat:2 }}</td>
+                                <td>
+                                    {% if m.status == 'ACHIEVED' %}
+                                        <span class="badge bg-success">Achieved</span>
+                                    {% elif m.status == 'IN_PROGRESS' %}
+                                        <span class="badge bg-primary">In Progress</span>
+                                    {% elif m.status == 'DELAYED' %}
+                                        <span class="badge bg-danger">Delayed</span>
+                                    {% else %}
+                                        <span class="badge bg-secondary">{{ m.get_status_display }}</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="4" class="text-center py-4 text-muted">No milestones defined yet.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block title %}Interactive GIS Map Viewer{% endblock %}
+
+{% block extra_css %}
+<style>
+    #gisMapContainer {
+        height: 75vh;
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        z-index: 1;
+    }
+    .leaflet-popup-content-wrapper {
+        background: #182234;
+        color: #fff;
+        border: 1px solid rgba(0, 229, 255, 0.4);
+        border-radius: 8px;
+    }
+    .leaflet-popup-tip {
+        background: #182234;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-map-fill text-info me-2"></i> Interactive GIS Infrastructure Map</h3>
+        <p class="text-secondary small mb-0">Geospatial visualization of roads, bridges, public buildings, and utilities</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'locations:list' %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-list-ul me-1"></i> Location Table
+        </a>
+        <a href="{% url 'locations:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Add Location
+        </a>
+    </div>
+</div>
+
+<!-- Map Viewer Container -->
+<div class="card-enterprise p-3 mb-4">
+    <div id="gisMapContainer"></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Initialize Leaflet Map centered on default location
+    const map = L.map('gisMapContainer').setView([37.7749, -122.4194], 12);
+
+    // Dark Tile Layer (CartoDB Dark Matter)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://carto.com/">CartoDB</a> contributors',
+        subdomains: 'abcd',
+        maxZoom: 19
+    }).addTo(map);
+
+    // Fetch GeoJSON Feature Collection from API
+    fetch('{% url "locations:geojson_api" %}')
+        .then(res => res.json())
+        .then(data => {
+            if (data.features && data.features.length > 0) {
+                const markersGroup = L.featureGroup();
+
+                data.features.forEach(feat => {
+                    const coords = feat.geometry.coordinates;
+                    const props = feat.properties;
+
+                    // Custom HTML Marker Icon
+                    const markerIcon = L.divIcon({
+                        className: 'custom-gis-pin',
+                        html: `<div style="background-color: #00e5ff; width: 14px; height: 14px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 10px #00e5ff;"></div>`,
+                        iconSize: [14, 14],
+                        iconAnchor: [7, 7]
+                    });
+
+                    const marker = L.marker([coords[1], coords[0]], { icon: markerIcon });
+
+                    let assetsHtml = '';
+                    if (props.assets && props.assets.length > 0) {
+                        assetsHtml = `<div class="mt-2 border-top border-secondary pt-2">
+                            <strong class="small text-info">Associated Assets (${props.assets_count}):</strong>
+                            <ul class="list-unstyled mb-0 mt-1 small">
+                                ${props.assets.map(a => `<li>&bull; <strong class="text-white">${a.name}</strong> <span class="badge bg-dark border border-secondary">${a.asset_type}</span> (Score: ${a.condition_score})</li>`).join('')}
+                            </ul>
+                        </div>`;
+                    }
+
+                    const popupContent = `
+                        <div style="min-width: 200px;">
+                            <div class="fw-bold text-info fs-6">${props.name}</div>
+                            <div class="text-muted small">${props.city}, ${props.state}</div>
+                            <div class="small text-white mt-1">${props.address}</div>
+                            ${assetsHtml}
+                            <div class="mt-2 text-end">
+                                <a href="${props.url}" class="btn btn-sm btn-outline-info py-0 px-2 small">View Location</a>
+                            </div>
+                        </div>
+                    `;
+
+                    marker.bindPopup(popupContent);
+                    markersGroup.addLayer(marker);
+                });
+
+                markersGroup.addTo(map);
+                map.fitBounds(markersGroup.getBounds(), { padding: [40, 40] });
+            }
+        })
+        .catch(err => console.error('Error fetching GIS GeoJSON:', err));
+});
+</script>
+{% endblock %}

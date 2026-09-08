@@ -1,0 +1,158 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}Employee Dossier - {{ employee.user.get_full_name }}{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div class="d-flex align-items-center gap-3">
+        <img src="{{ employee.user.get_avatar_url }}" alt="{{ employee.user.username }}" class="rounded-circle border border-info" style="width: 54px; height: 54px; object-fit: cover;">
+        <div>
+            <div class="d-flex align-items-center gap-2 mb-1">
+                <span class="badge bg-dark border border-secondary font-monospace text-info">{{ employee.employee_id }}</span>
+                <span class="badge bg-success-subtle text-success border border-success">{{ employee.get_status_display }}</span>
+            </div>
+            <h3 class="fw-bold text-white mb-0">{{ employee.user.get_full_name }}</h3>
+        </div>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'employees:add_skill' employee.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-plus-lg me-1"></i> Add Skill
+        </a>
+        <a href="{% url 'employees:add_certification' employee.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-patch-plus me-1"></i> Add Certification
+        </a>
+        <a href="{% url 'employees:edit' employee.pk %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-pencil me-1"></i> Edit Profile
+        </a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left Meta Dossier -->
+    <div class="col-lg-4">
+        <div class="card-enterprise p-4 mb-4">
+            <h5 class="fw-bold text-white mb-3"><i class="bi bi-person-badge text-info me-2"></i> Employee Details</h5>
+            <div class="small">
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Designation:</span>
+                    <strong class="text-white">{{ employee.designation.title|default:"Staff" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Department:</span>
+                    <strong class="text-white">{{ employee.department.name|default:"-" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Assigned Team:</span>
+                    <strong class="text-info">{{ employee.team.name|default:"None" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Direct Supervisor:</span>
+                    <strong class="text-white">{{ employee.supervisor.user.get_full_name|default:"None" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Employment Type:</span>
+                    <strong class="text-white">{{ employee.get_employment_type_display }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Date Joined:</span>
+                    <strong class="text-white">{{ employee.date_of_joining|date:"M d, Y" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Official Email:</span>
+                    <strong class="text-white">{{ employee.user.email }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Phone Contact:</span>
+                    <strong class="text-white">{{ employee.user.phone_number|default:"-" }}</strong>
+                </div>
+                <div class="pt-3">
+                    <div class="text-muted mb-1">Emergency Contact:</div>
+                    <div class="text-white fw-semibold">{{ employee.emergency_contact_name|default:"Not provided" }}</div>
+                    <div class="text-secondary">{{ employee.emergency_contact_phone|default:"-" }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Skills & Certifications -->
+    <div class="col-lg-8">
+        <!-- Skills Competency Matrix -->
+        <div class="card-enterprise mb-4">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-lightning-charge text-warning me-2"></i> Verified Technical Skills ({{ skills.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Category</th>
+                            <th>Proficiency</th>
+                            <th>Experience</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for s in skills %}
+                            <tr>
+                                <td class="text-white fw-semibold">{{ s.skill.name }}</td>
+                                <td><span class="badge bg-secondary">{{ s.skill.get_category_display }}</span></td>
+                                <td>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="progress flex-grow-1" style="height: 6px; background-color: #25334c;">
+                                            <div class="progress-bar bg-info" style="width: {% widthratio s.proficiency 5 100 %}%;"></div>
+                                        </div>
+                                        <span class="text-info small fw-bold">Level {{ s.proficiency }}/5</span>
+                                    </div>
+                                </td>
+                                <td class="text-secondary small">{{ s.years_experience }} yrs</td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="4" class="text-center text-muted p-3">No verified skills recorded.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Verified Certifications -->
+        <div class="card-enterprise">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-patch-check text-success me-2"></i> Regulatory Certifications ({{ certifications.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Certification</th>
+                            <th>License Number</th>
+                            <th>Issued On</th>
+                            <th>Expires On</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for c in certifications %}
+                            <tr>
+                                <td class="text-white fw-semibold">{{ c.certification.name }}</td>
+                                <td><span class="badge bg-dark border border-secondary font-monospace">{{ c.certificate_number }}</span></td>
+                                <td class="text-secondary small">{{ c.issue_date|date:"Y-m-d" }}</td>
+                                <td class="text-secondary small">{{ c.expiry_date|date:"Y-m-d"|default:"Lifetime" }}</td>
+                                <td>
+                                    {% if c.is_verified %}
+                                        <span class="badge bg-success-subtle text-success border border-success">Verified</span>
+                                    {% else %}
+                                        <span class="badge bg-warning-subtle text-warning">Pending Audit</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="5" class="text-center text-muted p-3">No certifications on file.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

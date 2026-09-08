@@ -1,0 +1,145 @@
+{% extends 'base.html' %}
+
+{% block title %}Asset Deterioration Curves & Degradation Modeling{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-graph-down text-warning me-2"></i> Predictive Asset Deterioration Curves</h3>
+        <p class="text-secondary small mb-0">Markovian and empirical degradation projection modeling across asset lifecycles</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'conditions:list' %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-list-ul me-1"></i> Condition Logs
+        </a>
+    </div>
+</div>
+
+<!-- Chart Visualization Card -->
+<div class="card-enterprise p-4 mb-4">
+    <h5 class="fw-bold text-white mb-3"><i class="bi bi-activity text-info me-2"></i> Simulated 30-Year Health Degradation by Asset Class</h5>
+    <div style="height: 350px;">
+        <canvas id="deteriorationChart"></canvas>
+    </div>
+</div>
+
+<!-- Degradation Parameters Registry -->
+<div class="card-enterprise">
+    <div class="card-header-enterprise">
+        <h5 class="fw-bold text-white mb-0"><i class="bi bi-sliders text-info me-2"></i> Asset Class Degradation Rates</h5>
+    </div>
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Asset Class</th>
+                    <th>Design Life</th>
+                    <th>Annual Decay Rate</th>
+                    <th>Heavy Load Factor</th>
+                    <th>Severe Climate Factor</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for m in models_list %}
+                    <tr>
+                        <td class="text-white fw-bold">{{ m.get_asset_type_display }}</td>
+                        <td>{{ m.expected_lifecycle_years }} years</td>
+                        <td class="text-warning fw-semibold font-monospace">{{ m.annual_decay_rate_pct }}% / year</td>
+                        <td class="font-monospace text-secondary small">&times; {{ m.heavy_load_multiplier }}</td>
+                        <td class="font-monospace text-secondary small">&times; {{ m.severe_climate_multiplier }}</td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="5" class="text-center text-muted p-4">No deterioration models configured. Default linear algorithms active.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const ctx = document.getElementById('deteriorationChart').getContext('2d');
+    
+    const years = Array.from({length: 31}, (_, i) => `Yr ${i}`);
+    
+    // Calculate sample degradation paths
+    const calcCurve = (annualRate) => {
+        let score = 100;
+        return years.map((_, i) => {
+            if (i === 0) return 100;
+            score = Math.max(10, score - annualRate * (1 + (i * 0.03)));
+            return Math.round(score);
+        });
+    };
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: years,
+            datasets: [
+                {
+                    label: 'Roads & Highways (Asphalt / Concrete)',
+                    data: calcCurve(3.2),
+                    borderColor: '#f59e0b',
+                    backgroundColor: 'rgba(245, 158, 11, 0.1)',
+                    tension: 0.3,
+                    borderWidth: 2,
+                },
+                {
+                    label: 'Bridges & Structural Crossings',
+                    data: calcCurve(1.8),
+                    borderColor: '#00e5ff',
+                    backgroundColor: 'rgba(0, 229, 255, 0.1)',
+                    tension: 0.3,
+                    borderWidth: 2,
+                },
+                {
+                    label: 'Municipal Buildings & Civic Facilities',
+                    data: calcCurve(2.1),
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                    tension: 0.3,
+                    borderWidth: 2,
+                },
+                {
+                    label: 'MEP Plant Equipment (Generators / Chillers)',
+                    data: calcCurve(4.5),
+                    borderColor: '#ef4444',
+                    backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                    tension: 0.3,
+                    borderWidth: 2,
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: { color: '#94a3b8', font: { family: 'Inter' } }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: (ctx) => `${ctx.dataset.label}: Condition Score ${ctx.raw}/100`
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    min: 0,
+                    max: 100,
+                    grid: { color: 'rgba(255, 255, 255, 0.05)' },
+                    ticks: { color: '#64748b' }
+                },
+                x: {
+                    grid: { color: 'rgba(255, 255, 255, 0.05)' },
+                    ticks: { color: '#64748b' }
+                }
+            }
+        }
+    });
+});
+</script>
+{% endblock %}

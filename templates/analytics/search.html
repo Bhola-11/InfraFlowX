@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block title %}Enterprise Search | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h2 class="fw-bold mb-1"><i class="bi bi-search text-primary me-2"></i>Global Enterprise Cross-App Search</h2>
+    <p class="text-muted mb-0">Unified search across Assets, Roads, Bridges, Work Orders, Inspections, Contractors, and Blueprints.</p>
+</div>
+
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-10">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input type="text" name="q" class="form-control" placeholder="Search keywords across the entire infrastructure platform..." value="{{ search_query }}" autofocus>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary btn-lg w-100">Search</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if search_query %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="fw-bold mb-0">Search Results for "<span class="text-primary">{{ search_query }}</span>"</h5>
+    <span class="badge bg-secondary">{{ total_results }} total results found</span>
+</div>
+
+<div class="row g-4">
+    <!-- Assets -->
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-dark text-white fw-bold"><i class="bi bi-buildings me-2"></i>Infrastructure Assets ({{ assets|length }})</div>
+            <div class="card-body p-0">
+                <div class="list-group list-group-flush">
+                    {% for a in assets %}
+                    <a href="{% url 'assets:asset_detail' a.id %}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1 fw-bold text-primary">{{ a.name }}</h6>
+                            <small><code>{{ a.asset_code }}</code></small>
+                        </div>
+                        <p class="mb-1 small text-muted">{{ a.description|truncatewords:15 }}</p>
+                        <span class="badge bg-secondary">{{ a.get_asset_type_display }}</span>
+                        <span class="badge bg-success">{{ a.get_status_display }}</span>
+                    </a>
+                    {% empty %}
+                    <div class="p-3 text-muted">No matching assets.</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Orders -->
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-dark text-white fw-bold"><i class="bi bi-gear-wide-connected me-2"></i>Work Orders ({{ workorders|length }})</div>
+            <div class="card-body p-0">
+                <div class="list-group list-group-flush">
+                    {% for wo in workorders %}
+                    <a href="{% url 'workorders:workorder_detail' wo.id %}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1 fw-bold text-primary">{{ wo.title }}</h6>
+                            <small><code>{{ wo.wo_number }}</code></small>
+                        </div>
+                        <p class="mb-1 small text-muted">{{ wo.description|truncatewords:15 }}</p>
+                        <span class="badge bg-warning text-dark">{{ wo.get_priority_display }}</span>
+                        <span class="badge bg-primary">{{ wo.get_status_display }}</span>
+                    </a>
+                    {% empty %}
+                    <div class="p-3 text-muted">No matching work orders.</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inspections -->
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-dark text-white fw-bold"><i class="bi bi-clipboard2-check me-2"></i>Inspections & Audits ({{ inspections|length }})</div>
+            <div class="card-body p-0">
+                <div class="list-group list-group-flush">
+                    {% for ins in inspections %}
+                    <a href="{% url 'inspections:inspection_detail' ins.id %}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1 fw-bold text-primary">{{ ins.title }}</h6>
+                            <small><code>{{ ins.inspection_number }}</code></small>
+                        </div>
+                        <span class="badge bg-info text-dark">{{ ins.get_inspection_type_display }}</span>
+                        <span class="badge bg-success">{{ ins.get_status_display }}</span>
+                    </a>
+                    {% empty %}
+                    <div class="p-3 text-muted">No matching inspections.</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contractors -->
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-dark text-white fw-bold"><i class="bi bi-briefcase me-2"></i>Contractors & Vendors ({{ contractors|length }})</div>
+            <div class="card-body p-0">
+                <div class="list-group list-group-flush">
+                    {% for c in contractors %}
+                    <a href="{% url 'contractors:contractor_detail' c.id %}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1 fw-bold text-primary">{{ c.company_name }}</h6>
+                            <small><code>{{ c.registration_number }}</code></small>
+                        </div>
+                        <span class="badge bg-secondary">{{ c.primary_specialization }}</span>
+                        <span class="badge bg-info text-dark">{{ c.tier_classification }}</span>
+                    </a>
+                    {% empty %}
+                    <div class="p-3 text-muted">No matching contractors.</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

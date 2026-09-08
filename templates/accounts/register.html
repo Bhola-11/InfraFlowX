@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block title %}Enterprise Staff Registration{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center align-items-center py-4">
+    <div class="col-md-8 col-lg-7 col-xl-6">
+        <div class="card-enterprise shadow-lg p-4 p-md-5">
+            <div class="text-center mb-4">
+                <div class="d-inline-flex align-items-center justify-content-center mb-3 p-3 rounded-circle" style="background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3);">
+                    <i class="bi bi-person-plus-fill text-info fs-1"></i>
+                </div>
+                <h3 class="fw-bold text-white mb-1">Create Enterprise Account</h3>
+                <p class="text-secondary small">Register to access infrastructure asset management workflows</p>
+            </div>
+
+            <form method="POST" action="{% url 'accounts:register' %}" novalidate>
+                {% csrf_token %}
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Username</label>
+                        {{ form.username }}
+                        {% if form.username.errors %}<div class="text-danger small">{{ form.username.errors.0 }}</div>{% endif %}
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Official Email</label>
+                        {{ form.email }}
+                        {% if form.email.errors %}<div class="text-danger small">{{ form.email.errors.0 }}</div>{% endif %}
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">First Name</label>
+                        {{ form.first_name }}
+                        {% if form.first_name.errors %}<div class="text-danger small">{{ form.first_name.errors.0 }}</div>{% endif %}
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Last Name</label>
+                        {{ form.last_name }}
+                        {% if form.last_name.errors %}<div class="text-danger small">{{ form.last_name.errors.0 }}</div>{% endif %}
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Enterprise Role</label>
+                        {{ form.role }}
+                        {% if form.role.errors %}<div class="text-danger small">{{ form.role.errors.0 }}</div>{% endif %}
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Organization Authority</label>
+                        {{ form.organization }}
+                        {% if form.organization.errors %}<div class="text-danger small">{{ form.organization.errors.0 }}</div>{% endif %}
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Job Title / Designation</label>
+                        {{ form.job_title }}
+                        {% if form.job_title.errors %}<div class="text-danger small">{{ form.job_title.errors.0 }}</div>{% endif %}
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Contact Phone</label>
+                        {{ form.phone_number }}
+                        {% if form.phone_number.errors %}<div class="text-danger small">{{ form.phone_number.errors.0 }}</div>{% endif %}
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Password</label>
+                        {{ form.password1 }}
+                        {% if form.password1.errors %}<div class="text-danger small">{{ form.password1.errors.0 }}</div>{% endif %}
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Confirm Password</label>
+                        {{ form.password2 }}
+                        {% if form.password2.errors %}<div class="text-danger small">{{ form.password2.errors.0 }}</div>{% endif %}
+                    </div>
+                </div>
+
+                <div class="d-grid mt-4">
+                    <button type="submit" class="btn btn-enterprise-primary btn-lg fw-bold">
+                        <i class="bi bi-check-circle me-2"></i> Register Account
+                    </button>
+                </div>
+            </form>
+
+            <div class="border-top border-secondary pt-3 text-center mt-4">
+                <p class="text-muted small mb-0">
+                    Already registered? 
+                    <a href="{% url 'accounts:login' %}" class="text-info text-decoration-none fw-semibold">Sign In</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

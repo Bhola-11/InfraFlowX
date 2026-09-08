@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block title %}Enterprise Notification Hub{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-bell-fill text-info me-2"></i> Notification & Alert Hub</h3>
+        <p class="text-secondary small mb-0">System alerts, preventive maintenance reminders, and work order dispatches</p>
+    </div>
+    <div class="d-flex gap-2">
+        {% if unread_count > 0 %}
+            <a href="{% url 'notifications:mark_all_read' %}" class="btn btn-enterprise-primary">
+                <i class="bi bi-check2-all me-1"></i> Mark All as Read
+            </a>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Tabs for All / Unread / Read -->
+<div class="card-enterprise p-3 mb-4">
+    <div class="d-flex gap-2">
+        <a href="?filter=all" class="btn btn-sm {% if filter_type == 'all' %}btn-info text-dark fw-bold{% else %}btn-outline-secondary text-white{% endif %}">
+            All Notifications ({{ total_count }})
+        </a>
+        <a href="?filter=unread" class="btn btn-sm {% if filter_type == 'unread' %}btn-danger fw-bold{% else %}btn-outline-secondary text-white{% endif %}">
+            Unread Alerts ({{ unread_count }})
+        </a>
+        <a href="?filter=read" class="btn btn-sm {% if filter_type == 'read' %}btn-secondary text-white fw-bold{% else %}btn-outline-secondary text-white{% endif %}">
+            Read Archive
+        </a>
+    </div>
+</div>
+
+<!-- Notifications List -->
+<div class="card-enterprise">
+    <div class="list-group list-group-flush">
+        {% for n in page_obj %}
+            <div class="list-group-item bg-transparent text-white border-bottom border-secondary p-4 d-flex justify-content-between align-items-start gap-3">
+                <div class="d-flex gap-3 align-items-start">
+                    <div class="mt-1">
+                        {% if n.priority == 'CRITICAL' %}
+                            <i class="bi bi-exclamation-octagon-fill text-danger fs-3"></i>
+                        {% elif n.priority == 'HIGH' %}
+                            <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                        {% elif n.priority == 'LOW' %}
+                            <i class="bi bi-info-circle-fill text-secondary fs-3"></i>
+                        {% else %}
+                            <i class="bi bi-bell-fill text-info fs-3"></i>
+                        {% endif %}
+                    </div>
+                    <div>
+                        <div class="d-flex align-items-center gap-2 mb-1">
+                            <span class="badge bg-secondary-subtle text-info border border-secondary">{{ n.get_notification_type_display }}</span>
+                            <span class="badge {% if n.priority == 'CRITICAL' %}bg-danger{% elif n.priority == 'HIGH' %}bg-warning text-dark{% else %}bg-secondary{% endif %}">{{ n.get_priority_display }}</span>
+                            {% if not n.is_read %}
+                                <span class="badge bg-primary">NEW</span>
+                            {% endif %}
+                        </div>
+                        <h5 class="fw-bold text-white mb-1">{{ n.title }}</h5>
+                        <p class="text-secondary small mb-2">{{ n.message }}</p>
+                        <div class="text-muted small"><i class="bi bi-clock me-1"></i> {{ n.created_at|date:"M d, Y H:i" }} ({{ n.created_at|timesince }} ago)</div>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2">
+                    {% if not n.is_read %}
+                        <a href="{% url 'notifications:mark_read' n.pk %}" class="btn btn-outline-info btn-sm text-nowrap">
+                            <i class="bi bi-check2 me-1"></i> Mark Read
+                        </a>
+                    {% endif %}
+                    {% if n.link %}
+                        <a href="{{ n.link }}" class="btn btn-enterprise-primary btn-sm text-nowrap">
+                            <i class="bi bi-arrow-right-circle me-1"></i> View Action
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        {% empty %}
+            <div class="text-center text-muted p-5">
+                <i class="bi bi-bell-slash fs-1 text-secondary mb-2 d-block"></i>
+                <h5>No notifications found</h5>
+                <p class="small">You have zero alerts in this view category.</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

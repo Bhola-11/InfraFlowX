@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ location.name }} - Geospatial Site{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="badge bg-dark border border-secondary text-info font-monospace">{{ location.code }}</span>
+            <span class="badge bg-secondary">{{ location.city }}, {{ location.state }}</span>
+        </div>
+        <h3 class="fw-bold text-white mb-0">{{ location.name }}</h3>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'locations:edit' location.pk %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-pencil me-1"></i> Edit Location
+        </a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left Column: Site Details -->
+    <div class="col-lg-4">
+        <div class="card-enterprise p-4 mb-4">
+            <h5 class="fw-bold text-white mb-3"><i class="bi bi-geo-alt text-info me-2"></i> Location Dossier</h5>
+            <div class="small">
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>GPS Latitude:</span>
+                    <strong class="text-white font-monospace">{{ location.latitude }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>GPS Longitude:</span>
+                    <strong class="text-white font-monospace">{{ location.longitude }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Elevation:</span>
+                    <strong class="text-white">{{ location.elevation_meters|default:"-" }} m</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>District / Zone:</span>
+                    <strong class="text-white">{{ location.district }} ({{ location.zone|default:"-" }})</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Postal Code:</span>
+                    <strong class="text-white">{{ location.postal_code|default:"-" }}</strong>
+                </div>
+                <div class="pt-3 text-secondary">
+                    <div class="text-muted mb-1">Street Address:</div>
+                    <div class="text-white">{{ location.address }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Column: Associated Assets Table -->
+    <div class="col-lg-8">
+        <div class="card-enterprise">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-box-seam text-warning me-2"></i> Infrastructure Assets at this Site ({{ assets.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Asset Tag</th>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Condition</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for a in assets %}
+                            <tr>
+                                <td><span class="badge bg-dark border border-secondary text-info font-monospace">{{ a.asset_id }}</span></td>
+                                <td class="text-white fw-semibold">{{ a.name }}</td>
+                                <td>{{ a.get_asset_type_display }}</td>
+                                <td><span class="badge-condition-{{ a.condition|lower }}">{{ a.get_condition_display }}</span></td>
+                                <td><span class="badge bg-secondary">{{ a.get_status_display }}</span></td>
+                                <td><a href="{% url 'assets:detail' a.pk %}" class="btn btn-outline-info btn-sm">View</a></td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="6" class="text-center text-muted p-4">No assets currently anchored to this location.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}Bridge Engineering Registry{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-water text-info me-2"></i> Bridges & Structural Engineering</h3>
+        <p class="text-secondary small mb-0">National Bridge Inventory (NBI) registry, structural ratings, and scour critical monitoring</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'bridges:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Register Bridge
+        </a>
+    </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="card-enterprise p-3 mb-4">
+    <form method="GET" class="row g-2 align-items-center">
+        <div class="col-md-4">
+            <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary"><i class="bi bi-search"></i></span>
+                <input type="text" name="q" class="form-control" placeholder="Search NBI Code, name, waterway..." value="{{ query }}">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <select name="type" class="form-select">
+                <option value="">-- Structural Type --</option>
+                {% for bc, bl in bridge_types %}
+                    <option value="{{ bc }}" {% if type_filter == bc %}selected{% endif %}>{{ bl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="condition" class="form-select">
+                <option value="">-- Condition --</option>
+                {% for cc, cl in conditions %}
+                    <option value="{{ cc }}" {% if condition_filter == cc %}selected{% endif %}>{{ cl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2 d-flex gap-2">
+            <button type="submit" class="btn btn-enterprise-primary w-100">Filter</button>
+            <a href="{% url 'bridges:list' %}" class="btn btn-enterprise-outline" title="Reset"><i class="bi bi-arrow-counterclockwise"></i></a>
+        </div>
+    </form>
+</div>
+
+<!-- Bridges Table -->
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Bridge ID / Name</th>
+                    <th>Feature Crossed</th>
+                    <th>Structural Type</th>
+                    <th>Spans / Length</th>
+                    <th>Capacity</th>
+                    <th>Structural Condition</th>
+                    <th>Scour Critical</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for b in page_obj %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'bridges:detail' b.pk %}" class="text-white fw-bold text-decoration-none">{{ b.bridge_name }}</a>
+                            <div class="font-monospace text-info small">{{ b.bridge_id_code }}</div>
+                        </td>
+                        <td>{{ b.feature_crossed }}</td>
+                        <td><span class="badge bg-secondary">{{ b.get_bridge_type_display }}</span></td>
+                        <td class="small text-secondary">{{ b.length_meters }} m ({{ b.span_count }} spans)</td>
+                        <td class="text-white fw-semibold">{{ b.load_capacity_tons }} Tons</td>
+                        <td><span class="badge-condition-{{ b.condition|lower }}">{{ b.get_condition_display }}</span></td>
+                        <td>
+                            {% if b.is_scour_critical %}
+                                <span class="badge bg-danger">SCOUR CRITICAL</span>
+                            {% else %}
+                                <span class="badge bg-success-subtle text-success">Safe</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'bridges:detail' b.pk %}" class="btn btn-outline-secondary text-white" title="View"><i class="bi bi-eye"></i></a>
+                                <a href="{% url 'bridges:edit' b.pk %}" class="btn btn-outline-secondary text-white" title="Edit"><i class="bi bi-pencil"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="8" class="text-center text-muted p-4">No bridge structures found matching search criteria.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

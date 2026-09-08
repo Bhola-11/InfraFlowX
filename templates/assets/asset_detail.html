@@ -1,0 +1,371 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}{{ asset.name }} ({{ asset.asset_id }}) - 360° Asset Dossier{% endblock %}
+
+{% block content %}
+<!-- Top Asset Banner Header -->
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="badge bg-dark border border-secondary font-monospace text-info fs-6">{{ asset.asset_id }}</span>
+            <span class="badge bg-secondary">{{ asset.get_asset_type_display }}</span>
+            <span class="badge-condition-{{ asset.condition|lower }}">{{ asset.get_condition_display }} ({{ asset.condition_score }}/100)</span>
+            <span class="badge {% if asset.status == 'ACTIVE' %}bg-success-subtle text-success border border-success{% elif asset.status == 'DAMAGED' %}bg-danger{% else %}bg-warning text-dark{% endif %}">
+                {{ asset.get_status_display }}
+            </span>
+        </div>
+        <h2 class="fw-bold text-white mb-0">{{ asset.name }}</h2>
+    </div>
+    <div class="d-flex gap-2">
+        <button class="btn btn-enterprise-outline" data-bs-toggle="modal" data-bs-target="#statusChangeModal">
+            <i class="bi bi-arrow-repeat me-1"></i> Change Status
+        </button>
+        <a href="{% url 'assets:edit' asset.pk %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-pencil-square me-1"></i> Edit Asset
+        </a>
+    </div>
+</div>
+
+<!-- Main Layout Grid -->
+<div class="row g-4">
+    <!-- Left Column: Core Dossier & Specifications -->
+    <div class="col-lg-4">
+        <!-- Physical & Valuation Card -->
+        <div class="card-enterprise p-4 mb-4">
+            <h5 class="fw-bold text-white mb-3"><i class="bi bi-info-circle text-info me-2"></i> Asset Specifications</h5>
+            {% if asset.photo %}
+                <img src="{{ asset.photo.url }}" alt="{{ asset.name }}" class="img-fluid rounded-3 mb-3 border border-secondary" style="width: 100%; max-height: 200px; object-fit: cover;">
+            {% endif %}
+            <div class="small">
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Organization:</span>
+                    <strong class="text-white">{{ asset.organization.name }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Geospatial Site:</span>
+                    {% if asset.location %}
+                        <a href="{% url 'locations:detail' asset.location.pk %}" class="text-info">{{ asset.location.name }} ({{ asset.location.city }})</a>
+                    {% else %}
+                        <span class="text-muted">Unanchored</span>
+                    {% endif %}
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Department:</span>
+                    <strong class="text-white">{{ asset.department.name|default:"Unassigned" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Custodian / Manager:</span>
+                    <strong class="text-white">{{ asset.owner.get_full_name|default:"Unassigned" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Commission Date:</span>
+                    <strong class="text-white">{{ asset.installation_date|date:"M d, Y"|default:"N/A" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Acquisition Cost:</span>
+                    <strong class="text-white">${{ asset.acquisition_cost|intcomma }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Current Book Value:</span>
+                    <strong class="text-success">${{ asset.current_value|intcomma }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Design Useful Life:</span>
+                    <strong class="text-white">{{ asset.useful_life_years }} years</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Depreciation:</span>
+                    <strong class="text-white">{{ asset.get_depreciation_method_display }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Lifecycle Phase:</span>
+                    <span class="badge bg-primary">{{ asset.get_lifecycle_stage_display }}</span>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Warranty Expiry:</span>
+                    <strong class="text-white">{{ asset.warranty_expiry|date:"M d, Y"|default:"None" }}</strong>
+                </div>
+                <div class="pt-3 text-secondary">
+                    <div class="text-muted mb-1">Description:</div>
+                    <div class="text-white">{{ asset.description|default:"No notes recorded." }}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subtype Specific Extension Box (Road / Bridge / Building / Facility) -->
+        {% if road_extension %}
+            <div class="card-enterprise p-4 mb-4 border-info">
+                <h5 class="fw-bold text-info mb-3"><i class="bi bi-signpost-2 me-2"></i> Road Engineering Data</h5>
+                <div class="small text-secondary">
+                    <div class="py-1">Code: <strong class="text-white">{{ road_extension.road_code }}</strong></div>
+                    <div class="py-1">Surface: <strong class="text-white">{{ road_extension.get_surface_type_display }}</strong></div>
+                    <div class="py-1">Length & Width: <strong class="text-white">{{ road_extension.length_km }} km &bull; {{ road_extension.width_meters }} m ({{ road_extension.lanes_count }} lanes)</strong></div>
+                    <div class="py-1">Pavement Index (PCI): <strong class="text-warning">{{ road_extension.pci_score }}/100</strong></div>
+                </div>
+            </div>
+        {% elif bridge_extension %}
+            <div class="card-enterprise p-4 mb-4 border-info">
+                <h5 class="fw-bold text-info mb-3"><i class="bi bi-water me-2"></i> Bridge Structural Data</h5>
+                <div class="small text-secondary">
+                    <div class="py-1">NBI ID: <strong class="text-white">{{ bridge_extension.bridge_id_code }}</strong></div>
+                    <div class="py-1">Structural Type: <strong class="text-white">{{ bridge_extension.get_bridge_type_display }}</strong></div>
+                    <div class="py-1">Span Length: <strong class="text-white">{{ bridge_extension.length_meters }} m ({{ bridge_extension.span_count }} spans)</strong></div>
+                    <div class="py-1">Load Rating: <strong class="text-white">{{ bridge_extension.load_capacity_tons }} Tons</strong></div>
+                    <div class="py-1">Scour Critical: <strong class="{% if bridge_extension.is_scour_critical %}text-danger{% else %}text-success{% endif %}">{% if bridge_extension.is_scour_critical %}YES{% else %}NO{% endif %}</strong></div>
+                </div>
+            </div>
+        {% elif building_extension %}
+            <div class="card-enterprise p-4 mb-4 border-info">
+                <h5 class="fw-bold text-info mb-3"><i class="bi bi-building me-2"></i> Building Space Data</h5>
+                <div class="small text-secondary">
+                    <div class="py-1">Building Code: <strong class="text-white">{{ building_extension.building_id_code }}</strong></div>
+                    <div class="py-1">Total Gross Area: <strong class="text-white">{{ building_extension.total_area_sqft|intcomma }} sq ft</strong></div>
+                    <div class="py-1">Floors / Levels: <strong class="text-white">{{ building_extension.floor_count }} levels</strong></div>
+                    <div class="py-1">Energy Rating: <strong class="text-success">{{ building_extension.get_energy_rating_display }}</strong></div>
+                </div>
+            </div>
+        {% elif facility_extension %}
+            <div class="card-enterprise p-4 mb-4 border-info">
+                <h5 class="fw-bold text-info mb-3"><i class="bi bi-gear-wide me-2"></i> Facility Plant / MEP Data</h5>
+                <div class="small text-secondary">
+                    <div class="py-1">Equipment Code: <strong class="text-white">{{ facility_extension.equipment_code }}</strong></div>
+                    <div class="py-1">Type: <strong class="text-white">{{ facility_extension.get_equipment_type_display }}</strong></div>
+                    <div class="py-1">Operating Hours: <strong class="text-white">{{ facility_extension.operating_hours }} hrs</strong></div>
+                    <div class="py-1">Next Service Due: <strong class="text-warning">{{ facility_extension.next_service_due|date:"M d, Y"|default:"Not Scheduled" }}</strong></div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Right Column: Comprehensive Integrated History Tabs -->
+    <div class="col-lg-8">
+        <!-- Navigation Tabs -->
+        <ul class="nav nav-pills mb-3 gap-2" id="assetTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-sm btn-outline-info active" id="inspections-tab" data-bs-toggle="tab" data-bs-target="#inspections-pane" type="button" role="tab">
+                    <i class="bi bi-clipboard2-check me-1"></i> Inspections ({{ inspections|length }})
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-sm btn-outline-info" id="workorders-tab" data-bs-toggle="tab" data-bs-target="#workorders-pane" type="button" role="tab">
+                    <i class="bi bi-card-checklist me-1"></i> Work Orders ({{ work_orders|length }})
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-sm btn-outline-info" id="maintenance-tab" data-bs-toggle="tab" data-bs-target="#maintenance-pane" type="button" role="tab">
+                    <i class="bi bi-tools me-1"></i> Maintenance ({{ maintenance_records|length }})
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-sm btn-outline-info" id="incidents-tab" data-bs-toggle="tab" data-bs-target="#incidents-pane" type="button" role="tab">
+                    <i class="bi bi-exclamation-triangle me-1"></i> Incidents ({{ incidents|length }})
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-sm btn-outline-info" id="history-tab" data-bs-toggle="tab" data-bs-target="#history-pane" type="button" role="tab">
+                    <i class="bi bi-clock-history me-1"></i> Status History
+                </button>
+            </li>
+        </ul>
+
+        <!-- Tab Content Panes -->
+        <div class="tab-content" id="assetTabContent">
+            <!-- Inspections Pane -->
+            <div class="tab-pane fade show active" id="inspections-pane" role="tabpanel">
+                <div class="card-enterprise">
+                    <div class="table-responsive">
+                        <table class="table-enterprise">
+                            <thead>
+                                <tr>
+                                    <th>Inspection ID</th>
+                                    <th>Type</th>
+                                    <th>Inspector</th>
+                                    <th>Date</th>
+                                    <th>Score</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for insp in inspections %}
+                                    <tr>
+                                        <td><a href="{% url 'inspections:detail' insp.pk %}" class="text-info font-monospace">{{ insp.inspection_id }}</a></td>
+                                        <td>{{ insp.get_inspection_type_display }}</td>
+                                        <td>{{ insp.inspector.get_full_name|default:"Unassigned" }}</td>
+                                        <td class="small">{{ insp.inspection_date|date:"Y-m-d" }}</td>
+                                        <td><span class="badge-condition-{{ insp.condition_score|stringformat:'s' }}">{{ insp.condition_score }}/100</span></td>
+                                        <td><span class="badge bg-secondary">{{ insp.get_status_display }}</span></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td colspan="6" class="text-center text-muted p-4">No inspection reports recorded for this asset yet.</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Orders Pane -->
+            <div class="tab-pane fade" id="workorders-pane" role="tabpanel">
+                <div class="card-enterprise">
+                    <div class="table-responsive">
+                        <table class="table-enterprise">
+                            <thead>
+                                <tr>
+                                    <th>WO Code</th>
+                                    <th>Title</th>
+                                    <th>Priority</th>
+                                    <th>Assigned</th>
+                                    <th>Cost</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for wo in work_orders %}
+                                    <tr>
+                                        <td><span class="badge bg-dark border border-secondary text-info font-monospace">{{ wo.workorder_id }}</span></td>
+                                        <td class="text-white">{{ wo.title }}</td>
+                                        <td><span class="badge bg-secondary">{{ wo.get_priority_display }}</span></td>
+                                        <td>{{ wo.assigned_employee.user.get_full_name|default:"-" }}</td>
+                                        <td class="text-success">${{ wo.actual_cost|default:wo.estimated_cost|intcomma }}</td>
+                                        <td><span class="badge bg-info-subtle text-info">{{ wo.get_status_display }}</span></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td colspan="6" class="text-center text-muted p-4">No work orders linked to this asset.</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Maintenance Records Pane -->
+            <div class="tab-pane fade" id="maintenance-pane" role="tabpanel">
+                <div class="card-enterprise">
+                    <div class="table-responsive">
+                        <table class="table-enterprise">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Type</th>
+                                    <th>Contractor / Team</th>
+                                    <th>Start Date</th>
+                                    <th>Cost</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for m in maintenance_records %}
+                                    <tr>
+                                        <td class="text-white">{{ m.title }}</td>
+                                        <td>{{ m.get_maintenance_type_display }}</td>
+                                        <td>{{ m.contractor.company_name|default:m.assigned_team.name|default:"Internal" }}</td>
+                                        <td>{{ m.start_date|date:"Y-m-d" }}</td>
+                                        <td class="text-success">${{ m.cost|intcomma }}</td>
+                                        <td><span class="badge bg-secondary">{{ m.get_status_display }}</span></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td colspan="6" class="text-center text-muted p-4">No maintenance jobs executed yet.</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Incidents Pane -->
+            <div class="tab-pane fade" id="incidents-pane" role="tabpanel">
+                <div class="card-enterprise">
+                    <div class="table-responsive">
+                        <table class="table-enterprise">
+                            <thead>
+                                <tr>
+                                    <th>Incident Ref</th>
+                                    <th>Type</th>
+                                    <th>Severity</th>
+                                    <th>Reported</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for inc in incidents %}
+                                    <tr>
+                                        <td><span class="badge bg-dark border border-secondary text-danger font-monospace">{{ inc.incident_id }}</span></td>
+                                        <td class="text-white">{{ inc.get_incident_type_display }}</td>
+                                        <td><span class="badge bg-danger">{{ inc.get_severity_display }}</span></td>
+                                        <td class="small">{{ inc.reported_at|date:"Y-m-d" }}</td>
+                                        <td><span class="badge bg-secondary">{{ inc.get_status_display }}</span></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td colspan="5" class="text-center text-muted p-4">No safety incidents or emergency impairments logged.</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status History Audit Pane -->
+            <div class="tab-pane fade" id="history-pane" role="tabpanel">
+                <div class="card-enterprise">
+                    <div class="table-responsive">
+                        <table class="table-enterprise">
+                            <thead>
+                                <tr>
+                                    <th>Timestamp</th>
+                                    <th>Previous State</th>
+                                    <th>New State</th>
+                                    <th>Operator</th>
+                                    <th>Justification</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for h in status_history %}
+                                    <tr>
+                                        <td class="text-secondary small">{{ h.timestamp|date:"Y-m-d H:i" }}</td>
+                                        <td><span class="badge bg-secondary">{{ h.previous_status }}</span></td>
+                                        <td><span class="badge bg-info">{{ h.new_status }}</span></td>
+                                        <td>{{ h.changed_by.username|default:"System" }}</td>
+                                        <td class="text-secondary small">{{ h.reason|default:"Routine transition" }}</td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td colspan="5" class="text-center text-muted p-4">No status transitions on record.</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Status Transition Modal -->
+<div class="modal fade" id="statusChangeModal" tabindex="-1" aria-labelledby="statusModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content card-enterprise border-secondary">
+            <div class="modal-header border-secondary">
+                <h5 class="modal-title text-white" id="statusModalLabel">Change Asset Operational Status</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="POST" action="{% url 'assets:status_change' asset.pk %}">
+                {% csrf_token %}
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">New Status</label>
+                        {{ status_form.new_status }}
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Justification / Reason</label>
+                        {{ status_form.reason }}
+                    </div>
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-enterprise-outline" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-enterprise-primary">Apply Status Change</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }} | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold py-3">
+                <h5 class="mb-0"><i class="bi bi-tools me-2"></i>{{ title }}</h5>
+            </div>
+            <div class="card-body p-4">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        {{ form.non_field_errors }}
+                    </div>
+                    {% endif %}
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Plan Code *</label>
+                            {{ form.plan_code }}
+                            {{ form.plan_code.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Target Asset *</label>
+                            {{ form.asset }}
+                            {{ form.asset.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Plan Title *</label>
+                            {{ form.title }}
+                            {{ form.title.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Plan Type</label>
+                            {{ form.plan_type }}
+                            {{ form.plan_type.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Status</label>
+                            {{ form.status }}
+                            {{ form.status.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Estimated Cost (₹)</label>
+                            {{ form.estimated_cost }}
+                            {{ form.estimated_cost.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Start Date</label>
+                            {{ form.start_date }}
+                            {{ form.start_date.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">End Date (Planned)</label>
+                            {{ form.end_date }}
+                            {{ form.end_date.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Scope of Work & Technical Strategy</label>
+                            {{ form.scope_description }}
+                            {{ form.scope_description.errors }}
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end gap-2 mt-4">
+                        <a href="{% url 'maintenance:plan_list' %}" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary px-4">Save Maintenance Plan</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

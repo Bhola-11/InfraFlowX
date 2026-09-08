@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block title %}Enterprise Security & Permission Matrix{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-shield-lock-fill text-info me-2"></i> Role-Based Access Control Matrix</h3>
+        <p class="text-secondary small mb-0">Fine-grained access matrix across all 27 enterprise system modules</p>
+    </div>
+</div>
+
+<!-- Role Switcher Tabs -->
+<div class="card-enterprise p-3 mb-4">
+    <div class="d-flex align-items-center gap-2 overflow-x-auto py-1">
+        <span class="text-muted small text-uppercase fw-bold me-2">Configuring:</span>
+        {% for r_code, r_label in roles %}
+            <a href="?role={{ r_code }}" class="btn btn-sm {% if selected_role == r_code %}btn-info text-dark fw-bold{% else %}btn-outline-secondary text-white{% endif %} text-nowrap">
+                {{ r_label }}
+            </a>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Matrix Table Form -->
+<div class="card-enterprise">
+    <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+        <div>
+            <h5 class="fw-bold text-white mb-0">Permissions for: <span class="text-info">{{ selected_role_label }}</span></h5>
+            <small class="text-secondary">Toggle capabilities and click Save Matrix</small>
+        </div>
+    </div>
+
+    <form method="POST">
+        {% csrf_token %}
+        <div class="table-responsive">
+            <table class="table-enterprise text-center">
+                <thead>
+                    <tr class="text-start">
+                        <th>Module / Capability</th>
+                        <th class="text-center">View / Read</th>
+                        <th class="text-center">Create</th>
+                        <th class="text-center">Edit / Update</th>
+                        <th class="text-center">Delete</th>
+                        <th class="text-center">Approve</th>
+                        <th class="text-center">Export</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in matrix_rows %}
+                        <tr class="text-start">
+                            <td>
+                                <strong class="text-white">{{ row.module_label }}</strong>
+                                <div class="text-muted small font-monospace">{{ row.module_key }}</div>
+                            </td>
+                            <td class="text-center">
+                                <input type="checkbox" name="perm_{{ row.module_key }}_view" class="form-check-input" {% if row.can_view %}checked{% endif %}>
+                            </td>
+                            <td class="text-center">
+                                <input type="checkbox" name="perm_{{ row.module_key }}_create" class="form-check-input" {% if row.can_create %}checked{% endif %}>
+                            </td>
+                            <td class="text-center">
+                                <input type="checkbox" name="perm_{{ row.module_key }}_edit" class="form-check-input" {% if row.can_edit %}checked{% endif %}>
+                            </td>
+                            <td class="text-center">
+                                <input type="checkbox" name="perm_{{ row.module_key }}_delete" class="form-check-input" {% if row.can_delete %}checked{% endif %}>
+                            </td>
+                            <td class="text-center">
+                                <input type="checkbox" name="perm_{{ row.module_key }}_approve" class="form-check-input" {% if row.can_approve %}checked{% endif %}>
+                            </td>
+                            <td class="text-center">
+                                <input type="checkbox" name="perm_{{ row.module_key }}_export" class="form-check-input" {% if row.can_export %}checked{% endif %}>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="p-3 border-top border-secondary d-flex justify-content-end gap-2">
+            <button type="submit" class="btn btn-enterprise-primary px-4 fw-bold">
+                <i class="bi bi-shield-check me-1"></i> Save Permission Matrix
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}

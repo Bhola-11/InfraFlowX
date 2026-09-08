@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ contractor.company_name }} | Contractor Dossier{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <div class="mb-1">
+            <span class="badge bg-secondary me-2">{{ contractor.registration_number }}</span>
+            <span class="badge bg-info text-dark me-2">{{ contractor.tier_classification }}</span>
+            {% if contractor.status == 'ACTIVE' %}
+                <span class="badge bg-success">Active</span>
+            {% else %}
+                <span class="badge bg-warning">{{ contractor.status }}</span>
+            {% endif %}
+        </div>
+        <h2 class="fw-bold mb-0">{{ contractor.company_name }}</h2>
+    </div>
+    <div>
+        <a href="{% url 'contractors:agreement_create' %}?contractor={{ contractor.id }}" class="btn btn-outline-success me-2"><i class="bi bi-file-earmark-plus me-1"></i>New Agreement</a>
+        <a href="{% url 'contractors:evaluation_create' %}?contractor={{ contractor.id }}" class="btn btn-outline-warning me-2"><i class="bi bi-star me-1"></i>Evaluate Vendor</a>
+        <a href="{% url 'contractors:contractor_edit' contractor.id %}" class="btn btn-primary"><i class="bi bi-pencil me-1"></i>Edit Dossier</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold">Company Profile</div>
+            <div class="card-body">
+                <table class="table table-sm table-borderless mb-0">
+                    <tr><th class="text-muted w-40">Specialization:</th><td>{{ contractor.primary_specialization }}</td></tr>
+                    <tr><th class="text-muted">Contact Person:</th><td>{{ contractor.primary_contact_name }}</td></tr>
+                    <tr><th class="text-muted">Phone:</th><td>{{ contractor.phone }}</td></tr>
+                    <tr><th class="text-muted">Email:</th><td>{{ contractor.email }}</td></tr>
+                    <tr><th class="text-muted">Address:</th><td>{{ contractor.address|default:"N/A" }}</td></tr>
+                    <tr><th class="text-muted">Tax / GSTIN ID:</th><td><code>{{ contractor.tax_identification_number|default:"N/A" }}</code></td></tr>
+                    <tr><th class="text-muted">Max Value Cap:</th><td><strong>₹{{ contractor.max_contract_value_capacity|floatformat:2 }}</strong></td></tr>
+                    <tr><th class="text-muted">Rating:</th><td><span class="text-warning fw-bold"><i class="bi bi-star-fill"></i> {{ contractor.performance_rating|floatformat:1 }}</span> / 5.0</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Compliance & Validity</div>
+            <div class="card-body">
+                <p class="mb-2"><strong>Empanelment Start:</strong> {{ contractor.empanelment_start_date|default:"N/A" }}</p>
+                <p class="mb-2"><strong>Empanelment Expiry:</strong> {{ contractor.empanelment_expiry_date|default:"N/A" }}</p>
+                <p class="mb-0"><strong>Safety Compliance Score:</strong> {{ contractor.safety_compliance_score }}%</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Active Agreements & Contracts ({{ agreements.count }})</span>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Agreement Code</th>
+                                <th>Title</th>
+                                <th>Contract Value</th>
+                                <th>Period</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for a in agreements %}
+                            <tr>
+                                <td><code>{{ a.agreement_code }}</code></td>
+                                <td class="fw-semibold">{{ a.title }}</td>
+                                <td>₹{{ a.contract_value|floatformat:2 }}</td>
+                                <td><small>{{ a.start_date }} to {{ a.end_date }}</small></td>
+                                <td><span class="badge bg-primary">{{ a.status }}</span></td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="5" class="text-center py-4 text-muted">No contract agreements recorded yet.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold">Performance Evaluations ({{ evaluations.count }})</div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Evaluation Date</th>
+                                <th>Overall Rating</th>
+                                <th>Quality Score</th>
+                                <th>Timeliness</th>
+                                <th>Evaluated By</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for e in evaluations %}
+                            <tr>
+                                <td>{{ e.evaluation_date }}</td>
+                                <td><span class="badge bg-warning text-dark"><i class="bi bi-star-fill"></i> {{ e.overall_rating|floatformat:1 }}</span></td>
+                                <td>{{ e.quality_score }}/100</td>
+                                <td>{{ e.timeliness_score }}/100</td>
+                                <td>{{ e.evaluated_by.get_full_name|default:e.evaluated_by.username }}</td>
+                            </tr>
+                            {% empty %}
+                            <tr><td colspan="5" class="text-center py-4 text-muted">No evaluations on record.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

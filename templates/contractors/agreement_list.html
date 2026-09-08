@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}Contract Agreements | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-file-earmark-text text-primary me-2"></i>Contract Agreements</h2>
+        <p class="text-muted mb-0">Legal and engineering contract agreements associated with infrastructure projects and vendors.</p>
+    </div>
+    <div>
+        <a href="{% url 'contractors:agreement_create' %}" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>New Agreement</a>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Agreement Code</th>
+                        <th>Title</th>
+                        <th>Contractor</th>
+                        <th>Related Project</th>
+                        <th>Contract Value</th>
+                        <th>Period</th>
+                        <th>Status</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for a in page_obj %}
+                    <tr>
+                        <td><code>{{ a.agreement_code }}</code></td>
+                        <td class="fw-semibold">{{ a.title }}</td>
+                        <td><a href="{% url 'contractors:contractor_detail' a.contractor.id %}" class="text-decoration-none">{{ a.contractor.company_name }}</a></td>
+                        <td>{{ a.project.name|default:"N/A" }}</td>
+                        <td class="fw-bold">₹{{ a.contract_value|floatformat:2 }}</td>
+                        <td><small>{{ a.start_date }} to {{ a.end_date }}</small></td>
+                        <td><span class="badge bg-primary">{{ a.get_status_display }}</span></td>
+                        <td class="text-end">
+                            <a href="{% url 'contractors:agreement_edit' a.id %}" class="btn btn-sm btn-outline-primary"><i class="bi bi-pencil"></i></a>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="8" class="text-center py-5 text-muted">
+                            <i class="bi bi-inbox fs-1 d-block mb-2"></i> No contract agreements found.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% if page_obj.has_other_pages %}
+    <div class="card-footer bg-transparent">
+        {% include 'includes/pagination.html' %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

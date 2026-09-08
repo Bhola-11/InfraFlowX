@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ inspection.inspection_id }} - Inspection Report Scorecard{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="badge bg-dark border border-secondary text-info font-monospace fs-6">{{ inspection.inspection_id }}</span>
+            <span class="badge bg-secondary">{{ inspection.get_inspection_type_display }}</span>
+            <span class="badge-condition-{% if inspection.condition_score >= 90 %}excellent{% elif inspection.condition_score >= 70 %}good{% elif inspection.condition_score >= 50 %}fair{% elif inspection.condition_score >= 25 %}poor{% else %}critical{% endif %}">
+                Score: {{ inspection.condition_score }}/100
+            </span>
+            <span class="badge bg-primary">{{ inspection.get_status_display }}</span>
+        </div>
+        <h3 class="fw-bold text-white mb-0">{{ inspection.asset.name }}</h3>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'assets:detail' inspection.asset.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-box-arrow-up-right me-1"></i> Asset Dossier
+        </a>
+        <a href="{% url 'inspections:add_checklist' inspection.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-list-check me-1"></i> Add Checklist Point
+        </a>
+        {% if inspection.status != 'REVIEWED' %}
+            <a href="{% url 'inspections:approve' inspection.pk %}" class="btn btn-success">
+                <i class="bi bi-check2-all me-1"></i> Sign-Off & Approve
+            </a>
+        {% endif %}
+        <a href="{% url 'inspections:edit' inspection.pk %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-pencil me-1"></i> Edit
+        </a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left Column: Report Metadata -->
+    <div class="col-lg-4">
+        <div class="card-enterprise p-4 mb-4">
+            <h5 class="fw-bold text-white mb-3"><i class="bi bi-clipboard2-data text-info me-2"></i> Audit Parameters</h5>
+            <div class="small">
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Target Asset:</span>
+                    <strong class="text-white">{{ inspection.asset.name }} ({{ inspection.asset.asset_id }})</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Lead Inspector:</span>
+                    <strong class="text-white">{{ inspection.inspector.get_full_name|default:inspection.inspector.username|default:"Unassigned" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Inspection Date:</span>
+                    <strong class="text-white">{{ inspection.inspection_date|date:"M d, Y" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Weather Conditions:</span>
+                    <strong class="text-white">{{ inspection.weather_conditions|default:"Standard / Clear" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Compliance State:</span>
+                    <strong class="text-success">{{ inspection.get_status_display }}</strong>
+                </div>
+                <div class="pt-3">
+                    <div class="text-muted mb-1">Inspector Physical Findings:</div>
+                    <div class="text-white bg-dark p-3 rounded-2 border border-secondary mb-3">{{ inspection.findings }}</div>
+                    
+                    <div class="text-muted mb-1">Engineering Recommendations:</div>
+                    <div class="text-info bg-dark p-3 rounded-2 border border-secondary">{{ inspection.recommendations|default:"No immediate repairs mandated." }}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Evidence Photographs -->
+        {% if inspection.photo_primary or inspection.photo_secondary %}
+            <div class="card-enterprise p-4 mb-4">
+                <h5 class="fw-bold text-white mb-3"><i class="bi bi-camera text-warning me-2"></i> Photographic Evidence</h5>
+                <div class="row g-2">
+                    {% if inspection.photo_primary %}
+                        <div class="col-6">
+                            <img src="{{ inspection.photo_primary.url }}" alt="Primary Inspection Photo" class="img-fluid rounded-2 border border-secondary" style="height: 120px; width: 100%; object-fit: cover;">
+                        </div>
+                    {% endif %}
+                    {% if inspection.photo_secondary %}
+                        <div class="col-6">
+                            <img src="{{ inspection.photo_secondary.url }}" alt="Secondary Inspection Photo" class="img-fluid rounded-2 border border-secondary" style="height: 120px; width: 100%; object-fit: cover;">
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Right Column: Checklist Scorecard -->
+    <div class="col-lg-8">
+        <div class="card-enterprise">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-card-checklist text-info me-2"></i> Checklist Points & Component Evaluations ({{ checklist_items.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Check Item</th>
+                            <th>Evaluation</th>
+                            <th>Rating (1-10)</th>
+                            <th>Inspector Remarks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in checklist_items %}
+                            <tr>
+                                <td class="text-white fw-semibold">{{ item.item_title }}</td>
+                                <td>
+                                    {% if item.is_satisfactory %}
+                                        <span class="badge bg-success-subtle text-success border border-success">Pass / Satisfactory</span>
+                                    {% else %}
+                                        <span class="badge bg-danger-subtle text-danger border border-danger">Deficient / Fail</span>
+                                    {% endif %}
+                                </td>
+                                <td><span class="text-info fw-bold">{{ item.score_1_to_10 }}/10</span></td>
+                                <td class="text-secondary small">{{ item.comments|default:"Meets standard" }}</td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="4" class="text-center text-muted p-4">No checklist points recorded for this inspection report.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

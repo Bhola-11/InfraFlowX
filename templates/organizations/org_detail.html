@@ -1,0 +1,175 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}{{ org.name }} - Overview{% endblock %}
+
+{% block content %}
+<!-- Header Bar -->
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="badge bg-info-subtle text-info border border-info border-opacity-25 font-monospace">{{ org.code }}</span>
+            <span class="badge bg-secondary">{{ org.get_org_type_display }}</span>
+        </div>
+        <h3 class="fw-bold text-white mb-0">{{ org.name }}</h3>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'organizations:tree_detail' org.pk %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-diagram-3 me-1"></i> Hierarchy Tree
+        </a>
+        <a href="{% url 'organizations:edit' org.pk %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-pencil-square me-1"></i> Edit Organization
+        </a>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left Column: Org Overview & Meta -->
+    <div class="col-lg-4">
+        <div class="card-enterprise p-4 mb-4">
+            <h5 class="fw-bold text-white mb-3"><i class="bi bi-info-circle text-info me-2"></i> Corporate Dossier</h5>
+            <div class="small">
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Tax / Reg ID:</span>
+                    <strong class="text-white">{{ org.tax_id|default:"N/A" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Annual Budget:</span>
+                    <strong class="text-success">${{ org.annual_budget|intcomma }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Official Email:</span>
+                    <strong class="text-white">{{ org.email|default:"N/A" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Phone Contact:</span>
+                    <strong class="text-white">{{ org.phone|default:"N/A" }}</strong>
+                </div>
+                <div class="py-2 border-bottom border-secondary d-flex justify-content-between text-secondary">
+                    <span>Website:</span>
+                    <strong class="text-info">{{ org.website|default:"N/A" }}</strong>
+                </div>
+                <div class="pt-3 text-secondary">
+                    <div class="mb-1 text-muted">Headquarters Address:</div>
+                    <div class="text-white">{{ org.address|default:"Not specified" }}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="card-enterprise p-4">
+            <h6 class="fw-bold text-white text-uppercase small mb-3">Add Units</h6>
+            <div class="d-grid gap-2">
+                <a href="{% url 'organizations:region_create' %}" class="btn btn-enterprise-outline btn-sm text-start"><i class="bi bi-geo me-2 text-info"></i> Add New Region</a>
+                <a href="{% url 'organizations:department_create' %}" class="btn btn-enterprise-outline btn-sm text-start"><i class="bi bi-diagram-2 me-2 text-warning"></i> Add New Department</a>
+                <a href="{% url 'organizations:office_create' %}" class="btn btn-enterprise-outline btn-sm text-start"><i class="bi bi-building me-2 text-success"></i> Add Regional Office</a>
+                <a href="{% url 'organizations:team_create' %}" class="btn btn-enterprise-outline btn-sm text-start"><i class="bi bi-people me-2 text-primary"></i> Add Field Team</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Column: Regions, Departments, Teams -->
+    <div class="col-lg-8">
+        <!-- Departments Tab Card -->
+        <div class="card-enterprise mb-4">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-diagram-2 text-warning me-2"></i> Departments ({{ departments.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Department</th>
+                            <th>Code</th>
+                            <th>HOD</th>
+                            <th>Budget</th>
+                            <th>Teams</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for dept in departments %}
+                            <tr>
+                                <td class="text-white fw-semibold">{{ dept.name }}</td>
+                                <td><span class="badge bg-secondary font-monospace">{{ dept.code }}</span></td>
+                                <td>{{ dept.head_of_department.get_full_name|default:"Unassigned" }}</td>
+                                <td class="text-success">${{ dept.budget_allocation|intcomma }}</td>
+                                <td><span class="badge bg-info-subtle text-info">{{ dept.teams.count }} teams</span></td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="5" class="text-center text-muted p-3">No departments created yet.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Regions & Zones Card -->
+        <div class="card-enterprise mb-4">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-geo-alt text-info me-2"></i> Regions & Zones ({{ regions.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Region Name</th>
+                            <th>Code</th>
+                            <th>Regional Director</th>
+                            <th>Zones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for r in regions %}
+                            <tr>
+                                <td class="text-white fw-semibold">{{ r.name }}</td>
+                                <td><span class="badge bg-secondary font-monospace">{{ r.code }}</span></td>
+                                <td>{{ r.regional_head.get_full_name|default:"Unassigned" }}</td>
+                                <td>
+                                    {% for z in r.zones.all %}
+                                        <span class="badge bg-dark border border-secondary me-1">{{ z.name }}</span>
+                                    {% empty %}
+                                        <span class="text-muted small">No zones</span>
+                                    {% endfor %}
+                                </td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="4" class="text-center text-muted p-3">No regions defined yet.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Registered Offices -->
+        <div class="card-enterprise">
+            <div class="card-header-enterprise d-flex justify-content-between align-items-center">
+                <h5 class="fw-bold text-white mb-0"><i class="bi bi-buildings text-success me-2"></i> Offices & Depots ({{ offices.count }})</h5>
+            </div>
+            <div class="table-responsive">
+                <table class="table-enterprise">
+                    <thead>
+                        <tr>
+                            <th>Office Name</th>
+                            <th>Type</th>
+                            <th>Region</th>
+                            <th>Phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for off in offices %}
+                            <tr>
+                                <td class="text-white fw-semibold">{{ off.name }}</td>
+                                <td><span class="badge bg-secondary-subtle text-info">{{ off.get_office_type_display }}</span></td>
+                                <td>{{ off.region.name|default:"General HQ" }}</td>
+                                <td class="text-secondary small">{{ off.phone|default:"-" }}</td>
+                            </tr>
+                        {% empty %}
+                            <tr><td colspan="4" class="text-center text-muted p-3">No physical offices registered yet.</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

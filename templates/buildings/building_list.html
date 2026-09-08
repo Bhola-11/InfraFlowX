@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}Municipal Buildings & Facilities{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-building text-info me-2"></i> Municipal Buildings & Facilities</h3>
+        <p class="text-secondary small mb-0">Public works structures, civic centers, schools, healthcare and administrative facilities</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'buildings:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Register Building
+        </a>
+    </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="card-enterprise p-3 mb-4">
+    <form method="GET" class="row g-2 align-items-center">
+        <div class="col-md-4">
+            <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary"><i class="bi bi-search"></i></span>
+                <input type="text" name="q" class="form-control" placeholder="Search building name, code, address..." value="{{ query }}">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <select name="type" class="form-select">
+                <option value="">-- Classification --</option>
+                {% for bc, bl in building_types %}
+                    <option value="{{ bc }}" {% if type_filter == bc %}selected{% endif %}>{{ bl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="energy" class="form-select">
+                <option value="">-- Energy Rating --</option>
+                {% for ec, el in energy_ratings %}
+                    <option value="{{ ec }}" {% if energy_filter == ec %}selected{% endif %}>{{ el }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2 d-flex gap-2">
+            <button type="submit" class="btn btn-enterprise-primary w-100">Filter</button>
+            <a href="{% url 'buildings:list' %}" class="btn btn-enterprise-outline" title="Reset"><i class="bi bi-arrow-counterclockwise"></i></a>
+        </div>
+    </form>
+</div>
+
+<!-- Buildings Table -->
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Building ID / Name</th>
+                    <th>Classification</th>
+                    <th>Floors / Area</th>
+                    <th>Year Built</th>
+                    <th>Energy Rating</th>
+                    <th>Fire Safety</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for b in page_obj %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'buildings:detail' b.pk %}" class="text-white fw-bold text-decoration-none">{{ b.building_name }}</a>
+                            <div class="font-monospace text-info small">{{ b.building_id_code }}</div>
+                        </td>
+                        <td><span class="badge bg-secondary">{{ b.get_building_type_display }}</span></td>
+                        <td>
+                            <div class="text-white small">{{ b.floor_count }} floors</div>
+                            <div class="text-muted small">{{ b.total_area_sqft|intcomma }} sq ft</div>
+                        </td>
+                        <td class="text-secondary small">{{ b.construction_year }}</td>
+                        <td><span class="badge bg-success-subtle text-success">{{ b.get_energy_rating_display }}</span></td>
+                        <td>
+                            {% if b.is_fire_safety_certified %}
+                                <span class="badge bg-success-subtle text-success border border-success">Certified</span>
+                            {% else %}
+                                <span class="badge bg-danger-subtle text-danger">Pending</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'buildings:detail' b.pk %}" class="btn btn-outline-secondary text-white" title="View"><i class="bi bi-eye"></i></a>
+                                <a href="{% url 'buildings:edit' b.pk %}" class="btn btn-outline-secondary text-white" title="Edit"><i class="bi bi-pencil"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="7" class="text-center text-muted p-4">No municipal buildings registered matching search criteria.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

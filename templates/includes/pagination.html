@@ -1,0 +1,33 @@
+{% if page_obj.has_other_pages %}
+<nav aria-label="Enterprise Data Pagination" class="mt-4">
+    <ul class="pagination pagination-sm justify-content-end mb-0">
+        {% if page_obj.has_previous %}
+            <li class="page-item">
+                <a class="page-link bg-dark text-secondary border-secondary" href="?page=1{% if query %}&q={{ query }}{% endif %}{% if status_filter %}&status={{ status_filter }}{% endif %}{% if dept_filter %}&dept={{ dept_filter }}{% endif %}{% if role_filter %}&role={{ role_filter }}{% endif %}">&laquo; First</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link bg-dark text-white border-secondary" href="?page={{ page_obj.previous_page_number }}{% if query %}&q={{ query }}{% endif %}{% if status_filter %}&status={{ status_filter }}{% endif %}{% if dept_filter %}&dept={{ dept_filter }}{% endif %}{% if role_filter %}&role={{ role_filter }}{% endif %}">Previous</a>
+            </li>
+        {% else %}
+            <li class="page-item disabled"><span class="page-link bg-dark text-muted border-secondary">&laquo; First</span></li>
+            <li class="page-item disabled"><span class="page-link bg-dark text-muted border-secondary">Previous</span></li>
+        {% endif %}
+
+        <li class="page-item active">
+            <span class="page-link bg-info border-info text-dark fw-bold">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+        </li>
+
+        {% if page_obj.has_next %}
+            <li class="page-item">
+                <a class="page-link bg-dark text-white border-secondary" href="?page={{ page_obj.next_page_number }}{% if query %}&q={{ query }}{% endif %}{% if status_filter %}&status={{ status_filter }}{% endif %}{% if dept_filter %}&dept={{ dept_filter }}{% endif %}{% if role_filter %}&role={{ role_filter }}{% endif %}">Next</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link bg-dark text-secondary border-secondary" href="?page={{ page_obj.paginator.num_pages }}{% if query %}&q={{ query }}{% endif %}{% if status_filter %}&status={{ status_filter }}{% endif %}{% if dept_filter %}&dept={{ dept_filter }}{% endif %}{% if role_filter %}&role={{ role_filter }}{% endif %}">Last &raquo;</a>
+            </li>
+        {% else %}
+            <li class="page-item disabled"><span class="page-link bg-dark text-muted border-secondary">Next</span></li>
+            <li class="page-item disabled"><span class="page-link bg-dark text-muted border-secondary">Last &raquo;</span></li>
+        {% endif %}
+    </ul>
+</nav>
+{% endif %}

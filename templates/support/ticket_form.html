@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }} | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold py-3">
+                <h5 class="mb-0"><i class="bi bi-headset me-2"></i>{{ title }}</h5>
+            </div>
+            <div class="card-body p-4">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        {{ form.non_field_errors }}
+                    </div>
+                    {% endif %}
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Ticket Number *</label>
+                            {{ form.ticket_number }}
+                            {{ form.ticket_number.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Subject *</label>
+                            {{ form.subject }}
+                            {{ form.subject.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Category *</label>
+                            {{ form.category }}
+                            {{ form.category.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Priority</label>
+                            {{ form.priority }}
+                            {{ form.priority.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Status</label>
+                            {{ form.status }}
+                            {{ form.status.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Target Asset</label>
+                            {{ form.asset }}
+                            {{ form.asset.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Location</label>
+                            {{ form.location }}
+                            {{ form.location.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Reporter Name *</label>
+                            {{ form.reporter_name }}
+                            {{ form.reporter_name.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Reporter Email</label>
+                            {{ form.reporter_email }}
+                            {{ form.reporter_email.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Reporter Phone</label>
+                            {{ form.reporter_phone }}
+                            {{ form.reporter_phone.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Assigned Department</label>
+                            {{ form.assigned_department }}
+                            {{ form.assigned_department.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Assigned Engineer / Staff</label>
+                            {{ form.assigned_to }}
+                            {{ form.assigned_to.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-check">
+                                {{ form.is_citizen_complaint }}
+                                <label class="form-check-label fw-semibold">Is Public Citizen Grievance</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Issue Description *</label>
+                            {{ form.description }}
+                            {{ form.description.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Resolution Notes & Findings</label>
+                            {{ form.resolution_notes }}
+                            {{ form.resolution_notes.errors }}
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end gap-2 mt-4">
+                        <a href="{% url 'support:ticket_list' %}" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary px-4">Save Ticket</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

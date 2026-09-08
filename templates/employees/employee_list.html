@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block title %}Employee Directory{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-person-lines-fill text-info me-2"></i> Employee Directory</h3>
+        <p class="text-secondary small mb-0">Engineers, inspectors, technicians, and project personnel</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'employees:skill_matrix' %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-lightning-charge me-1"></i> Skills Matrix
+        </a>
+        <a href="{% url 'employees:certification_list' %}" class="btn btn-enterprise-outline">
+            <i class="bi bi-patch-check me-1"></i> Certifications
+        </a>
+        <a href="{% url 'employees:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-person-plus-fill me-1"></i> Add Employee
+        </a>
+    </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="card-enterprise p-3 mb-4">
+    <form method="GET" class="row g-2 align-items-center">
+        <div class="col-md-4">
+            <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary"><i class="bi bi-search"></i></span>
+                <input type="text" name="q" class="form-control" placeholder="Search by name, EMP-ID, title..." value="{{ query }}">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <select name="dept" class="form-select">
+                <option value="">-- All Departments --</option>
+                {% for d in departments %}
+                    <option value="{{ d.id }}" {% if dept_filter == d.id|stringformat:"s" %}selected{% endif %}>{{ d.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="status" class="form-select">
+                <option value="">-- All Statuses --</option>
+                {% for sc, sl in statuses %}
+                    <option value="{{ sc }}" {% if status_filter == sc %}selected{% endif %}>{{ sl }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2 d-flex gap-2">
+            <button type="submit" class="btn btn-enterprise-primary w-100">Filter</button>
+            <a href="{% url 'employees:list' %}" class="btn btn-enterprise-outline" title="Reset"><i class="bi bi-arrow-counterclockwise"></i></a>
+        </div>
+    </form>
+</div>
+
+<!-- Employees Grid / Table -->
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Employee</th>
+                    <th>ID</th>
+                    <th>Designation</th>
+                    <th>Department & Team</th>
+                    <th>Status</th>
+                    <th>Joining Date</th>
+                    <th class="text-end">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for emp in page_obj %}
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="{{ emp.user.get_avatar_url }}" alt="{{ emp.user.username }}" class="rounded-circle" style="width: 34px; height: 34px; object-fit: cover;">
+                                <div>
+                                    <a href="{% url 'employees:detail' emp.pk %}" class="text-white fw-semibold text-decoration-none">{{ emp.user.get_full_name|default:emp.user.username }}</a>
+                                    <div class="text-muted small">{{ emp.user.email }}</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td><span class="badge bg-dark border border-secondary font-monospace text-info">{{ emp.employee_id }}</span></td>
+                        <td>{{ emp.designation.title|default:"Staff" }}</td>
+                        <td>
+                            <div class="text-white small">{{ emp.department.name|default:"General Dept" }}</div>
+                            <div class="text-muted small">{{ emp.team.name|default:"Unassigned Crew" }}</div>
+                        </td>
+                        <td>
+                            {% if emp.status == 'ACTIVE' %}
+                                <span class="badge bg-success-subtle text-success border border-success">Active</span>
+                            {% elif emp.status == 'FIELD_ASSIGNMENT' %}
+                                <span class="badge bg-info-subtle text-info border border-info">Field Duty</span>
+                            {% else %}
+                                <span class="badge bg-secondary">{{ emp.get_status_display }}</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-secondary small">{{ emp.date_of_joining|date:"M d, Y" }}</td>
+                        <td class="text-end">
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'employees:detail' emp.pk %}" class="btn btn-outline-secondary text-white" title="View Dossier"><i class="bi bi-eye"></i></a>
+                                <a href="{% url 'employees:edit' emp.pk %}" class="btn btn-outline-secondary text-white" title="Edit"><i class="bi bi-pencil"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="7" class="text-center text-muted p-4">No employees registered matching criteria.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

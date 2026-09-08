@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+
+{% block title %}Executive Infrastructure Command Center | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-speedometer2 text-primary me-2"></i>Executive Infrastructure Command Center</h2>
+        <p class="text-muted mb-0">Real-time asset health intelligence, maintenance queue, financial utilization, and emergency incident dispatch.</p>
+    </div>
+    <div>
+        <a href="{% url 'locations:gis_map' %}" class="btn btn-outline-info me-2"><i class="bi bi-geo-alt me-1"></i>GIS Asset Map</a>
+        <a href="{% url 'reports:catalog' %}" class="btn btn-primary"><i class="bi bi-file-earmark-arrow-down me-1"></i>Export Reports</a>
+    </div>
+</div>
+
+<!-- Primary KPI Metric Cards -->
+<div class="row g-3 mb-4">
+    <div class="col-md-3">
+        <div class="card shadow-sm border-0 border-start border-primary border-4">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-muted small text-uppercase fw-bold">Total Assets</div>
+                        <h3 class="fw-bold mb-0">{{ total_assets }}</h3>
+                        <small class="text-success"><i class="bi bi-check-circle me-1"></i>{{ operational_assets }} Operational</small>
+                    </div>
+                    <div class="fs-1 text-primary"><i class="bi bi-buildings"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm border-0 border-start border-warning border-4">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-muted small text-uppercase fw-bold">Active Work Orders</div>
+                        <h3 class="fw-bold mb-0">{{ active_workorders }}</h3>
+                        <small class="text-muted">{{ pending_inspections }} Pending Inspections</small>
+                    </div>
+                    <div class="fs-1 text-warning"><i class="bi bi-tools"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm border-0 border-start border-danger border-4">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-muted small text-uppercase fw-bold">Critical Incidents</div>
+                        <h3 class="fw-bold mb-0">{{ critical_incidents }}</h3>
+                        <small class="text-danger"><i class="bi bi-exclamation-octagon me-1"></i>Action Required</small>
+                    </div>
+                    <div class="fs-1 text-danger"><i class="bi bi-shield-exclamation"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm border-0 border-start border-success border-4">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-muted small text-uppercase fw-bold">Budget Utilization</div>
+                        <h3 class="fw-bold mb-0">{{ budget_utilization_pct|floatformat:1 }}%</h3>
+                        <small class="text-success">₹{{ total_spent|floatformat:0 }} / ₹{{ total_budget|floatformat:0 }}</small>
+                    </div>
+                    <div class="fs-1 text-success"><i class="bi bi-cash-coin"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Section -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-dark text-white fw-bold">Asset Distribution by Classification</div>
+            <div class="card-body">
+                <canvas id="assetTypeChart" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-dark text-white fw-bold">Work Order Priority Breakdown</div>
+            <div class="card-body">
+                <canvas id="woPriorityChart" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mini GIS Map & Recent Queues -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-7">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Infrastructure Geographic Telemetry</span>
+                <a href="{% url 'locations:gis_map' %}" class="btn btn-sm btn-outline-info">Full Screen GIS</a>
+            </div>
+            <div class="card-body p-0">
+                <div id="dashboardMap" style="height: 380px; width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+                <span>Critical Hazards & Incidents</span>
+                <a href="{% url 'incidents:incident_list' %}" class="btn btn-sm btn-outline-light">View All</a>
+            </div>
+            <div class="card-body p-0">
+                <div class="list-group list-group-flush">
+                    {% for inc in recent_incidents %}
+                    <a href="{% url 'incidents:incident_detail' inc.id %}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1 fw-bold text-danger">{{ inc.title }}</h6>
+                            <small class="text-muted">{{ inc.reported_at|timesince }} ago</small>
+                        </div>
+                        <p class="mb-1 small text-muted">{{ inc.asset.name|default:"City Infrastructure" }} - {{ inc.location.name|default:"General Area" }}</p>
+                        <span class="badge bg-danger">{{ inc.get_severity_display }}</span>
+                        <span class="badge bg-secondary">{{ inc.get_status_display }}</span>
+                    </a>
+                    {% empty %}
+                    <div class="p-4 text-center text-muted">No active emergency incidents logged.</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Active Work Orders Table -->
+<div class="card shadow-sm border-0">
+    <div class="card-header bg-dark text-white fw-bold d-flex justify-content-between align-items-center">
+        <span>Recent Work Order Queue</span>
+        <a href="{% url 'workorders:workorder_list' %}" class="btn btn-sm btn-outline-light">All Work Orders</a>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead>
+                    <tr>
+                        <th>WO#</th>
+                        <th>Title</th>
+                        <th>Asset</th>
+                        <th>Type</th>
+                        <th>Priority</th>
+                        <th>Assigned Engineer</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for wo in recent_workorders %}
+                    <tr>
+                        <td><code>{{ wo.wo_number }}</code></td>
+                        <td class="fw-semibold"><a href="{% url 'workorders:workorder_detail' wo.id %}">{{ wo.title }}</a></td>
+                        <td>{{ wo.asset.name|default:"General" }}</td>
+                        <td><span class="badge bg-secondary">{{ wo.get_work_type_display }}</span></td>
+                        <td><span class="badge bg-warning text-dark">{{ wo.get_priority_display }}</span></td>
+                        <td>{{ wo.assigned_to.get_full_name|default:"Unassigned" }}</td>
+                        <td><span class="badge bg-primary">{{ wo.get_status_display }}</span></td>
+                    </tr>
+                    {% empty %}
+                    <tr><td colspan="7" class="text-center py-4 text-muted">No pending work orders in queue.</td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Asset Type Chart
+        var typeData = JSON.parse('{{ type_chart_json|escapejs }}');
+        var ctxType = document.getElementById('assetTypeChart').getContext('2d');
+        new Chart(ctxType, {
+            type: 'doughnut',
+            data: {
+                labels: typeData.labels,
+                datasets: [{
+                    data: typeData.data,
+                    backgroundColor: ['#0d6efd', '#198754', '#ffc107', '#0dcaf0', '#6c757d', '#d63384']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+
+        // Work Order Priority Chart
+        var woData = JSON.parse('{{ wo_priority_json|escapejs }}');
+        var ctxWo = document.getElementById('woPriorityChart').getContext('2d');
+        new Chart(ctxWo, {
+            type: 'bar',
+            data: {
+                labels: woData.labels,
+                datasets: [{
+                    label: 'Count',
+                    data: woData.data,
+                    backgroundColor: ['#198754', '#0dcaf0', '#ffc107', '#dc3545']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: { beginAtZero: true, ticks: { precision: 0 } }
+                }
+            }
+        });
+
+        // Leaflet GIS Mini Map
+        var mapMarkers = JSON.parse('{{ map_markers_json|escapejs }}');
+        var initialLat = mapMarkers.length > 0 ? mapMarkers[0].lat : 28.6139;
+        var initialLng = mapMarkers.length > 0 ? mapMarkers[0].lng : 77.2090;
+
+        var map = L.map('dashboardMap').setView([initialLat, initialLng], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        mapMarkers.forEach(function(m) {
+            var marker = L.marker([m.lat, m.lng]).addTo(map);
+            marker.bindPopup('<strong><a href="' + m.url + '">' + m.name + '</a></strong><br>Code: ' + m.code + '<br>Type: ' + m.type + '<br>Status: ' + m.status);
+        });
+    });
+</script>
+{% endblock %}

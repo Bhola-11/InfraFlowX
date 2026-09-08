@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }} | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold py-3">
+                <h5 class="mb-0"><i class="bi bi-file-earmark-text me-2"></i>{{ title }}</h5>
+            </div>
+            <div class="card-body p-4">
+                <form method="post" enctype="multipart/form-data" novalidate>
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        {{ form.non_field_errors }}
+                    </div>
+                    {% endif %}
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Doc Number *</label>
+                            {{ form.doc_number }}
+                            {{ form.doc_number.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Document Title *</label>
+                            {{ form.title }}
+                            {{ form.title.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Category</label>
+                            {{ form.category }}
+                            {{ form.category.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Target Asset</label>
+                            {{ form.asset }}
+                            {{ form.asset.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Associated Project</label>
+                            {{ form.project }}
+                            {{ form.project.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Organization *</label>
+                            {{ form.organization }}
+                            {{ form.organization.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Upload File Document</label>
+                            {{ form.file }}
+                            {{ form.file.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Current Version</label>
+                            {{ form.current_version }}
+                            {{ form.current_version.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Confidentiality</label>
+                            {{ form.confidentiality }}
+                            {{ form.confidentiality.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Status</label>
+                            {{ form.status }}
+                            {{ form.status.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-check">
+                                {{ form.is_blueprint }}
+                                <label class="form-check-label fw-semibold text-info">Is an Engineering CAD Blueprint / Structural Schematic</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Tags (comma-separated)</label>
+                            {{ form.tags }}
+                            {{ form.tags.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Document Description & Scope</label>
+                            {{ form.description }}
+                            {{ form.description.errors }}
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end gap-2 mt-4">
+                        <a href="{% url 'documents:document_list' %}" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary px-4">Save Document</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

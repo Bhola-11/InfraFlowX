@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}Facilities & MEP Plant Equipment{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+    <div>
+        <h3 class="fw-bold text-white mb-1"><i class="bi bi-gear-wide-connected text-info me-2"></i> Facilities & MEP Plant Equipment</h3>
+        <p class="text-secondary small mb-0">HVAC chillers, diesel generators, elevators, transformers, pumps, and fire systems</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{% url 'facilities:create' %}" class="btn btn-enterprise-primary">
+            <i class="bi bi-plus-circle-fill me-1"></i> Register Equipment
+        </a>
+    </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="card-enterprise p-3 mb-4">
+    <form method="GET" class="row g-2 align-items-center">
+        <div class="col-md-6">
+            <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary"><i class="bi bi-search"></i></span>
+                <input type="text" name="q" class="form-control" placeholder="Search equipment code, name, manufacturer..." value="{{ query }}">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <select name="type" class="form-select">
+                <option value="">-- Equipment Classification --</option>
+                {% for ec, el in equipment_types %}
+                    <option value="{{ ec }}" {% if type_filter == ec %}selected{% endif %}>{{ el }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2 d-flex gap-2">
+            <button type="submit" class="btn btn-enterprise-primary w-100">Filter</button>
+            <a href="{% url 'facilities:list' %}" class="btn btn-enterprise-outline" title="Reset"><i class="bi bi-arrow-counterclockwise"></i></a>
+        </div>
+    </form>
+</div>
+
+<!-- Equipment Table -->
+<div class="card-enterprise">
+    <div class="table-responsive">
+        <table class="table-enterprise">
+            <thead>
+                <tr>
+                    <th>Equipment Code / Name</th>
+                    <th>Classification</th>
+                    <th>Manufacturer / Model</th>
+                    <th>Operating Hours</th>
+                    <th>Last Serviced</th>
+                    <th>Next Due</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for eq in page_obj %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'facilities:detail' eq.pk %}" class="text-white fw-bold text-decoration-none">{{ eq.equipment_name }}</a>
+                            <div class="font-monospace text-info small">{{ eq.equipment_code }}</div>
+                        </td>
+                        <td><span class="badge bg-secondary">{{ eq.get_equipment_type_display }}</span></td>
+                        <td class="small text-secondary">{{ eq.manufacturer|default:"Standard OEM" }} {{ eq.model_number }}</td>
+                        <td class="font-monospace text-white small">{{ eq.operating_hours }} hrs</td>
+                        <td class="text-secondary small">{{ eq.last_service_date|date:"Y-m-d"|default:"-" }}</td>
+                        <td class="small">
+                            {% if eq.next_service_due %}
+                                <span class="badge bg-warning-subtle text-warning">{{ eq.next_service_due|date:"Y-m-d" }}</span>
+                            {% else %}
+                                <span class="text-muted">-</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'facilities:detail' eq.pk %}" class="btn btn-outline-secondary text-white" title="View"><i class="bi bi-eye"></i></a>
+                                <a href="{% url 'facilities:edit' eq.pk %}" class="btn btn-outline-secondary text-white" title="Edit"><i class="bi bi-pencil"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr><td colspan="7" class="text-center text-muted p-4">No facility plant equipment registered matching criteria.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/pagination.html' %}
+{% endblock %}

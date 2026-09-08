@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }} | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold py-3">
+                <h5 class="mb-0"><i class="bi bi-cart3 me-2"></i>{{ title }}</h5>
+            </div>
+            <div class="card-body p-4">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        {{ form.non_field_errors }}
+                    </div>
+                    {% endif %}
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">PR Number *</label>
+                            {{ form.pr_number }}
+                            {{ form.pr_number.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Requisition Title *</label>
+                            {{ form.title }}
+                            {{ form.title.errors }}
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Requesting Department *</label>
+                            {{ form.requesting_department }}
+                            {{ form.requesting_department.errors }}
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Destination Depot</label>
+                            {{ form.warehouse_destination }}
+                            {{ form.warehouse_destination.errors }}
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Priority</label>
+                            {{ form.priority }}
+                            {{ form.priority.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Status</label>
+                            {{ form.status }}
+                            {{ form.status.errors }}
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Required By Date</label>
+                            {{ form.delivery_due_date }}
+                            {{ form.delivery_due_date.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Approving Authority</label>
+                            {{ form.approver }}
+                            {{ form.approver.errors }}
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Justification & Engineering Requirement</label>
+                            {{ form.justification }}
+                            {{ form.justification.errors }}
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end gap-2 mt-4">
+                        <a href="{% url 'inventory:pr_list' %}" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary px-4">Submit Requisition</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

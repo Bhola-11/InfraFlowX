@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block title %}Asset Degradation & Health Indices | InfraFlowX{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1"><i class="bi bi-graph-down text-warning me-2"></i>Infrastructure Health Index & Degradation Intelligence</h2>
+        <p class="text-muted mb-0">Structural health modeling, PCI / BCI condition deterioration, and remaining service life estimations.</p>
+    </div>
+</div>
+
+<div class="row g-4 mb-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 border-start border-primary border-4">
+            <div class="card-body">
+                <div class="text-muted small text-uppercase fw-bold">Network Average Pavement Condition Index (PCI)</div>
+                <h3 class="fw-bold text-primary mb-0">{{ avg_pci|floatformat:1 }} / 100</h3>
+                <small class="text-success"><i class="bi bi-check-circle me-1"></i>Good Overall Pavement Serviceability</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 border-start border-success border-4">
+            <div class="card-body">
+                <div class="text-muted small text-uppercase fw-bold">Average Structural Integrity Rating</div>
+                <h3 class="fw-bold text-success mb-0">{{ avg_integrity|floatformat:1 }}%</h3>
+                <small class="text-muted">Calculated across Bridges, Buildings & Retaining Structures</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-header bg-dark text-white fw-bold">Asset Degradation Scorecards</div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Asset Name</th>
+                        <th>Classification</th>
+                        <th>PCI Score</th>
+                        <th>BCI Score</th>
+                        <th>Structural Rating</th>
+                        <th>Risk Priority #</th>
+                        <th>Rem. Service Life</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for h in assets_with_health %}
+                    <tr>
+                        <td class="fw-semibold"><a href="{% url 'assets:asset_detail' h.asset.id %}">{{ h.asset.name }}</a></td>
+                        <td><span class="badge bg-secondary">{{ h.asset.get_asset_type_display }}</span></td>
+                        <td>
+                            {% if h.pavement_condition_index %}
+                                <span class="badge bg-{% if h.pavement_condition_index < 55 %}danger{% elif h.pavement_condition_index < 75 %}warning text-dark{% else %}success{% endif %}">
+                                    {{ h.pavement_condition_index }}
+                                </span>
+                            {% else %}
+                                <span class="text-muted">N/A</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if h.bridge_condition_index %}
+                                <span class="badge bg-{% if h.bridge_condition_index < 60 %}danger{% else %}info text-dark{% endif %}">
+                                    {{ h.bridge_condition_index }}
+                                </span>
+                            {% else %}
+                                <span class="text-muted">N/A</span>
+                            {% endif %}
+                        </td>
+                        <td><strong class="text-primary">{{ h.structural_integrity_rating }}%</strong></td>
+                        <td><span class="badge bg-dark">RPN: {{ h.risk_priority_number }}</span></td>
+                        <td><strong>{{ h.expected_remaining_service_life_years }} years</strong></td>
+                    </tr>
+                    {% empty %}
+                    <tr><td colspan="7" class="text-center py-4 text-muted">No degradation health indexes generated yet.</td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

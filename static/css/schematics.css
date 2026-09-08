@@ -1,0 +1,62 @@
+/*
+ * InfraFlowX CAD Blueprint & Engineering Schematics Stylesheet
+ */
+
+.blueprint-canvas {
+    background-color: #0b1329;
+    background-image: 
+        linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 24px;
+    color: #e2e8f0;
+    font-family: 'Consolas', 'Courier New', monospace;
+    position: relative;
+    overflow: hidden;
+}
+
+.blueprint-title-block {
+    border: 2px solid #38bdf8;
+    background: rgba(15, 23, 42, 0.85);
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.kpi-gauge-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kpi-gauge-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.status-indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.status-dot-active { background-color: #22c55e; box-shadow: 0 0 6px #22c55e; }
+.status-dot-warning { background-color: #f59e0b; box-shadow: 0 0 6px #f59e0b; }
+.status-dot-danger { background-color: #ef4444; box-shadow: 0 0 6px #ef4444; }
+
+@media print {
+    .app-sidebar, .app-navbar, .btn-print-hide {
+        display: none !important;
+    }
+    .app-main {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+}
