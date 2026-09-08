@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0001",
+      "code": "IFX-SUP-00001",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.875852,
+      "longitude": -122.532424,
+      "estimated_replacement_cost": 1155153.74,
+      "created_at": "2026-01-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0002",
+      "code": "IFX-SUP-00002",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.62885,
+      "longitude": -122.608157,
+      "estimated_replacement_cost": 166579.71,
+      "created_at": "2025-07-14T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0003",
+      "code": "IFX-SUP-00003",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.729211,
+      "longitude": -122.597578,
+      "estimated_replacement_cost": 1149371.59,
+      "created_at": "2025-07-26T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0004",
+      "code": "IFX-SUP-00004",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.817444,
+      "longitude": -122.486066,
+      "estimated_replacement_cost": 832959.25,
+      "created_at": "2024-12-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0005",
+      "code": "IFX-SUP-00005",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.543892,
+      "longitude": -122.655016,
+      "estimated_replacement_cost": 964262.47,
+      "created_at": "2024-11-30T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0006",
+      "code": "IFX-SUP-00006",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.603003,
+      "longitude": -122.519521,
+      "estimated_replacement_cost": 163134.6,
+      "created_at": "2026-07-17T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0007",
+      "code": "IFX-SUP-00007",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.707747,
+      "longitude": -122.188889,
+      "estimated_replacement_cost": 1472179.0,
+      "created_at": "2025-04-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0008",
+      "code": "IFX-SUP-00008",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.654465,
+      "longitude": -122.584325,
+      "estimated_replacement_cost": 80562.99,
+      "created_at": "2024-11-21T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0009",
+      "code": "IFX-SUP-00009",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.7117,
+      "longitude": -122.590307,
+      "estimated_replacement_cost": 1130390.38,
+      "created_at": "2025-07-20T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0010",
+      "code": "IFX-SUP-00010",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.629854,
+      "longitude": -122.380947,
+      "estimated_replacement_cost": 808578.3,
+      "created_at": "2026-05-19T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0011",
+      "code": "IFX-SUP-00011",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.653775,
+      "longitude": -122.61629,
+      "estimated_replacement_cost": 635411.44,
+      "created_at": "2024-09-19T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0012",
+      "code": "IFX-SUP-00012",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.794358,
+      "longitude": -122.521867,
+      "estimated_replacement_cost": 1179195.01,
+      "created_at": "2026-03-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0013",
+      "code": "IFX-SUP-00013",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.606524,
+      "longitude": -122.552751,
+      "estimated_replacement_cost": 463552.96,
+      "created_at": "2025-09-28T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0014",
+      "code": "IFX-SUP-00014",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.748874,
+      "longitude": -122.39496,
+      "estimated_replacement_cost": 345812.24,
+      "created_at": "2025-12-06T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0015",
+      "code": "IFX-SUP-00015",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.603884,
+      "longitude": -122.214783,
+      "estimated_replacement_cost": 1128834.82,
+      "created_at": "2025-01-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0016",
+      "code": "IFX-SUP-00016",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.950052,
+      "longitude": -122.315972,
+      "estimated_replacement_cost": 1239996.09,
+      "created_at": "2026-06-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0017",
+      "code": "IFX-SUP-00017",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.880428,
+      "longitude": -122.412381,
+      "estimated_replacement_cost": 1474154.82,
+      "created_at": "2025-10-28T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0018",
+      "code": "IFX-SUP-00018",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.587071,
+      "longitude": -122.46643,
+      "estimated_replacement_cost": 238043.75,
+      "created_at": "2024-10-17T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0019",
+      "code": "IFX-SUP-00019",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.994923,
+      "longitude": -122.232926,
+      "estimated_replacement_cost": 609438.28,
+      "created_at": "2024-10-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0020",
+      "code": "IFX-SUP-00020",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.971835,
+      "longitude": -122.66686,
+      "estimated_replacement_cost": 802045.73,
+      "created_at": "2026-08-15T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0021",
+      "code": "IFX-SUP-00021",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.540476,
+      "longitude": -122.499113,
+      "estimated_replacement_cost": 172722.31,
+      "created_at": "2025-07-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0022",
+      "code": "IFX-SUP-00022",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 38.004916,
+      "longitude": -122.47438,
+      "estimated_replacement_cost": 755368.19,
+      "created_at": "2024-10-25T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0023",
+      "code": "IFX-SUP-00023",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.565967,
+      "longitude": -122.652265,
+      "estimated_replacement_cost": 1435733.08,
+      "created_at": "2025-11-06T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0024",
+      "code": "IFX-SUP-00024",
+      "status": "INSPECTED",
+      "condition_score": 95,
+      "latitude": 37.59717,
+      "longitude": -122.335173,
+      "estimated_replacement_cost": 1009679.52,
+      "created_at": "2026-07-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0025",
+      "code": "IFX-SUP-00025",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.815602,
+      "longitude": -122.51959,
+      "estimated_replacement_cost": 892510.95,
+      "created_at": "2026-01-21T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0026",
+      "code": "IFX-SUP-00026",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.798749,
+      "longitude": -122.595533,
+      "estimated_replacement_cost": 1463734.8,
+      "created_at": "2024-11-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0027",
+      "code": "IFX-SUP-00027",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.917621,
+      "longitude": -122.479115,
+      "estimated_replacement_cost": 710166.29,
+      "created_at": "2024-12-03T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0028",
+      "code": "IFX-SUP-00028",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.806545,
+      "longitude": -122.589846,
+      "estimated_replacement_cost": 770444.69,
+      "created_at": "2025-04-22T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0029",
+      "code": "IFX-SUP-00029",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.71377,
+      "longitude": -122.214929,
+      "estimated_replacement_cost": 1458518.07,
+      "created_at": "2026-01-25T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0030",
+      "code": "IFX-SUP-00030",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.98156,
+      "longitude": -122.55684,
+      "estimated_replacement_cost": 1006842.08,
+      "created_at": "2025-04-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0031",
+      "code": "IFX-SUP-00031",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 38.013128,
+      "longitude": -122.453752,
+      "estimated_replacement_cost": 830462.7,
+      "created_at": "2026-01-03T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0032",
+      "code": "IFX-SUP-00032",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.959045,
+      "longitude": -122.601627,
+      "estimated_replacement_cost": 30838.67,
+      "created_at": "2026-03-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0033",
+      "code": "IFX-SUP-00033",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.933547,
+      "longitude": -122.332086,
+      "estimated_replacement_cost": 857116.61,
+      "created_at": "2026-07-14T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0034",
+      "code": "IFX-SUP-00034",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.942793,
+      "longitude": -122.525414,
+      "estimated_replacement_cost": 1367384.66,
+      "created_at": "2025-03-23T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0035",
+      "code": "IFX-SUP-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.626744,
+      "longitude": -122.37745,
+      "estimated_replacement_cost": 1350248.46,
+      "created_at": "2024-10-04T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0036",
+      "code": "IFX-SUP-00036",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.920265,
+      "longitude": -122.5074,
+      "estimated_replacement_cost": 358619.72,
+      "created_at": "2025-07-19T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0037",
+      "code": "IFX-SUP-00037",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.849586,
+      "longitude": -122.659549,
+      "estimated_replacement_cost": 1115494.95,
+      "created_at": "2025-09-06T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0038",
+      "code": "IFX-SUP-00038",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.826276,
+      "longitude": -122.436104,
+      "estimated_replacement_cost": 590883.63,
+      "created_at": "2025-01-25T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0039",
+      "code": "IFX-SUP-00039",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.917841,
+      "longitude": -122.267693,
+      "estimated_replacement_cost": 1037689.54,
+      "created_at": "2024-12-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0040",
+      "code": "IFX-SUP-00040",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.566903,
+      "longitude": -122.503293,
+      "estimated_replacement_cost": 552999.39,
+      "created_at": "2024-11-13T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0041",
+      "code": "IFX-SUP-00041",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.59036,
+      "longitude": -122.225007,
+      "estimated_replacement_cost": 846769.12,
+      "created_at": "2026-06-30T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0042",
+      "code": "IFX-SUP-00042",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.629827,
+      "longitude": -122.624924,
+      "estimated_replacement_cost": 85014.79,
+      "created_at": "2026-01-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0043",
+      "code": "IFX-SUP-00043",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.649522,
+      "longitude": -122.253003,
+      "estimated_replacement_cost": 1148902.23,
+      "created_at": "2025-06-28T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0044",
+      "code": "IFX-SUP-00044",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.545726,
+      "longitude": -122.442006,
+      "estimated_replacement_cost": 1126632.71,
+      "created_at": "2025-09-28T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0045",
+      "code": "IFX-SUP-00045",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 38.013759,
+      "longitude": -122.34521,
+      "estimated_replacement_cost": 64451.63,
+      "created_at": "2025-02-18T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0046",
+      "code": "IFX-SUP-00046",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.971443,
+      "longitude": -122.480552,
+      "estimated_replacement_cost": 253050.84,
+      "created_at": "2025-09-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0047",
+      "code": "IFX-SUP-00047",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.563214,
+      "longitude": -122.496271,
+      "estimated_replacement_cost": 332976.54,
+      "created_at": "2026-03-13T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0048",
+      "code": "IFX-SUP-00048",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.713317,
+      "longitude": -122.450194,
+      "estimated_replacement_cost": 1426081.2,
+      "created_at": "2024-12-18T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0049",
+      "code": "IFX-SUP-00049",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.671057,
+      "longitude": -122.411403,
+      "estimated_replacement_cost": 114517.32,
+      "created_at": "2025-02-14T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0050",
+      "code": "IFX-SUP-00050",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.951482,
+      "longitude": -122.217086,
+      "estimated_replacement_cost": 1363249.05,
+      "created_at": "2026-02-17T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0051",
+      "code": "IFX-SUP-00051",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.697169,
+      "longitude": -122.236819,
+      "estimated_replacement_cost": 561287.98,
+      "created_at": "2025-11-15T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0052",
+      "code": "IFX-SUP-00052",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.906871,
+      "longitude": -122.191798,
+      "estimated_replacement_cost": 333065.89,
+      "created_at": "2024-11-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0053",
+      "code": "IFX-SUP-00053",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.558311,
+      "longitude": -122.318329,
+      "estimated_replacement_cost": 622385.37,
+      "created_at": "2025-04-10T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0054",
+      "code": "IFX-SUP-00054",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.955178,
+      "longitude": -122.216992,
+      "estimated_replacement_cost": 591626.81,
+      "created_at": "2025-02-10T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0055",
+      "code": "IFX-SUP-00055",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 37.528299,
+      "longitude": -122.283091,
+      "estimated_replacement_cost": 349002.16,
+      "created_at": "2026-03-25T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0056",
+      "code": "IFX-SUP-00056",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.833633,
+      "longitude": -122.406632,
+      "estimated_replacement_cost": 587249.83,
+      "created_at": "2025-09-17T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0057",
+      "code": "IFX-SUP-00057",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.722264,
+      "longitude": -122.210984,
+      "estimated_replacement_cost": 735920.38,
+      "created_at": "2025-03-22T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0058",
+      "code": "IFX-SUP-00058",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 38.016854,
+      "longitude": -122.517292,
+      "estimated_replacement_cost": 970742.3,
+      "created_at": "2025-09-25T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0059",
+      "code": "IFX-SUP-00059",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.548124,
+      "longitude": -122.421707,
+      "estimated_replacement_cost": 919636.08,
+      "created_at": "2025-02-22T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0060",
+      "code": "IFX-SUP-00060",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.94746,
+      "longitude": -122.216545,
+      "estimated_replacement_cost": 1230033.43,
+      "created_at": "2024-11-08T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0061",
+      "code": "IFX-SUP-00061",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.678255,
+      "longitude": -122.263283,
+      "estimated_replacement_cost": 99685.02,
+      "created_at": "2024-11-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0062",
+      "code": "IFX-SUP-00062",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.616068,
+      "longitude": -122.201018,
+      "estimated_replacement_cost": 554660.6,
+      "created_at": "2025-08-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0063",
+      "code": "IFX-SUP-00063",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.873471,
+      "longitude": -122.567523,
+      "estimated_replacement_cost": 267600.64,
+      "created_at": "2026-02-14T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0064",
+      "code": "IFX-SUP-00064",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.529239,
+      "longitude": -122.643748,
+      "estimated_replacement_cost": 1137554.5,
+      "created_at": "2026-06-18T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0065",
+      "code": "IFX-SUP-00065",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.668406,
+      "longitude": -122.223734,
+      "estimated_replacement_cost": 256773.17,
+      "created_at": "2025-11-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0066",
+      "code": "IFX-SUP-00066",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.883691,
+      "longitude": -122.564949,
+      "estimated_replacement_cost": 1080473.75,
+      "created_at": "2025-12-07T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0067",
+      "code": "IFX-SUP-00067",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.757757,
+      "longitude": -122.545773,
+      "estimated_replacement_cost": 412870.26,
+      "created_at": "2025-07-30T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0068",
+      "code": "IFX-SUP-00068",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.789985,
+      "longitude": -122.600035,
+      "estimated_replacement_cost": 543934.94,
+      "created_at": "2025-12-10T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0069",
+      "code": "IFX-SUP-00069",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.766935,
+      "longitude": -122.445884,
+      "estimated_replacement_cost": 1044009.06,
+      "created_at": "2025-12-23T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0070",
+      "code": "IFX-SUP-00070",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.598935,
+      "longitude": -122.502563,
+      "estimated_replacement_cost": 928123.29,
+      "created_at": "2025-01-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0071",
+      "code": "IFX-SUP-00071",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.739299,
+      "longitude": -122.27122,
+      "estimated_replacement_cost": 1085245.49,
+      "created_at": "2026-05-15T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0072",
+      "code": "IFX-SUP-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.876904,
+      "longitude": -122.41654,
+      "estimated_replacement_cost": 1184427.95,
+      "created_at": "2026-01-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0073",
+      "code": "IFX-SUP-00073",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.717274,
+      "longitude": -122.402909,
+      "estimated_replacement_cost": 1439325.12,
+      "created_at": "2024-10-08T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0074",
+      "code": "IFX-SUP-00074",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.597572,
+      "longitude": -122.383938,
+      "estimated_replacement_cost": 987589.02,
+      "created_at": "2026-07-20T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0075",
+      "code": "IFX-SUP-00075",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.549653,
+      "longitude": -122.315422,
+      "estimated_replacement_cost": 1347387.5,
+      "created_at": "2025-02-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0076",
+      "code": "IFX-SUP-00076",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.918102,
+      "longitude": -122.486994,
+      "estimated_replacement_cost": 375842.19,
+      "created_at": "2026-01-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0077",
+      "code": "IFX-SUP-00077",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.534686,
+      "longitude": -122.188659,
+      "estimated_replacement_cost": 973548.47,
+      "created_at": "2026-05-12T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0078",
+      "code": "IFX-SUP-00078",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.917354,
+      "longitude": -122.36236,
+      "estimated_replacement_cost": 395547.8,
+      "created_at": "2025-06-23T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0079",
+      "code": "IFX-SUP-00079",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.69949,
+      "longitude": -122.227652,
+      "estimated_replacement_cost": 131736.89,
+      "created_at": "2026-01-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0080",
+      "code": "IFX-SUP-00080",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.93498,
+      "longitude": -122.323512,
+      "estimated_replacement_cost": 1134511.56,
+      "created_at": "2024-10-06T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0081",
+      "code": "IFX-SUP-00081",
+      "status": "INSPECTED",
+      "condition_score": 61,
+      "latitude": 37.821807,
+      "longitude": -122.342893,
+      "estimated_replacement_cost": 1156461.7,
+      "created_at": "2025-09-09T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0082",
+      "code": "IFX-SUP-00082",
+      "status": "OPERATIONAL",
+      "condition_score": 74,
+      "latitude": 37.864039,
+      "longitude": -122.638645,
+      "estimated_replacement_cost": 1277387.03,
+      "created_at": "2026-07-14T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0083",
+      "code": "IFX-SUP-00083",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.702562,
+      "longitude": -122.239061,
+      "estimated_replacement_cost": 939641.8,
+      "created_at": "2025-11-12T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0084",
+      "code": "IFX-SUP-00084",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.687523,
+      "longitude": -122.527814,
+      "estimated_replacement_cost": 1172611.83,
+      "created_at": "2026-05-03T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0085",
+      "code": "IFX-SUP-00085",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.77255,
+      "longitude": -122.182865,
+      "estimated_replacement_cost": 911005.45,
+      "created_at": "2026-04-18T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0086",
+      "code": "IFX-SUP-00086",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.921648,
+      "longitude": -122.277355,
+      "estimated_replacement_cost": 588623.73,
+      "created_at": "2025-10-18T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0087",
+      "code": "IFX-SUP-00087",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.780504,
+      "longitude": -122.169873,
+      "estimated_replacement_cost": 713240.43,
+      "created_at": "2026-02-08T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0088",
+      "code": "IFX-SUP-00088",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.604347,
+      "longitude": -122.383131,
+      "estimated_replacement_cost": 272516.06,
+      "created_at": "2025-08-28T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0089",
+      "code": "IFX-SUP-00089",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.650088,
+      "longitude": -122.638747,
+      "estimated_replacement_cost": 828309.5,
+      "created_at": "2024-09-18T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0090",
+      "code": "IFX-SUP-00090",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.59636,
+      "longitude": -122.278074,
+      "estimated_replacement_cost": 822260.91,
+      "created_at": "2025-06-06T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0091",
+      "code": "IFX-SUP-00091",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.525649,
+      "longitude": -122.239247,
+      "estimated_replacement_cost": 1373855.36,
+      "created_at": "2025-09-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0092",
+      "code": "IFX-SUP-00092",
+      "status": "OPERATIONAL",
+      "condition_score": 66,
+      "latitude": 37.602616,
+      "longitude": -122.440206,
+      "estimated_replacement_cost": 1024584.94,
+      "created_at": "2025-02-16T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0093",
+      "code": "IFX-SUP-00093",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.618407,
+      "longitude": -122.645917,
+      "estimated_replacement_cost": 232514.45,
+      "created_at": "2026-03-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0094",
+      "code": "IFX-SUP-00094",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.979388,
+      "longitude": -122.350442,
+      "estimated_replacement_cost": 804954.62,
+      "created_at": "2025-08-20T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0095",
+      "code": "IFX-SUP-00095",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.620298,
+      "longitude": -122.447047,
+      "estimated_replacement_cost": 1365665.55,
+      "created_at": "2025-12-19T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0096",
+      "code": "IFX-SUP-00096",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.618283,
+      "longitude": -122.567748,
+      "estimated_replacement_cost": 1087606.22,
+      "created_at": "2025-01-23T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0097",
+      "code": "IFX-SUP-00097",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.97913,
+      "longitude": -122.452914,
+      "estimated_replacement_cost": 1441884.21,
+      "created_at": "2024-11-03T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0098",
+      "code": "IFX-SUP-00098",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.774895,
+      "longitude": -122.312931,
+      "estimated_replacement_cost": 1193234.24,
+      "created_at": "2026-05-22T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0099",
+      "code": "IFX-SUP-00099",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.731458,
+      "longitude": -122.592378,
+      "estimated_replacement_cost": 179463.15,
+      "created_at": "2026-04-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0100",
+      "code": "IFX-SUP-00100",
+      "status": "ACTIVE",
+      "condition_score": 70,
+      "latitude": 37.603185,
+      "longitude": -122.549196,
+      "estimated_replacement_cost": 939165.79,
+      "created_at": "2025-02-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0101",
+      "code": "IFX-SUP-00101",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.735084,
+      "longitude": -122.583913,
+      "estimated_replacement_cost": 919867.42,
+      "created_at": "2024-11-08T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0102",
+      "code": "IFX-SUP-00102",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.873803,
+      "longitude": -122.422369,
+      "estimated_replacement_cost": 319243.64,
+      "created_at": "2025-07-23T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0103",
+      "code": "IFX-SUP-00103",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.63299,
+      "longitude": -122.343723,
+      "estimated_replacement_cost": 952433.46,
+      "created_at": "2025-11-16T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0104",
+      "code": "IFX-SUP-00104",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 38.007746,
+      "longitude": -122.233836,
+      "estimated_replacement_cost": 861535.49,
+      "created_at": "2025-07-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0105",
+      "code": "IFX-SUP-00105",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 38.014554,
+      "longitude": -122.201968,
+      "estimated_replacement_cost": 1436565.29,
+      "created_at": "2024-12-13T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0106",
+      "code": "IFX-SUP-00106",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.950203,
+      "longitude": -122.389861,
+      "estimated_replacement_cost": 1133667.27,
+      "created_at": "2025-10-28T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0107",
+      "code": "IFX-SUP-00107",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.800561,
+      "longitude": -122.246703,
+      "estimated_replacement_cost": 961285.9,
+      "created_at": "2026-04-10T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0108",
+      "code": "IFX-SUP-00108",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.570512,
+      "longitude": -122.463856,
+      "estimated_replacement_cost": 784450.42,
+      "created_at": "2024-12-19T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0109",
+      "code": "IFX-SUP-00109",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.573939,
+      "longitude": -122.651587,
+      "estimated_replacement_cost": 579401.37,
+      "created_at": "2024-12-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0110",
+      "code": "IFX-SUP-00110",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.896835,
+      "longitude": -122.535539,
+      "estimated_replacement_cost": 1082076.22,
+      "created_at": "2024-10-23T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0111",
+      "code": "IFX-SUP-00111",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.83396,
+      "longitude": -122.462223,
+      "estimated_replacement_cost": 1183354.02,
+      "created_at": "2024-10-27T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0112",
+      "code": "IFX-SUP-00112",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.796836,
+      "longitude": -122.386523,
+      "estimated_replacement_cost": 1137015.15,
+      "created_at": "2026-03-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0113",
+      "code": "IFX-SUP-00113",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.538881,
+      "longitude": -122.350793,
+      "estimated_replacement_cost": 191826.7,
+      "created_at": "2025-10-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0114",
+      "code": "IFX-SUP-00114",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.552773,
+      "longitude": -122.370652,
+      "estimated_replacement_cost": 140908.99,
+      "created_at": "2026-05-26T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0115",
+      "code": "IFX-SUP-00115",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.870969,
+      "longitude": -122.241538,
+      "estimated_replacement_cost": 294807.37,
+      "created_at": "2025-12-24T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0116",
+      "code": "IFX-SUP-00116",
+      "status": "INSPECTED",
+      "condition_score": 94,
+      "latitude": 38.007879,
+      "longitude": -122.526591,
+      "estimated_replacement_cost": 339977.75,
+      "created_at": "2025-11-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0117",
+      "code": "IFX-SUP-00117",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.636236,
+      "longitude": -122.400841,
+      "estimated_replacement_cost": 758966.79,
+      "created_at": "2025-04-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0118",
+      "code": "IFX-SUP-00118",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.701952,
+      "longitude": -122.593246,
+      "estimated_replacement_cost": 1278254.91,
+      "created_at": "2025-09-13T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0119",
+      "code": "IFX-SUP-00119",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.658038,
+      "longitude": -122.455466,
+      "estimated_replacement_cost": 285737.06,
+      "created_at": "2026-05-31T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0120",
+      "code": "IFX-SUP-00120",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.79964,
+      "longitude": -122.600159,
+      "estimated_replacement_cost": 442845.58,
+      "created_at": "2025-02-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0121",
+      "code": "IFX-SUP-00121",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.672948,
+      "longitude": -122.182966,
+      "estimated_replacement_cost": 459994.17,
+      "created_at": "2024-11-12T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0122",
+      "code": "IFX-SUP-00122",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.785123,
+      "longitude": -122.456636,
+      "estimated_replacement_cost": 1093658.1,
+      "created_at": "2025-08-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0123",
+      "code": "IFX-SUP-00123",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 38.01289,
+      "longitude": -122.397341,
+      "estimated_replacement_cost": 460571.46,
+      "created_at": "2026-07-19T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0124",
+      "code": "IFX-SUP-00124",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.558192,
+      "longitude": -122.286858,
+      "estimated_replacement_cost": 599052.31,
+      "created_at": "2025-06-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0125",
+      "code": "IFX-SUP-00125",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.721812,
+      "longitude": -122.171522,
+      "estimated_replacement_cost": 1118550.48,
+      "created_at": "2025-02-04T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0126",
+      "code": "IFX-SUP-00126",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.730297,
+      "longitude": -122.643117,
+      "estimated_replacement_cost": 806670.81,
+      "created_at": "2026-07-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0127",
+      "code": "IFX-SUP-00127",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.649142,
+      "longitude": -122.181415,
+      "estimated_replacement_cost": 1224812.92,
+      "created_at": "2026-02-04T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0128",
+      "code": "IFX-SUP-00128",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.875935,
+      "longitude": -122.618299,
+      "estimated_replacement_cost": 152245.05,
+      "created_at": "2026-02-21T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0129",
+      "code": "IFX-SUP-00129",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.691542,
+      "longitude": -122.351949,
+      "estimated_replacement_cost": 932225.75,
+      "created_at": "2025-04-05T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0130",
+      "code": "IFX-SUP-00130",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.859462,
+      "longitude": -122.244074,
+      "estimated_replacement_cost": 1089762.66,
+      "created_at": "2026-02-04T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0131",
+      "code": "IFX-SUP-00131",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.623645,
+      "longitude": -122.589342,
+      "estimated_replacement_cost": 351295.44,
+      "created_at": "2025-11-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0132",
+      "code": "IFX-SUP-00132",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.831971,
+      "longitude": -122.191667,
+      "estimated_replacement_cost": 601328.92,
+      "created_at": "2026-08-09T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0133",
+      "code": "IFX-SUP-00133",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.995662,
+      "longitude": -122.250907,
+      "estimated_replacement_cost": 1368734.06,
+      "created_at": "2026-04-20T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0134",
+      "code": "IFX-SUP-00134",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.852574,
+      "longitude": -122.232839,
+      "estimated_replacement_cost": 621762.46,
+      "created_at": "2025-10-03T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0135",
+      "code": "IFX-SUP-00135",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.725685,
+      "longitude": -122.562706,
+      "estimated_replacement_cost": 714611.33,
+      "created_at": "2026-03-22T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0136",
+      "code": "IFX-SUP-00136",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.528628,
+      "longitude": -122.535079,
+      "estimated_replacement_cost": 328603.85,
+      "created_at": "2026-08-02T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0137",
+      "code": "IFX-SUP-00137",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.567934,
+      "longitude": -122.627373,
+      "estimated_replacement_cost": 1065292.55,
+      "created_at": "2026-08-29T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0138",
+      "code": "IFX-SUP-00138",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.941875,
+      "longitude": -122.239872,
+      "estimated_replacement_cost": 208936.74,
+      "created_at": "2025-05-25T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0139",
+      "code": "IFX-SUP-00139",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.906305,
+      "longitude": -122.264388,
+      "estimated_replacement_cost": 190712.98,
+      "created_at": "2025-03-11T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0140",
+      "code": "IFX-SUP-00140",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.575346,
+      "longitude": -122.211088,
+      "estimated_replacement_cost": 1031798.34,
+      "created_at": "2025-02-15T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0141",
+      "code": "IFX-SUP-00141",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.958029,
+      "longitude": -122.337564,
+      "estimated_replacement_cost": 935089.25,
+      "created_at": "2025-04-22T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0142",
+      "code": "IFX-SUP-00142",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.595856,
+      "longitude": -122.581292,
+      "estimated_replacement_cost": 841402.23,
+      "created_at": "2026-01-25T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0143",
+      "code": "IFX-SUP-00143",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.814543,
+      "longitude": -122.624915,
+      "estimated_replacement_cost": 44534.21,
+      "created_at": "2025-05-28T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0144",
+      "code": "IFX-SUP-00144",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.94018,
+      "longitude": -122.28857,
+      "estimated_replacement_cost": 743192.79,
+      "created_at": "2026-05-21T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0145",
+      "code": "IFX-SUP-00145",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.543978,
+      "longitude": -122.327899,
+      "estimated_replacement_cost": 154187.09,
+      "created_at": "2025-10-09T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0146",
+      "code": "IFX-SUP-00146",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.865945,
+      "longitude": -122.440089,
+      "estimated_replacement_cost": 299903.2,
+      "created_at": "2025-10-08T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0147",
+      "code": "IFX-SUP-00147",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.773358,
+      "longitude": -122.259276,
+      "estimated_replacement_cost": 901755.44,
+      "created_at": "2025-11-07T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0148",
+      "code": "IFX-SUP-00148",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.914629,
+      "longitude": -122.252,
+      "estimated_replacement_cost": 1140923.84,
+      "created_at": "2026-04-27T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0149",
+      "code": "IFX-SUP-00149",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.890373,
+      "longitude": -122.640481,
+      "estimated_replacement_cost": 1191634.74,
+      "created_at": "2025-05-01T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_support.supportrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Support Asset Segment #0150",
+      "code": "IFX-SUP-00150",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 38.00634,
+      "longitude": -122.27919,
+      "estimated_replacement_cost": 604720.86,
+      "created_at": "2026-01-21T10:34:25.520860",
+      "updated_at": "2026-09-08T10:34:25.520860",
+      "notes": "Standard municipal engineering inventory record for support.",
+      "metadata": {
+        "spec_code": "SPEC-SUPPORT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]

@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0001",
+      "code": "IFX-ORG-00001",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.925812,
+      "longitude": -122.667548,
+      "estimated_replacement_cost": 601794.17,
+      "created_at": "2025-08-10T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0002",
+      "code": "IFX-ORG-00002",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.841531,
+      "longitude": -122.332725,
+      "estimated_replacement_cost": 1048564.45,
+      "created_at": "2025-05-12T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0003",
+      "code": "IFX-ORG-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.655158,
+      "longitude": -122.608802,
+      "estimated_replacement_cost": 779569.04,
+      "created_at": "2024-10-18T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0004",
+      "code": "IFX-ORG-00004",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.615249,
+      "longitude": -122.434904,
+      "estimated_replacement_cost": 810564.49,
+      "created_at": "2025-02-08T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0005",
+      "code": "IFX-ORG-00005",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 38.020553,
+      "longitude": -122.468777,
+      "estimated_replacement_cost": 1382816.43,
+      "created_at": "2024-11-27T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0006",
+      "code": "IFX-ORG-00006",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.979256,
+      "longitude": -122.62536,
+      "estimated_replacement_cost": 847347.03,
+      "created_at": "2026-05-21T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0007",
+      "code": "IFX-ORG-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.809582,
+      "longitude": -122.383547,
+      "estimated_replacement_cost": 1079655.92,
+      "created_at": "2025-01-11T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0008",
+      "code": "IFX-ORG-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.777245,
+      "longitude": -122.430769,
+      "estimated_replacement_cost": 504669.25,
+      "created_at": "2026-07-12T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0009",
+      "code": "IFX-ORG-00009",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.967198,
+      "longitude": -122.178204,
+      "estimated_replacement_cost": 1247324.25,
+      "created_at": "2026-05-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0010",
+      "code": "IFX-ORG-00010",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.745969,
+      "longitude": -122.604182,
+      "estimated_replacement_cost": 966938.29,
+      "created_at": "2026-02-20T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0011",
+      "code": "IFX-ORG-00011",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.80274,
+      "longitude": -122.243277,
+      "estimated_replacement_cost": 1182371.32,
+      "created_at": "2026-04-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0012",
+      "code": "IFX-ORG-00012",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.906202,
+      "longitude": -122.549012,
+      "estimated_replacement_cost": 1069959.62,
+      "created_at": "2025-05-27T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0013",
+      "code": "IFX-ORG-00013",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 38.005534,
+      "longitude": -122.607265,
+      "estimated_replacement_cost": 272359.06,
+      "created_at": "2026-07-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0014",
+      "code": "IFX-ORG-00014",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.658763,
+      "longitude": -122.280169,
+      "estimated_replacement_cost": 926985.78,
+      "created_at": "2025-02-11T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0015",
+      "code": "IFX-ORG-00015",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.605422,
+      "longitude": -122.477487,
+      "estimated_replacement_cost": 1059156.94,
+      "created_at": "2024-11-27T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0016",
+      "code": "IFX-ORG-00016",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.611994,
+      "longitude": -122.211204,
+      "estimated_replacement_cost": 803371.74,
+      "created_at": "2025-08-20T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0017",
+      "code": "IFX-ORG-00017",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.54369,
+      "longitude": -122.241114,
+      "estimated_replacement_cost": 1316882.78,
+      "created_at": "2025-08-15T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0018",
+      "code": "IFX-ORG-00018",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.688331,
+      "longitude": -122.553961,
+      "estimated_replacement_cost": 1058252.17,
+      "created_at": "2025-04-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0019",
+      "code": "IFX-ORG-00019",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.746003,
+      "longitude": -122.59243,
+      "estimated_replacement_cost": 487891.78,
+      "created_at": "2026-05-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0020",
+      "code": "IFX-ORG-00020",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.666225,
+      "longitude": -122.258981,
+      "estimated_replacement_cost": 658633.89,
+      "created_at": "2026-07-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0021",
+      "code": "IFX-ORG-00021",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.819042,
+      "longitude": -122.206626,
+      "estimated_replacement_cost": 1084575.56,
+      "created_at": "2025-01-26T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0022",
+      "code": "IFX-ORG-00022",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.831009,
+      "longitude": -122.280764,
+      "estimated_replacement_cost": 930366.86,
+      "created_at": "2025-05-04T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0023",
+      "code": "IFX-ORG-00023",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.959824,
+      "longitude": -122.610988,
+      "estimated_replacement_cost": 1148973.82,
+      "created_at": "2025-02-28T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0024",
+      "code": "IFX-ORG-00024",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 38.022463,
+      "longitude": -122.30028,
+      "estimated_replacement_cost": 703404.31,
+      "created_at": "2025-03-20T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0025",
+      "code": "IFX-ORG-00025",
+      "status": "OPERATIONAL",
+      "condition_score": 74,
+      "latitude": 37.56206,
+      "longitude": -122.65804,
+      "estimated_replacement_cost": 1476741.83,
+      "created_at": "2025-12-12T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0026",
+      "code": "IFX-ORG-00026",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.774349,
+      "longitude": -122.506725,
+      "estimated_replacement_cost": 1451429.61,
+      "created_at": "2026-05-25T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0027",
+      "code": "IFX-ORG-00027",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.706719,
+      "longitude": -122.50934,
+      "estimated_replacement_cost": 77397.38,
+      "created_at": "2026-09-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0028",
+      "code": "IFX-ORG-00028",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.923377,
+      "longitude": -122.489847,
+      "estimated_replacement_cost": 1070787.97,
+      "created_at": "2026-07-17T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0029",
+      "code": "IFX-ORG-00029",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.859729,
+      "longitude": -122.638587,
+      "estimated_replacement_cost": 237033.39,
+      "created_at": "2025-05-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0030",
+      "code": "IFX-ORG-00030",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.557085,
+      "longitude": -122.292307,
+      "estimated_replacement_cost": 710421.32,
+      "created_at": "2026-08-19T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0031",
+      "code": "IFX-ORG-00031",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.873906,
+      "longitude": -122.558477,
+      "estimated_replacement_cost": 1245861.88,
+      "created_at": "2025-05-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0032",
+      "code": "IFX-ORG-00032",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.886159,
+      "longitude": -122.663233,
+      "estimated_replacement_cost": 1219196.86,
+      "created_at": "2025-07-11T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0033",
+      "code": "IFX-ORG-00033",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.834299,
+      "longitude": -122.559936,
+      "estimated_replacement_cost": 523763.09,
+      "created_at": "2026-06-06T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0034",
+      "code": "IFX-ORG-00034",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.733362,
+      "longitude": -122.543949,
+      "estimated_replacement_cost": 260830.16,
+      "created_at": "2024-11-20T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0035",
+      "code": "IFX-ORG-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.571703,
+      "longitude": -122.42778,
+      "estimated_replacement_cost": 1379052.08,
+      "created_at": "2026-02-18T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0036",
+      "code": "IFX-ORG-00036",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.95678,
+      "longitude": -122.625915,
+      "estimated_replacement_cost": 1036122.55,
+      "created_at": "2026-07-11T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0037",
+      "code": "IFX-ORG-00037",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 38.021837,
+      "longitude": -122.315606,
+      "estimated_replacement_cost": 1479421.81,
+      "created_at": "2025-02-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0038",
+      "code": "IFX-ORG-00038",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.5887,
+      "longitude": -122.360959,
+      "estimated_replacement_cost": 448402.44,
+      "created_at": "2026-04-26T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0039",
+      "code": "IFX-ORG-00039",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 68,
+      "latitude": 38.005545,
+      "longitude": -122.568726,
+      "estimated_replacement_cost": 785797.64,
+      "created_at": "2025-11-26T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0040",
+      "code": "IFX-ORG-00040",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 38.021637,
+      "longitude": -122.287715,
+      "estimated_replacement_cost": 916620.66,
+      "created_at": "2026-05-31T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0041",
+      "code": "IFX-ORG-00041",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.973206,
+      "longitude": -122.420977,
+      "estimated_replacement_cost": 99880.58,
+      "created_at": "2025-02-12T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0042",
+      "code": "IFX-ORG-00042",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.89079,
+      "longitude": -122.178801,
+      "estimated_replacement_cost": 911063.74,
+      "created_at": "2026-07-25T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0043",
+      "code": "IFX-ORG-00043",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.985092,
+      "longitude": -122.371043,
+      "estimated_replacement_cost": 405395.57,
+      "created_at": "2025-12-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0044",
+      "code": "IFX-ORG-00044",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.840137,
+      "longitude": -122.667593,
+      "estimated_replacement_cost": 1278800.03,
+      "created_at": "2025-08-20T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0045",
+      "code": "IFX-ORG-00045",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.796232,
+      "longitude": -122.505925,
+      "estimated_replacement_cost": 819017.99,
+      "created_at": "2026-05-06T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0046",
+      "code": "IFX-ORG-00046",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.914643,
+      "longitude": -122.186957,
+      "estimated_replacement_cost": 1292262.96,
+      "created_at": "2025-08-18T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0047",
+      "code": "IFX-ORG-00047",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.663514,
+      "longitude": -122.366604,
+      "estimated_replacement_cost": 923449.36,
+      "created_at": "2025-05-04T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0048",
+      "code": "IFX-ORG-00048",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.686061,
+      "longitude": -122.326611,
+      "estimated_replacement_cost": 321665.36,
+      "created_at": "2025-04-03T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0049",
+      "code": "IFX-ORG-00049",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.904815,
+      "longitude": -122.531397,
+      "estimated_replacement_cost": 1178748.14,
+      "created_at": "2026-02-04T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0050",
+      "code": "IFX-ORG-00050",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.619721,
+      "longitude": -122.427584,
+      "estimated_replacement_cost": 566947.91,
+      "created_at": "2025-09-10T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0051",
+      "code": "IFX-ORG-00051",
+      "status": "INSPECTED",
+      "condition_score": 93,
+      "latitude": 37.536247,
+      "longitude": -122.401352,
+      "estimated_replacement_cost": 202887.31,
+      "created_at": "2025-01-05T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0052",
+      "code": "IFX-ORG-00052",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.590184,
+      "longitude": -122.271864,
+      "estimated_replacement_cost": 208102.74,
+      "created_at": "2025-04-29T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0053",
+      "code": "IFX-ORG-00053",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.667138,
+      "longitude": -122.374269,
+      "estimated_replacement_cost": 1199091.51,
+      "created_at": "2025-08-19T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0054",
+      "code": "IFX-ORG-00054",
+      "status": "ACTIVE",
+      "condition_score": 64,
+      "latitude": 37.913284,
+      "longitude": -122.36819,
+      "estimated_replacement_cost": 887666.06,
+      "created_at": "2025-10-26T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0055",
+      "code": "IFX-ORG-00055",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.671795,
+      "longitude": -122.399516,
+      "estimated_replacement_cost": 1459931.93,
+      "created_at": "2025-06-23T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0056",
+      "code": "IFX-ORG-00056",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.884975,
+      "longitude": -122.225989,
+      "estimated_replacement_cost": 510662.2,
+      "created_at": "2025-11-25T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0057",
+      "code": "IFX-ORG-00057",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.654048,
+      "longitude": -122.478152,
+      "estimated_replacement_cost": 796321.77,
+      "created_at": "2025-11-29T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0058",
+      "code": "IFX-ORG-00058",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.618648,
+      "longitude": -122.381019,
+      "estimated_replacement_cost": 66113.64,
+      "created_at": "2026-06-16T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0059",
+      "code": "IFX-ORG-00059",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.557388,
+      "longitude": -122.210089,
+      "estimated_replacement_cost": 923656.46,
+      "created_at": "2025-09-09T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0060",
+      "code": "IFX-ORG-00060",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.955994,
+      "longitude": -122.329173,
+      "estimated_replacement_cost": 25200.96,
+      "created_at": "2026-04-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0061",
+      "code": "IFX-ORG-00061",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.926646,
+      "longitude": -122.511707,
+      "estimated_replacement_cost": 1238460.58,
+      "created_at": "2026-01-10T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0062",
+      "code": "IFX-ORG-00062",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.8399,
+      "longitude": -122.602957,
+      "estimated_replacement_cost": 544032.88,
+      "created_at": "2026-05-06T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0063",
+      "code": "IFX-ORG-00063",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.664338,
+      "longitude": -122.330163,
+      "estimated_replacement_cost": 61571.36,
+      "created_at": "2025-05-16T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0064",
+      "code": "IFX-ORG-00064",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.896465,
+      "longitude": -122.506873,
+      "estimated_replacement_cost": 1313151.74,
+      "created_at": "2026-03-25T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0065",
+      "code": "IFX-ORG-00065",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 37.630622,
+      "longitude": -122.339344,
+      "estimated_replacement_cost": 1383323.07,
+      "created_at": "2026-09-03T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0066",
+      "code": "IFX-ORG-00066",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.657856,
+      "longitude": -122.329416,
+      "estimated_replacement_cost": 229477.66,
+      "created_at": "2025-05-11T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0067",
+      "code": "IFX-ORG-00067",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.684322,
+      "longitude": -122.577394,
+      "estimated_replacement_cost": 1265703.39,
+      "created_at": "2025-06-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0068",
+      "code": "IFX-ORG-00068",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.818634,
+      "longitude": -122.210988,
+      "estimated_replacement_cost": 59565.38,
+      "created_at": "2026-02-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0069",
+      "code": "IFX-ORG-00069",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.796547,
+      "longitude": -122.198667,
+      "estimated_replacement_cost": 614830.24,
+      "created_at": "2026-01-27T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0070",
+      "code": "IFX-ORG-00070",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.760048,
+      "longitude": -122.373897,
+      "estimated_replacement_cost": 69659.36,
+      "created_at": "2026-03-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0071",
+      "code": "IFX-ORG-00071",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.617485,
+      "longitude": -122.404708,
+      "estimated_replacement_cost": 1240002.74,
+      "created_at": "2026-03-06T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0072",
+      "code": "IFX-ORG-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.803611,
+      "longitude": -122.264464,
+      "estimated_replacement_cost": 1499801.2,
+      "created_at": "2025-09-04T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0073",
+      "code": "IFX-ORG-00073",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 37.588175,
+      "longitude": -122.664914,
+      "estimated_replacement_cost": 886687.0,
+      "created_at": "2024-11-08T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0074",
+      "code": "IFX-ORG-00074",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.976812,
+      "longitude": -122.584817,
+      "estimated_replacement_cost": 1287035.16,
+      "created_at": "2026-08-10T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0075",
+      "code": "IFX-ORG-00075",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.694642,
+      "longitude": -122.437242,
+      "estimated_replacement_cost": 361791.0,
+      "created_at": "2026-07-31T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0076",
+      "code": "IFX-ORG-00076",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.67438,
+      "longitude": -122.461113,
+      "estimated_replacement_cost": 569619.7,
+      "created_at": "2026-02-07T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0077",
+      "code": "IFX-ORG-00077",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.586561,
+      "longitude": -122.290246,
+      "estimated_replacement_cost": 616193.62,
+      "created_at": "2026-03-14T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0078",
+      "code": "IFX-ORG-00078",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.821038,
+      "longitude": -122.481437,
+      "estimated_replacement_cost": 1054183.22,
+      "created_at": "2026-07-05T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0079",
+      "code": "IFX-ORG-00079",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.66447,
+      "longitude": -122.448726,
+      "estimated_replacement_cost": 105531.85,
+      "created_at": "2024-10-12T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0080",
+      "code": "IFX-ORG-00080",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.907013,
+      "longitude": -122.665066,
+      "estimated_replacement_cost": 1424768.69,
+      "created_at": "2025-07-30T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0081",
+      "code": "IFX-ORG-00081",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.854553,
+      "longitude": -122.357479,
+      "estimated_replacement_cost": 1475171.65,
+      "created_at": "2026-06-18T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0082",
+      "code": "IFX-ORG-00082",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.975351,
+      "longitude": -122.229001,
+      "estimated_replacement_cost": 94028.67,
+      "created_at": "2025-07-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0083",
+      "code": "IFX-ORG-00083",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.998028,
+      "longitude": -122.664471,
+      "estimated_replacement_cost": 1318481.98,
+      "created_at": "2025-09-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0084",
+      "code": "IFX-ORG-00084",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.551864,
+      "longitude": -122.566789,
+      "estimated_replacement_cost": 38763.4,
+      "created_at": "2025-04-29T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0085",
+      "code": "IFX-ORG-00085",
+      "status": "OPERATIONAL",
+      "condition_score": 83,
+      "latitude": 37.534741,
+      "longitude": -122.481528,
+      "estimated_replacement_cost": 655859.24,
+      "created_at": "2025-06-19T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0086",
+      "code": "IFX-ORG-00086",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.891051,
+      "longitude": -122.220905,
+      "estimated_replacement_cost": 505360.73,
+      "created_at": "2026-04-21T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0087",
+      "code": "IFX-ORG-00087",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.530549,
+      "longitude": -122.174058,
+      "estimated_replacement_cost": 680081.31,
+      "created_at": "2026-03-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0088",
+      "code": "IFX-ORG-00088",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.911388,
+      "longitude": -122.173954,
+      "estimated_replacement_cost": 321236.12,
+      "created_at": "2024-09-21T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0089",
+      "code": "IFX-ORG-00089",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.770249,
+      "longitude": -122.319193,
+      "estimated_replacement_cost": 922254.68,
+      "created_at": "2026-08-08T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0090",
+      "code": "IFX-ORG-00090",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.697891,
+      "longitude": -122.310602,
+      "estimated_replacement_cost": 971277.69,
+      "created_at": "2026-04-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0091",
+      "code": "IFX-ORG-00091",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.843053,
+      "longitude": -122.327574,
+      "estimated_replacement_cost": 755015.31,
+      "created_at": "2024-10-12T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0092",
+      "code": "IFX-ORG-00092",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 38.022037,
+      "longitude": -122.539,
+      "estimated_replacement_cost": 1139731.64,
+      "created_at": "2025-02-19T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0093",
+      "code": "IFX-ORG-00093",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.956489,
+      "longitude": -122.295381,
+      "estimated_replacement_cost": 136520.52,
+      "created_at": "2026-09-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0094",
+      "code": "IFX-ORG-00094",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.924026,
+      "longitude": -122.209618,
+      "estimated_replacement_cost": 1127474.41,
+      "created_at": "2025-09-18T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0095",
+      "code": "IFX-ORG-00095",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.558163,
+      "longitude": -122.213371,
+      "estimated_replacement_cost": 189929.57,
+      "created_at": "2025-12-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0096",
+      "code": "IFX-ORG-00096",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.842037,
+      "longitude": -122.639064,
+      "estimated_replacement_cost": 447580.79,
+      "created_at": "2025-12-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0097",
+      "code": "IFX-ORG-00097",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.811831,
+      "longitude": -122.494418,
+      "estimated_replacement_cost": 1136061.84,
+      "created_at": "2024-12-29T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0098",
+      "code": "IFX-ORG-00098",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.665874,
+      "longitude": -122.48596,
+      "estimated_replacement_cost": 265726.03,
+      "created_at": "2025-01-29T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0099",
+      "code": "IFX-ORG-00099",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.877791,
+      "longitude": -122.189579,
+      "estimated_replacement_cost": 116424.88,
+      "created_at": "2026-02-23T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0100",
+      "code": "IFX-ORG-00100",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.540016,
+      "longitude": -122.246712,
+      "estimated_replacement_cost": 1031663.74,
+      "created_at": "2026-01-09T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0101",
+      "code": "IFX-ORG-00101",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.892119,
+      "longitude": -122.467273,
+      "estimated_replacement_cost": 1297148.1,
+      "created_at": "2024-11-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0102",
+      "code": "IFX-ORG-00102",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.676095,
+      "longitude": -122.364234,
+      "estimated_replacement_cost": 1362206.66,
+      "created_at": "2026-04-06T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0103",
+      "code": "IFX-ORG-00103",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.659131,
+      "longitude": -122.486304,
+      "estimated_replacement_cost": 612047.65,
+      "created_at": "2025-10-24T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0104",
+      "code": "IFX-ORG-00104",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.858722,
+      "longitude": -122.308549,
+      "estimated_replacement_cost": 357962.07,
+      "created_at": "2025-10-18T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0105",
+      "code": "IFX-ORG-00105",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.697225,
+      "longitude": -122.542914,
+      "estimated_replacement_cost": 503159.77,
+      "created_at": "2026-02-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0106",
+      "code": "IFX-ORG-00106",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.740066,
+      "longitude": -122.603148,
+      "estimated_replacement_cost": 28391.81,
+      "created_at": "2025-02-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0107",
+      "code": "IFX-ORG-00107",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.752107,
+      "longitude": -122.625171,
+      "estimated_replacement_cost": 1052673.5,
+      "created_at": "2026-08-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0108",
+      "code": "IFX-ORG-00108",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 37.681266,
+      "longitude": -122.536622,
+      "estimated_replacement_cost": 1238165.55,
+      "created_at": "2025-05-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0109",
+      "code": "IFX-ORG-00109",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.906567,
+      "longitude": -122.23941,
+      "estimated_replacement_cost": 1457086.94,
+      "created_at": "2026-08-28T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0110",
+      "code": "IFX-ORG-00110",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.607282,
+      "longitude": -122.639863,
+      "estimated_replacement_cost": 1036298.62,
+      "created_at": "2025-05-07T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0111",
+      "code": "IFX-ORG-00111",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.908295,
+      "longitude": -122.479014,
+      "estimated_replacement_cost": 555926.55,
+      "created_at": "2025-12-27T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0112",
+      "code": "IFX-ORG-00112",
+      "status": "OPERATIONAL",
+      "condition_score": 70,
+      "latitude": 37.904787,
+      "longitude": -122.562007,
+      "estimated_replacement_cost": 379326.5,
+      "created_at": "2026-08-30T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0113",
+      "code": "IFX-ORG-00113",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.93001,
+      "longitude": -122.654866,
+      "estimated_replacement_cost": 660141.01,
+      "created_at": "2025-05-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0114",
+      "code": "IFX-ORG-00114",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.653294,
+      "longitude": -122.526178,
+      "estimated_replacement_cost": 227660.53,
+      "created_at": "2025-06-26T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0115",
+      "code": "IFX-ORG-00115",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.545216,
+      "longitude": -122.474416,
+      "estimated_replacement_cost": 999337.04,
+      "created_at": "2025-11-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0116",
+      "code": "IFX-ORG-00116",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.641732,
+      "longitude": -122.394203,
+      "estimated_replacement_cost": 315035.99,
+      "created_at": "2025-07-12T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0117",
+      "code": "IFX-ORG-00117",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.622243,
+      "longitude": -122.354136,
+      "estimated_replacement_cost": 1206722.55,
+      "created_at": "2026-03-24T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0118",
+      "code": "IFX-ORG-00118",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.942072,
+      "longitude": -122.546799,
+      "estimated_replacement_cost": 265789.9,
+      "created_at": "2025-01-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0119",
+      "code": "IFX-ORG-00119",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.868022,
+      "longitude": -122.587476,
+      "estimated_replacement_cost": 1298299.58,
+      "created_at": "2026-08-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0120",
+      "code": "IFX-ORG-00120",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.574367,
+      "longitude": -122.540091,
+      "estimated_replacement_cost": 1333836.51,
+      "created_at": "2026-03-04T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0121",
+      "code": "IFX-ORG-00121",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.653186,
+      "longitude": -122.539639,
+      "estimated_replacement_cost": 560341.65,
+      "created_at": "2025-08-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0122",
+      "code": "IFX-ORG-00122",
+      "status": "OPERATIONAL",
+      "condition_score": 68,
+      "latitude": 37.627217,
+      "longitude": -122.351874,
+      "estimated_replacement_cost": 940885.18,
+      "created_at": "2026-03-06T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0123",
+      "code": "IFX-ORG-00123",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.999478,
+      "longitude": -122.657928,
+      "estimated_replacement_cost": 639900.52,
+      "created_at": "2026-04-26T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0124",
+      "code": "IFX-ORG-00124",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.631957,
+      "longitude": -122.579466,
+      "estimated_replacement_cost": 932162.6,
+      "created_at": "2026-06-22T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0125",
+      "code": "IFX-ORG-00125",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.872658,
+      "longitude": -122.563163,
+      "estimated_replacement_cost": 1090034.24,
+      "created_at": "2025-01-09T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0126",
+      "code": "IFX-ORG-00126",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.935427,
+      "longitude": -122.32756,
+      "estimated_replacement_cost": 723055.48,
+      "created_at": "2026-04-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0127",
+      "code": "IFX-ORG-00127",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.671591,
+      "longitude": -122.415545,
+      "estimated_replacement_cost": 1184880.51,
+      "created_at": "2025-02-23T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0128",
+      "code": "IFX-ORG-00128",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.892428,
+      "longitude": -122.651592,
+      "estimated_replacement_cost": 1252270.52,
+      "created_at": "2025-08-19T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0129",
+      "code": "IFX-ORG-00129",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.774088,
+      "longitude": -122.621943,
+      "estimated_replacement_cost": 345603.37,
+      "created_at": "2025-06-30T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0130",
+      "code": "IFX-ORG-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.700553,
+      "longitude": -122.614767,
+      "estimated_replacement_cost": 434576.95,
+      "created_at": "2025-09-11T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0131",
+      "code": "IFX-ORG-00131",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.634872,
+      "longitude": -122.326119,
+      "estimated_replacement_cost": 186096.55,
+      "created_at": "2025-11-04T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0132",
+      "code": "IFX-ORG-00132",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.666588,
+      "longitude": -122.179906,
+      "estimated_replacement_cost": 1222221.19,
+      "created_at": "2024-09-20T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0133",
+      "code": "IFX-ORG-00133",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.531326,
+      "longitude": -122.17678,
+      "estimated_replacement_cost": 1406689.39,
+      "created_at": "2024-10-19T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0134",
+      "code": "IFX-ORG-00134",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.75338,
+      "longitude": -122.453142,
+      "estimated_replacement_cost": 751400.69,
+      "created_at": "2025-05-07T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0135",
+      "code": "IFX-ORG-00135",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.709665,
+      "longitude": -122.413531,
+      "estimated_replacement_cost": 1028430.12,
+      "created_at": "2025-04-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0136",
+      "code": "IFX-ORG-00136",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.630814,
+      "longitude": -122.611659,
+      "estimated_replacement_cost": 710161.96,
+      "created_at": "2025-02-16T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0137",
+      "code": "IFX-ORG-00137",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 87,
+      "latitude": 38.021976,
+      "longitude": -122.59959,
+      "estimated_replacement_cost": 1299259.71,
+      "created_at": "2024-10-07T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0138",
+      "code": "IFX-ORG-00138",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 37.600755,
+      "longitude": -122.481048,
+      "estimated_replacement_cost": 918602.53,
+      "created_at": "2024-10-20T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0139",
+      "code": "IFX-ORG-00139",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.759283,
+      "longitude": -122.66312,
+      "estimated_replacement_cost": 1329929.85,
+      "created_at": "2024-11-17T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0140",
+      "code": "IFX-ORG-00140",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.910557,
+      "longitude": -122.467637,
+      "estimated_replacement_cost": 607832.54,
+      "created_at": "2025-05-02T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0141",
+      "code": "IFX-ORG-00141",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.974328,
+      "longitude": -122.653124,
+      "estimated_replacement_cost": 1428480.2,
+      "created_at": "2025-05-17T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0142",
+      "code": "IFX-ORG-00142",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.591312,
+      "longitude": -122.324302,
+      "estimated_replacement_cost": 612261.86,
+      "created_at": "2025-04-30T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0143",
+      "code": "IFX-ORG-00143",
+      "status": "INSPECTED",
+      "condition_score": 73,
+      "latitude": 37.637712,
+      "longitude": -122.643397,
+      "estimated_replacement_cost": 889021.82,
+      "created_at": "2026-08-17T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0144",
+      "code": "IFX-ORG-00144",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.605133,
+      "longitude": -122.536017,
+      "estimated_replacement_cost": 1139430.13,
+      "created_at": "2025-03-23T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0145",
+      "code": "IFX-ORG-00145",
+      "status": "ACTIVE",
+      "condition_score": 85,
+      "latitude": 37.861824,
+      "longitude": -122.508318,
+      "estimated_replacement_cost": 1036627.52,
+      "created_at": "2024-10-01T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0146",
+      "code": "IFX-ORG-00146",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.675555,
+      "longitude": -122.475352,
+      "estimated_replacement_cost": 910913.61,
+      "created_at": "2025-12-04T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0147",
+      "code": "IFX-ORG-00147",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.77708,
+      "longitude": -122.336992,
+      "estimated_replacement_cost": 1317473.11,
+      "created_at": "2025-12-21T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0148",
+      "code": "IFX-ORG-00148",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.669312,
+      "longitude": -122.384363,
+      "estimated_replacement_cost": 1064552.98,
+      "created_at": "2026-01-13T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0149",
+      "code": "IFX-ORG-00149",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.571298,
+      "longitude": -122.54909,
+      "estimated_replacement_cost": 1321285.62,
+      "created_at": "2024-11-08T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_organizations.organizationsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Organizations Asset Segment #0150",
+      "code": "IFX-ORG-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.623556,
+      "longitude": -122.209512,
+      "estimated_replacement_cost": 1443060.98,
+      "created_at": "2026-07-27T10:34:25.230235",
+      "updated_at": "2026-09-08T10:34:25.230235",
+      "notes": "Standard municipal engineering inventory record for organizations.",
+      "metadata": {
+        "spec_code": "SPEC-ORGANIZATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]

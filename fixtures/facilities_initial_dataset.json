@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0001",
+      "code": "IFX-FAC-00001",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.910516,
+      "longitude": -122.181237,
+      "estimated_replacement_cost": 1336832.72,
+      "created_at": "2025-10-09T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0002",
+      "code": "IFX-FAC-00002",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.606337,
+      "longitude": -122.189433,
+      "estimated_replacement_cost": 593644.2,
+      "created_at": "2025-10-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0003",
+      "code": "IFX-FAC-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.546312,
+      "longitude": -122.310338,
+      "estimated_replacement_cost": 1401121.89,
+      "created_at": "2024-10-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0004",
+      "code": "IFX-FAC-00004",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.945266,
+      "longitude": -122.462759,
+      "estimated_replacement_cost": 515786.0,
+      "created_at": "2024-12-27T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0005",
+      "code": "IFX-FAC-00005",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 37.572899,
+      "longitude": -122.2779,
+      "estimated_replacement_cost": 1425579.04,
+      "created_at": "2025-04-08T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0006",
+      "code": "IFX-FAC-00006",
+      "status": "INSPECTED",
+      "condition_score": 67,
+      "latitude": 37.624703,
+      "longitude": -122.530686,
+      "estimated_replacement_cost": 767586.65,
+      "created_at": "2025-09-07T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0007",
+      "code": "IFX-FAC-00007",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.569737,
+      "longitude": -122.197682,
+      "estimated_replacement_cost": 789988.23,
+      "created_at": "2025-08-01T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0008",
+      "code": "IFX-FAC-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.633662,
+      "longitude": -122.176028,
+      "estimated_replacement_cost": 577360.39,
+      "created_at": "2026-08-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0009",
+      "code": "IFX-FAC-00009",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.897365,
+      "longitude": -122.259771,
+      "estimated_replacement_cost": 1366728.39,
+      "created_at": "2026-01-05T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0010",
+      "code": "IFX-FAC-00010",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.746313,
+      "longitude": -122.335799,
+      "estimated_replacement_cost": 1401042.61,
+      "created_at": "2024-12-26T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0011",
+      "code": "IFX-FAC-00011",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.628828,
+      "longitude": -122.625858,
+      "estimated_replacement_cost": 371778.89,
+      "created_at": "2026-04-03T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0012",
+      "code": "IFX-FAC-00012",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.92415,
+      "longitude": -122.455101,
+      "estimated_replacement_cost": 260893.58,
+      "created_at": "2026-08-02T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0013",
+      "code": "IFX-FAC-00013",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.832136,
+      "longitude": -122.190902,
+      "estimated_replacement_cost": 1010897.31,
+      "created_at": "2025-07-08T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0014",
+      "code": "IFX-FAC-00014",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.623973,
+      "longitude": -122.399266,
+      "estimated_replacement_cost": 1166891.71,
+      "created_at": "2024-11-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0015",
+      "code": "IFX-FAC-00015",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.655253,
+      "longitude": -122.449297,
+      "estimated_replacement_cost": 937095.31,
+      "created_at": "2026-01-01T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0016",
+      "code": "IFX-FAC-00016",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.931366,
+      "longitude": -122.237213,
+      "estimated_replacement_cost": 144745.53,
+      "created_at": "2025-09-27T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0017",
+      "code": "IFX-FAC-00017",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.798338,
+      "longitude": -122.654496,
+      "estimated_replacement_cost": 277326.96,
+      "created_at": "2025-10-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0018",
+      "code": "IFX-FAC-00018",
+      "status": "INSPECTED",
+      "condition_score": 93,
+      "latitude": 37.572818,
+      "longitude": -122.442217,
+      "estimated_replacement_cost": 618562.5,
+      "created_at": "2025-01-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0019",
+      "code": "IFX-FAC-00019",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.609839,
+      "longitude": -122.449434,
+      "estimated_replacement_cost": 52131.0,
+      "created_at": "2025-06-23T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0020",
+      "code": "IFX-FAC-00020",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.56529,
+      "longitude": -122.365599,
+      "estimated_replacement_cost": 986748.59,
+      "created_at": "2025-06-30T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0021",
+      "code": "IFX-FAC-00021",
+      "status": "INSPECTED",
+      "condition_score": 73,
+      "latitude": 37.953162,
+      "longitude": -122.29256,
+      "estimated_replacement_cost": 626655.03,
+      "created_at": "2024-11-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0022",
+      "code": "IFX-FAC-00022",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.854083,
+      "longitude": -122.624294,
+      "estimated_replacement_cost": 1062324.6,
+      "created_at": "2025-06-08T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0023",
+      "code": "IFX-FAC-00023",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.750767,
+      "longitude": -122.401996,
+      "estimated_replacement_cost": 981491.16,
+      "created_at": "2026-07-13T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0024",
+      "code": "IFX-FAC-00024",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 38.012936,
+      "longitude": -122.452161,
+      "estimated_replacement_cost": 392458.17,
+      "created_at": "2025-07-09T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0025",
+      "code": "IFX-FAC-00025",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.880543,
+      "longitude": -122.196844,
+      "estimated_replacement_cost": 522851.35,
+      "created_at": "2025-05-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0026",
+      "code": "IFX-FAC-00026",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.697509,
+      "longitude": -122.390379,
+      "estimated_replacement_cost": 746400.32,
+      "created_at": "2026-06-21T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0027",
+      "code": "IFX-FAC-00027",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.760307,
+      "longitude": -122.498069,
+      "estimated_replacement_cost": 634198.73,
+      "created_at": "2026-06-19T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0028",
+      "code": "IFX-FAC-00028",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.927814,
+      "longitude": -122.373867,
+      "estimated_replacement_cost": 1143654.61,
+      "created_at": "2026-06-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0029",
+      "code": "IFX-FAC-00029",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.603704,
+      "longitude": -122.573795,
+      "estimated_replacement_cost": 253555.37,
+      "created_at": "2025-02-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0030",
+      "code": "IFX-FAC-00030",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.894947,
+      "longitude": -122.426653,
+      "estimated_replacement_cost": 880869.65,
+      "created_at": "2024-11-29T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0031",
+      "code": "IFX-FAC-00031",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.855007,
+      "longitude": -122.434049,
+      "estimated_replacement_cost": 389008.16,
+      "created_at": "2025-02-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0032",
+      "code": "IFX-FAC-00032",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.983727,
+      "longitude": -122.231132,
+      "estimated_replacement_cost": 1093734.77,
+      "created_at": "2024-11-08T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0033",
+      "code": "IFX-FAC-00033",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.929309,
+      "longitude": -122.573491,
+      "estimated_replacement_cost": 1280213.86,
+      "created_at": "2026-03-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0034",
+      "code": "IFX-FAC-00034",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.682314,
+      "longitude": -122.582095,
+      "estimated_replacement_cost": 650477.43,
+      "created_at": "2025-03-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0035",
+      "code": "IFX-FAC-00035",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.692238,
+      "longitude": -122.201579,
+      "estimated_replacement_cost": 390297.33,
+      "created_at": "2026-08-14T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0036",
+      "code": "IFX-FAC-00036",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.859583,
+      "longitude": -122.58747,
+      "estimated_replacement_cost": 768490.24,
+      "created_at": "2026-09-03T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0037",
+      "code": "IFX-FAC-00037",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.807221,
+      "longitude": -122.426815,
+      "estimated_replacement_cost": 584582.5,
+      "created_at": "2026-08-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0038",
+      "code": "IFX-FAC-00038",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.589259,
+      "longitude": -122.210047,
+      "estimated_replacement_cost": 1299401.61,
+      "created_at": "2025-12-07T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0039",
+      "code": "IFX-FAC-00039",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.87393,
+      "longitude": -122.21106,
+      "estimated_replacement_cost": 1429838.38,
+      "created_at": "2025-08-25T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0040",
+      "code": "IFX-FAC-00040",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.878457,
+      "longitude": -122.265901,
+      "estimated_replacement_cost": 46398.18,
+      "created_at": "2024-10-01T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0041",
+      "code": "IFX-FAC-00041",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.559813,
+      "longitude": -122.505394,
+      "estimated_replacement_cost": 857066.75,
+      "created_at": "2026-03-25T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0042",
+      "code": "IFX-FAC-00042",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.685566,
+      "longitude": -122.446358,
+      "estimated_replacement_cost": 1349996.71,
+      "created_at": "2026-08-30T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0043",
+      "code": "IFX-FAC-00043",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.564321,
+      "longitude": -122.282245,
+      "estimated_replacement_cost": 1210451.85,
+      "created_at": "2026-06-21T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0044",
+      "code": "IFX-FAC-00044",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.733668,
+      "longitude": -122.641373,
+      "estimated_replacement_cost": 1312204.19,
+      "created_at": "2024-09-19T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0045",
+      "code": "IFX-FAC-00045",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 38.01096,
+      "longitude": -122.45302,
+      "estimated_replacement_cost": 1125276.8,
+      "created_at": "2025-07-23T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0046",
+      "code": "IFX-FAC-00046",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.756978,
+      "longitude": -122.577982,
+      "estimated_replacement_cost": 1130879.12,
+      "created_at": "2026-07-27T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0047",
+      "code": "IFX-FAC-00047",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.771368,
+      "longitude": -122.429445,
+      "estimated_replacement_cost": 758155.95,
+      "created_at": "2026-06-15T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0048",
+      "code": "IFX-FAC-00048",
+      "status": "INSPECTED",
+      "condition_score": 72,
+      "latitude": 37.793848,
+      "longitude": -122.200489,
+      "estimated_replacement_cost": 140252.88,
+      "created_at": "2024-11-13T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0049",
+      "code": "IFX-FAC-00049",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 37.946104,
+      "longitude": -122.609587,
+      "estimated_replacement_cost": 1386977.78,
+      "created_at": "2025-02-27T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0050",
+      "code": "IFX-FAC-00050",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.926971,
+      "longitude": -122.442837,
+      "estimated_replacement_cost": 1333228.5,
+      "created_at": "2026-04-25T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0051",
+      "code": "IFX-FAC-00051",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.549519,
+      "longitude": -122.533265,
+      "estimated_replacement_cost": 1465641.52,
+      "created_at": "2025-11-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0052",
+      "code": "IFX-FAC-00052",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.59607,
+      "longitude": -122.432293,
+      "estimated_replacement_cost": 781847.17,
+      "created_at": "2026-05-25T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0053",
+      "code": "IFX-FAC-00053",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.538646,
+      "longitude": -122.297267,
+      "estimated_replacement_cost": 871608.3,
+      "created_at": "2024-12-26T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0054",
+      "code": "IFX-FAC-00054",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.713108,
+      "longitude": -122.248773,
+      "estimated_replacement_cost": 736189.83,
+      "created_at": "2025-12-29T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0055",
+      "code": "IFX-FAC-00055",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.626869,
+      "longitude": -122.45259,
+      "estimated_replacement_cost": 610119.83,
+      "created_at": "2024-11-21T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0056",
+      "code": "IFX-FAC-00056",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.928221,
+      "longitude": -122.280118,
+      "estimated_replacement_cost": 378946.54,
+      "created_at": "2025-07-20T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0057",
+      "code": "IFX-FAC-00057",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.565428,
+      "longitude": -122.382752,
+      "estimated_replacement_cost": 1228997.72,
+      "created_at": "2025-04-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0058",
+      "code": "IFX-FAC-00058",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.698236,
+      "longitude": -122.472623,
+      "estimated_replacement_cost": 286123.34,
+      "created_at": "2026-01-02T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0059",
+      "code": "IFX-FAC-00059",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.767237,
+      "longitude": -122.348212,
+      "estimated_replacement_cost": 45528.99,
+      "created_at": "2025-01-26T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0060",
+      "code": "IFX-FAC-00060",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.834086,
+      "longitude": -122.54213,
+      "estimated_replacement_cost": 376112.42,
+      "created_at": "2026-02-02T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0061",
+      "code": "IFX-FAC-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.682512,
+      "longitude": -122.235113,
+      "estimated_replacement_cost": 931698.16,
+      "created_at": "2025-07-12T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0062",
+      "code": "IFX-FAC-00062",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.619949,
+      "longitude": -122.453275,
+      "estimated_replacement_cost": 712241.74,
+      "created_at": "2024-11-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0063",
+      "code": "IFX-FAC-00063",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.587833,
+      "longitude": -122.225299,
+      "estimated_replacement_cost": 1042653.12,
+      "created_at": "2025-12-14T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0064",
+      "code": "IFX-FAC-00064",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.724795,
+      "longitude": -122.666043,
+      "estimated_replacement_cost": 62874.37,
+      "created_at": "2025-08-02T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0065",
+      "code": "IFX-FAC-00065",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.651006,
+      "longitude": -122.382808,
+      "estimated_replacement_cost": 490738.79,
+      "created_at": "2024-11-06T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0066",
+      "code": "IFX-FAC-00066",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.877383,
+      "longitude": -122.364637,
+      "estimated_replacement_cost": 1393962.6,
+      "created_at": "2025-04-29T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0067",
+      "code": "IFX-FAC-00067",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.69257,
+      "longitude": -122.305314,
+      "estimated_replacement_cost": 1332617.75,
+      "created_at": "2025-09-23T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0068",
+      "code": "IFX-FAC-00068",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.769919,
+      "longitude": -122.305788,
+      "estimated_replacement_cost": 1127246.05,
+      "created_at": "2025-05-11T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0069",
+      "code": "IFX-FAC-00069",
+      "status": "OPERATIONAL",
+      "condition_score": 68,
+      "latitude": 37.692099,
+      "longitude": -122.301594,
+      "estimated_replacement_cost": 210621.1,
+      "created_at": "2026-07-12T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0070",
+      "code": "IFX-FAC-00070",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.595849,
+      "longitude": -122.261395,
+      "estimated_replacement_cost": 855825.37,
+      "created_at": "2025-12-19T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0071",
+      "code": "IFX-FAC-00071",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.614577,
+      "longitude": -122.339025,
+      "estimated_replacement_cost": 973511.38,
+      "created_at": "2026-07-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0072",
+      "code": "IFX-FAC-00072",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.849654,
+      "longitude": -122.538749,
+      "estimated_replacement_cost": 647953.89,
+      "created_at": "2025-11-20T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0073",
+      "code": "IFX-FAC-00073",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.762781,
+      "longitude": -122.313566,
+      "estimated_replacement_cost": 1226479.31,
+      "created_at": "2025-04-10T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0074",
+      "code": "IFX-FAC-00074",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.744646,
+      "longitude": -122.235448,
+      "estimated_replacement_cost": 584293.05,
+      "created_at": "2025-08-03T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0075",
+      "code": "IFX-FAC-00075",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.559485,
+      "longitude": -122.492308,
+      "estimated_replacement_cost": 135159.64,
+      "created_at": "2026-09-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0076",
+      "code": "IFX-FAC-00076",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.967678,
+      "longitude": -122.443891,
+      "estimated_replacement_cost": 258417.21,
+      "created_at": "2025-07-18T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0077",
+      "code": "IFX-FAC-00077",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.834941,
+      "longitude": -122.47422,
+      "estimated_replacement_cost": 191885.35,
+      "created_at": "2026-05-26T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0078",
+      "code": "IFX-FAC-00078",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.761335,
+      "longitude": -122.228636,
+      "estimated_replacement_cost": 996046.01,
+      "created_at": "2025-04-01T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0079",
+      "code": "IFX-FAC-00079",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.875076,
+      "longitude": -122.536159,
+      "estimated_replacement_cost": 1292047.16,
+      "created_at": "2025-08-09T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0080",
+      "code": "IFX-FAC-00080",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.750542,
+      "longitude": -122.399126,
+      "estimated_replacement_cost": 193192.25,
+      "created_at": "2026-04-23T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0081",
+      "code": "IFX-FAC-00081",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.842993,
+      "longitude": -122.574665,
+      "estimated_replacement_cost": 1078842.59,
+      "created_at": "2025-04-25T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0082",
+      "code": "IFX-FAC-00082",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.734336,
+      "longitude": -122.182376,
+      "estimated_replacement_cost": 905648.3,
+      "created_at": "2025-02-09T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0083",
+      "code": "IFX-FAC-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.58816,
+      "longitude": -122.17721,
+      "estimated_replacement_cost": 1384423.41,
+      "created_at": "2025-01-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0084",
+      "code": "IFX-FAC-00084",
+      "status": "INSPECTED",
+      "condition_score": 61,
+      "latitude": 37.828211,
+      "longitude": -122.456154,
+      "estimated_replacement_cost": 726882.23,
+      "created_at": "2024-10-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0085",
+      "code": "IFX-FAC-00085",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.942351,
+      "longitude": -122.233007,
+      "estimated_replacement_cost": 615706.58,
+      "created_at": "2025-03-03T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0086",
+      "code": "IFX-FAC-00086",
+      "status": "STANDBY",
+      "condition_score": 51,
+      "latitude": 37.800492,
+      "longitude": -122.307328,
+      "estimated_replacement_cost": 1150300.78,
+      "created_at": "2026-08-19T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0087",
+      "code": "IFX-FAC-00087",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.874717,
+      "longitude": -122.579311,
+      "estimated_replacement_cost": 814424.75,
+      "created_at": "2026-04-23T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0088",
+      "code": "IFX-FAC-00088",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.761916,
+      "longitude": -122.479255,
+      "estimated_replacement_cost": 820771.43,
+      "created_at": "2026-06-08T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0089",
+      "code": "IFX-FAC-00089",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.622116,
+      "longitude": -122.351678,
+      "estimated_replacement_cost": 1248281.98,
+      "created_at": "2026-08-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0090",
+      "code": "IFX-FAC-00090",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.658395,
+      "longitude": -122.358257,
+      "estimated_replacement_cost": 762410.67,
+      "created_at": "2026-06-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0091",
+      "code": "IFX-FAC-00091",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 37.581366,
+      "longitude": -122.444841,
+      "estimated_replacement_cost": 1031343.43,
+      "created_at": "2025-09-18T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0092",
+      "code": "IFX-FAC-00092",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.90983,
+      "longitude": -122.410244,
+      "estimated_replacement_cost": 1482842.94,
+      "created_at": "2026-08-29T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0093",
+      "code": "IFX-FAC-00093",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.928703,
+      "longitude": -122.17746,
+      "estimated_replacement_cost": 1400180.55,
+      "created_at": "2026-08-09T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0094",
+      "code": "IFX-FAC-00094",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.8401,
+      "longitude": -122.190287,
+      "estimated_replacement_cost": 279576.24,
+      "created_at": "2026-01-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0095",
+      "code": "IFX-FAC-00095",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.819554,
+      "longitude": -122.286959,
+      "estimated_replacement_cost": 531513.91,
+      "created_at": "2026-04-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0096",
+      "code": "IFX-FAC-00096",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.911643,
+      "longitude": -122.629025,
+      "estimated_replacement_cost": 1119951.08,
+      "created_at": "2026-03-14T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0097",
+      "code": "IFX-FAC-00097",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.862129,
+      "longitude": -122.329187,
+      "estimated_replacement_cost": 1133749.46,
+      "created_at": "2025-01-30T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0098",
+      "code": "IFX-FAC-00098",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.822462,
+      "longitude": -122.572561,
+      "estimated_replacement_cost": 1169750.16,
+      "created_at": "2025-12-26T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0099",
+      "code": "IFX-FAC-00099",
+      "status": "ACTIVE",
+      "condition_score": 70,
+      "latitude": 37.904046,
+      "longitude": -122.486808,
+      "estimated_replacement_cost": 1414934.17,
+      "created_at": "2025-08-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0100",
+      "code": "IFX-FAC-00100",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.961157,
+      "longitude": -122.188529,
+      "estimated_replacement_cost": 552582.36,
+      "created_at": "2026-07-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0101",
+      "code": "IFX-FAC-00101",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.958621,
+      "longitude": -122.551917,
+      "estimated_replacement_cost": 774779.52,
+      "created_at": "2025-10-20T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0102",
+      "code": "IFX-FAC-00102",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 37.751723,
+      "longitude": -122.417774,
+      "estimated_replacement_cost": 1095960.11,
+      "created_at": "2024-11-17T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0103",
+      "code": "IFX-FAC-00103",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.642683,
+      "longitude": -122.306166,
+      "estimated_replacement_cost": 1043677.73,
+      "created_at": "2025-06-07T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0104",
+      "code": "IFX-FAC-00104",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.650534,
+      "longitude": -122.31644,
+      "estimated_replacement_cost": 502658.68,
+      "created_at": "2026-09-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0105",
+      "code": "IFX-FAC-00105",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.729204,
+      "longitude": -122.236796,
+      "estimated_replacement_cost": 770166.22,
+      "created_at": "2025-03-17T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0106",
+      "code": "IFX-FAC-00106",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.99614,
+      "longitude": -122.303663,
+      "estimated_replacement_cost": 200694.48,
+      "created_at": "2024-12-27T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0107",
+      "code": "IFX-FAC-00107",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.993395,
+      "longitude": -122.39659,
+      "estimated_replacement_cost": 1198331.63,
+      "created_at": "2025-01-10T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0108",
+      "code": "IFX-FAC-00108",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.579649,
+      "longitude": -122.37815,
+      "estimated_replacement_cost": 431643.68,
+      "created_at": "2025-12-30T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0109",
+      "code": "IFX-FAC-00109",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.644633,
+      "longitude": -122.577101,
+      "estimated_replacement_cost": 611342.81,
+      "created_at": "2025-10-29T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0110",
+      "code": "IFX-FAC-00110",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.980259,
+      "longitude": -122.58582,
+      "estimated_replacement_cost": 75019.91,
+      "created_at": "2025-01-31T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0111",
+      "code": "IFX-FAC-00111",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.844095,
+      "longitude": -122.305362,
+      "estimated_replacement_cost": 702061.78,
+      "created_at": "2025-10-31T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0112",
+      "code": "IFX-FAC-00112",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 66,
+      "latitude": 37.830792,
+      "longitude": -122.488407,
+      "estimated_replacement_cost": 541129.06,
+      "created_at": "2025-10-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0113",
+      "code": "IFX-FAC-00113",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.788684,
+      "longitude": -122.206717,
+      "estimated_replacement_cost": 475147.62,
+      "created_at": "2024-12-21T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0114",
+      "code": "IFX-FAC-00114",
+      "status": "OPERATIONAL",
+      "condition_score": 70,
+      "latitude": 37.863701,
+      "longitude": -122.462142,
+      "estimated_replacement_cost": 603207.66,
+      "created_at": "2025-03-30T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0115",
+      "code": "IFX-FAC-00115",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.631363,
+      "longitude": -122.332192,
+      "estimated_replacement_cost": 1113882.97,
+      "created_at": "2025-08-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0116",
+      "code": "IFX-FAC-00116",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.914931,
+      "longitude": -122.433689,
+      "estimated_replacement_cost": 1131537.66,
+      "created_at": "2025-11-07T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0117",
+      "code": "IFX-FAC-00117",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 38.017746,
+      "longitude": -122.655919,
+      "estimated_replacement_cost": 389477.29,
+      "created_at": "2026-06-11T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0118",
+      "code": "IFX-FAC-00118",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.533056,
+      "longitude": -122.522818,
+      "estimated_replacement_cost": 315852.33,
+      "created_at": "2026-03-23T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0119",
+      "code": "IFX-FAC-00119",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.883872,
+      "longitude": -122.362212,
+      "estimated_replacement_cost": 914534.33,
+      "created_at": "2025-01-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0120",
+      "code": "IFX-FAC-00120",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.543374,
+      "longitude": -122.579989,
+      "estimated_replacement_cost": 990011.97,
+      "created_at": "2025-02-27T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0121",
+      "code": "IFX-FAC-00121",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.863961,
+      "longitude": -122.234178,
+      "estimated_replacement_cost": 676480.18,
+      "created_at": "2026-02-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0122",
+      "code": "IFX-FAC-00122",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.887063,
+      "longitude": -122.616902,
+      "estimated_replacement_cost": 772386.59,
+      "created_at": "2026-04-09T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0123",
+      "code": "IFX-FAC-00123",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.910095,
+      "longitude": -122.462187,
+      "estimated_replacement_cost": 975661.03,
+      "created_at": "2026-05-11T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0124",
+      "code": "IFX-FAC-00124",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.798926,
+      "longitude": -122.304279,
+      "estimated_replacement_cost": 409417.66,
+      "created_at": "2024-12-18T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0125",
+      "code": "IFX-FAC-00125",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.607021,
+      "longitude": -122.390049,
+      "estimated_replacement_cost": 814852.5,
+      "created_at": "2025-10-25T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0126",
+      "code": "IFX-FAC-00126",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.563403,
+      "longitude": -122.245177,
+      "estimated_replacement_cost": 375867.68,
+      "created_at": "2025-02-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0127",
+      "code": "IFX-FAC-00127",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.806646,
+      "longitude": -122.388434,
+      "estimated_replacement_cost": 1194675.18,
+      "created_at": "2024-12-20T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0128",
+      "code": "IFX-FAC-00128",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 38.015471,
+      "longitude": -122.417306,
+      "estimated_replacement_cost": 1472905.82,
+      "created_at": "2026-08-27T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0129",
+      "code": "IFX-FAC-00129",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.908449,
+      "longitude": -122.179462,
+      "estimated_replacement_cost": 914239.92,
+      "created_at": "2025-09-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0130",
+      "code": "IFX-FAC-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 38.018557,
+      "longitude": -122.400377,
+      "estimated_replacement_cost": 836032.5,
+      "created_at": "2026-07-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0131",
+      "code": "IFX-FAC-00131",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.542524,
+      "longitude": -122.420634,
+      "estimated_replacement_cost": 465539.73,
+      "created_at": "2025-02-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0132",
+      "code": "IFX-FAC-00132",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.991755,
+      "longitude": -122.18778,
+      "estimated_replacement_cost": 95234.3,
+      "created_at": "2024-11-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0133",
+      "code": "IFX-FAC-00133",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.706793,
+      "longitude": -122.229319,
+      "estimated_replacement_cost": 490304.89,
+      "created_at": "2024-10-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0134",
+      "code": "IFX-FAC-00134",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.826488,
+      "longitude": -122.178531,
+      "estimated_replacement_cost": 682103.04,
+      "created_at": "2026-05-28T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0135",
+      "code": "IFX-FAC-00135",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.616419,
+      "longitude": -122.513949,
+      "estimated_replacement_cost": 1377129.43,
+      "created_at": "2026-05-06T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0136",
+      "code": "IFX-FAC-00136",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.745698,
+      "longitude": -122.246594,
+      "estimated_replacement_cost": 1077738.03,
+      "created_at": "2026-02-02T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0137",
+      "code": "IFX-FAC-00137",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.63524,
+      "longitude": -122.297782,
+      "estimated_replacement_cost": 1494073.41,
+      "created_at": "2025-09-19T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0138",
+      "code": "IFX-FAC-00138",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.916413,
+      "longitude": -122.275177,
+      "estimated_replacement_cost": 512940.63,
+      "created_at": "2026-02-14T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0139",
+      "code": "IFX-FAC-00139",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.547319,
+      "longitude": -122.591527,
+      "estimated_replacement_cost": 1456249.11,
+      "created_at": "2026-08-19T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0140",
+      "code": "IFX-FAC-00140",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.631701,
+      "longitude": -122.303338,
+      "estimated_replacement_cost": 1046237.51,
+      "created_at": "2026-07-24T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0141",
+      "code": "IFX-FAC-00141",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.976056,
+      "longitude": -122.625495,
+      "estimated_replacement_cost": 336392.84,
+      "created_at": "2025-01-04T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0142",
+      "code": "IFX-FAC-00142",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.686172,
+      "longitude": -122.657834,
+      "estimated_replacement_cost": 1060234.89,
+      "created_at": "2026-07-22T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0143",
+      "code": "IFX-FAC-00143",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.571452,
+      "longitude": -122.600419,
+      "estimated_replacement_cost": 107517.2,
+      "created_at": "2024-09-19T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0144",
+      "code": "IFX-FAC-00144",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.912641,
+      "longitude": -122.472977,
+      "estimated_replacement_cost": 800879.49,
+      "created_at": "2026-06-08T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0145",
+      "code": "IFX-FAC-00145",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.766023,
+      "longitude": -122.552619,
+      "estimated_replacement_cost": 961828.45,
+      "created_at": "2026-02-26T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0146",
+      "code": "IFX-FAC-00146",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.977167,
+      "longitude": -122.258841,
+      "estimated_replacement_cost": 1297210.09,
+      "created_at": "2026-04-08T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0147",
+      "code": "IFX-FAC-00147",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.716618,
+      "longitude": -122.643363,
+      "estimated_replacement_cost": 1229938.09,
+      "created_at": "2025-12-26T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0148",
+      "code": "IFX-FAC-00148",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.729055,
+      "longitude": -122.346234,
+      "estimated_replacement_cost": 569530.2,
+      "created_at": "2025-10-01T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0149",
+      "code": "IFX-FAC-00149",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.990684,
+      "longitude": -122.388208,
+      "estimated_replacement_cost": 585640.4,
+      "created_at": "2026-06-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_facilities.facilitiesrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Facilities Asset Segment #0150",
+      "code": "IFX-FAC-00150",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.993436,
+      "longitude": -122.338003,
+      "estimated_replacement_cost": 303286.38,
+      "created_at": "2025-05-16T10:34:25.322653",
+      "updated_at": "2026-09-08T10:34:25.322653",
+      "notes": "Standard municipal engineering inventory record for facilities.",
+      "metadata": {
+        "spec_code": "SPEC-FACILITIES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  }
+]

@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0001",
+      "code": "IFX-ROA-00001",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.624639,
+      "longitude": -122.596959,
+      "estimated_replacement_cost": 918841.68,
+      "created_at": "2026-05-02T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0002",
+      "code": "IFX-ROA-00002",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 38.000935,
+      "longitude": -122.43402,
+      "estimated_replacement_cost": 1164416.47,
+      "created_at": "2025-01-17T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0003",
+      "code": "IFX-ROA-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.86493,
+      "longitude": -122.24673,
+      "estimated_replacement_cost": 1255431.29,
+      "created_at": "2026-05-06T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0004",
+      "code": "IFX-ROA-00004",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 38.007839,
+      "longitude": -122.466839,
+      "estimated_replacement_cost": 1113241.99,
+      "created_at": "2026-08-24T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0005",
+      "code": "IFX-ROA-00005",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.578148,
+      "longitude": -122.253478,
+      "estimated_replacement_cost": 909574.93,
+      "created_at": "2025-07-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0006",
+      "code": "IFX-ROA-00006",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.770602,
+      "longitude": -122.471638,
+      "estimated_replacement_cost": 1254186.39,
+      "created_at": "2025-01-07T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0007",
+      "code": "IFX-ROA-00007",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.849627,
+      "longitude": -122.206041,
+      "estimated_replacement_cost": 1287173.6,
+      "created_at": "2025-06-27T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0008",
+      "code": "IFX-ROA-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.665108,
+      "longitude": -122.356105,
+      "estimated_replacement_cost": 902569.45,
+      "created_at": "2024-12-27T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0009",
+      "code": "IFX-ROA-00009",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.639324,
+      "longitude": -122.658656,
+      "estimated_replacement_cost": 656803.39,
+      "created_at": "2026-08-24T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0010",
+      "code": "IFX-ROA-00010",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.550513,
+      "longitude": -122.499144,
+      "estimated_replacement_cost": 1259674.17,
+      "created_at": "2025-04-29T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0011",
+      "code": "IFX-ROA-00011",
+      "status": "STANDBY",
+      "condition_score": 63,
+      "latitude": 37.647587,
+      "longitude": -122.541708,
+      "estimated_replacement_cost": 407132.35,
+      "created_at": "2025-05-08T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0012",
+      "code": "IFX-ROA-00012",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.958134,
+      "longitude": -122.425772,
+      "estimated_replacement_cost": 1465990.65,
+      "created_at": "2026-04-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0013",
+      "code": "IFX-ROA-00013",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.600919,
+      "longitude": -122.571434,
+      "estimated_replacement_cost": 378388.61,
+      "created_at": "2025-11-21T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0014",
+      "code": "IFX-ROA-00014",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.912024,
+      "longitude": -122.631272,
+      "estimated_replacement_cost": 1244967.74,
+      "created_at": "2024-12-17T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0015",
+      "code": "IFX-ROA-00015",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.667898,
+      "longitude": -122.469103,
+      "estimated_replacement_cost": 567766.03,
+      "created_at": "2025-08-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0016",
+      "code": "IFX-ROA-00016",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.580469,
+      "longitude": -122.597266,
+      "estimated_replacement_cost": 1427758.09,
+      "created_at": "2025-03-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0017",
+      "code": "IFX-ROA-00017",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.536746,
+      "longitude": -122.442741,
+      "estimated_replacement_cost": 633769.09,
+      "created_at": "2024-10-23T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0018",
+      "code": "IFX-ROA-00018",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.666135,
+      "longitude": -122.305571,
+      "estimated_replacement_cost": 1196540.26,
+      "created_at": "2026-05-13T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0019",
+      "code": "IFX-ROA-00019",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.652756,
+      "longitude": -122.209588,
+      "estimated_replacement_cost": 1419378.72,
+      "created_at": "2025-10-01T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0020",
+      "code": "IFX-ROA-00020",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.538387,
+      "longitude": -122.234517,
+      "estimated_replacement_cost": 441825.12,
+      "created_at": "2025-01-29T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0021",
+      "code": "IFX-ROA-00021",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.782963,
+      "longitude": -122.356119,
+      "estimated_replacement_cost": 717348.38,
+      "created_at": "2026-05-08T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0022",
+      "code": "IFX-ROA-00022",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.818759,
+      "longitude": -122.591841,
+      "estimated_replacement_cost": 997099.73,
+      "created_at": "2026-07-31T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0023",
+      "code": "IFX-ROA-00023",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.980187,
+      "longitude": -122.325703,
+      "estimated_replacement_cost": 711377.27,
+      "created_at": "2025-07-07T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0024",
+      "code": "IFX-ROA-00024",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.978891,
+      "longitude": -122.631902,
+      "estimated_replacement_cost": 1112998.9,
+      "created_at": "2026-02-21T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0025",
+      "code": "IFX-ROA-00025",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.937359,
+      "longitude": -122.64053,
+      "estimated_replacement_cost": 659103.68,
+      "created_at": "2025-06-03T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0026",
+      "code": "IFX-ROA-00026",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 37.97706,
+      "longitude": -122.363285,
+      "estimated_replacement_cost": 876079.32,
+      "created_at": "2025-08-09T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0027",
+      "code": "IFX-ROA-00027",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.772046,
+      "longitude": -122.519366,
+      "estimated_replacement_cost": 523121.19,
+      "created_at": "2025-11-30T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0028",
+      "code": "IFX-ROA-00028",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.611229,
+      "longitude": -122.441456,
+      "estimated_replacement_cost": 1389010.48,
+      "created_at": "2024-09-29T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0029",
+      "code": "IFX-ROA-00029",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.836658,
+      "longitude": -122.530177,
+      "estimated_replacement_cost": 1149291.41,
+      "created_at": "2026-02-08T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0030",
+      "code": "IFX-ROA-00030",
+      "status": "ACTIVE",
+      "condition_score": 85,
+      "latitude": 37.569476,
+      "longitude": -122.514841,
+      "estimated_replacement_cost": 26437.67,
+      "created_at": "2025-01-03T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0031",
+      "code": "IFX-ROA-00031",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.689053,
+      "longitude": -122.233007,
+      "estimated_replacement_cost": 1142578.07,
+      "created_at": "2026-01-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0032",
+      "code": "IFX-ROA-00032",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.924344,
+      "longitude": -122.505968,
+      "estimated_replacement_cost": 1441130.93,
+      "created_at": "2025-05-09T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0033",
+      "code": "IFX-ROA-00033",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.932555,
+      "longitude": -122.433354,
+      "estimated_replacement_cost": 1392595.12,
+      "created_at": "2025-12-19T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0034",
+      "code": "IFX-ROA-00034",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.62712,
+      "longitude": -122.572323,
+      "estimated_replacement_cost": 247498.74,
+      "created_at": "2026-01-21T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0035",
+      "code": "IFX-ROA-00035",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.958602,
+      "longitude": -122.235787,
+      "estimated_replacement_cost": 220882.24,
+      "created_at": "2026-06-02T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0036",
+      "code": "IFX-ROA-00036",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.73861,
+      "longitude": -122.533196,
+      "estimated_replacement_cost": 849542.36,
+      "created_at": "2026-03-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0037",
+      "code": "IFX-ROA-00037",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.849115,
+      "longitude": -122.51058,
+      "estimated_replacement_cost": 995199.56,
+      "created_at": "2026-01-20T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0038",
+      "code": "IFX-ROA-00038",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 38.020591,
+      "longitude": -122.256595,
+      "estimated_replacement_cost": 33471.66,
+      "created_at": "2025-08-19T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0039",
+      "code": "IFX-ROA-00039",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.935117,
+      "longitude": -122.176519,
+      "estimated_replacement_cost": 1422455.95,
+      "created_at": "2025-02-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0040",
+      "code": "IFX-ROA-00040",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 38.01589,
+      "longitude": -122.219847,
+      "estimated_replacement_cost": 685867.47,
+      "created_at": "2026-06-05T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0041",
+      "code": "IFX-ROA-00041",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.707526,
+      "longitude": -122.579311,
+      "estimated_replacement_cost": 387024.0,
+      "created_at": "2025-07-30T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0042",
+      "code": "IFX-ROA-00042",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.668797,
+      "longitude": -122.458119,
+      "estimated_replacement_cost": 788359.64,
+      "created_at": "2026-08-19T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0043",
+      "code": "IFX-ROA-00043",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.942322,
+      "longitude": -122.537233,
+      "estimated_replacement_cost": 968514.28,
+      "created_at": "2026-03-14T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0044",
+      "code": "IFX-ROA-00044",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.738667,
+      "longitude": -122.594888,
+      "estimated_replacement_cost": 195025.91,
+      "created_at": "2026-02-15T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0045",
+      "code": "IFX-ROA-00045",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.76776,
+      "longitude": -122.196496,
+      "estimated_replacement_cost": 476411.76,
+      "created_at": "2025-05-09T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0046",
+      "code": "IFX-ROA-00046",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.645168,
+      "longitude": -122.339268,
+      "estimated_replacement_cost": 821092.74,
+      "created_at": "2025-04-18T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0047",
+      "code": "IFX-ROA-00047",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.658183,
+      "longitude": -122.574878,
+      "estimated_replacement_cost": 1091834.34,
+      "created_at": "2025-01-17T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0048",
+      "code": "IFX-ROA-00048",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.692722,
+      "longitude": -122.289961,
+      "estimated_replacement_cost": 1085068.97,
+      "created_at": "2026-08-28T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0049",
+      "code": "IFX-ROA-00049",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.932648,
+      "longitude": -122.171517,
+      "estimated_replacement_cost": 153095.63,
+      "created_at": "2026-08-04T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0050",
+      "code": "IFX-ROA-00050",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.679042,
+      "longitude": -122.483074,
+      "estimated_replacement_cost": 967298.19,
+      "created_at": "2026-07-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0051",
+      "code": "IFX-ROA-00051",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.778128,
+      "longitude": -122.360484,
+      "estimated_replacement_cost": 789897.6,
+      "created_at": "2025-02-15T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0052",
+      "code": "IFX-ROA-00052",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.536934,
+      "longitude": -122.436344,
+      "estimated_replacement_cost": 1374523.11,
+      "created_at": "2025-12-02T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0053",
+      "code": "IFX-ROA-00053",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.810398,
+      "longitude": -122.289925,
+      "estimated_replacement_cost": 41077.68,
+      "created_at": "2026-01-31T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0054",
+      "code": "IFX-ROA-00054",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.737434,
+      "longitude": -122.659613,
+      "estimated_replacement_cost": 889291.17,
+      "created_at": "2024-12-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0055",
+      "code": "IFX-ROA-00055",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.83928,
+      "longitude": -122.388538,
+      "estimated_replacement_cost": 64929.27,
+      "created_at": "2026-05-09T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0056",
+      "code": "IFX-ROA-00056",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 37.76515,
+      "longitude": -122.46297,
+      "estimated_replacement_cost": 865094.52,
+      "created_at": "2026-08-16T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0057",
+      "code": "IFX-ROA-00057",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.53725,
+      "longitude": -122.286602,
+      "estimated_replacement_cost": 815511.11,
+      "created_at": "2025-03-15T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0058",
+      "code": "IFX-ROA-00058",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.988504,
+      "longitude": -122.542169,
+      "estimated_replacement_cost": 906377.26,
+      "created_at": "2026-05-31T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0059",
+      "code": "IFX-ROA-00059",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.924066,
+      "longitude": -122.379367,
+      "estimated_replacement_cost": 307892.11,
+      "created_at": "2026-07-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0060",
+      "code": "IFX-ROA-00060",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.865491,
+      "longitude": -122.372904,
+      "estimated_replacement_cost": 579401.81,
+      "created_at": "2024-11-03T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0061",
+      "code": "IFX-ROA-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.668063,
+      "longitude": -122.464664,
+      "estimated_replacement_cost": 341135.35,
+      "created_at": "2026-06-13T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0062",
+      "code": "IFX-ROA-00062",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.700638,
+      "longitude": -122.551758,
+      "estimated_replacement_cost": 782235.7,
+      "created_at": "2025-12-31T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0063",
+      "code": "IFX-ROA-00063",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.859992,
+      "longitude": -122.203056,
+      "estimated_replacement_cost": 124495.3,
+      "created_at": "2026-01-09T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0064",
+      "code": "IFX-ROA-00064",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.907012,
+      "longitude": -122.429154,
+      "estimated_replacement_cost": 617065.49,
+      "created_at": "2026-01-11T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0065",
+      "code": "IFX-ROA-00065",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.924089,
+      "longitude": -122.625165,
+      "estimated_replacement_cost": 516249.82,
+      "created_at": "2025-03-18T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0066",
+      "code": "IFX-ROA-00066",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.82895,
+      "longitude": -122.207033,
+      "estimated_replacement_cost": 650508.75,
+      "created_at": "2025-05-16T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0067",
+      "code": "IFX-ROA-00067",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.724225,
+      "longitude": -122.473326,
+      "estimated_replacement_cost": 1274114.75,
+      "created_at": "2024-09-20T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0068",
+      "code": "IFX-ROA-00068",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.807554,
+      "longitude": -122.370244,
+      "estimated_replacement_cost": 1077893.63,
+      "created_at": "2026-03-31T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0069",
+      "code": "IFX-ROA-00069",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.529856,
+      "longitude": -122.57685,
+      "estimated_replacement_cost": 800449.73,
+      "created_at": "2025-04-24T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0070",
+      "code": "IFX-ROA-00070",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.699003,
+      "longitude": -122.272578,
+      "estimated_replacement_cost": 1149136.48,
+      "created_at": "2025-02-16T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0071",
+      "code": "IFX-ROA-00071",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.916584,
+      "longitude": -122.433277,
+      "estimated_replacement_cost": 908371.14,
+      "created_at": "2025-05-01T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0072",
+      "code": "IFX-ROA-00072",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.703635,
+      "longitude": -122.377155,
+      "estimated_replacement_cost": 484443.98,
+      "created_at": "2025-06-11T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0073",
+      "code": "IFX-ROA-00073",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.595337,
+      "longitude": -122.29099,
+      "estimated_replacement_cost": 681184.27,
+      "created_at": "2026-07-16T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0074",
+      "code": "IFX-ROA-00074",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.613797,
+      "longitude": -122.195105,
+      "estimated_replacement_cost": 219074.27,
+      "created_at": "2026-03-28T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0075",
+      "code": "IFX-ROA-00075",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.537394,
+      "longitude": -122.662481,
+      "estimated_replacement_cost": 46238.3,
+      "created_at": "2025-08-06T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0076",
+      "code": "IFX-ROA-00076",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.649763,
+      "longitude": -122.333758,
+      "estimated_replacement_cost": 565475.01,
+      "created_at": "2026-09-01T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0077",
+      "code": "IFX-ROA-00077",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 38.003119,
+      "longitude": -122.619582,
+      "estimated_replacement_cost": 1168807.34,
+      "created_at": "2025-10-07T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0078",
+      "code": "IFX-ROA-00078",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.82586,
+      "longitude": -122.662578,
+      "estimated_replacement_cost": 1263349.38,
+      "created_at": "2025-12-27T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0079",
+      "code": "IFX-ROA-00079",
+      "status": "OPERATIONAL",
+      "condition_score": 85,
+      "latitude": 37.976494,
+      "longitude": -122.451106,
+      "estimated_replacement_cost": 665237.18,
+      "created_at": "2025-03-14T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0080",
+      "code": "IFX-ROA-00080",
+      "status": "OPERATIONAL",
+      "condition_score": 83,
+      "latitude": 38.023431,
+      "longitude": -122.180283,
+      "estimated_replacement_cost": 809541.33,
+      "created_at": "2024-10-31T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0081",
+      "code": "IFX-ROA-00081",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.850084,
+      "longitude": -122.446172,
+      "estimated_replacement_cost": 422540.31,
+      "created_at": "2025-03-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0082",
+      "code": "IFX-ROA-00082",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.698602,
+      "longitude": -122.463806,
+      "estimated_replacement_cost": 574449.75,
+      "created_at": "2026-03-18T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0083",
+      "code": "IFX-ROA-00083",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.897105,
+      "longitude": -122.575065,
+      "estimated_replacement_cost": 160776.07,
+      "created_at": "2026-02-16T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0084",
+      "code": "IFX-ROA-00084",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.887692,
+      "longitude": -122.427322,
+      "estimated_replacement_cost": 1220217.48,
+      "created_at": "2025-10-23T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0085",
+      "code": "IFX-ROA-00085",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.810864,
+      "longitude": -122.318865,
+      "estimated_replacement_cost": 1172204.16,
+      "created_at": "2026-08-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0086",
+      "code": "IFX-ROA-00086",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.619666,
+      "longitude": -122.18482,
+      "estimated_replacement_cost": 430605.41,
+      "created_at": "2025-01-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0087",
+      "code": "IFX-ROA-00087",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.875964,
+      "longitude": -122.480376,
+      "estimated_replacement_cost": 811571.13,
+      "created_at": "2025-11-04T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0088",
+      "code": "IFX-ROA-00088",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.868153,
+      "longitude": -122.508482,
+      "estimated_replacement_cost": 207805.15,
+      "created_at": "2024-12-04T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0089",
+      "code": "IFX-ROA-00089",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 38.015271,
+      "longitude": -122.522876,
+      "estimated_replacement_cost": 619161.87,
+      "created_at": "2024-12-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0090",
+      "code": "IFX-ROA-00090",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.982788,
+      "longitude": -122.649157,
+      "estimated_replacement_cost": 552667.31,
+      "created_at": "2025-12-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0091",
+      "code": "IFX-ROA-00091",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.900155,
+      "longitude": -122.248652,
+      "estimated_replacement_cost": 1368398.51,
+      "created_at": "2026-08-01T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0092",
+      "code": "IFX-ROA-00092",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.733343,
+      "longitude": -122.499109,
+      "estimated_replacement_cost": 755289.8,
+      "created_at": "2025-08-07T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0093",
+      "code": "IFX-ROA-00093",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.938322,
+      "longitude": -122.50239,
+      "estimated_replacement_cost": 411279.63,
+      "created_at": "2025-03-29T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0094",
+      "code": "IFX-ROA-00094",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.675811,
+      "longitude": -122.311834,
+      "estimated_replacement_cost": 72213.35,
+      "created_at": "2025-05-31T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0095",
+      "code": "IFX-ROA-00095",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.906462,
+      "longitude": -122.276114,
+      "estimated_replacement_cost": 979039.36,
+      "created_at": "2025-01-04T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0096",
+      "code": "IFX-ROA-00096",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.862338,
+      "longitude": -122.566061,
+      "estimated_replacement_cost": 1273685.37,
+      "created_at": "2026-09-05T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0097",
+      "code": "IFX-ROA-00097",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.640554,
+      "longitude": -122.574655,
+      "estimated_replacement_cost": 1095269.09,
+      "created_at": "2025-09-21T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0098",
+      "code": "IFX-ROA-00098",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.871444,
+      "longitude": -122.496238,
+      "estimated_replacement_cost": 700368.54,
+      "created_at": "2025-10-20T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0099",
+      "code": "IFX-ROA-00099",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.712731,
+      "longitude": -122.529455,
+      "estimated_replacement_cost": 980361.86,
+      "created_at": "2025-02-05T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0100",
+      "code": "IFX-ROA-00100",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.840853,
+      "longitude": -122.300399,
+      "estimated_replacement_cost": 984442.79,
+      "created_at": "2026-07-05T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0101",
+      "code": "IFX-ROA-00101",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.900749,
+      "longitude": -122.417591,
+      "estimated_replacement_cost": 745089.26,
+      "created_at": "2025-04-28T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0102",
+      "code": "IFX-ROA-00102",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.717043,
+      "longitude": -122.234576,
+      "estimated_replacement_cost": 1117374.61,
+      "created_at": "2024-10-25T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0103",
+      "code": "IFX-ROA-00103",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 38.009671,
+      "longitude": -122.426896,
+      "estimated_replacement_cost": 644786.34,
+      "created_at": "2025-03-17T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0104",
+      "code": "IFX-ROA-00104",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.854011,
+      "longitude": -122.527956,
+      "estimated_replacement_cost": 170921.13,
+      "created_at": "2026-01-17T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0105",
+      "code": "IFX-ROA-00105",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.526816,
+      "longitude": -122.217461,
+      "estimated_replacement_cost": 1473995.57,
+      "created_at": "2025-11-09T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0106",
+      "code": "IFX-ROA-00106",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.615551,
+      "longitude": -122.499615,
+      "estimated_replacement_cost": 651500.26,
+      "created_at": "2025-08-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0107",
+      "code": "IFX-ROA-00107",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.71293,
+      "longitude": -122.31465,
+      "estimated_replacement_cost": 850876.32,
+      "created_at": "2025-09-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0108",
+      "code": "IFX-ROA-00108",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.70006,
+      "longitude": -122.224452,
+      "estimated_replacement_cost": 1404376.29,
+      "created_at": "2026-08-01T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0109",
+      "code": "IFX-ROA-00109",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.55755,
+      "longitude": -122.597758,
+      "estimated_replacement_cost": 179737.31,
+      "created_at": "2026-08-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0110",
+      "code": "IFX-ROA-00110",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.931375,
+      "longitude": -122.190299,
+      "estimated_replacement_cost": 593425.85,
+      "created_at": "2025-04-29T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0111",
+      "code": "IFX-ROA-00111",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.922269,
+      "longitude": -122.521616,
+      "estimated_replacement_cost": 1428637.59,
+      "created_at": "2025-02-15T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0112",
+      "code": "IFX-ROA-00112",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.992332,
+      "longitude": -122.175316,
+      "estimated_replacement_cost": 805293.35,
+      "created_at": "2025-04-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0113",
+      "code": "IFX-ROA-00113",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.667193,
+      "longitude": -122.326992,
+      "estimated_replacement_cost": 89332.19,
+      "created_at": "2024-12-21T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0114",
+      "code": "IFX-ROA-00114",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.609935,
+      "longitude": -122.473591,
+      "estimated_replacement_cost": 462244.24,
+      "created_at": "2026-05-15T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0115",
+      "code": "IFX-ROA-00115",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.605904,
+      "longitude": -122.493703,
+      "estimated_replacement_cost": 706265.94,
+      "created_at": "2026-08-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0116",
+      "code": "IFX-ROA-00116",
+      "status": "STANDBY",
+      "condition_score": 70,
+      "latitude": 37.57358,
+      "longitude": -122.624541,
+      "estimated_replacement_cost": 168288.17,
+      "created_at": "2025-12-03T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0117",
+      "code": "IFX-ROA-00117",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.990241,
+      "longitude": -122.498941,
+      "estimated_replacement_cost": 1372377.0,
+      "created_at": "2025-04-25T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0118",
+      "code": "IFX-ROA-00118",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.980338,
+      "longitude": -122.440762,
+      "estimated_replacement_cost": 635715.85,
+      "created_at": "2025-09-21T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0119",
+      "code": "IFX-ROA-00119",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.806065,
+      "longitude": -122.489229,
+      "estimated_replacement_cost": 1240202.72,
+      "created_at": "2025-11-25T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0120",
+      "code": "IFX-ROA-00120",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.629752,
+      "longitude": -122.431399,
+      "estimated_replacement_cost": 1487664.07,
+      "created_at": "2025-03-04T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0121",
+      "code": "IFX-ROA-00121",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.625002,
+      "longitude": -122.397211,
+      "estimated_replacement_cost": 212430.19,
+      "created_at": "2025-07-04T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0122",
+      "code": "IFX-ROA-00122",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.552241,
+      "longitude": -122.388626,
+      "estimated_replacement_cost": 587640.58,
+      "created_at": "2024-12-20T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0123",
+      "code": "IFX-ROA-00123",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.707449,
+      "longitude": -122.233846,
+      "estimated_replacement_cost": 682351.34,
+      "created_at": "2025-05-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0124",
+      "code": "IFX-ROA-00124",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.857535,
+      "longitude": -122.467609,
+      "estimated_replacement_cost": 909879.52,
+      "created_at": "2024-10-11T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0125",
+      "code": "IFX-ROA-00125",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.838456,
+      "longitude": -122.661476,
+      "estimated_replacement_cost": 79183.29,
+      "created_at": "2025-08-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0126",
+      "code": "IFX-ROA-00126",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.562992,
+      "longitude": -122.570705,
+      "estimated_replacement_cost": 1037930.46,
+      "created_at": "2025-12-19T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0127",
+      "code": "IFX-ROA-00127",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.648086,
+      "longitude": -122.340745,
+      "estimated_replacement_cost": 807195.68,
+      "created_at": "2025-08-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0128",
+      "code": "IFX-ROA-00128",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.578572,
+      "longitude": -122.212029,
+      "estimated_replacement_cost": 1388022.99,
+      "created_at": "2025-08-27T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0129",
+      "code": "IFX-ROA-00129",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.76346,
+      "longitude": -122.48522,
+      "estimated_replacement_cost": 1478968.62,
+      "created_at": "2026-05-26T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0130",
+      "code": "IFX-ROA-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.699884,
+      "longitude": -122.465306,
+      "estimated_replacement_cost": 303695.71,
+      "created_at": "2026-03-20T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0131",
+      "code": "IFX-ROA-00131",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.908998,
+      "longitude": -122.400172,
+      "estimated_replacement_cost": 1240156.65,
+      "created_at": "2026-04-09T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0132",
+      "code": "IFX-ROA-00132",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.780849,
+      "longitude": -122.460908,
+      "estimated_replacement_cost": 452740.92,
+      "created_at": "2025-01-27T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0133",
+      "code": "IFX-ROA-00133",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 38.002943,
+      "longitude": -122.398999,
+      "estimated_replacement_cost": 961845.52,
+      "created_at": "2026-05-18T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0134",
+      "code": "IFX-ROA-00134",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 37.561843,
+      "longitude": -122.610758,
+      "estimated_replacement_cost": 859434.7,
+      "created_at": "2025-02-01T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0135",
+      "code": "IFX-ROA-00135",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.585956,
+      "longitude": -122.206824,
+      "estimated_replacement_cost": 1374971.75,
+      "created_at": "2026-06-01T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0136",
+      "code": "IFX-ROA-00136",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.782533,
+      "longitude": -122.335307,
+      "estimated_replacement_cost": 1469015.18,
+      "created_at": "2025-03-12T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0137",
+      "code": "IFX-ROA-00137",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.738134,
+      "longitude": -122.333144,
+      "estimated_replacement_cost": 801249.06,
+      "created_at": "2026-08-19T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0138",
+      "code": "IFX-ROA-00138",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.714736,
+      "longitude": -122.305478,
+      "estimated_replacement_cost": 868198.02,
+      "created_at": "2026-05-04T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0139",
+      "code": "IFX-ROA-00139",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.735689,
+      "longitude": -122.370389,
+      "estimated_replacement_cost": 604504.88,
+      "created_at": "2025-04-24T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0140",
+      "code": "IFX-ROA-00140",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.766837,
+      "longitude": -122.224237,
+      "estimated_replacement_cost": 1074622.44,
+      "created_at": "2026-03-03T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0141",
+      "code": "IFX-ROA-00141",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.610177,
+      "longitude": -122.344141,
+      "estimated_replacement_cost": 810122.44,
+      "created_at": "2026-04-22T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0142",
+      "code": "IFX-ROA-00142",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.538171,
+      "longitude": -122.417725,
+      "estimated_replacement_cost": 1432579.58,
+      "created_at": "2025-08-03T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0143",
+      "code": "IFX-ROA-00143",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.525211,
+      "longitude": -122.187107,
+      "estimated_replacement_cost": 691566.94,
+      "created_at": "2024-11-29T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0144",
+      "code": "IFX-ROA-00144",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.878004,
+      "longitude": -122.42001,
+      "estimated_replacement_cost": 356699.5,
+      "created_at": "2025-09-18T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0145",
+      "code": "IFX-ROA-00145",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.867886,
+      "longitude": -122.415344,
+      "estimated_replacement_cost": 904537.04,
+      "created_at": "2025-12-07T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0146",
+      "code": "IFX-ROA-00146",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.696481,
+      "longitude": -122.653676,
+      "estimated_replacement_cost": 1282446.45,
+      "created_at": "2025-11-06T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0147",
+      "code": "IFX-ROA-00147",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.547513,
+      "longitude": -122.282226,
+      "estimated_replacement_cost": 412348.09,
+      "created_at": "2026-05-17T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0148",
+      "code": "IFX-ROA-00148",
+      "status": "STANDBY",
+      "condition_score": 51,
+      "latitude": 37.956015,
+      "longitude": -122.231961,
+      "estimated_replacement_cost": 853994.06,
+      "created_at": "2025-06-02T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0149",
+      "code": "IFX-ROA-00149",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.730308,
+      "longitude": -122.469458,
+      "estimated_replacement_cost": 313048.79,
+      "created_at": "2026-01-21T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_roads.roadsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Roads Asset Segment #0150",
+      "code": "IFX-ROA-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.988746,
+      "longitude": -122.190487,
+      "estimated_replacement_cost": 210429.82,
+      "created_at": "2025-09-30T10:34:25.281838",
+      "updated_at": "2026-09-08T10:34:25.281838",
+      "notes": "Standard municipal engineering inventory record for roads.",
+      "metadata": {
+        "spec_code": "SPEC-ROADS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  }
+]

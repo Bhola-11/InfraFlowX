@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0001",
+      "code": "IFX-LOC-00001",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.543449,
+      "longitude": -122.581519,
+      "estimated_replacement_cost": 1214161.09,
+      "created_at": "2026-02-14T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0002",
+      "code": "IFX-LOC-00002",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.907899,
+      "longitude": -122.335572,
+      "estimated_replacement_cost": 1144896.79,
+      "created_at": "2024-10-25T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0003",
+      "code": "IFX-LOC-00003",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.725115,
+      "longitude": -122.62194,
+      "estimated_replacement_cost": 635411.78,
+      "created_at": "2025-01-18T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0004",
+      "code": "IFX-LOC-00004",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.980629,
+      "longitude": -122.588218,
+      "estimated_replacement_cost": 920987.01,
+      "created_at": "2026-02-20T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0005",
+      "code": "IFX-LOC-00005",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.659341,
+      "longitude": -122.482287,
+      "estimated_replacement_cost": 976381.86,
+      "created_at": "2025-09-23T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0006",
+      "code": "IFX-LOC-00006",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 38.013492,
+      "longitude": -122.171514,
+      "estimated_replacement_cost": 861575.49,
+      "created_at": "2026-05-25T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0007",
+      "code": "IFX-LOC-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.925696,
+      "longitude": -122.534186,
+      "estimated_replacement_cost": 838479.44,
+      "created_at": "2025-09-05T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0008",
+      "code": "IFX-LOC-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.951437,
+      "longitude": -122.607074,
+      "estimated_replacement_cost": 405993.43,
+      "created_at": "2026-02-12T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0009",
+      "code": "IFX-LOC-00009",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.672131,
+      "longitude": -122.592167,
+      "estimated_replacement_cost": 577857.77,
+      "created_at": "2026-04-20T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0010",
+      "code": "IFX-LOC-00010",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.962876,
+      "longitude": -122.631322,
+      "estimated_replacement_cost": 573649.0,
+      "created_at": "2025-10-21T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0011",
+      "code": "IFX-LOC-00011",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.539171,
+      "longitude": -122.388134,
+      "estimated_replacement_cost": 366778.14,
+      "created_at": "2026-04-26T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0012",
+      "code": "IFX-LOC-00012",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 38.003793,
+      "longitude": -122.469884,
+      "estimated_replacement_cost": 412125.43,
+      "created_at": "2025-12-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0013",
+      "code": "IFX-LOC-00013",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.59484,
+      "longitude": -122.255946,
+      "estimated_replacement_cost": 277937.7,
+      "created_at": "2025-07-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0014",
+      "code": "IFX-LOC-00014",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.995292,
+      "longitude": -122.287524,
+      "estimated_replacement_cost": 226968.64,
+      "created_at": "2024-11-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0015",
+      "code": "IFX-LOC-00015",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.915478,
+      "longitude": -122.532193,
+      "estimated_replacement_cost": 71296.86,
+      "created_at": "2025-08-15T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0016",
+      "code": "IFX-LOC-00016",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.921035,
+      "longitude": -122.182186,
+      "estimated_replacement_cost": 356966.88,
+      "created_at": "2025-06-24T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0017",
+      "code": "IFX-LOC-00017",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.563899,
+      "longitude": -122.567912,
+      "estimated_replacement_cost": 422315.94,
+      "created_at": "2025-08-21T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0018",
+      "code": "IFX-LOC-00018",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.780364,
+      "longitude": -122.224476,
+      "estimated_replacement_cost": 1046565.8,
+      "created_at": "2025-04-08T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0019",
+      "code": "IFX-LOC-00019",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.555997,
+      "longitude": -122.237441,
+      "estimated_replacement_cost": 839361.71,
+      "created_at": "2024-12-06T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0020",
+      "code": "IFX-LOC-00020",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.586504,
+      "longitude": -122.284342,
+      "estimated_replacement_cost": 110109.69,
+      "created_at": "2024-10-04T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0021",
+      "code": "IFX-LOC-00021",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.555948,
+      "longitude": -122.517042,
+      "estimated_replacement_cost": 1138130.53,
+      "created_at": "2026-03-23T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0022",
+      "code": "IFX-LOC-00022",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.865855,
+      "longitude": -122.309854,
+      "estimated_replacement_cost": 1216878.63,
+      "created_at": "2025-01-29T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0023",
+      "code": "IFX-LOC-00023",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.982406,
+      "longitude": -122.402872,
+      "estimated_replacement_cost": 583545.01,
+      "created_at": "2026-04-25T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0024",
+      "code": "IFX-LOC-00024",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.898778,
+      "longitude": -122.582418,
+      "estimated_replacement_cost": 1075172.59,
+      "created_at": "2025-02-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0025",
+      "code": "IFX-LOC-00025",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.652647,
+      "longitude": -122.548674,
+      "estimated_replacement_cost": 323340.49,
+      "created_at": "2025-07-10T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0026",
+      "code": "IFX-LOC-00026",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.729901,
+      "longitude": -122.476397,
+      "estimated_replacement_cost": 730716.39,
+      "created_at": "2024-10-02T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0027",
+      "code": "IFX-LOC-00027",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.851246,
+      "longitude": -122.477914,
+      "estimated_replacement_cost": 931325.14,
+      "created_at": "2025-09-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0028",
+      "code": "IFX-LOC-00028",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.743913,
+      "longitude": -122.329951,
+      "estimated_replacement_cost": 899967.2,
+      "created_at": "2026-06-24T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0029",
+      "code": "IFX-LOC-00029",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.63051,
+      "longitude": -122.446237,
+      "estimated_replacement_cost": 180081.11,
+      "created_at": "2026-06-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0030",
+      "code": "IFX-LOC-00030",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 38.007903,
+      "longitude": -122.524394,
+      "estimated_replacement_cost": 761354.43,
+      "created_at": "2025-08-27T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0031",
+      "code": "IFX-LOC-00031",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.905629,
+      "longitude": -122.387142,
+      "estimated_replacement_cost": 880841.59,
+      "created_at": "2024-12-09T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0032",
+      "code": "IFX-LOC-00032",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.938758,
+      "longitude": -122.449897,
+      "estimated_replacement_cost": 583113.5,
+      "created_at": "2026-05-28T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0033",
+      "code": "IFX-LOC-00033",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 38.019793,
+      "longitude": -122.465398,
+      "estimated_replacement_cost": 1090514.71,
+      "created_at": "2024-12-16T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0034",
+      "code": "IFX-LOC-00034",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.620408,
+      "longitude": -122.515887,
+      "estimated_replacement_cost": 706152.8,
+      "created_at": "2026-08-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0035",
+      "code": "IFX-LOC-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.675813,
+      "longitude": -122.525437,
+      "estimated_replacement_cost": 442936.11,
+      "created_at": "2025-09-14T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0036",
+      "code": "IFX-LOC-00036",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.641718,
+      "longitude": -122.402245,
+      "estimated_replacement_cost": 1023247.07,
+      "created_at": "2025-10-01T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0037",
+      "code": "IFX-LOC-00037",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.935766,
+      "longitude": -122.456483,
+      "estimated_replacement_cost": 590381.31,
+      "created_at": "2025-05-28T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0038",
+      "code": "IFX-LOC-00038",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.791576,
+      "longitude": -122.236764,
+      "estimated_replacement_cost": 706340.13,
+      "created_at": "2026-09-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0039",
+      "code": "IFX-LOC-00039",
+      "status": "ACTIVE",
+      "condition_score": 64,
+      "latitude": 37.629689,
+      "longitude": -122.591211,
+      "estimated_replacement_cost": 773080.34,
+      "created_at": "2026-01-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0040",
+      "code": "IFX-LOC-00040",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.782007,
+      "longitude": -122.235398,
+      "estimated_replacement_cost": 1375185.74,
+      "created_at": "2025-11-02T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0041",
+      "code": "IFX-LOC-00041",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.610861,
+      "longitude": -122.402113,
+      "estimated_replacement_cost": 919562.73,
+      "created_at": "2026-07-26T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0042",
+      "code": "IFX-LOC-00042",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.825487,
+      "longitude": -122.314149,
+      "estimated_replacement_cost": 538746.67,
+      "created_at": "2025-08-05T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0043",
+      "code": "IFX-LOC-00043",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.937823,
+      "longitude": -122.299616,
+      "estimated_replacement_cost": 1259054.37,
+      "created_at": "2024-12-22T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0044",
+      "code": "IFX-LOC-00044",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.613076,
+      "longitude": -122.266824,
+      "estimated_replacement_cost": 764625.45,
+      "created_at": "2026-08-18T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0045",
+      "code": "IFX-LOC-00045",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.701428,
+      "longitude": -122.25796,
+      "estimated_replacement_cost": 856834.68,
+      "created_at": "2026-01-19T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0046",
+      "code": "IFX-LOC-00046",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.787743,
+      "longitude": -122.665888,
+      "estimated_replacement_cost": 506577.53,
+      "created_at": "2024-11-19T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0047",
+      "code": "IFX-LOC-00047",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.793893,
+      "longitude": -122.645188,
+      "estimated_replacement_cost": 491723.33,
+      "created_at": "2025-07-22T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0048",
+      "code": "IFX-LOC-00048",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 38.004762,
+      "longitude": -122.471236,
+      "estimated_replacement_cost": 1371308.04,
+      "created_at": "2026-07-21T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0049",
+      "code": "IFX-LOC-00049",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.623273,
+      "longitude": -122.656909,
+      "estimated_replacement_cost": 268691.94,
+      "created_at": "2024-10-15T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0050",
+      "code": "IFX-LOC-00050",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.850089,
+      "longitude": -122.54958,
+      "estimated_replacement_cost": 826768.86,
+      "created_at": "2026-03-30T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0051",
+      "code": "IFX-LOC-00051",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.801609,
+      "longitude": -122.420945,
+      "estimated_replacement_cost": 374523.47,
+      "created_at": "2026-03-02T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0052",
+      "code": "IFX-LOC-00052",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 38.005189,
+      "longitude": -122.659189,
+      "estimated_replacement_cost": 254645.46,
+      "created_at": "2026-04-05T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0053",
+      "code": "IFX-LOC-00053",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.67157,
+      "longitude": -122.334174,
+      "estimated_replacement_cost": 1499839.53,
+      "created_at": "2024-12-21T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0054",
+      "code": "IFX-LOC-00054",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.538169,
+      "longitude": -122.332478,
+      "estimated_replacement_cost": 980696.96,
+      "created_at": "2025-04-29T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0055",
+      "code": "IFX-LOC-00055",
+      "status": "ACTIVE",
+      "condition_score": 64,
+      "latitude": 38.016603,
+      "longitude": -122.259531,
+      "estimated_replacement_cost": 1172739.13,
+      "created_at": "2025-04-22T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0056",
+      "code": "IFX-LOC-00056",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.576422,
+      "longitude": -122.557265,
+      "estimated_replacement_cost": 1307690.78,
+      "created_at": "2025-11-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0057",
+      "code": "IFX-LOC-00057",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.726342,
+      "longitude": -122.386617,
+      "estimated_replacement_cost": 1186447.55,
+      "created_at": "2025-12-29T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0058",
+      "code": "IFX-LOC-00058",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.886692,
+      "longitude": -122.609798,
+      "estimated_replacement_cost": 353252.75,
+      "created_at": "2026-06-16T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0059",
+      "code": "IFX-LOC-00059",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.730478,
+      "longitude": -122.635756,
+      "estimated_replacement_cost": 227668.6,
+      "created_at": "2026-02-25T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0060",
+      "code": "IFX-LOC-00060",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.547454,
+      "longitude": -122.463728,
+      "estimated_replacement_cost": 69604.59,
+      "created_at": "2025-08-05T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0061",
+      "code": "IFX-LOC-00061",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.883473,
+      "longitude": -122.383141,
+      "estimated_replacement_cost": 1199969.94,
+      "created_at": "2026-05-10T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0062",
+      "code": "IFX-LOC-00062",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.828923,
+      "longitude": -122.333427,
+      "estimated_replacement_cost": 239039.09,
+      "created_at": "2025-11-09T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0063",
+      "code": "IFX-LOC-00063",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.550891,
+      "longitude": -122.522092,
+      "estimated_replacement_cost": 1144520.05,
+      "created_at": "2026-08-25T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0064",
+      "code": "IFX-LOC-00064",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.798795,
+      "longitude": -122.604585,
+      "estimated_replacement_cost": 1101964.41,
+      "created_at": "2026-01-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0065",
+      "code": "IFX-LOC-00065",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.881444,
+      "longitude": -122.326865,
+      "estimated_replacement_cost": 854472.64,
+      "created_at": "2025-11-30T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0066",
+      "code": "IFX-LOC-00066",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.765085,
+      "longitude": -122.172133,
+      "estimated_replacement_cost": 287055.37,
+      "created_at": "2025-08-02T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0067",
+      "code": "IFX-LOC-00067",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.754431,
+      "longitude": -122.302941,
+      "estimated_replacement_cost": 1375981.63,
+      "created_at": "2025-04-23T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0068",
+      "code": "IFX-LOC-00068",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.783878,
+      "longitude": -122.241496,
+      "estimated_replacement_cost": 1037302.63,
+      "created_at": "2025-01-20T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0069",
+      "code": "IFX-LOC-00069",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.876955,
+      "longitude": -122.27693,
+      "estimated_replacement_cost": 856550.49,
+      "created_at": "2026-01-06T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0070",
+      "code": "IFX-LOC-00070",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.995701,
+      "longitude": -122.660482,
+      "estimated_replacement_cost": 604019.08,
+      "created_at": "2025-07-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0071",
+      "code": "IFX-LOC-00071",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.926934,
+      "longitude": -122.357017,
+      "estimated_replacement_cost": 959345.96,
+      "created_at": "2024-10-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0072",
+      "code": "IFX-LOC-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.534898,
+      "longitude": -122.606889,
+      "estimated_replacement_cost": 1031836.06,
+      "created_at": "2025-12-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0073",
+      "code": "IFX-LOC-00073",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.936157,
+      "longitude": -122.311845,
+      "estimated_replacement_cost": 511817.29,
+      "created_at": "2025-06-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0074",
+      "code": "IFX-LOC-00074",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.916245,
+      "longitude": -122.217687,
+      "estimated_replacement_cost": 392648.87,
+      "created_at": "2024-10-27T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0075",
+      "code": "IFX-LOC-00075",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.775264,
+      "longitude": -122.382069,
+      "estimated_replacement_cost": 851155.76,
+      "created_at": "2024-10-16T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0076",
+      "code": "IFX-LOC-00076",
+      "status": "STANDBY",
+      "condition_score": 70,
+      "latitude": 37.598471,
+      "longitude": -122.607225,
+      "estimated_replacement_cost": 874221.83,
+      "created_at": "2025-07-28T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0077",
+      "code": "IFX-LOC-00077",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.54722,
+      "longitude": -122.622092,
+      "estimated_replacement_cost": 607464.83,
+      "created_at": "2025-12-31T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0078",
+      "code": "IFX-LOC-00078",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 38.010087,
+      "longitude": -122.192931,
+      "estimated_replacement_cost": 243501.48,
+      "created_at": "2025-09-28T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0079",
+      "code": "IFX-LOC-00079",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.96813,
+      "longitude": -122.457364,
+      "estimated_replacement_cost": 455781.71,
+      "created_at": "2025-11-28T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0080",
+      "code": "IFX-LOC-00080",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.751815,
+      "longitude": -122.554991,
+      "estimated_replacement_cost": 643901.22,
+      "created_at": "2025-07-13T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0081",
+      "code": "IFX-LOC-00081",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.640005,
+      "longitude": -122.600487,
+      "estimated_replacement_cost": 1308834.81,
+      "created_at": "2025-06-09T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0082",
+      "code": "IFX-LOC-00082",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.754062,
+      "longitude": -122.422902,
+      "estimated_replacement_cost": 996503.12,
+      "created_at": "2025-01-29T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0083",
+      "code": "IFX-LOC-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 83,
+      "latitude": 37.643575,
+      "longitude": -122.248813,
+      "estimated_replacement_cost": 926149.17,
+      "created_at": "2026-09-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0084",
+      "code": "IFX-LOC-00084",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.704991,
+      "longitude": -122.64455,
+      "estimated_replacement_cost": 709510.21,
+      "created_at": "2025-12-26T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0085",
+      "code": "IFX-LOC-00085",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.795206,
+      "longitude": -122.66384,
+      "estimated_replacement_cost": 641013.8,
+      "created_at": "2024-10-28T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0086",
+      "code": "IFX-LOC-00086",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.867112,
+      "longitude": -122.55102,
+      "estimated_replacement_cost": 29490.05,
+      "created_at": "2025-04-14T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0087",
+      "code": "IFX-LOC-00087",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.965079,
+      "longitude": -122.30442,
+      "estimated_replacement_cost": 563223.05,
+      "created_at": "2024-12-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0088",
+      "code": "IFX-LOC-00088",
+      "status": "STANDBY",
+      "condition_score": 70,
+      "latitude": 37.768828,
+      "longitude": -122.647901,
+      "estimated_replacement_cost": 522270.1,
+      "created_at": "2025-09-29T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0089",
+      "code": "IFX-LOC-00089",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.716922,
+      "longitude": -122.354704,
+      "estimated_replacement_cost": 1239072.21,
+      "created_at": "2024-10-10T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0090",
+      "code": "IFX-LOC-00090",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.810365,
+      "longitude": -122.517309,
+      "estimated_replacement_cost": 565083.39,
+      "created_at": "2025-05-30T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0091",
+      "code": "IFX-LOC-00091",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.987414,
+      "longitude": -122.457204,
+      "estimated_replacement_cost": 61629.78,
+      "created_at": "2025-05-23T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0092",
+      "code": "IFX-LOC-00092",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.84754,
+      "longitude": -122.286253,
+      "estimated_replacement_cost": 1430412.17,
+      "created_at": "2025-12-29T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0093",
+      "code": "IFX-LOC-00093",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.747999,
+      "longitude": -122.316107,
+      "estimated_replacement_cost": 1084663.76,
+      "created_at": "2025-08-26T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0094",
+      "code": "IFX-LOC-00094",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.708473,
+      "longitude": -122.286662,
+      "estimated_replacement_cost": 232388.68,
+      "created_at": "2026-06-19T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0095",
+      "code": "IFX-LOC-00095",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.768165,
+      "longitude": -122.299152,
+      "estimated_replacement_cost": 242425.73,
+      "created_at": "2026-03-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0096",
+      "code": "IFX-LOC-00096",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.803789,
+      "longitude": -122.202007,
+      "estimated_replacement_cost": 789115.88,
+      "created_at": "2024-12-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0097",
+      "code": "IFX-LOC-00097",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.541232,
+      "longitude": -122.367741,
+      "estimated_replacement_cost": 317818.32,
+      "created_at": "2026-04-10T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0098",
+      "code": "IFX-LOC-00098",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.582106,
+      "longitude": -122.409676,
+      "estimated_replacement_cost": 574111.06,
+      "created_at": "2025-09-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0099",
+      "code": "IFX-LOC-00099",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.690525,
+      "longitude": -122.488824,
+      "estimated_replacement_cost": 227423.76,
+      "created_at": "2025-08-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0100",
+      "code": "IFX-LOC-00100",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.738076,
+      "longitude": -122.348614,
+      "estimated_replacement_cost": 526078.37,
+      "created_at": "2026-05-05T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0101",
+      "code": "IFX-LOC-00101",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.545576,
+      "longitude": -122.527916,
+      "estimated_replacement_cost": 299557.01,
+      "created_at": "2026-05-01T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0102",
+      "code": "IFX-LOC-00102",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.542815,
+      "longitude": -122.452602,
+      "estimated_replacement_cost": 885538.15,
+      "created_at": "2024-10-10T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0103",
+      "code": "IFX-LOC-00103",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.956023,
+      "longitude": -122.650806,
+      "estimated_replacement_cost": 364864.62,
+      "created_at": "2025-04-15T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0104",
+      "code": "IFX-LOC-00104",
+      "status": "INSPECTED",
+      "condition_score": 82,
+      "latitude": 37.565948,
+      "longitude": -122.576553,
+      "estimated_replacement_cost": 205468.39,
+      "created_at": "2025-05-19T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0105",
+      "code": "IFX-LOC-00105",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.769547,
+      "longitude": -122.394756,
+      "estimated_replacement_cost": 117074.09,
+      "created_at": "2024-09-21T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0106",
+      "code": "IFX-LOC-00106",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.940063,
+      "longitude": -122.633724,
+      "estimated_replacement_cost": 681237.31,
+      "created_at": "2026-07-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0107",
+      "code": "IFX-LOC-00107",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.771903,
+      "longitude": -122.294278,
+      "estimated_replacement_cost": 792436.39,
+      "created_at": "2025-05-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0108",
+      "code": "IFX-LOC-00108",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.682728,
+      "longitude": -122.335495,
+      "estimated_replacement_cost": 249536.87,
+      "created_at": "2024-09-30T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0109",
+      "code": "IFX-LOC-00109",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.820048,
+      "longitude": -122.384387,
+      "estimated_replacement_cost": 102452.95,
+      "created_at": "2025-02-27T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0110",
+      "code": "IFX-LOC-00110",
+      "status": "ACTIVE",
+      "condition_score": 64,
+      "latitude": 37.826544,
+      "longitude": -122.258593,
+      "estimated_replacement_cost": 600558.85,
+      "created_at": "2025-08-16T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0111",
+      "code": "IFX-LOC-00111",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.80631,
+      "longitude": -122.205663,
+      "estimated_replacement_cost": 656422.35,
+      "created_at": "2025-02-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0112",
+      "code": "IFX-LOC-00112",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.857305,
+      "longitude": -122.418968,
+      "estimated_replacement_cost": 402905.62,
+      "created_at": "2025-09-12T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0113",
+      "code": "IFX-LOC-00113",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 38.020738,
+      "longitude": -122.446247,
+      "estimated_replacement_cost": 63785.97,
+      "created_at": "2026-01-12T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0114",
+      "code": "IFX-LOC-00114",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.914679,
+      "longitude": -122.637903,
+      "estimated_replacement_cost": 645067.5,
+      "created_at": "2026-09-06T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0115",
+      "code": "IFX-LOC-00115",
+      "status": "OPERATIONAL",
+      "condition_score": 70,
+      "latitude": 37.595184,
+      "longitude": -122.520284,
+      "estimated_replacement_cost": 454278.04,
+      "created_at": "2025-12-02T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0116",
+      "code": "IFX-LOC-00116",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.724221,
+      "longitude": -122.505829,
+      "estimated_replacement_cost": 731638.16,
+      "created_at": "2025-03-09T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0117",
+      "code": "IFX-LOC-00117",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.833219,
+      "longitude": -122.636843,
+      "estimated_replacement_cost": 635169.18,
+      "created_at": "2025-08-19T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0118",
+      "code": "IFX-LOC-00118",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.766634,
+      "longitude": -122.497983,
+      "estimated_replacement_cost": 236629.0,
+      "created_at": "2025-06-18T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0119",
+      "code": "IFX-LOC-00119",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.887633,
+      "longitude": -122.487732,
+      "estimated_replacement_cost": 1433412.06,
+      "created_at": "2025-12-23T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0120",
+      "code": "IFX-LOC-00120",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 38.021748,
+      "longitude": -122.517789,
+      "estimated_replacement_cost": 888681.13,
+      "created_at": "2025-06-29T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0121",
+      "code": "IFX-LOC-00121",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.595438,
+      "longitude": -122.288582,
+      "estimated_replacement_cost": 356706.98,
+      "created_at": "2025-09-17T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0122",
+      "code": "IFX-LOC-00122",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.890726,
+      "longitude": -122.633668,
+      "estimated_replacement_cost": 775494.61,
+      "created_at": "2026-03-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0123",
+      "code": "IFX-LOC-00123",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.561828,
+      "longitude": -122.391597,
+      "estimated_replacement_cost": 71045.61,
+      "created_at": "2026-06-13T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0124",
+      "code": "IFX-LOC-00124",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.696704,
+      "longitude": -122.591973,
+      "estimated_replacement_cost": 996809.87,
+      "created_at": "2025-02-18T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0125",
+      "code": "IFX-LOC-00125",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.861488,
+      "longitude": -122.502096,
+      "estimated_replacement_cost": 1393403.92,
+      "created_at": "2025-12-26T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0126",
+      "code": "IFX-LOC-00126",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.624378,
+      "longitude": -122.520042,
+      "estimated_replacement_cost": 744873.12,
+      "created_at": "2025-10-13T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0127",
+      "code": "IFX-LOC-00127",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.643364,
+      "longitude": -122.429738,
+      "estimated_replacement_cost": 102696.42,
+      "created_at": "2024-11-11T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0128",
+      "code": "IFX-LOC-00128",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.778358,
+      "longitude": -122.26372,
+      "estimated_replacement_cost": 885021.94,
+      "created_at": "2026-03-25T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0129",
+      "code": "IFX-LOC-00129",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.789137,
+      "longitude": -122.594077,
+      "estimated_replacement_cost": 139924.12,
+      "created_at": "2026-05-13T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0130",
+      "code": "IFX-LOC-00130",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.854468,
+      "longitude": -122.175532,
+      "estimated_replacement_cost": 1192009.64,
+      "created_at": "2024-12-31T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0131",
+      "code": "IFX-LOC-00131",
+      "status": "INSPECTED",
+      "condition_score": 94,
+      "latitude": 38.0064,
+      "longitude": -122.405668,
+      "estimated_replacement_cost": 704405.04,
+      "created_at": "2026-01-18T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0132",
+      "code": "IFX-LOC-00132",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.728571,
+      "longitude": -122.544767,
+      "estimated_replacement_cost": 1403374.72,
+      "created_at": "2026-04-23T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0133",
+      "code": "IFX-LOC-00133",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.784033,
+      "longitude": -122.532247,
+      "estimated_replacement_cost": 1302261.18,
+      "created_at": "2025-04-27T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0134",
+      "code": "IFX-LOC-00134",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.534388,
+      "longitude": -122.550367,
+      "estimated_replacement_cost": 1296465.54,
+      "created_at": "2025-04-22T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0135",
+      "code": "IFX-LOC-00135",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.899431,
+      "longitude": -122.356461,
+      "estimated_replacement_cost": 1375326.91,
+      "created_at": "2025-10-02T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0136",
+      "code": "IFX-LOC-00136",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.942465,
+      "longitude": -122.62726,
+      "estimated_replacement_cost": 1090001.38,
+      "created_at": "2025-11-11T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0137",
+      "code": "IFX-LOC-00137",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.850606,
+      "longitude": -122.542262,
+      "estimated_replacement_cost": 958754.23,
+      "created_at": "2025-04-15T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0138",
+      "code": "IFX-LOC-00138",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.619417,
+      "longitude": -122.221867,
+      "estimated_replacement_cost": 672598.45,
+      "created_at": "2026-03-27T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0139",
+      "code": "IFX-LOC-00139",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.562808,
+      "longitude": -122.586366,
+      "estimated_replacement_cost": 890298.4,
+      "created_at": "2026-03-05T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0140",
+      "code": "IFX-LOC-00140",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.573501,
+      "longitude": -122.333246,
+      "estimated_replacement_cost": 482818.05,
+      "created_at": "2024-12-20T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0141",
+      "code": "IFX-LOC-00141",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.702459,
+      "longitude": -122.215052,
+      "estimated_replacement_cost": 361081.06,
+      "created_at": "2025-02-27T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0142",
+      "code": "IFX-LOC-00142",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.696747,
+      "longitude": -122.608312,
+      "estimated_replacement_cost": 458137.73,
+      "created_at": "2024-12-07T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0143",
+      "code": "IFX-LOC-00143",
+      "status": "INSPECTED",
+      "condition_score": 78,
+      "latitude": 37.941282,
+      "longitude": -122.476417,
+      "estimated_replacement_cost": 501464.89,
+      "created_at": "2024-11-21T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0144",
+      "code": "IFX-LOC-00144",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.615815,
+      "longitude": -122.558252,
+      "estimated_replacement_cost": 276165.11,
+      "created_at": "2026-06-04T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0145",
+      "code": "IFX-LOC-00145",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.819767,
+      "longitude": -122.233402,
+      "estimated_replacement_cost": 481578.55,
+      "created_at": "2025-12-04T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0146",
+      "code": "IFX-LOC-00146",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.730563,
+      "longitude": -122.310449,
+      "estimated_replacement_cost": 906243.03,
+      "created_at": "2025-02-09T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0147",
+      "code": "IFX-LOC-00147",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.982124,
+      "longitude": -122.313111,
+      "estimated_replacement_cost": 1214962.67,
+      "created_at": "2026-08-24T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0148",
+      "code": "IFX-LOC-00148",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 38.014059,
+      "longitude": -122.323526,
+      "estimated_replacement_cost": 751031.17,
+      "created_at": "2025-10-04T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0149",
+      "code": "IFX-LOC-00149",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 38.01189,
+      "longitude": -122.224507,
+      "estimated_replacement_cost": 472233.11,
+      "created_at": "2025-01-03T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_locations.locationsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Locations Asset Segment #0150",
+      "code": "IFX-LOC-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.809205,
+      "longitude": -122.429973,
+      "estimated_replacement_cost": 313747.07,
+      "created_at": "2025-02-13T10:34:25.334806",
+      "updated_at": "2026-09-08T10:34:25.334806",
+      "notes": "Standard municipal engineering inventory record for locations.",
+      "metadata": {
+        "spec_code": "SPEC-LOCATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  }
+]

@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0001",
+      "code": "IFX-AUD-00001",
+      "status": "OPERATIONAL",
+      "condition_score": 83,
+      "latitude": 37.885877,
+      "longitude": -122.628511,
+      "estimated_replacement_cost": 278884.47,
+      "created_at": "2025-04-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0002",
+      "code": "IFX-AUD-00002",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.814114,
+      "longitude": -122.261986,
+      "estimated_replacement_cost": 646571.97,
+      "created_at": "2026-08-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0003",
+      "code": "IFX-AUD-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.852612,
+      "longitude": -122.455108,
+      "estimated_replacement_cost": 1365962.14,
+      "created_at": "2024-10-04T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0004",
+      "code": "IFX-AUD-00004",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.54232,
+      "longitude": -122.435137,
+      "estimated_replacement_cost": 942869.15,
+      "created_at": "2026-02-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0005",
+      "code": "IFX-AUD-00005",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.583666,
+      "longitude": -122.203052,
+      "estimated_replacement_cost": 62597.51,
+      "created_at": "2026-04-10T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0006",
+      "code": "IFX-AUD-00006",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.755767,
+      "longitude": -122.560459,
+      "estimated_replacement_cost": 811345.0,
+      "created_at": "2025-12-11T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0007",
+      "code": "IFX-AUD-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.936294,
+      "longitude": -122.426784,
+      "estimated_replacement_cost": 1246931.99,
+      "created_at": "2024-12-28T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0008",
+      "code": "IFX-AUD-00008",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.691158,
+      "longitude": -122.669035,
+      "estimated_replacement_cost": 1252819.31,
+      "created_at": "2026-02-11T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0009",
+      "code": "IFX-AUD-00009",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.623618,
+      "longitude": -122.629253,
+      "estimated_replacement_cost": 1418160.54,
+      "created_at": "2026-08-20T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0010",
+      "code": "IFX-AUD-00010",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.711794,
+      "longitude": -122.26078,
+      "estimated_replacement_cost": 1059906.67,
+      "created_at": "2025-07-02T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0011",
+      "code": "IFX-AUD-00011",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 37.940222,
+      "longitude": -122.196206,
+      "estimated_replacement_cost": 1419162.58,
+      "created_at": "2024-12-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0012",
+      "code": "IFX-AUD-00012",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.648152,
+      "longitude": -122.640281,
+      "estimated_replacement_cost": 88051.62,
+      "created_at": "2025-11-09T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0013",
+      "code": "IFX-AUD-00013",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.841204,
+      "longitude": -122.182655,
+      "estimated_replacement_cost": 1390139.88,
+      "created_at": "2024-12-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0014",
+      "code": "IFX-AUD-00014",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 66,
+      "latitude": 37.727753,
+      "longitude": -122.627388,
+      "estimated_replacement_cost": 51112.48,
+      "created_at": "2025-04-24T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0015",
+      "code": "IFX-AUD-00015",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.589554,
+      "longitude": -122.247939,
+      "estimated_replacement_cost": 1214072.48,
+      "created_at": "2026-07-18T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0016",
+      "code": "IFX-AUD-00016",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.818703,
+      "longitude": -122.668066,
+      "estimated_replacement_cost": 36687.79,
+      "created_at": "2025-06-05T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0017",
+      "code": "IFX-AUD-00017",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.860422,
+      "longitude": -122.570209,
+      "estimated_replacement_cost": 1161639.33,
+      "created_at": "2026-06-12T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0018",
+      "code": "IFX-AUD-00018",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.727167,
+      "longitude": -122.214553,
+      "estimated_replacement_cost": 404892.38,
+      "created_at": "2026-03-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0019",
+      "code": "IFX-AUD-00019",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 38.010165,
+      "longitude": -122.648571,
+      "estimated_replacement_cost": 1189274.1,
+      "created_at": "2026-05-19T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0020",
+      "code": "IFX-AUD-00020",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.858921,
+      "longitude": -122.287061,
+      "estimated_replacement_cost": 235566.62,
+      "created_at": "2025-10-28T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0021",
+      "code": "IFX-AUD-00021",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.658205,
+      "longitude": -122.392813,
+      "estimated_replacement_cost": 1190855.31,
+      "created_at": "2026-03-16T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0022",
+      "code": "IFX-AUD-00022",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 38.006944,
+      "longitude": -122.451505,
+      "estimated_replacement_cost": 305820.99,
+      "created_at": "2024-10-11T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0023",
+      "code": "IFX-AUD-00023",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.791429,
+      "longitude": -122.626143,
+      "estimated_replacement_cost": 50155.29,
+      "created_at": "2025-09-05T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0024",
+      "code": "IFX-AUD-00024",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.570301,
+      "longitude": -122.332187,
+      "estimated_replacement_cost": 856359.48,
+      "created_at": "2025-08-06T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0025",
+      "code": "IFX-AUD-00025",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.932769,
+      "longitude": -122.268833,
+      "estimated_replacement_cost": 1162144.22,
+      "created_at": "2025-09-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0026",
+      "code": "IFX-AUD-00026",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.55454,
+      "longitude": -122.295158,
+      "estimated_replacement_cost": 714469.27,
+      "created_at": "2025-01-18T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0027",
+      "code": "IFX-AUD-00027",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.84223,
+      "longitude": -122.198702,
+      "estimated_replacement_cost": 571126.91,
+      "created_at": "2025-04-22T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0028",
+      "code": "IFX-AUD-00028",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.868405,
+      "longitude": -122.233828,
+      "estimated_replacement_cost": 502295.55,
+      "created_at": "2026-08-28T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0029",
+      "code": "IFX-AUD-00029",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 38.00311,
+      "longitude": -122.416449,
+      "estimated_replacement_cost": 1223141.26,
+      "created_at": "2025-02-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0030",
+      "code": "IFX-AUD-00030",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.714881,
+      "longitude": -122.240217,
+      "estimated_replacement_cost": 1255616.58,
+      "created_at": "2026-05-19T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0031",
+      "code": "IFX-AUD-00031",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.647085,
+      "longitude": -122.230118,
+      "estimated_replacement_cost": 1288570.2,
+      "created_at": "2025-10-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0032",
+      "code": "IFX-AUD-00032",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.934999,
+      "longitude": -122.524151,
+      "estimated_replacement_cost": 1018660.99,
+      "created_at": "2025-02-24T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0033",
+      "code": "IFX-AUD-00033",
+      "status": "OPERATIONAL",
+      "condition_score": 66,
+      "latitude": 38.022508,
+      "longitude": -122.638514,
+      "estimated_replacement_cost": 240403.58,
+      "created_at": "2025-06-21T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0034",
+      "code": "IFX-AUD-00034",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.781739,
+      "longitude": -122.211436,
+      "estimated_replacement_cost": 89577.52,
+      "created_at": "2025-08-22T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0035",
+      "code": "IFX-AUD-00035",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.856975,
+      "longitude": -122.635372,
+      "estimated_replacement_cost": 1217984.59,
+      "created_at": "2025-01-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0036",
+      "code": "IFX-AUD-00036",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.948174,
+      "longitude": -122.661551,
+      "estimated_replacement_cost": 1461976.46,
+      "created_at": "2025-05-16T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0037",
+      "code": "IFX-AUD-00037",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.814851,
+      "longitude": -122.365805,
+      "estimated_replacement_cost": 1246922.78,
+      "created_at": "2026-03-29T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0038",
+      "code": "IFX-AUD-00038",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.612968,
+      "longitude": -122.22591,
+      "estimated_replacement_cost": 578573.8,
+      "created_at": "2026-01-21T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0039",
+      "code": "IFX-AUD-00039",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.62849,
+      "longitude": -122.265239,
+      "estimated_replacement_cost": 1267467.32,
+      "created_at": "2025-02-25T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0040",
+      "code": "IFX-AUD-00040",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.778474,
+      "longitude": -122.646073,
+      "estimated_replacement_cost": 1227017.86,
+      "created_at": "2025-04-23T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0041",
+      "code": "IFX-AUD-00041",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.630152,
+      "longitude": -122.203103,
+      "estimated_replacement_cost": 1304211.11,
+      "created_at": "2025-10-02T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0042",
+      "code": "IFX-AUD-00042",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.97397,
+      "longitude": -122.621581,
+      "estimated_replacement_cost": 200730.9,
+      "created_at": "2024-12-02T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0043",
+      "code": "IFX-AUD-00043",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.601767,
+      "longitude": -122.428019,
+      "estimated_replacement_cost": 977531.34,
+      "created_at": "2025-12-18T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0044",
+      "code": "IFX-AUD-00044",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.88443,
+      "longitude": -122.608134,
+      "estimated_replacement_cost": 857842.81,
+      "created_at": "2026-07-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0045",
+      "code": "IFX-AUD-00045",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.591963,
+      "longitude": -122.591357,
+      "estimated_replacement_cost": 1263516.58,
+      "created_at": "2024-09-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0046",
+      "code": "IFX-AUD-00046",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.675192,
+      "longitude": -122.478377,
+      "estimated_replacement_cost": 1432577.2,
+      "created_at": "2025-10-02T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0047",
+      "code": "IFX-AUD-00047",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.978994,
+      "longitude": -122.493621,
+      "estimated_replacement_cost": 1323026.26,
+      "created_at": "2025-02-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0048",
+      "code": "IFX-AUD-00048",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.526563,
+      "longitude": -122.643283,
+      "estimated_replacement_cost": 1324130.05,
+      "created_at": "2025-08-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0049",
+      "code": "IFX-AUD-00049",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.671458,
+      "longitude": -122.364986,
+      "estimated_replacement_cost": 978924.31,
+      "created_at": "2025-03-31T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0050",
+      "code": "IFX-AUD-00050",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.658073,
+      "longitude": -122.408143,
+      "estimated_replacement_cost": 766559.83,
+      "created_at": "2026-01-01T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0051",
+      "code": "IFX-AUD-00051",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.662714,
+      "longitude": -122.245262,
+      "estimated_replacement_cost": 591033.5,
+      "created_at": "2026-02-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0052",
+      "code": "IFX-AUD-00052",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.835151,
+      "longitude": -122.382908,
+      "estimated_replacement_cost": 698202.37,
+      "created_at": "2024-12-06T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0053",
+      "code": "IFX-AUD-00053",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.7415,
+      "longitude": -122.212009,
+      "estimated_replacement_cost": 675597.25,
+      "created_at": "2025-04-22T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0054",
+      "code": "IFX-AUD-00054",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.635517,
+      "longitude": -122.229476,
+      "estimated_replacement_cost": 770231.12,
+      "created_at": "2025-10-27T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0055",
+      "code": "IFX-AUD-00055",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.737669,
+      "longitude": -122.494289,
+      "estimated_replacement_cost": 1138315.42,
+      "created_at": "2025-08-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0056",
+      "code": "IFX-AUD-00056",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.863791,
+      "longitude": -122.289412,
+      "estimated_replacement_cost": 1233926.12,
+      "created_at": "2026-06-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0057",
+      "code": "IFX-AUD-00057",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.574594,
+      "longitude": -122.444655,
+      "estimated_replacement_cost": 712749.68,
+      "created_at": "2026-04-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0058",
+      "code": "IFX-AUD-00058",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.825172,
+      "longitude": -122.211933,
+      "estimated_replacement_cost": 236688.04,
+      "created_at": "2025-02-16T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0059",
+      "code": "IFX-AUD-00059",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.845617,
+      "longitude": -122.560625,
+      "estimated_replacement_cost": 1290614.81,
+      "created_at": "2026-01-19T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0060",
+      "code": "IFX-AUD-00060",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.782638,
+      "longitude": -122.576099,
+      "estimated_replacement_cost": 56765.51,
+      "created_at": "2026-01-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0061",
+      "code": "IFX-AUD-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.806266,
+      "longitude": -122.190487,
+      "estimated_replacement_cost": 1075144.15,
+      "created_at": "2026-02-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0062",
+      "code": "IFX-AUD-00062",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 38.024311,
+      "longitude": -122.66733,
+      "estimated_replacement_cost": 1460865.8,
+      "created_at": "2024-12-29T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0063",
+      "code": "IFX-AUD-00063",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.878949,
+      "longitude": -122.207201,
+      "estimated_replacement_cost": 933853.64,
+      "created_at": "2025-09-09T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0064",
+      "code": "IFX-AUD-00064",
+      "status": "OPERATIONAL",
+      "condition_score": 93,
+      "latitude": 37.740172,
+      "longitude": -122.265154,
+      "estimated_replacement_cost": 250666.71,
+      "created_at": "2026-02-27T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0065",
+      "code": "IFX-AUD-00065",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.987657,
+      "longitude": -122.268078,
+      "estimated_replacement_cost": 55724.22,
+      "created_at": "2025-03-10T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0066",
+      "code": "IFX-AUD-00066",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.613582,
+      "longitude": -122.361644,
+      "estimated_replacement_cost": 508933.95,
+      "created_at": "2025-02-17T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0067",
+      "code": "IFX-AUD-00067",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.790426,
+      "longitude": -122.367932,
+      "estimated_replacement_cost": 1052985.89,
+      "created_at": "2026-06-25T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0068",
+      "code": "IFX-AUD-00068",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.983196,
+      "longitude": -122.315941,
+      "estimated_replacement_cost": 523609.4,
+      "created_at": "2025-02-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0069",
+      "code": "IFX-AUD-00069",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.70375,
+      "longitude": -122.419895,
+      "estimated_replacement_cost": 605560.96,
+      "created_at": "2025-10-24T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0070",
+      "code": "IFX-AUD-00070",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.757145,
+      "longitude": -122.259285,
+      "estimated_replacement_cost": 1133488.13,
+      "created_at": "2025-08-05T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0071",
+      "code": "IFX-AUD-00071",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.786642,
+      "longitude": -122.486131,
+      "estimated_replacement_cost": 432520.09,
+      "created_at": "2026-04-02T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0072",
+      "code": "IFX-AUD-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 70,
+      "latitude": 37.58703,
+      "longitude": -122.385447,
+      "estimated_replacement_cost": 864224.29,
+      "created_at": "2026-02-23T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0073",
+      "code": "IFX-AUD-00073",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.873985,
+      "longitude": -122.656122,
+      "estimated_replacement_cost": 601474.37,
+      "created_at": "2025-04-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0074",
+      "code": "IFX-AUD-00074",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.803881,
+      "longitude": -122.555268,
+      "estimated_replacement_cost": 922919.53,
+      "created_at": "2026-03-31T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0075",
+      "code": "IFX-AUD-00075",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.969076,
+      "longitude": -122.28823,
+      "estimated_replacement_cost": 508164.39,
+      "created_at": "2025-10-20T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0076",
+      "code": "IFX-AUD-00076",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.700887,
+      "longitude": -122.431212,
+      "estimated_replacement_cost": 1453074.98,
+      "created_at": "2026-03-24T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0077",
+      "code": "IFX-AUD-00077",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.907077,
+      "longitude": -122.66294,
+      "estimated_replacement_cost": 1404700.19,
+      "created_at": "2026-07-10T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0078",
+      "code": "IFX-AUD-00078",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.780228,
+      "longitude": -122.284719,
+      "estimated_replacement_cost": 996394.37,
+      "created_at": "2025-02-21T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0079",
+      "code": "IFX-AUD-00079",
+      "status": "INSPECTED",
+      "condition_score": 93,
+      "latitude": 37.618221,
+      "longitude": -122.373843,
+      "estimated_replacement_cost": 54705.34,
+      "created_at": "2025-11-17T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0080",
+      "code": "IFX-AUD-00080",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.98934,
+      "longitude": -122.392925,
+      "estimated_replacement_cost": 1138682.51,
+      "created_at": "2025-06-03T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0081",
+      "code": "IFX-AUD-00081",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.679904,
+      "longitude": -122.28569,
+      "estimated_replacement_cost": 980204.87,
+      "created_at": "2024-10-27T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0082",
+      "code": "IFX-AUD-00082",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.75003,
+      "longitude": -122.525809,
+      "estimated_replacement_cost": 836527.53,
+      "created_at": "2025-07-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0083",
+      "code": "IFX-AUD-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.944236,
+      "longitude": -122.212707,
+      "estimated_replacement_cost": 884078.1,
+      "created_at": "2026-05-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0084",
+      "code": "IFX-AUD-00084",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.688023,
+      "longitude": -122.198821,
+      "estimated_replacement_cost": 295805.45,
+      "created_at": "2025-06-18T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0085",
+      "code": "IFX-AUD-00085",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.87957,
+      "longitude": -122.228442,
+      "estimated_replacement_cost": 738934.24,
+      "created_at": "2024-10-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0086",
+      "code": "IFX-AUD-00086",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.722087,
+      "longitude": -122.28665,
+      "estimated_replacement_cost": 798751.14,
+      "created_at": "2026-08-27T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0087",
+      "code": "IFX-AUD-00087",
+      "status": "OPERATIONAL",
+      "condition_score": 68,
+      "latitude": 38.02401,
+      "longitude": -122.188718,
+      "estimated_replacement_cost": 465214.12,
+      "created_at": "2024-11-22T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0088",
+      "code": "IFX-AUD-00088",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.83216,
+      "longitude": -122.209202,
+      "estimated_replacement_cost": 843920.38,
+      "created_at": "2025-03-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0089",
+      "code": "IFX-AUD-00089",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.809767,
+      "longitude": -122.600097,
+      "estimated_replacement_cost": 1141678.5,
+      "created_at": "2025-09-06T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0090",
+      "code": "IFX-AUD-00090",
+      "status": "STANDBY",
+      "condition_score": 63,
+      "latitude": 37.724862,
+      "longitude": -122.484984,
+      "estimated_replacement_cost": 1377119.08,
+      "created_at": "2025-07-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0091",
+      "code": "IFX-AUD-00091",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.801928,
+      "longitude": -122.202994,
+      "estimated_replacement_cost": 647102.58,
+      "created_at": "2025-04-24T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0092",
+      "code": "IFX-AUD-00092",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 38.000913,
+      "longitude": -122.315976,
+      "estimated_replacement_cost": 287217.47,
+      "created_at": "2026-04-12T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0093",
+      "code": "IFX-AUD-00093",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.944981,
+      "longitude": -122.493356,
+      "estimated_replacement_cost": 436719.65,
+      "created_at": "2026-04-04T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0094",
+      "code": "IFX-AUD-00094",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.65888,
+      "longitude": -122.324881,
+      "estimated_replacement_cost": 42566.98,
+      "created_at": "2025-05-25T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0095",
+      "code": "IFX-AUD-00095",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.901528,
+      "longitude": -122.47843,
+      "estimated_replacement_cost": 765127.92,
+      "created_at": "2025-07-17T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0096",
+      "code": "IFX-AUD-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.844525,
+      "longitude": -122.405713,
+      "estimated_replacement_cost": 568023.13,
+      "created_at": "2025-10-28T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0097",
+      "code": "IFX-AUD-00097",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.628259,
+      "longitude": -122.243571,
+      "estimated_replacement_cost": 361175.46,
+      "created_at": "2025-11-02T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0098",
+      "code": "IFX-AUD-00098",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.620154,
+      "longitude": -122.563099,
+      "estimated_replacement_cost": 43727.36,
+      "created_at": "2025-02-03T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0099",
+      "code": "IFX-AUD-00099",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.841771,
+      "longitude": -122.450596,
+      "estimated_replacement_cost": 353861.13,
+      "created_at": "2024-10-31T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0100",
+      "code": "IFX-AUD-00100",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.561821,
+      "longitude": -122.404199,
+      "estimated_replacement_cost": 1447980.41,
+      "created_at": "2024-10-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0101",
+      "code": "IFX-AUD-00101",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.577142,
+      "longitude": -122.308211,
+      "estimated_replacement_cost": 521453.18,
+      "created_at": "2026-03-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0102",
+      "code": "IFX-AUD-00102",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.851282,
+      "longitude": -122.399514,
+      "estimated_replacement_cost": 1244481.27,
+      "created_at": "2024-10-03T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0103",
+      "code": "IFX-AUD-00103",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.824448,
+      "longitude": -122.32961,
+      "estimated_replacement_cost": 741880.5,
+      "created_at": "2025-06-11T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0104",
+      "code": "IFX-AUD-00104",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.745754,
+      "longitude": -122.32466,
+      "estimated_replacement_cost": 342790.74,
+      "created_at": "2025-01-01T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0105",
+      "code": "IFX-AUD-00105",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.623305,
+      "longitude": -122.513438,
+      "estimated_replacement_cost": 768744.13,
+      "created_at": "2026-03-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0106",
+      "code": "IFX-AUD-00106",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.750754,
+      "longitude": -122.335194,
+      "estimated_replacement_cost": 1041131.85,
+      "created_at": "2025-09-18T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0107",
+      "code": "IFX-AUD-00107",
+      "status": "OPERATIONAL",
+      "condition_score": 74,
+      "latitude": 37.803656,
+      "longitude": -122.54928,
+      "estimated_replacement_cost": 1022334.97,
+      "created_at": "2024-11-10T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0108",
+      "code": "IFX-AUD-00108",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.58441,
+      "longitude": -122.60373,
+      "estimated_replacement_cost": 1347136.2,
+      "created_at": "2025-05-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0109",
+      "code": "IFX-AUD-00109",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.916391,
+      "longitude": -122.380064,
+      "estimated_replacement_cost": 896466.18,
+      "created_at": "2026-06-03T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0110",
+      "code": "IFX-AUD-00110",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.973157,
+      "longitude": -122.179483,
+      "estimated_replacement_cost": 1234240.34,
+      "created_at": "2025-08-09T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0111",
+      "code": "IFX-AUD-00111",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.915211,
+      "longitude": -122.644477,
+      "estimated_replacement_cost": 950543.1,
+      "created_at": "2024-12-05T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0112",
+      "code": "IFX-AUD-00112",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.527984,
+      "longitude": -122.491197,
+      "estimated_replacement_cost": 284925.31,
+      "created_at": "2025-03-27T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0113",
+      "code": "IFX-AUD-00113",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.839091,
+      "longitude": -122.445404,
+      "estimated_replacement_cost": 381364.98,
+      "created_at": "2026-06-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0114",
+      "code": "IFX-AUD-00114",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.703137,
+      "longitude": -122.649602,
+      "estimated_replacement_cost": 1047091.53,
+      "created_at": "2025-08-12T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0115",
+      "code": "IFX-AUD-00115",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.564997,
+      "longitude": -122.649767,
+      "estimated_replacement_cost": 1033202.33,
+      "created_at": "2026-03-12T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0116",
+      "code": "IFX-AUD-00116",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.773727,
+      "longitude": -122.538734,
+      "estimated_replacement_cost": 711164.3,
+      "created_at": "2026-08-11T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0117",
+      "code": "IFX-AUD-00117",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.606279,
+      "longitude": -122.179767,
+      "estimated_replacement_cost": 1114218.33,
+      "created_at": "2024-09-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0118",
+      "code": "IFX-AUD-00118",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.633926,
+      "longitude": -122.540747,
+      "estimated_replacement_cost": 37551.1,
+      "created_at": "2026-02-06T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0119",
+      "code": "IFX-AUD-00119",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.585329,
+      "longitude": -122.395704,
+      "estimated_replacement_cost": 1295189.62,
+      "created_at": "2026-03-09T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0120",
+      "code": "IFX-AUD-00120",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.548409,
+      "longitude": -122.205005,
+      "estimated_replacement_cost": 979620.78,
+      "created_at": "2025-09-22T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0121",
+      "code": "IFX-AUD-00121",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.884865,
+      "longitude": -122.644376,
+      "estimated_replacement_cost": 1006280.12,
+      "created_at": "2025-11-05T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0122",
+      "code": "IFX-AUD-00122",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.63766,
+      "longitude": -122.437873,
+      "estimated_replacement_cost": 1054893.33,
+      "created_at": "2026-02-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0123",
+      "code": "IFX-AUD-00123",
+      "status": "INSPECTED",
+      "condition_score": 95,
+      "latitude": 37.569493,
+      "longitude": -122.60379,
+      "estimated_replacement_cost": 922497.07,
+      "created_at": "2025-02-17T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0124",
+      "code": "IFX-AUD-00124",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.664804,
+      "longitude": -122.568642,
+      "estimated_replacement_cost": 366529.04,
+      "created_at": "2025-04-25T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0125",
+      "code": "IFX-AUD-00125",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.641478,
+      "longitude": -122.441143,
+      "estimated_replacement_cost": 559757.53,
+      "created_at": "2025-04-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0126",
+      "code": "IFX-AUD-00126",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.811871,
+      "longitude": -122.412223,
+      "estimated_replacement_cost": 898422.55,
+      "created_at": "2026-06-30T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0127",
+      "code": "IFX-AUD-00127",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 37.731889,
+      "longitude": -122.599062,
+      "estimated_replacement_cost": 1252907.21,
+      "created_at": "2026-04-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0128",
+      "code": "IFX-AUD-00128",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.82206,
+      "longitude": -122.390602,
+      "estimated_replacement_cost": 1036816.52,
+      "created_at": "2025-01-16T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0129",
+      "code": "IFX-AUD-00129",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.547769,
+      "longitude": -122.556111,
+      "estimated_replacement_cost": 359235.64,
+      "created_at": "2026-05-11T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0130",
+      "code": "IFX-AUD-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.99114,
+      "longitude": -122.412079,
+      "estimated_replacement_cost": 356766.08,
+      "created_at": "2025-07-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0131",
+      "code": "IFX-AUD-00131",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.919128,
+      "longitude": -122.31285,
+      "estimated_replacement_cost": 582255.18,
+      "created_at": "2025-12-04T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0132",
+      "code": "IFX-AUD-00132",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.734849,
+      "longitude": -122.262982,
+      "estimated_replacement_cost": 662166.58,
+      "created_at": "2025-07-14T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0133",
+      "code": "IFX-AUD-00133",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.941859,
+      "longitude": -122.427327,
+      "estimated_replacement_cost": 1317585.52,
+      "created_at": "2024-10-21T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0134",
+      "code": "IFX-AUD-00134",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.762054,
+      "longitude": -122.628023,
+      "estimated_replacement_cost": 1030942.08,
+      "created_at": "2026-01-28T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0135",
+      "code": "IFX-AUD-00135",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.83942,
+      "longitude": -122.605833,
+      "estimated_replacement_cost": 929858.56,
+      "created_at": "2024-10-16T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0136",
+      "code": "IFX-AUD-00136",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.680697,
+      "longitude": -122.490027,
+      "estimated_replacement_cost": 809355.72,
+      "created_at": "2025-07-01T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0137",
+      "code": "IFX-AUD-00137",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 79,
+      "latitude": 37.573884,
+      "longitude": -122.577339,
+      "estimated_replacement_cost": 958520.47,
+      "created_at": "2025-09-29T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0138",
+      "code": "IFX-AUD-00138",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.802226,
+      "longitude": -122.606775,
+      "estimated_replacement_cost": 886657.59,
+      "created_at": "2026-04-01T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0139",
+      "code": "IFX-AUD-00139",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.740359,
+      "longitude": -122.41646,
+      "estimated_replacement_cost": 914999.19,
+      "created_at": "2025-04-08T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0140",
+      "code": "IFX-AUD-00140",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.844168,
+      "longitude": -122.661876,
+      "estimated_replacement_cost": 601404.4,
+      "created_at": "2025-04-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0141",
+      "code": "IFX-AUD-00141",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.528598,
+      "longitude": -122.403262,
+      "estimated_replacement_cost": 190089.16,
+      "created_at": "2026-03-22T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0142",
+      "code": "IFX-AUD-00142",
+      "status": "INSPECTED",
+      "condition_score": 95,
+      "latitude": 37.945894,
+      "longitude": -122.235358,
+      "estimated_replacement_cost": 212978.38,
+      "created_at": "2026-04-27T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0143",
+      "code": "IFX-AUD-00143",
+      "status": "OPERATIONAL",
+      "condition_score": 93,
+      "latitude": 37.570348,
+      "longitude": -122.66232,
+      "estimated_replacement_cost": 264988.14,
+      "created_at": "2025-10-01T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0144",
+      "code": "IFX-AUD-00144",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.544697,
+      "longitude": -122.305444,
+      "estimated_replacement_cost": 278005.69,
+      "created_at": "2025-03-26T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0145",
+      "code": "IFX-AUD-00145",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.636447,
+      "longitude": -122.299627,
+      "estimated_replacement_cost": 593707.71,
+      "created_at": "2025-04-12T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0146",
+      "code": "IFX-AUD-00146",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 38.001069,
+      "longitude": -122.421423,
+      "estimated_replacement_cost": 1339591.8,
+      "created_at": "2025-12-04T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0147",
+      "code": "IFX-AUD-00147",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 38.022711,
+      "longitude": -122.240864,
+      "estimated_replacement_cost": 917651.96,
+      "created_at": "2025-07-13T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0148",
+      "code": "IFX-AUD-00148",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.827879,
+      "longitude": -122.465892,
+      "estimated_replacement_cost": 1126837.0,
+      "created_at": "2025-11-28T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0149",
+      "code": "IFX-AUD-00149",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.582132,
+      "longitude": -122.297085,
+      "estimated_replacement_cost": 404779.89,
+      "created_at": "2025-02-15T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_audit.auditrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Audit Asset Segment #0150",
+      "code": "IFX-AUD-00150",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.803261,
+      "longitude": -122.532581,
+      "estimated_replacement_cost": 850690.79,
+      "created_at": "2025-12-07T10:34:25.543462",
+      "updated_at": "2026-09-08T10:34:25.543462",
+      "notes": "Standard municipal engineering inventory record for audit.",
+      "metadata": {
+        "spec_code": "SPEC-AUDIT-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]

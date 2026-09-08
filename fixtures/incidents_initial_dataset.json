@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0001",
+      "code": "IFX-INC-00001",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.784338,
+      "longitude": -122.640957,
+      "estimated_replacement_cost": 390068.95,
+      "created_at": "2025-02-15T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0002",
+      "code": "IFX-INC-00002",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.751891,
+      "longitude": -122.575273,
+      "estimated_replacement_cost": 54511.53,
+      "created_at": "2026-07-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0003",
+      "code": "IFX-INC-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.759925,
+      "longitude": -122.424495,
+      "estimated_replacement_cost": 752557.53,
+      "created_at": "2025-09-02T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0004",
+      "code": "IFX-INC-00004",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.792972,
+      "longitude": -122.183879,
+      "estimated_replacement_cost": 794638.25,
+      "created_at": "2024-11-08T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0005",
+      "code": "IFX-INC-00005",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.577102,
+      "longitude": -122.613265,
+      "estimated_replacement_cost": 391005.87,
+      "created_at": "2025-12-21T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0006",
+      "code": "IFX-INC-00006",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.588664,
+      "longitude": -122.360865,
+      "estimated_replacement_cost": 1324569.64,
+      "created_at": "2026-06-29T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0007",
+      "code": "IFX-INC-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.919124,
+      "longitude": -122.598311,
+      "estimated_replacement_cost": 1195150.9,
+      "created_at": "2026-02-20T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0008",
+      "code": "IFX-INC-00008",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 38.001238,
+      "longitude": -122.358416,
+      "estimated_replacement_cost": 1475053.28,
+      "created_at": "2026-03-22T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0009",
+      "code": "IFX-INC-00009",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.879866,
+      "longitude": -122.50246,
+      "estimated_replacement_cost": 341231.32,
+      "created_at": "2025-09-11T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0010",
+      "code": "IFX-INC-00010",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.825505,
+      "longitude": -122.297004,
+      "estimated_replacement_cost": 632993.84,
+      "created_at": "2025-08-20T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0011",
+      "code": "IFX-INC-00011",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.545157,
+      "longitude": -122.510533,
+      "estimated_replacement_cost": 590872.06,
+      "created_at": "2025-07-22T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0012",
+      "code": "IFX-INC-00012",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.807286,
+      "longitude": -122.477991,
+      "estimated_replacement_cost": 1369138.7,
+      "created_at": "2026-03-14T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0013",
+      "code": "IFX-INC-00013",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.665367,
+      "longitude": -122.613388,
+      "estimated_replacement_cost": 350338.44,
+      "created_at": "2025-04-14T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0014",
+      "code": "IFX-INC-00014",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.956098,
+      "longitude": -122.26337,
+      "estimated_replacement_cost": 1210588.21,
+      "created_at": "2026-07-09T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0015",
+      "code": "IFX-INC-00015",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.630136,
+      "longitude": -122.592413,
+      "estimated_replacement_cost": 653061.28,
+      "created_at": "2026-08-08T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0016",
+      "code": "IFX-INC-00016",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.940864,
+      "longitude": -122.482864,
+      "estimated_replacement_cost": 389005.91,
+      "created_at": "2024-10-02T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0017",
+      "code": "IFX-INC-00017",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.988333,
+      "longitude": -122.332023,
+      "estimated_replacement_cost": 1022311.79,
+      "created_at": "2025-04-28T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0018",
+      "code": "IFX-INC-00018",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.767769,
+      "longitude": -122.362939,
+      "estimated_replacement_cost": 309653.86,
+      "created_at": "2025-04-24T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0019",
+      "code": "IFX-INC-00019",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.566449,
+      "longitude": -122.232586,
+      "estimated_replacement_cost": 439324.06,
+      "created_at": "2024-10-07T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0020",
+      "code": "IFX-INC-00020",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.718178,
+      "longitude": -122.347391,
+      "estimated_replacement_cost": 132573.33,
+      "created_at": "2026-05-04T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0021",
+      "code": "IFX-INC-00021",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.54262,
+      "longitude": -122.653125,
+      "estimated_replacement_cost": 366466.75,
+      "created_at": "2025-10-15T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0022",
+      "code": "IFX-INC-00022",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.779021,
+      "longitude": -122.22676,
+      "estimated_replacement_cost": 745750.72,
+      "created_at": "2025-02-22T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0023",
+      "code": "IFX-INC-00023",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.888141,
+      "longitude": -122.485062,
+      "estimated_replacement_cost": 774261.88,
+      "created_at": "2025-09-21T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0024",
+      "code": "IFX-INC-00024",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.567779,
+      "longitude": -122.586032,
+      "estimated_replacement_cost": 1112669.83,
+      "created_at": "2025-12-30T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0025",
+      "code": "IFX-INC-00025",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.846591,
+      "longitude": -122.197394,
+      "estimated_replacement_cost": 1377446.01,
+      "created_at": "2024-11-04T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0026",
+      "code": "IFX-INC-00026",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.839095,
+      "longitude": -122.417021,
+      "estimated_replacement_cost": 1197247.3,
+      "created_at": "2026-01-14T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0027",
+      "code": "IFX-INC-00027",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.849193,
+      "longitude": -122.458067,
+      "estimated_replacement_cost": 310513.86,
+      "created_at": "2025-01-09T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0028",
+      "code": "IFX-INC-00028",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.530644,
+      "longitude": -122.297934,
+      "estimated_replacement_cost": 1362363.36,
+      "created_at": "2025-11-23T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0029",
+      "code": "IFX-INC-00029",
+      "status": "INSPECTED",
+      "condition_score": 94,
+      "latitude": 37.947292,
+      "longitude": -122.259619,
+      "estimated_replacement_cost": 915048.55,
+      "created_at": "2026-04-02T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0030",
+      "code": "IFX-INC-00030",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.692086,
+      "longitude": -122.244411,
+      "estimated_replacement_cost": 816492.44,
+      "created_at": "2025-01-06T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0031",
+      "code": "IFX-INC-00031",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.707198,
+      "longitude": -122.228595,
+      "estimated_replacement_cost": 714871.59,
+      "created_at": "2025-12-08T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0032",
+      "code": "IFX-INC-00032",
+      "status": "STANDBY",
+      "condition_score": 51,
+      "latitude": 37.706199,
+      "longitude": -122.418561,
+      "estimated_replacement_cost": 396435.12,
+      "created_at": "2025-06-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0033",
+      "code": "IFX-INC-00033",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.900391,
+      "longitude": -122.332255,
+      "estimated_replacement_cost": 273838.51,
+      "created_at": "2026-07-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0034",
+      "code": "IFX-INC-00034",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.791555,
+      "longitude": -122.403711,
+      "estimated_replacement_cost": 590004.94,
+      "created_at": "2026-09-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0035",
+      "code": "IFX-INC-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.991951,
+      "longitude": -122.667572,
+      "estimated_replacement_cost": 1383284.98,
+      "created_at": "2024-10-22T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0036",
+      "code": "IFX-INC-00036",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.819462,
+      "longitude": -122.24607,
+      "estimated_replacement_cost": 175526.54,
+      "created_at": "2026-09-06T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0037",
+      "code": "IFX-INC-00037",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.825051,
+      "longitude": -122.444682,
+      "estimated_replacement_cost": 436014.74,
+      "created_at": "2025-05-11T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0038",
+      "code": "IFX-INC-00038",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.525313,
+      "longitude": -122.367375,
+      "estimated_replacement_cost": 944098.74,
+      "created_at": "2024-12-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0039",
+      "code": "IFX-INC-00039",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.526214,
+      "longitude": -122.502774,
+      "estimated_replacement_cost": 962545.72,
+      "created_at": "2026-05-06T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0040",
+      "code": "IFX-INC-00040",
+      "status": "INSPECTED",
+      "condition_score": 66,
+      "latitude": 37.897054,
+      "longitude": -122.517629,
+      "estimated_replacement_cost": 660075.54,
+      "created_at": "2026-03-16T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0041",
+      "code": "IFX-INC-00041",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.821462,
+      "longitude": -122.589278,
+      "estimated_replacement_cost": 821139.08,
+      "created_at": "2026-06-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0042",
+      "code": "IFX-INC-00042",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.93143,
+      "longitude": -122.270555,
+      "estimated_replacement_cost": 652877.32,
+      "created_at": "2026-07-03T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0043",
+      "code": "IFX-INC-00043",
+      "status": "ACTIVE",
+      "condition_score": 85,
+      "latitude": 37.919645,
+      "longitude": -122.474289,
+      "estimated_replacement_cost": 1143227.25,
+      "created_at": "2025-10-11T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0044",
+      "code": "IFX-INC-00044",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.783943,
+      "longitude": -122.590937,
+      "estimated_replacement_cost": 1131150.63,
+      "created_at": "2026-04-28T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0045",
+      "code": "IFX-INC-00045",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.90418,
+      "longitude": -122.643923,
+      "estimated_replacement_cost": 1041836.64,
+      "created_at": "2024-12-16T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0046",
+      "code": "IFX-INC-00046",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.812143,
+      "longitude": -122.363839,
+      "estimated_replacement_cost": 1197139.51,
+      "created_at": "2025-03-09T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0047",
+      "code": "IFX-INC-00047",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.939102,
+      "longitude": -122.302005,
+      "estimated_replacement_cost": 1493619.86,
+      "created_at": "2025-11-24T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0048",
+      "code": "IFX-INC-00048",
+      "status": "ACTIVE",
+      "condition_score": 57,
+      "latitude": 37.718195,
+      "longitude": -122.579573,
+      "estimated_replacement_cost": 1197644.38,
+      "created_at": "2026-06-18T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0049",
+      "code": "IFX-INC-00049",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.874077,
+      "longitude": -122.532482,
+      "estimated_replacement_cost": 368658.78,
+      "created_at": "2024-10-08T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0050",
+      "code": "IFX-INC-00050",
+      "status": "INSPECTED",
+      "condition_score": 67,
+      "latitude": 37.917955,
+      "longitude": -122.360005,
+      "estimated_replacement_cost": 1232366.78,
+      "created_at": "2026-08-30T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0051",
+      "code": "IFX-INC-00051",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.973903,
+      "longitude": -122.599377,
+      "estimated_replacement_cost": 747452.99,
+      "created_at": "2024-11-14T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0052",
+      "code": "IFX-INC-00052",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.696485,
+      "longitude": -122.348057,
+      "estimated_replacement_cost": 813430.06,
+      "created_at": "2025-01-09T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0053",
+      "code": "IFX-INC-00053",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.831759,
+      "longitude": -122.542116,
+      "estimated_replacement_cost": 190860.75,
+      "created_at": "2024-11-29T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0054",
+      "code": "IFX-INC-00054",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.911587,
+      "longitude": -122.646083,
+      "estimated_replacement_cost": 1233366.16,
+      "created_at": "2026-06-14T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0055",
+      "code": "IFX-INC-00055",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.534306,
+      "longitude": -122.64429,
+      "estimated_replacement_cost": 1476899.39,
+      "created_at": "2026-03-21T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0056",
+      "code": "IFX-INC-00056",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.714304,
+      "longitude": -122.361689,
+      "estimated_replacement_cost": 329501.68,
+      "created_at": "2026-04-19T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0057",
+      "code": "IFX-INC-00057",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.791543,
+      "longitude": -122.266703,
+      "estimated_replacement_cost": 1365477.16,
+      "created_at": "2025-02-23T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0058",
+      "code": "IFX-INC-00058",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.804578,
+      "longitude": -122.518408,
+      "estimated_replacement_cost": 176941.64,
+      "created_at": "2025-06-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0059",
+      "code": "IFX-INC-00059",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.657921,
+      "longitude": -122.494824,
+      "estimated_replacement_cost": 326615.31,
+      "created_at": "2025-03-10T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0060",
+      "code": "IFX-INC-00060",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.92771,
+      "longitude": -122.646378,
+      "estimated_replacement_cost": 631976.05,
+      "created_at": "2025-11-04T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0061",
+      "code": "IFX-INC-00061",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.777024,
+      "longitude": -122.456664,
+      "estimated_replacement_cost": 83484.76,
+      "created_at": "2025-06-10T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0062",
+      "code": "IFX-INC-00062",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.56072,
+      "longitude": -122.602413,
+      "estimated_replacement_cost": 662210.11,
+      "created_at": "2026-04-24T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0063",
+      "code": "IFX-INC-00063",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.776846,
+      "longitude": -122.512541,
+      "estimated_replacement_cost": 117307.6,
+      "created_at": "2025-06-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0064",
+      "code": "IFX-INC-00064",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.586236,
+      "longitude": -122.507636,
+      "estimated_replacement_cost": 594806.76,
+      "created_at": "2025-01-15T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0065",
+      "code": "IFX-INC-00065",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.857807,
+      "longitude": -122.481431,
+      "estimated_replacement_cost": 124085.77,
+      "created_at": "2024-12-13T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0066",
+      "code": "IFX-INC-00066",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.75477,
+      "longitude": -122.43262,
+      "estimated_replacement_cost": 539076.27,
+      "created_at": "2026-05-28T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0067",
+      "code": "IFX-INC-00067",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.621772,
+      "longitude": -122.279506,
+      "estimated_replacement_cost": 287972.87,
+      "created_at": "2025-01-25T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0068",
+      "code": "IFX-INC-00068",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.63058,
+      "longitude": -122.55668,
+      "estimated_replacement_cost": 43269.57,
+      "created_at": "2026-04-22T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0069",
+      "code": "IFX-INC-00069",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.902198,
+      "longitude": -122.201688,
+      "estimated_replacement_cost": 699208.18,
+      "created_at": "2026-09-04T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0070",
+      "code": "IFX-INC-00070",
+      "status": "ACTIVE",
+      "condition_score": 85,
+      "latitude": 37.630624,
+      "longitude": -122.356047,
+      "estimated_replacement_cost": 1240132.97,
+      "created_at": "2025-10-18T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0071",
+      "code": "IFX-INC-00071",
+      "status": "STANDBY",
+      "condition_score": 51,
+      "latitude": 37.612878,
+      "longitude": -122.489869,
+      "estimated_replacement_cost": 685783.49,
+      "created_at": "2026-08-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0072",
+      "code": "IFX-INC-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.785726,
+      "longitude": -122.60891,
+      "estimated_replacement_cost": 311444.36,
+      "created_at": "2025-02-06T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0073",
+      "code": "IFX-INC-00073",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.913758,
+      "longitude": -122.432173,
+      "estimated_replacement_cost": 294736.3,
+      "created_at": "2024-12-18T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0074",
+      "code": "IFX-INC-00074",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.558106,
+      "longitude": -122.22355,
+      "estimated_replacement_cost": 1438891.38,
+      "created_at": "2024-11-11T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0075",
+      "code": "IFX-INC-00075",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.831802,
+      "longitude": -122.263709,
+      "estimated_replacement_cost": 764550.54,
+      "created_at": "2026-03-06T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0076",
+      "code": "IFX-INC-00076",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.815485,
+      "longitude": -122.235889,
+      "estimated_replacement_cost": 73378.28,
+      "created_at": "2025-04-21T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0077",
+      "code": "IFX-INC-00077",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 38.011219,
+      "longitude": -122.501128,
+      "estimated_replacement_cost": 341919.46,
+      "created_at": "2026-07-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0078",
+      "code": "IFX-INC-00078",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.827773,
+      "longitude": -122.496357,
+      "estimated_replacement_cost": 158946.27,
+      "created_at": "2024-12-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0079",
+      "code": "IFX-INC-00079",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.913983,
+      "longitude": -122.392087,
+      "estimated_replacement_cost": 111293.72,
+      "created_at": "2026-09-02T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0080",
+      "code": "IFX-INC-00080",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.95992,
+      "longitude": -122.533204,
+      "estimated_replacement_cost": 100572.89,
+      "created_at": "2024-12-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0081",
+      "code": "IFX-INC-00081",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.535506,
+      "longitude": -122.486479,
+      "estimated_replacement_cost": 795173.34,
+      "created_at": "2025-08-08T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0082",
+      "code": "IFX-INC-00082",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.905803,
+      "longitude": -122.409565,
+      "estimated_replacement_cost": 1039083.46,
+      "created_at": "2025-11-23T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0083",
+      "code": "IFX-INC-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.894468,
+      "longitude": -122.319564,
+      "estimated_replacement_cost": 67939.71,
+      "created_at": "2025-11-15T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0084",
+      "code": "IFX-INC-00084",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.537419,
+      "longitude": -122.286756,
+      "estimated_replacement_cost": 974281.24,
+      "created_at": "2026-02-21T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0085",
+      "code": "IFX-INC-00085",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.686272,
+      "longitude": -122.472471,
+      "estimated_replacement_cost": 198269.73,
+      "created_at": "2025-11-18T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0086",
+      "code": "IFX-INC-00086",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.920585,
+      "longitude": -122.648829,
+      "estimated_replacement_cost": 792163.22,
+      "created_at": "2025-02-20T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0087",
+      "code": "IFX-INC-00087",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.966396,
+      "longitude": -122.512623,
+      "estimated_replacement_cost": 196923.51,
+      "created_at": "2025-02-11T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0088",
+      "code": "IFX-INC-00088",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.933364,
+      "longitude": -122.430421,
+      "estimated_replacement_cost": 776283.31,
+      "created_at": "2025-10-30T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0089",
+      "code": "IFX-INC-00089",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 79,
+      "latitude": 37.76045,
+      "longitude": -122.188227,
+      "estimated_replacement_cost": 767603.5,
+      "created_at": "2025-09-15T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0090",
+      "code": "IFX-INC-00090",
+      "status": "ACTIVE",
+      "condition_score": 57,
+      "latitude": 37.961058,
+      "longitude": -122.207368,
+      "estimated_replacement_cost": 1254525.41,
+      "created_at": "2025-05-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0091",
+      "code": "IFX-INC-00091",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.84437,
+      "longitude": -122.44874,
+      "estimated_replacement_cost": 1387826.88,
+      "created_at": "2025-11-14T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0092",
+      "code": "IFX-INC-00092",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.821087,
+      "longitude": -122.604123,
+      "estimated_replacement_cost": 579724.05,
+      "created_at": "2025-12-22T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0093",
+      "code": "IFX-INC-00093",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.705553,
+      "longitude": -122.200684,
+      "estimated_replacement_cost": 1456386.69,
+      "created_at": "2026-05-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0094",
+      "code": "IFX-INC-00094",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.996667,
+      "longitude": -122.343932,
+      "estimated_replacement_cost": 812515.04,
+      "created_at": "2024-11-10T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0095",
+      "code": "IFX-INC-00095",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.771931,
+      "longitude": -122.27451,
+      "estimated_replacement_cost": 305581.25,
+      "created_at": "2026-03-12T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0096",
+      "code": "IFX-INC-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.800028,
+      "longitude": -122.234873,
+      "estimated_replacement_cost": 1298114.53,
+      "created_at": "2025-08-19T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0097",
+      "code": "IFX-INC-00097",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.767216,
+      "longitude": -122.587334,
+      "estimated_replacement_cost": 575627.01,
+      "created_at": "2026-05-27T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0098",
+      "code": "IFX-INC-00098",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.947232,
+      "longitude": -122.388314,
+      "estimated_replacement_cost": 47039.46,
+      "created_at": "2026-04-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0099",
+      "code": "IFX-INC-00099",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.53481,
+      "longitude": -122.615199,
+      "estimated_replacement_cost": 928936.62,
+      "created_at": "2026-04-16T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0100",
+      "code": "IFX-INC-00100",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.726547,
+      "longitude": -122.50405,
+      "estimated_replacement_cost": 849997.9,
+      "created_at": "2025-12-23T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0101",
+      "code": "IFX-INC-00101",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.683741,
+      "longitude": -122.595637,
+      "estimated_replacement_cost": 1290700.99,
+      "created_at": "2025-10-14T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0102",
+      "code": "IFX-INC-00102",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.563926,
+      "longitude": -122.349052,
+      "estimated_replacement_cost": 1354921.31,
+      "created_at": "2026-04-26T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0103",
+      "code": "IFX-INC-00103",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.773427,
+      "longitude": -122.613941,
+      "estimated_replacement_cost": 477708.23,
+      "created_at": "2026-02-03T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0104",
+      "code": "IFX-INC-00104",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.784184,
+      "longitude": -122.612882,
+      "estimated_replacement_cost": 81485.84,
+      "created_at": "2025-11-27T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0105",
+      "code": "IFX-INC-00105",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.605421,
+      "longitude": -122.539223,
+      "estimated_replacement_cost": 647934.84,
+      "created_at": "2025-06-11T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0106",
+      "code": "IFX-INC-00106",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.78354,
+      "longitude": -122.30804,
+      "estimated_replacement_cost": 576424.49,
+      "created_at": "2025-07-16T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0107",
+      "code": "IFX-INC-00107",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.781365,
+      "longitude": -122.240388,
+      "estimated_replacement_cost": 286588.2,
+      "created_at": "2026-04-04T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0108",
+      "code": "IFX-INC-00108",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.99699,
+      "longitude": -122.33776,
+      "estimated_replacement_cost": 1120991.67,
+      "created_at": "2025-06-21T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0109",
+      "code": "IFX-INC-00109",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.922595,
+      "longitude": -122.624484,
+      "estimated_replacement_cost": 885076.56,
+      "created_at": "2025-02-25T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0110",
+      "code": "IFX-INC-00110",
+      "status": "INSPECTED",
+      "condition_score": 61,
+      "latitude": 37.775988,
+      "longitude": -122.443592,
+      "estimated_replacement_cost": 149569.89,
+      "created_at": "2026-02-12T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0111",
+      "code": "IFX-INC-00111",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.854504,
+      "longitude": -122.219018,
+      "estimated_replacement_cost": 351011.92,
+      "created_at": "2026-05-26T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0112",
+      "code": "IFX-INC-00112",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.804238,
+      "longitude": -122.351791,
+      "estimated_replacement_cost": 497829.4,
+      "created_at": "2026-02-07T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0113",
+      "code": "IFX-INC-00113",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.974288,
+      "longitude": -122.404711,
+      "estimated_replacement_cost": 1128941.37,
+      "created_at": "2026-02-13T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0114",
+      "code": "IFX-INC-00114",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.71207,
+      "longitude": -122.339148,
+      "estimated_replacement_cost": 1443314.09,
+      "created_at": "2024-11-20T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0115",
+      "code": "IFX-INC-00115",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.661355,
+      "longitude": -122.56642,
+      "estimated_replacement_cost": 685126.78,
+      "created_at": "2025-09-03T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0116",
+      "code": "IFX-INC-00116",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.94324,
+      "longitude": -122.373795,
+      "estimated_replacement_cost": 394923.95,
+      "created_at": "2025-09-26T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0117",
+      "code": "IFX-INC-00117",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.966665,
+      "longitude": -122.487671,
+      "estimated_replacement_cost": 569690.25,
+      "created_at": "2026-08-27T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0118",
+      "code": "IFX-INC-00118",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.933491,
+      "longitude": -122.48375,
+      "estimated_replacement_cost": 318678.04,
+      "created_at": "2025-01-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0119",
+      "code": "IFX-INC-00119",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.953136,
+      "longitude": -122.478826,
+      "estimated_replacement_cost": 522644.76,
+      "created_at": "2024-10-31T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0120",
+      "code": "IFX-INC-00120",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.800805,
+      "longitude": -122.384601,
+      "estimated_replacement_cost": 435762.29,
+      "created_at": "2026-07-23T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0121",
+      "code": "IFX-INC-00121",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.991596,
+      "longitude": -122.589178,
+      "estimated_replacement_cost": 675791.02,
+      "created_at": "2026-02-11T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0122",
+      "code": "IFX-INC-00122",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.780684,
+      "longitude": -122.565245,
+      "estimated_replacement_cost": 731840.49,
+      "created_at": "2024-12-26T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0123",
+      "code": "IFX-INC-00123",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.747267,
+      "longitude": -122.297828,
+      "estimated_replacement_cost": 1444532.23,
+      "created_at": "2025-05-06T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0124",
+      "code": "IFX-INC-00124",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.977107,
+      "longitude": -122.629613,
+      "estimated_replacement_cost": 1185164.41,
+      "created_at": "2026-06-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0125",
+      "code": "IFX-INC-00125",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.836453,
+      "longitude": -122.305696,
+      "estimated_replacement_cost": 1292538.84,
+      "created_at": "2026-06-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0126",
+      "code": "IFX-INC-00126",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.563344,
+      "longitude": -122.425232,
+      "estimated_replacement_cost": 512853.01,
+      "created_at": "2025-05-06T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0127",
+      "code": "IFX-INC-00127",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.845781,
+      "longitude": -122.173706,
+      "estimated_replacement_cost": 117894.79,
+      "created_at": "2025-09-24T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0128",
+      "code": "IFX-INC-00128",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.793849,
+      "longitude": -122.451108,
+      "estimated_replacement_cost": 1137834.26,
+      "created_at": "2025-10-03T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0129",
+      "code": "IFX-INC-00129",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.589187,
+      "longitude": -122.480527,
+      "estimated_replacement_cost": 1400730.8,
+      "created_at": "2026-08-12T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0130",
+      "code": "IFX-INC-00130",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.562224,
+      "longitude": -122.476881,
+      "estimated_replacement_cost": 289759.11,
+      "created_at": "2025-08-26T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0131",
+      "code": "IFX-INC-00131",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.997521,
+      "longitude": -122.542241,
+      "estimated_replacement_cost": 536296.37,
+      "created_at": "2025-02-23T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0132",
+      "code": "IFX-INC-00132",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.673737,
+      "longitude": -122.200539,
+      "estimated_replacement_cost": 274835.88,
+      "created_at": "2025-08-20T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0133",
+      "code": "IFX-INC-00133",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.953276,
+      "longitude": -122.490419,
+      "estimated_replacement_cost": 442662.7,
+      "created_at": "2026-09-05T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0134",
+      "code": "IFX-INC-00134",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.721486,
+      "longitude": -122.398856,
+      "estimated_replacement_cost": 439886.09,
+      "created_at": "2025-11-26T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0135",
+      "code": "IFX-INC-00135",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 38.012842,
+      "longitude": -122.299445,
+      "estimated_replacement_cost": 1330656.04,
+      "created_at": "2024-09-24T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0136",
+      "code": "IFX-INC-00136",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 37.756273,
+      "longitude": -122.605925,
+      "estimated_replacement_cost": 383696.61,
+      "created_at": "2024-10-17T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0137",
+      "code": "IFX-INC-00137",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.886533,
+      "longitude": -122.443846,
+      "estimated_replacement_cost": 532178.19,
+      "created_at": "2025-12-23T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0138",
+      "code": "IFX-INC-00138",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.608462,
+      "longitude": -122.554393,
+      "estimated_replacement_cost": 1150157.34,
+      "created_at": "2025-03-18T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0139",
+      "code": "IFX-INC-00139",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.721084,
+      "longitude": -122.528653,
+      "estimated_replacement_cost": 1470564.3,
+      "created_at": "2024-09-24T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0140",
+      "code": "IFX-INC-00140",
+      "status": "STANDBY",
+      "condition_score": 61,
+      "latitude": 37.87983,
+      "longitude": -122.413596,
+      "estimated_replacement_cost": 917060.84,
+      "created_at": "2025-07-09T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0141",
+      "code": "IFX-INC-00141",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.794886,
+      "longitude": -122.491625,
+      "estimated_replacement_cost": 1451941.81,
+      "created_at": "2026-03-08T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0142",
+      "code": "IFX-INC-00142",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.664563,
+      "longitude": -122.251183,
+      "estimated_replacement_cost": 204404.71,
+      "created_at": "2025-10-24T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0143",
+      "code": "IFX-INC-00143",
+      "status": "OPERATIONAL",
+      "condition_score": 85,
+      "latitude": 37.845833,
+      "longitude": -122.482687,
+      "estimated_replacement_cost": 308083.1,
+      "created_at": "2025-11-25T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0144",
+      "code": "IFX-INC-00144",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.971009,
+      "longitude": -122.184318,
+      "estimated_replacement_cost": 133349.75,
+      "created_at": "2025-05-26T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0145",
+      "code": "IFX-INC-00145",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.625077,
+      "longitude": -122.318281,
+      "estimated_replacement_cost": 1109635.87,
+      "created_at": "2026-08-29T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0146",
+      "code": "IFX-INC-00146",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.676735,
+      "longitude": -122.516944,
+      "estimated_replacement_cost": 232638.76,
+      "created_at": "2026-01-08T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0147",
+      "code": "IFX-INC-00147",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.709208,
+      "longitude": -122.487822,
+      "estimated_replacement_cost": 779053.12,
+      "created_at": "2026-03-19T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0148",
+      "code": "IFX-INC-00148",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.654161,
+      "longitude": -122.53124,
+      "estimated_replacement_cost": 139312.3,
+      "created_at": "2025-12-28T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0149",
+      "code": "IFX-INC-00149",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.683879,
+      "longitude": -122.18281,
+      "estimated_replacement_cost": 1472604.14,
+      "created_at": "2026-06-04T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_incidents.incidentsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Incidents Asset Segment #0150",
+      "code": "IFX-INC-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 88,
+      "latitude": 37.713532,
+      "longitude": -122.336211,
+      "estimated_replacement_cost": 967486.99,
+      "created_at": "2026-06-15T10:34:25.445357",
+      "updated_at": "2026-09-08T10:34:25.445357",
+      "notes": "Standard municipal engineering inventory record for incidents.",
+      "metadata": {
+        "spec_code": "SPEC-INCIDENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  }
+]

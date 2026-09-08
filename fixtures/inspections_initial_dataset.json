@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0001",
+      "code": "IFX-INS-00001",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.612618,
+      "longitude": -122.540445,
+      "estimated_replacement_cost": 597108.06,
+      "created_at": "2026-05-15T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0002",
+      "code": "IFX-INS-00002",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.655229,
+      "longitude": -122.62932,
+      "estimated_replacement_cost": 244609.8,
+      "created_at": "2026-04-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0003",
+      "code": "IFX-INS-00003",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.905154,
+      "longitude": -122.361942,
+      "estimated_replacement_cost": 855929.21,
+      "created_at": "2026-01-24T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0004",
+      "code": "IFX-INS-00004",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.838454,
+      "longitude": -122.512877,
+      "estimated_replacement_cost": 1038052.3,
+      "created_at": "2025-02-14T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0005",
+      "code": "IFX-INS-00005",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.568706,
+      "longitude": -122.604185,
+      "estimated_replacement_cost": 517119.24,
+      "created_at": "2024-09-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0006",
+      "code": "IFX-INS-00006",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.628214,
+      "longitude": -122.531282,
+      "estimated_replacement_cost": 1129875.99,
+      "created_at": "2025-11-25T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0007",
+      "code": "IFX-INS-00007",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.543565,
+      "longitude": -122.61836,
+      "estimated_replacement_cost": 1023372.29,
+      "created_at": "2025-07-18T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0008",
+      "code": "IFX-INS-00008",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.944752,
+      "longitude": -122.325645,
+      "estimated_replacement_cost": 500854.75,
+      "created_at": "2024-09-25T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0009",
+      "code": "IFX-INS-00009",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.638463,
+      "longitude": -122.272226,
+      "estimated_replacement_cost": 1222301.44,
+      "created_at": "2026-06-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0010",
+      "code": "IFX-INS-00010",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.818057,
+      "longitude": -122.659493,
+      "estimated_replacement_cost": 1114503.47,
+      "created_at": "2025-11-03T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0011",
+      "code": "IFX-INS-00011",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.873751,
+      "longitude": -122.425136,
+      "estimated_replacement_cost": 82880.14,
+      "created_at": "2025-04-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0012",
+      "code": "IFX-INS-00012",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.864117,
+      "longitude": -122.580661,
+      "estimated_replacement_cost": 1206079.53,
+      "created_at": "2025-10-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0013",
+      "code": "IFX-INS-00013",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.782117,
+      "longitude": -122.60804,
+      "estimated_replacement_cost": 1351639.07,
+      "created_at": "2025-02-24T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0014",
+      "code": "IFX-INS-00014",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.952107,
+      "longitude": -122.666871,
+      "estimated_replacement_cost": 435660.08,
+      "created_at": "2025-01-13T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0015",
+      "code": "IFX-INS-00015",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.614883,
+      "longitude": -122.379402,
+      "estimated_replacement_cost": 155840.97,
+      "created_at": "2026-03-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0016",
+      "code": "IFX-INS-00016",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.811087,
+      "longitude": -122.417306,
+      "estimated_replacement_cost": 750835.76,
+      "created_at": "2026-06-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0017",
+      "code": "IFX-INS-00017",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.657292,
+      "longitude": -122.217933,
+      "estimated_replacement_cost": 1117906.1,
+      "created_at": "2026-02-09T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0018",
+      "code": "IFX-INS-00018",
+      "status": "ACTIVE",
+      "condition_score": 97,
+      "latitude": 37.570051,
+      "longitude": -122.180814,
+      "estimated_replacement_cost": 989137.52,
+      "created_at": "2025-03-19T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0019",
+      "code": "IFX-INS-00019",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.941982,
+      "longitude": -122.465878,
+      "estimated_replacement_cost": 102457.96,
+      "created_at": "2025-08-31T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0020",
+      "code": "IFX-INS-00020",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.764185,
+      "longitude": -122.174951,
+      "estimated_replacement_cost": 188940.09,
+      "created_at": "2025-05-15T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0021",
+      "code": "IFX-INS-00021",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.79989,
+      "longitude": -122.333305,
+      "estimated_replacement_cost": 965658.39,
+      "created_at": "2025-10-20T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0022",
+      "code": "IFX-INS-00022",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.823855,
+      "longitude": -122.306852,
+      "estimated_replacement_cost": 374849.65,
+      "created_at": "2024-11-27T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0023",
+      "code": "IFX-INS-00023",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.605636,
+      "longitude": -122.268605,
+      "estimated_replacement_cost": 1426798.47,
+      "created_at": "2026-03-05T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0024",
+      "code": "IFX-INS-00024",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.95458,
+      "longitude": -122.185565,
+      "estimated_replacement_cost": 593176.05,
+      "created_at": "2025-07-26T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0025",
+      "code": "IFX-INS-00025",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.972196,
+      "longitude": -122.245575,
+      "estimated_replacement_cost": 1067333.73,
+      "created_at": "2026-04-22T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0026",
+      "code": "IFX-INS-00026",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.576402,
+      "longitude": -122.360498,
+      "estimated_replacement_cost": 565199.42,
+      "created_at": "2025-06-18T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0027",
+      "code": "IFX-INS-00027",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.691641,
+      "longitude": -122.200019,
+      "estimated_replacement_cost": 376230.3,
+      "created_at": "2024-11-27T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0028",
+      "code": "IFX-INS-00028",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.641136,
+      "longitude": -122.270451,
+      "estimated_replacement_cost": 225225.38,
+      "created_at": "2026-08-06T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0029",
+      "code": "IFX-INS-00029",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.702998,
+      "longitude": -122.621345,
+      "estimated_replacement_cost": 330029.48,
+      "created_at": "2026-02-05T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0030",
+      "code": "IFX-INS-00030",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 38.004008,
+      "longitude": -122.606454,
+      "estimated_replacement_cost": 1173612.33,
+      "created_at": "2025-02-02T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0031",
+      "code": "IFX-INS-00031",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.65897,
+      "longitude": -122.591848,
+      "estimated_replacement_cost": 509478.7,
+      "created_at": "2025-04-14T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0032",
+      "code": "IFX-INS-00032",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 38.011019,
+      "longitude": -122.289518,
+      "estimated_replacement_cost": 686951.33,
+      "created_at": "2024-11-20T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0033",
+      "code": "IFX-INS-00033",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.655014,
+      "longitude": -122.584162,
+      "estimated_replacement_cost": 583741.77,
+      "created_at": "2024-12-30T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0034",
+      "code": "IFX-INS-00034",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.594509,
+      "longitude": -122.244846,
+      "estimated_replacement_cost": 202552.45,
+      "created_at": "2026-05-07T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0035",
+      "code": "IFX-INS-00035",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.658484,
+      "longitude": -122.261387,
+      "estimated_replacement_cost": 1386518.74,
+      "created_at": "2025-03-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0036",
+      "code": "IFX-INS-00036",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.61791,
+      "longitude": -122.559031,
+      "estimated_replacement_cost": 949212.19,
+      "created_at": "2024-11-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0037",
+      "code": "IFX-INS-00037",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.726583,
+      "longitude": -122.480366,
+      "estimated_replacement_cost": 1325506.79,
+      "created_at": "2025-10-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0038",
+      "code": "IFX-INS-00038",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.876494,
+      "longitude": -122.357954,
+      "estimated_replacement_cost": 1281837.37,
+      "created_at": "2026-06-14T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0039",
+      "code": "IFX-INS-00039",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.595186,
+      "longitude": -122.634418,
+      "estimated_replacement_cost": 1354769.55,
+      "created_at": "2026-05-21T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0040",
+      "code": "IFX-INS-00040",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.545072,
+      "longitude": -122.539364,
+      "estimated_replacement_cost": 430933.1,
+      "created_at": "2025-09-18T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0041",
+      "code": "IFX-INS-00041",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.537754,
+      "longitude": -122.539148,
+      "estimated_replacement_cost": 1163734.55,
+      "created_at": "2025-08-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0042",
+      "code": "IFX-INS-00042",
+      "status": "ACTIVE",
+      "condition_score": 57,
+      "latitude": 37.618307,
+      "longitude": -122.592332,
+      "estimated_replacement_cost": 1444814.92,
+      "created_at": "2026-08-03T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0043",
+      "code": "IFX-INS-00043",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.99678,
+      "longitude": -122.466082,
+      "estimated_replacement_cost": 1164658.77,
+      "created_at": "2026-08-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0044",
+      "code": "IFX-INS-00044",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.651945,
+      "longitude": -122.612579,
+      "estimated_replacement_cost": 134391.0,
+      "created_at": "2025-03-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0045",
+      "code": "IFX-INS-00045",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.643908,
+      "longitude": -122.445508,
+      "estimated_replacement_cost": 602377.1,
+      "created_at": "2025-10-02T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0046",
+      "code": "IFX-INS-00046",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.570373,
+      "longitude": -122.602354,
+      "estimated_replacement_cost": 1398763.8,
+      "created_at": "2025-12-02T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0047",
+      "code": "IFX-INS-00047",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.769356,
+      "longitude": -122.493043,
+      "estimated_replacement_cost": 523691.02,
+      "created_at": "2025-09-29T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0048",
+      "code": "IFX-INS-00048",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.759594,
+      "longitude": -122.187417,
+      "estimated_replacement_cost": 1474891.58,
+      "created_at": "2024-10-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0049",
+      "code": "IFX-INS-00049",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.788584,
+      "longitude": -122.226761,
+      "estimated_replacement_cost": 1410841.54,
+      "created_at": "2025-07-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0050",
+      "code": "IFX-INS-00050",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.891218,
+      "longitude": -122.373435,
+      "estimated_replacement_cost": 1119950.62,
+      "created_at": "2025-03-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0051",
+      "code": "IFX-INS-00051",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.75974,
+      "longitude": -122.594719,
+      "estimated_replacement_cost": 386247.07,
+      "created_at": "2025-09-13T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0052",
+      "code": "IFX-INS-00052",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.749802,
+      "longitude": -122.286285,
+      "estimated_replacement_cost": 825224.4,
+      "created_at": "2025-05-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0053",
+      "code": "IFX-INS-00053",
+      "status": "ACTIVE",
+      "condition_score": 70,
+      "latitude": 37.90864,
+      "longitude": -122.378533,
+      "estimated_replacement_cost": 449529.43,
+      "created_at": "2026-08-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0054",
+      "code": "IFX-INS-00054",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.794226,
+      "longitude": -122.343988,
+      "estimated_replacement_cost": 1262091.57,
+      "created_at": "2025-09-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0055",
+      "code": "IFX-INS-00055",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.722991,
+      "longitude": -122.17528,
+      "estimated_replacement_cost": 504954.23,
+      "created_at": "2025-08-07T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0056",
+      "code": "IFX-INS-00056",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.679508,
+      "longitude": -122.511838,
+      "estimated_replacement_cost": 666839.91,
+      "created_at": "2026-03-16T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0057",
+      "code": "IFX-INS-00057",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.689301,
+      "longitude": -122.522226,
+      "estimated_replacement_cost": 96858.56,
+      "created_at": "2026-01-22T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0058",
+      "code": "IFX-INS-00058",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.662152,
+      "longitude": -122.276124,
+      "estimated_replacement_cost": 507137.75,
+      "created_at": "2025-06-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0059",
+      "code": "IFX-INS-00059",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.580721,
+      "longitude": -122.394277,
+      "estimated_replacement_cost": 666878.65,
+      "created_at": "2026-02-04T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0060",
+      "code": "IFX-INS-00060",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.791216,
+      "longitude": -122.262397,
+      "estimated_replacement_cost": 475027.18,
+      "created_at": "2025-01-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0061",
+      "code": "IFX-INS-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.960653,
+      "longitude": -122.634525,
+      "estimated_replacement_cost": 1201546.05,
+      "created_at": "2026-05-26T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0062",
+      "code": "IFX-INS-00062",
+      "status": "ACTIVE",
+      "condition_score": 57,
+      "latitude": 37.827197,
+      "longitude": -122.465881,
+      "estimated_replacement_cost": 916020.38,
+      "created_at": "2025-10-11T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0063",
+      "code": "IFX-INS-00063",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.799145,
+      "longitude": -122.223823,
+      "estimated_replacement_cost": 943599.97,
+      "created_at": "2026-04-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0064",
+      "code": "IFX-INS-00064",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.968094,
+      "longitude": -122.43486,
+      "estimated_replacement_cost": 973253.95,
+      "created_at": "2025-11-21T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0065",
+      "code": "IFX-INS-00065",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.839464,
+      "longitude": -122.392968,
+      "estimated_replacement_cost": 488605.6,
+      "created_at": "2025-12-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0066",
+      "code": "IFX-INS-00066",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.948639,
+      "longitude": -122.555713,
+      "estimated_replacement_cost": 60797.7,
+      "created_at": "2024-10-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0067",
+      "code": "IFX-INS-00067",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.849047,
+      "longitude": -122.572343,
+      "estimated_replacement_cost": 244146.01,
+      "created_at": "2025-11-13T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0068",
+      "code": "IFX-INS-00068",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.976648,
+      "longitude": -122.366714,
+      "estimated_replacement_cost": 1143337.84,
+      "created_at": "2026-03-25T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0069",
+      "code": "IFX-INS-00069",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.693838,
+      "longitude": -122.431784,
+      "estimated_replacement_cost": 602682.54,
+      "created_at": "2026-07-13T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0070",
+      "code": "IFX-INS-00070",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.89144,
+      "longitude": -122.55225,
+      "estimated_replacement_cost": 1458997.34,
+      "created_at": "2025-03-06T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0071",
+      "code": "IFX-INS-00071",
+      "status": "OPERATIONAL",
+      "condition_score": 66,
+      "latitude": 37.906396,
+      "longitude": -122.29175,
+      "estimated_replacement_cost": 506342.58,
+      "created_at": "2026-07-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0072",
+      "code": "IFX-INS-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 66,
+      "latitude": 37.61802,
+      "longitude": -122.19593,
+      "estimated_replacement_cost": 1273923.7,
+      "created_at": "2024-12-01T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0073",
+      "code": "IFX-INS-00073",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.65446,
+      "longitude": -122.497388,
+      "estimated_replacement_cost": 1347502.67,
+      "created_at": "2025-09-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0074",
+      "code": "IFX-INS-00074",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.711734,
+      "longitude": -122.36228,
+      "estimated_replacement_cost": 1239713.52,
+      "created_at": "2025-06-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0075",
+      "code": "IFX-INS-00075",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.804731,
+      "longitude": -122.544089,
+      "estimated_replacement_cost": 874165.1,
+      "created_at": "2026-04-22T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0076",
+      "code": "IFX-INS-00076",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.58939,
+      "longitude": -122.522709,
+      "estimated_replacement_cost": 985337.74,
+      "created_at": "2024-11-22T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0077",
+      "code": "IFX-INS-00077",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.574992,
+      "longitude": -122.540527,
+      "estimated_replacement_cost": 1266136.49,
+      "created_at": "2026-08-19T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0078",
+      "code": "IFX-INS-00078",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.911786,
+      "longitude": -122.590291,
+      "estimated_replacement_cost": 1325760.35,
+      "created_at": "2024-12-25T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0079",
+      "code": "IFX-INS-00079",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.99262,
+      "longitude": -122.276705,
+      "estimated_replacement_cost": 517404.0,
+      "created_at": "2025-02-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0080",
+      "code": "IFX-INS-00080",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.841912,
+      "longitude": -122.452083,
+      "estimated_replacement_cost": 1324516.33,
+      "created_at": "2025-05-31T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0081",
+      "code": "IFX-INS-00081",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.992811,
+      "longitude": -122.178276,
+      "estimated_replacement_cost": 46735.73,
+      "created_at": "2025-02-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0082",
+      "code": "IFX-INS-00082",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.843764,
+      "longitude": -122.608516,
+      "estimated_replacement_cost": 569178.83,
+      "created_at": "2025-10-21T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0083",
+      "code": "IFX-INS-00083",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.862746,
+      "longitude": -122.418781,
+      "estimated_replacement_cost": 285965.11,
+      "created_at": "2025-12-31T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0084",
+      "code": "IFX-INS-00084",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.812915,
+      "longitude": -122.604304,
+      "estimated_replacement_cost": 852087.35,
+      "created_at": "2026-06-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0085",
+      "code": "IFX-INS-00085",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.717362,
+      "longitude": -122.239662,
+      "estimated_replacement_cost": 655750.72,
+      "created_at": "2025-04-30T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0086",
+      "code": "IFX-INS-00086",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.892605,
+      "longitude": -122.350049,
+      "estimated_replacement_cost": 919578.77,
+      "created_at": "2024-10-01T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0087",
+      "code": "IFX-INS-00087",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 38.019652,
+      "longitude": -122.362836,
+      "estimated_replacement_cost": 186120.73,
+      "created_at": "2026-07-30T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0088",
+      "code": "IFX-INS-00088",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 79,
+      "latitude": 37.750906,
+      "longitude": -122.176966,
+      "estimated_replacement_cost": 104368.34,
+      "created_at": "2025-01-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0089",
+      "code": "IFX-INS-00089",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.850617,
+      "longitude": -122.301232,
+      "estimated_replacement_cost": 889041.97,
+      "created_at": "2026-05-27T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0090",
+      "code": "IFX-INS-00090",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.735615,
+      "longitude": -122.648319,
+      "estimated_replacement_cost": 647080.79,
+      "created_at": "2024-10-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0091",
+      "code": "IFX-INS-00091",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.767229,
+      "longitude": -122.529735,
+      "estimated_replacement_cost": 546827.96,
+      "created_at": "2025-04-01T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0092",
+      "code": "IFX-INS-00092",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.52631,
+      "longitude": -122.48318,
+      "estimated_replacement_cost": 1369989.13,
+      "created_at": "2024-10-09T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0093",
+      "code": "IFX-INS-00093",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.861929,
+      "longitude": -122.392732,
+      "estimated_replacement_cost": 308974.8,
+      "created_at": "2025-02-21T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0094",
+      "code": "IFX-INS-00094",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.759381,
+      "longitude": -122.650489,
+      "estimated_replacement_cost": 73560.05,
+      "created_at": "2025-05-04T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0095",
+      "code": "IFX-INS-00095",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.615675,
+      "longitude": -122.506198,
+      "estimated_replacement_cost": 417976.02,
+      "created_at": "2024-10-03T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0096",
+      "code": "IFX-INS-00096",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.639104,
+      "longitude": -122.520938,
+      "estimated_replacement_cost": 661040.71,
+      "created_at": "2025-05-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0097",
+      "code": "IFX-INS-00097",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.777883,
+      "longitude": -122.516199,
+      "estimated_replacement_cost": 295091.29,
+      "created_at": "2025-11-04T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0098",
+      "code": "IFX-INS-00098",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.698321,
+      "longitude": -122.338603,
+      "estimated_replacement_cost": 184537.75,
+      "created_at": "2025-08-09T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0099",
+      "code": "IFX-INS-00099",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.575711,
+      "longitude": -122.278007,
+      "estimated_replacement_cost": 767153.8,
+      "created_at": "2026-04-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0100",
+      "code": "IFX-INS-00100",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.79533,
+      "longitude": -122.430418,
+      "estimated_replacement_cost": 1093419.38,
+      "created_at": "2024-10-14T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0101",
+      "code": "IFX-INS-00101",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.990085,
+      "longitude": -122.630035,
+      "estimated_replacement_cost": 730155.36,
+      "created_at": "2026-07-30T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0102",
+      "code": "IFX-INS-00102",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.70904,
+      "longitude": -122.202919,
+      "estimated_replacement_cost": 1064570.04,
+      "created_at": "2025-10-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0103",
+      "code": "IFX-INS-00103",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.600828,
+      "longitude": -122.571811,
+      "estimated_replacement_cost": 1375654.56,
+      "created_at": "2025-11-13T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0104",
+      "code": "IFX-INS-00104",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.76558,
+      "longitude": -122.59121,
+      "estimated_replacement_cost": 743318.74,
+      "created_at": "2025-12-22T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0105",
+      "code": "IFX-INS-00105",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.88347,
+      "longitude": -122.386193,
+      "estimated_replacement_cost": 436571.03,
+      "created_at": "2024-10-15T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0106",
+      "code": "IFX-INS-00106",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.968185,
+      "longitude": -122.35885,
+      "estimated_replacement_cost": 174577.0,
+      "created_at": "2026-05-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0107",
+      "code": "IFX-INS-00107",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.805389,
+      "longitude": -122.545059,
+      "estimated_replacement_cost": 559106.22,
+      "created_at": "2025-03-09T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0108",
+      "code": "IFX-INS-00108",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.922751,
+      "longitude": -122.252647,
+      "estimated_replacement_cost": 964568.56,
+      "created_at": "2026-03-30T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0109",
+      "code": "IFX-INS-00109",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.618969,
+      "longitude": -122.609481,
+      "estimated_replacement_cost": 253415.69,
+      "created_at": "2025-08-16T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0110",
+      "code": "IFX-INS-00110",
+      "status": "OPERATIONAL",
+      "condition_score": 85,
+      "latitude": 37.955409,
+      "longitude": -122.255309,
+      "estimated_replacement_cost": 982994.91,
+      "created_at": "2025-03-19T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0111",
+      "code": "IFX-INS-00111",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.783364,
+      "longitude": -122.491859,
+      "estimated_replacement_cost": 519690.86,
+      "created_at": "2026-02-09T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0112",
+      "code": "IFX-INS-00112",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.943776,
+      "longitude": -122.213966,
+      "estimated_replacement_cost": 1096740.42,
+      "created_at": "2024-12-20T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0113",
+      "code": "IFX-INS-00113",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.719575,
+      "longitude": -122.63428,
+      "estimated_replacement_cost": 951173.01,
+      "created_at": "2026-04-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0114",
+      "code": "IFX-INS-00114",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.837104,
+      "longitude": -122.457728,
+      "estimated_replacement_cost": 832287.79,
+      "created_at": "2025-09-24T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0115",
+      "code": "IFX-INS-00115",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.986393,
+      "longitude": -122.401053,
+      "estimated_replacement_cost": 215073.62,
+      "created_at": "2025-05-01T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0116",
+      "code": "IFX-INS-00116",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.970863,
+      "longitude": -122.45506,
+      "estimated_replacement_cost": 1408256.81,
+      "created_at": "2024-12-27T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0117",
+      "code": "IFX-INS-00117",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.629599,
+      "longitude": -122.595742,
+      "estimated_replacement_cost": 1344536.67,
+      "created_at": "2025-12-08T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0118",
+      "code": "IFX-INS-00118",
+      "status": "OPERATIONAL",
+      "condition_score": 70,
+      "latitude": 38.005812,
+      "longitude": -122.238533,
+      "estimated_replacement_cost": 168403.69,
+      "created_at": "2026-02-03T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0119",
+      "code": "IFX-INS-00119",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.593859,
+      "longitude": -122.433679,
+      "estimated_replacement_cost": 1374661.65,
+      "created_at": "2026-05-15T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0120",
+      "code": "IFX-INS-00120",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.808238,
+      "longitude": -122.620605,
+      "estimated_replacement_cost": 903762.9,
+      "created_at": "2025-02-15T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0121",
+      "code": "IFX-INS-00121",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.954496,
+      "longitude": -122.253336,
+      "estimated_replacement_cost": 236125.08,
+      "created_at": "2025-01-13T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0122",
+      "code": "IFX-INS-00122",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.78818,
+      "longitude": -122.217466,
+      "estimated_replacement_cost": 1366038.98,
+      "created_at": "2025-12-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0123",
+      "code": "IFX-INS-00123",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.624692,
+      "longitude": -122.488623,
+      "estimated_replacement_cost": 518570.23,
+      "created_at": "2026-04-10T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0124",
+      "code": "IFX-INS-00124",
+      "status": "INSPECTED",
+      "condition_score": 93,
+      "latitude": 37.808499,
+      "longitude": -122.399322,
+      "estimated_replacement_cost": 349531.34,
+      "created_at": "2024-12-09T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0125",
+      "code": "IFX-INS-00125",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.685476,
+      "longitude": -122.617791,
+      "estimated_replacement_cost": 39764.7,
+      "created_at": "2026-01-19T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0126",
+      "code": "IFX-INS-00126",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.58837,
+      "longitude": -122.496864,
+      "estimated_replacement_cost": 553176.22,
+      "created_at": "2024-12-20T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0127",
+      "code": "IFX-INS-00127",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.595988,
+      "longitude": -122.174443,
+      "estimated_replacement_cost": 1355053.45,
+      "created_at": "2024-11-29T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0128",
+      "code": "IFX-INS-00128",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.859342,
+      "longitude": -122.5057,
+      "estimated_replacement_cost": 55962.08,
+      "created_at": "2025-05-05T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0129",
+      "code": "IFX-INS-00129",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.997501,
+      "longitude": -122.2155,
+      "estimated_replacement_cost": 990743.61,
+      "created_at": "2024-12-04T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0130",
+      "code": "IFX-INS-00130",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.90957,
+      "longitude": -122.618743,
+      "estimated_replacement_cost": 1015271.9,
+      "created_at": "2026-08-10T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0131",
+      "code": "IFX-INS-00131",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.531231,
+      "longitude": -122.623854,
+      "estimated_replacement_cost": 564651.58,
+      "created_at": "2026-02-03T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0132",
+      "code": "IFX-INS-00132",
+      "status": "OPERATIONAL",
+      "condition_score": 68,
+      "latitude": 37.580698,
+      "longitude": -122.56754,
+      "estimated_replacement_cost": 1481307.81,
+      "created_at": "2025-04-04T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0133",
+      "code": "IFX-INS-00133",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.956301,
+      "longitude": -122.216321,
+      "estimated_replacement_cost": 1320631.86,
+      "created_at": "2025-02-13T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0134",
+      "code": "IFX-INS-00134",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.815234,
+      "longitude": -122.188809,
+      "estimated_replacement_cost": 249177.28,
+      "created_at": "2026-05-27T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0135",
+      "code": "IFX-INS-00135",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 38.007509,
+      "longitude": -122.196759,
+      "estimated_replacement_cost": 1019929.23,
+      "created_at": "2025-06-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0136",
+      "code": "IFX-INS-00136",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.592404,
+      "longitude": -122.290338,
+      "estimated_replacement_cost": 284596.02,
+      "created_at": "2025-06-18T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0137",
+      "code": "IFX-INS-00137",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.673002,
+      "longitude": -122.46674,
+      "estimated_replacement_cost": 1402108.2,
+      "created_at": "2026-05-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0138",
+      "code": "IFX-INS-00138",
+      "status": "OPERATIONAL",
+      "condition_score": 68,
+      "latitude": 37.764777,
+      "longitude": -122.511561,
+      "estimated_replacement_cost": 722767.74,
+      "created_at": "2024-11-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0139",
+      "code": "IFX-INS-00139",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.822236,
+      "longitude": -122.188079,
+      "estimated_replacement_cost": 370219.24,
+      "created_at": "2024-10-01T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0140",
+      "code": "IFX-INS-00140",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.723867,
+      "longitude": -122.579458,
+      "estimated_replacement_cost": 412219.53,
+      "created_at": "2026-08-02T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0141",
+      "code": "IFX-INS-00141",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.704276,
+      "longitude": -122.64349,
+      "estimated_replacement_cost": 762984.87,
+      "created_at": "2025-09-01T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0142",
+      "code": "IFX-INS-00142",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.73928,
+      "longitude": -122.253766,
+      "estimated_replacement_cost": 910253.17,
+      "created_at": "2026-05-17T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0143",
+      "code": "IFX-INS-00143",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.697042,
+      "longitude": -122.346442,
+      "estimated_replacement_cost": 119976.85,
+      "created_at": "2025-03-24T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0144",
+      "code": "IFX-INS-00144",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.621688,
+      "longitude": -122.351372,
+      "estimated_replacement_cost": 1116952.88,
+      "created_at": "2026-09-07T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0145",
+      "code": "IFX-INS-00145",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.564104,
+      "longitude": -122.479583,
+      "estimated_replacement_cost": 963146.33,
+      "created_at": "2026-03-20T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0146",
+      "code": "IFX-INS-00146",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.59293,
+      "longitude": -122.269992,
+      "estimated_replacement_cost": 977889.87,
+      "created_at": "2026-07-23T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0147",
+      "code": "IFX-INS-00147",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.79425,
+      "longitude": -122.299138,
+      "estimated_replacement_cost": 871316.32,
+      "created_at": "2025-01-12T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0148",
+      "code": "IFX-INS-00148",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.907657,
+      "longitude": -122.218009,
+      "estimated_replacement_cost": 1422951.28,
+      "created_at": "2025-04-24T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0149",
+      "code": "IFX-INS-00149",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.715741,
+      "longitude": -122.329345,
+      "estimated_replacement_cost": 1040169.32,
+      "created_at": "2025-02-11T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inspections.inspectionsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inspections Asset Segment #0150",
+      "code": "IFX-INS-00150",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.842537,
+      "longitude": -122.214367,
+      "estimated_replacement_cost": 594089.3,
+      "created_at": "2025-03-28T10:34:25.349021",
+      "updated_at": "2026-09-08T10:34:25.349021",
+      "notes": "Standard municipal engineering inventory record for inspections.",
+      "metadata": {
+        "spec_code": "SPEC-INSPECTIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  }
+]

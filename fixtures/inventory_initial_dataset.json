@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0001",
+      "code": "IFX-INV-00001",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.571198,
+      "longitude": -122.612697,
+      "estimated_replacement_cost": 155593.04,
+      "created_at": "2025-04-20T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0002",
+      "code": "IFX-INV-00002",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.889897,
+      "longitude": -122.201336,
+      "estimated_replacement_cost": 1050835.23,
+      "created_at": "2025-02-12T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0003",
+      "code": "IFX-INV-00003",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 37.835411,
+      "longitude": -122.259569,
+      "estimated_replacement_cost": 1210657.63,
+      "created_at": "2025-09-05T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0004",
+      "code": "IFX-INV-00004",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.893497,
+      "longitude": -122.442696,
+      "estimated_replacement_cost": 1094322.09,
+      "created_at": "2025-03-27T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0005",
+      "code": "IFX-INV-00005",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.817599,
+      "longitude": -122.336948,
+      "estimated_replacement_cost": 31472.4,
+      "created_at": "2025-07-03T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0006",
+      "code": "IFX-INV-00006",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.929889,
+      "longitude": -122.323108,
+      "estimated_replacement_cost": 300182.24,
+      "created_at": "2026-05-28T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0007",
+      "code": "IFX-INV-00007",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.752902,
+      "longitude": -122.637405,
+      "estimated_replacement_cost": 341483.64,
+      "created_at": "2026-07-22T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0008",
+      "code": "IFX-INV-00008",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.629261,
+      "longitude": -122.373728,
+      "estimated_replacement_cost": 859093.18,
+      "created_at": "2025-07-18T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0009",
+      "code": "IFX-INV-00009",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.669325,
+      "longitude": -122.614127,
+      "estimated_replacement_cost": 117773.57,
+      "created_at": "2025-04-02T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0010",
+      "code": "IFX-INV-00010",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.705433,
+      "longitude": -122.64928,
+      "estimated_replacement_cost": 144410.16,
+      "created_at": "2026-05-07T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0011",
+      "code": "IFX-INV-00011",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.615321,
+      "longitude": -122.36476,
+      "estimated_replacement_cost": 421038.15,
+      "created_at": "2026-08-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0012",
+      "code": "IFX-INV-00012",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.559972,
+      "longitude": -122.616819,
+      "estimated_replacement_cost": 322810.12,
+      "created_at": "2026-01-22T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0013",
+      "code": "IFX-INV-00013",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.735199,
+      "longitude": -122.360114,
+      "estimated_replacement_cost": 1307829.53,
+      "created_at": "2024-12-11T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0014",
+      "code": "IFX-INV-00014",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.904113,
+      "longitude": -122.289731,
+      "estimated_replacement_cost": 935271.35,
+      "created_at": "2026-03-21T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0015",
+      "code": "IFX-INV-00015",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.646075,
+      "longitude": -122.238219,
+      "estimated_replacement_cost": 775038.64,
+      "created_at": "2025-03-08T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0016",
+      "code": "IFX-INV-00016",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.89573,
+      "longitude": -122.472109,
+      "estimated_replacement_cost": 30596.12,
+      "created_at": "2026-02-26T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0017",
+      "code": "IFX-INV-00017",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.988603,
+      "longitude": -122.515769,
+      "estimated_replacement_cost": 210977.37,
+      "created_at": "2026-03-05T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0018",
+      "code": "IFX-INV-00018",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.986996,
+      "longitude": -122.29293,
+      "estimated_replacement_cost": 622390.83,
+      "created_at": "2026-08-21T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0019",
+      "code": "IFX-INV-00019",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.909533,
+      "longitude": -122.652039,
+      "estimated_replacement_cost": 1297755.37,
+      "created_at": "2026-05-03T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0020",
+      "code": "IFX-INV-00020",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.905206,
+      "longitude": -122.347275,
+      "estimated_replacement_cost": 168951.78,
+      "created_at": "2025-09-12T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0021",
+      "code": "IFX-INV-00021",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.52824,
+      "longitude": -122.250001,
+      "estimated_replacement_cost": 985746.09,
+      "created_at": "2024-11-11T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0022",
+      "code": "IFX-INV-00022",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.977246,
+      "longitude": -122.204678,
+      "estimated_replacement_cost": 867099.18,
+      "created_at": "2024-12-14T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0023",
+      "code": "IFX-INV-00023",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.566831,
+      "longitude": -122.271295,
+      "estimated_replacement_cost": 590729.91,
+      "created_at": "2025-12-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0024",
+      "code": "IFX-INV-00024",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.933081,
+      "longitude": -122.451231,
+      "estimated_replacement_cost": 655576.31,
+      "created_at": "2026-07-05T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0025",
+      "code": "IFX-INV-00025",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.748348,
+      "longitude": -122.595059,
+      "estimated_replacement_cost": 1329457.26,
+      "created_at": "2024-12-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0026",
+      "code": "IFX-INV-00026",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.873644,
+      "longitude": -122.258217,
+      "estimated_replacement_cost": 655521.82,
+      "created_at": "2025-01-07T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0027",
+      "code": "IFX-INV-00027",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.894157,
+      "longitude": -122.668157,
+      "estimated_replacement_cost": 1164067.31,
+      "created_at": "2025-11-28T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0028",
+      "code": "IFX-INV-00028",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.627672,
+      "longitude": -122.310006,
+      "estimated_replacement_cost": 305814.57,
+      "created_at": "2026-05-25T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0029",
+      "code": "IFX-INV-00029",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.689349,
+      "longitude": -122.232649,
+      "estimated_replacement_cost": 510556.45,
+      "created_at": "2026-02-05T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0030",
+      "code": "IFX-INV-00030",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.650787,
+      "longitude": -122.566497,
+      "estimated_replacement_cost": 763603.8,
+      "created_at": "2024-11-17T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0031",
+      "code": "IFX-INV-00031",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.99937,
+      "longitude": -122.567222,
+      "estimated_replacement_cost": 1332677.47,
+      "created_at": "2025-10-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0032",
+      "code": "IFX-INV-00032",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.722854,
+      "longitude": -122.548806,
+      "estimated_replacement_cost": 518807.97,
+      "created_at": "2024-12-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0033",
+      "code": "IFX-INV-00033",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.927869,
+      "longitude": -122.575844,
+      "estimated_replacement_cost": 388742.16,
+      "created_at": "2025-10-30T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0034",
+      "code": "IFX-INV-00034",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.762365,
+      "longitude": -122.669226,
+      "estimated_replacement_cost": 317282.88,
+      "created_at": "2025-02-11T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0035",
+      "code": "IFX-INV-00035",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.582236,
+      "longitude": -122.17965,
+      "estimated_replacement_cost": 444802.37,
+      "created_at": "2025-02-26T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0036",
+      "code": "IFX-INV-00036",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.699122,
+      "longitude": -122.282411,
+      "estimated_replacement_cost": 1320981.09,
+      "created_at": "2025-07-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0037",
+      "code": "IFX-INV-00037",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.978314,
+      "longitude": -122.324778,
+      "estimated_replacement_cost": 532777.34,
+      "created_at": "2025-01-15T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0038",
+      "code": "IFX-INV-00038",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.728912,
+      "longitude": -122.370157,
+      "estimated_replacement_cost": 515325.67,
+      "created_at": "2025-09-14T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0039",
+      "code": "IFX-INV-00039",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.702303,
+      "longitude": -122.186129,
+      "estimated_replacement_cost": 1163108.55,
+      "created_at": "2026-04-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0040",
+      "code": "IFX-INV-00040",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.733063,
+      "longitude": -122.662571,
+      "estimated_replacement_cost": 486557.91,
+      "created_at": "2026-03-31T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0041",
+      "code": "IFX-INV-00041",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.593542,
+      "longitude": -122.543901,
+      "estimated_replacement_cost": 296249.94,
+      "created_at": "2026-04-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0042",
+      "code": "IFX-INV-00042",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.541211,
+      "longitude": -122.395801,
+      "estimated_replacement_cost": 661812.89,
+      "created_at": "2025-09-15T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0043",
+      "code": "IFX-INV-00043",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.636571,
+      "longitude": -122.503887,
+      "estimated_replacement_cost": 584756.79,
+      "created_at": "2026-06-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0044",
+      "code": "IFX-INV-00044",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.960052,
+      "longitude": -122.566202,
+      "estimated_replacement_cost": 1018066.83,
+      "created_at": "2025-06-21T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0045",
+      "code": "IFX-INV-00045",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.886788,
+      "longitude": -122.19693,
+      "estimated_replacement_cost": 541339.79,
+      "created_at": "2026-05-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0046",
+      "code": "IFX-INV-00046",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.900821,
+      "longitude": -122.281798,
+      "estimated_replacement_cost": 117232.35,
+      "created_at": "2026-03-18T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0047",
+      "code": "IFX-INV-00047",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.686735,
+      "longitude": -122.508791,
+      "estimated_replacement_cost": 1420876.39,
+      "created_at": "2025-01-29T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0048",
+      "code": "IFX-INV-00048",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 38.017421,
+      "longitude": -122.237212,
+      "estimated_replacement_cost": 52547.41,
+      "created_at": "2026-08-11T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0049",
+      "code": "IFX-INV-00049",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.994791,
+      "longitude": -122.566951,
+      "estimated_replacement_cost": 1027910.86,
+      "created_at": "2024-11-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0050",
+      "code": "IFX-INV-00050",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.599316,
+      "longitude": -122.189616,
+      "estimated_replacement_cost": 528179.33,
+      "created_at": "2026-01-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0051",
+      "code": "IFX-INV-00051",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.807681,
+      "longitude": -122.666111,
+      "estimated_replacement_cost": 275792.5,
+      "created_at": "2026-04-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0052",
+      "code": "IFX-INV-00052",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.540897,
+      "longitude": -122.398201,
+      "estimated_replacement_cost": 351683.0,
+      "created_at": "2025-01-09T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0053",
+      "code": "IFX-INV-00053",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.736826,
+      "longitude": -122.385664,
+      "estimated_replacement_cost": 698099.72,
+      "created_at": "2024-09-19T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0054",
+      "code": "IFX-INV-00054",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.903056,
+      "longitude": -122.443674,
+      "estimated_replacement_cost": 841681.24,
+      "created_at": "2025-07-08T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0055",
+      "code": "IFX-INV-00055",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 38.009524,
+      "longitude": -122.308862,
+      "estimated_replacement_cost": 1375675.69,
+      "created_at": "2026-03-29T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0056",
+      "code": "IFX-INV-00056",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.985284,
+      "longitude": -122.365342,
+      "estimated_replacement_cost": 107292.55,
+      "created_at": "2025-11-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0057",
+      "code": "IFX-INV-00057",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.526862,
+      "longitude": -122.447373,
+      "estimated_replacement_cost": 1143249.44,
+      "created_at": "2026-03-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0058",
+      "code": "IFX-INV-00058",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.794897,
+      "longitude": -122.310146,
+      "estimated_replacement_cost": 546987.1,
+      "created_at": "2024-10-02T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0059",
+      "code": "IFX-INV-00059",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.564771,
+      "longitude": -122.228316,
+      "estimated_replacement_cost": 695099.43,
+      "created_at": "2025-04-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0060",
+      "code": "IFX-INV-00060",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 38.015709,
+      "longitude": -122.638373,
+      "estimated_replacement_cost": 1233034.3,
+      "created_at": "2025-01-07T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0061",
+      "code": "IFX-INV-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.526484,
+      "longitude": -122.595173,
+      "estimated_replacement_cost": 79424.74,
+      "created_at": "2026-06-21T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0062",
+      "code": "IFX-INV-00062",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.860612,
+      "longitude": -122.403581,
+      "estimated_replacement_cost": 1046503.17,
+      "created_at": "2025-10-12T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0063",
+      "code": "IFX-INV-00063",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.702506,
+      "longitude": -122.411387,
+      "estimated_replacement_cost": 544876.2,
+      "created_at": "2024-10-30T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0064",
+      "code": "IFX-INV-00064",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.603525,
+      "longitude": -122.591154,
+      "estimated_replacement_cost": 1037048.45,
+      "created_at": "2025-01-02T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0065",
+      "code": "IFX-INV-00065",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.570668,
+      "longitude": -122.59776,
+      "estimated_replacement_cost": 448695.59,
+      "created_at": "2025-11-17T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0066",
+      "code": "IFX-INV-00066",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.913678,
+      "longitude": -122.239331,
+      "estimated_replacement_cost": 979459.2,
+      "created_at": "2025-06-26T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0067",
+      "code": "IFX-INV-00067",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.703029,
+      "longitude": -122.596742,
+      "estimated_replacement_cost": 34820.73,
+      "created_at": "2026-04-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0068",
+      "code": "IFX-INV-00068",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.866006,
+      "longitude": -122.420986,
+      "estimated_replacement_cost": 813483.34,
+      "created_at": "2025-03-07T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0069",
+      "code": "IFX-INV-00069",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.544519,
+      "longitude": -122.607861,
+      "estimated_replacement_cost": 1106498.97,
+      "created_at": "2026-08-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0070",
+      "code": "IFX-INV-00070",
+      "status": "INSPECTED",
+      "condition_score": 82,
+      "latitude": 37.540413,
+      "longitude": -122.317189,
+      "estimated_replacement_cost": 798120.71,
+      "created_at": "2024-12-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0071",
+      "code": "IFX-INV-00071",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.859938,
+      "longitude": -122.547735,
+      "estimated_replacement_cost": 745310.05,
+      "created_at": "2026-07-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0072",
+      "code": "IFX-INV-00072",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.733637,
+      "longitude": -122.203513,
+      "estimated_replacement_cost": 1202870.68,
+      "created_at": "2026-08-03T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0073",
+      "code": "IFX-INV-00073",
+      "status": "INSPECTED",
+      "condition_score": 93,
+      "latitude": 37.721618,
+      "longitude": -122.195074,
+      "estimated_replacement_cost": 57944.19,
+      "created_at": "2024-11-03T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0074",
+      "code": "IFX-INV-00074",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.89633,
+      "longitude": -122.576111,
+      "estimated_replacement_cost": 915447.07,
+      "created_at": "2026-07-27T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0075",
+      "code": "IFX-INV-00075",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.803808,
+      "longitude": -122.602516,
+      "estimated_replacement_cost": 627593.24,
+      "created_at": "2025-04-15T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0076",
+      "code": "IFX-INV-00076",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.602984,
+      "longitude": -122.412526,
+      "estimated_replacement_cost": 673886.44,
+      "created_at": "2025-08-15T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0077",
+      "code": "IFX-INV-00077",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.590076,
+      "longitude": -122.37889,
+      "estimated_replacement_cost": 1434751.66,
+      "created_at": "2025-05-22T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0078",
+      "code": "IFX-INV-00078",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 38.012793,
+      "longitude": -122.525898,
+      "estimated_replacement_cost": 523601.06,
+      "created_at": "2025-06-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0079",
+      "code": "IFX-INV-00079",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.950476,
+      "longitude": -122.523492,
+      "estimated_replacement_cost": 1351605.22,
+      "created_at": "2025-10-22T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0080",
+      "code": "IFX-INV-00080",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.700851,
+      "longitude": -122.441973,
+      "estimated_replacement_cost": 633169.37,
+      "created_at": "2025-11-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0081",
+      "code": "IFX-INV-00081",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.774605,
+      "longitude": -122.267768,
+      "estimated_replacement_cost": 1379481.18,
+      "created_at": "2025-09-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0082",
+      "code": "IFX-INV-00082",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.747319,
+      "longitude": -122.497183,
+      "estimated_replacement_cost": 539901.33,
+      "created_at": "2024-11-22T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0083",
+      "code": "IFX-INV-00083",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.578525,
+      "longitude": -122.640796,
+      "estimated_replacement_cost": 1472719.09,
+      "created_at": "2025-07-19T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0084",
+      "code": "IFX-INV-00084",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.878637,
+      "longitude": -122.525364,
+      "estimated_replacement_cost": 235844.61,
+      "created_at": "2025-05-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0085",
+      "code": "IFX-INV-00085",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.910923,
+      "longitude": -122.220351,
+      "estimated_replacement_cost": 569019.55,
+      "created_at": "2026-08-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0086",
+      "code": "IFX-INV-00086",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.631794,
+      "longitude": -122.552817,
+      "estimated_replacement_cost": 868917.58,
+      "created_at": "2026-04-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0087",
+      "code": "IFX-INV-00087",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.641054,
+      "longitude": -122.310975,
+      "estimated_replacement_cost": 616256.09,
+      "created_at": "2024-11-28T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0088",
+      "code": "IFX-INV-00088",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.697219,
+      "longitude": -122.643983,
+      "estimated_replacement_cost": 521643.79,
+      "created_at": "2024-12-26T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0089",
+      "code": "IFX-INV-00089",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.893428,
+      "longitude": -122.650469,
+      "estimated_replacement_cost": 1051446.98,
+      "created_at": "2025-10-26T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0090",
+      "code": "IFX-INV-00090",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.596048,
+      "longitude": -122.246542,
+      "estimated_replacement_cost": 886029.27,
+      "created_at": "2025-06-21T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0091",
+      "code": "IFX-INV-00091",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.598032,
+      "longitude": -122.186334,
+      "estimated_replacement_cost": 1041938.53,
+      "created_at": "2026-02-23T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0092",
+      "code": "IFX-INV-00092",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 37.840768,
+      "longitude": -122.230931,
+      "estimated_replacement_cost": 503632.49,
+      "created_at": "2025-10-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0093",
+      "code": "IFX-INV-00093",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.905138,
+      "longitude": -122.422465,
+      "estimated_replacement_cost": 1087942.58,
+      "created_at": "2025-10-31T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0094",
+      "code": "IFX-INV-00094",
+      "status": "ACTIVE",
+      "condition_score": 64,
+      "latitude": 37.984917,
+      "longitude": -122.555204,
+      "estimated_replacement_cost": 1398141.98,
+      "created_at": "2025-01-07T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0095",
+      "code": "IFX-INV-00095",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.680609,
+      "longitude": -122.342168,
+      "estimated_replacement_cost": 283125.39,
+      "created_at": "2026-02-17T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0096",
+      "code": "IFX-INV-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.873733,
+      "longitude": -122.577712,
+      "estimated_replacement_cost": 554007.09,
+      "created_at": "2025-06-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0097",
+      "code": "IFX-INV-00097",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.932016,
+      "longitude": -122.376818,
+      "estimated_replacement_cost": 46427.39,
+      "created_at": "2025-01-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0098",
+      "code": "IFX-INV-00098",
+      "status": "OPERATIONAL",
+      "condition_score": 66,
+      "latitude": 38.018197,
+      "longitude": -122.471084,
+      "estimated_replacement_cost": 1353157.1,
+      "created_at": "2026-03-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0099",
+      "code": "IFX-INV-00099",
+      "status": "INSPECTED",
+      "condition_score": 94,
+      "latitude": 37.944247,
+      "longitude": -122.448846,
+      "estimated_replacement_cost": 133617.31,
+      "created_at": "2025-09-07T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0100",
+      "code": "IFX-INV-00100",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.721294,
+      "longitude": -122.179079,
+      "estimated_replacement_cost": 1303839.95,
+      "created_at": "2025-04-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0101",
+      "code": "IFX-INV-00101",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.886087,
+      "longitude": -122.448433,
+      "estimated_replacement_cost": 1460671.78,
+      "created_at": "2025-02-08T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0102",
+      "code": "IFX-INV-00102",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.69392,
+      "longitude": -122.242044,
+      "estimated_replacement_cost": 896846.02,
+      "created_at": "2024-12-25T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0103",
+      "code": "IFX-INV-00103",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.652784,
+      "longitude": -122.495762,
+      "estimated_replacement_cost": 1473678.81,
+      "created_at": "2026-08-07T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0104",
+      "code": "IFX-INV-00104",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.564221,
+      "longitude": -122.431655,
+      "estimated_replacement_cost": 440618.78,
+      "created_at": "2025-04-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0105",
+      "code": "IFX-INV-00105",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.962146,
+      "longitude": -122.331646,
+      "estimated_replacement_cost": 188663.94,
+      "created_at": "2025-08-27T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0106",
+      "code": "IFX-INV-00106",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.829454,
+      "longitude": -122.530496,
+      "estimated_replacement_cost": 466225.09,
+      "created_at": "2024-11-09T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0107",
+      "code": "IFX-INV-00107",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.934432,
+      "longitude": -122.421412,
+      "estimated_replacement_cost": 382591.15,
+      "created_at": "2025-01-04T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0108",
+      "code": "IFX-INV-00108",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 38.001531,
+      "longitude": -122.627968,
+      "estimated_replacement_cost": 348240.49,
+      "created_at": "2024-12-29T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0109",
+      "code": "IFX-INV-00109",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.998651,
+      "longitude": -122.347252,
+      "estimated_replacement_cost": 456603.5,
+      "created_at": "2024-11-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0110",
+      "code": "IFX-INV-00110",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.745358,
+      "longitude": -122.422665,
+      "estimated_replacement_cost": 491290.86,
+      "created_at": "2026-01-15T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0111",
+      "code": "IFX-INV-00111",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.950799,
+      "longitude": -122.358078,
+      "estimated_replacement_cost": 841434.33,
+      "created_at": "2026-07-17T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0112",
+      "code": "IFX-INV-00112",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.820448,
+      "longitude": -122.317245,
+      "estimated_replacement_cost": 920452.79,
+      "created_at": "2025-03-22T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0113",
+      "code": "IFX-INV-00113",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 38.022294,
+      "longitude": -122.499742,
+      "estimated_replacement_cost": 1214949.02,
+      "created_at": "2025-03-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0114",
+      "code": "IFX-INV-00114",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.795213,
+      "longitude": -122.569948,
+      "estimated_replacement_cost": 56276.02,
+      "created_at": "2025-02-28T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0115",
+      "code": "IFX-INV-00115",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.599803,
+      "longitude": -122.439669,
+      "estimated_replacement_cost": 94744.76,
+      "created_at": "2026-06-06T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0116",
+      "code": "IFX-INV-00116",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.728436,
+      "longitude": -122.619739,
+      "estimated_replacement_cost": 554178.16,
+      "created_at": "2025-11-30T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0117",
+      "code": "IFX-INV-00117",
+      "status": "ACTIVE",
+      "condition_score": 85,
+      "latitude": 37.945919,
+      "longitude": -122.214399,
+      "estimated_replacement_cost": 250554.48,
+      "created_at": "2026-02-26T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0118",
+      "code": "IFX-INV-00118",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.682836,
+      "longitude": -122.229936,
+      "estimated_replacement_cost": 314301.0,
+      "created_at": "2025-08-29T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0119",
+      "code": "IFX-INV-00119",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.676065,
+      "longitude": -122.284196,
+      "estimated_replacement_cost": 1253790.95,
+      "created_at": "2026-02-12T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0120",
+      "code": "IFX-INV-00120",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.688451,
+      "longitude": -122.631692,
+      "estimated_replacement_cost": 802399.25,
+      "created_at": "2024-10-29T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0121",
+      "code": "IFX-INV-00121",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 66,
+      "latitude": 38.007531,
+      "longitude": -122.261538,
+      "estimated_replacement_cost": 1104892.36,
+      "created_at": "2025-11-23T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0122",
+      "code": "IFX-INV-00122",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 38.020751,
+      "longitude": -122.222306,
+      "estimated_replacement_cost": 250188.95,
+      "created_at": "2025-12-11T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0123",
+      "code": "IFX-INV-00123",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.613938,
+      "longitude": -122.436677,
+      "estimated_replacement_cost": 896996.49,
+      "created_at": "2025-06-18T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0124",
+      "code": "IFX-INV-00124",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.884462,
+      "longitude": -122.617698,
+      "estimated_replacement_cost": 1053243.55,
+      "created_at": "2025-07-01T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0125",
+      "code": "IFX-INV-00125",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.641916,
+      "longitude": -122.340103,
+      "estimated_replacement_cost": 1072037.84,
+      "created_at": "2026-05-19T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0126",
+      "code": "IFX-INV-00126",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.711847,
+      "longitude": -122.517356,
+      "estimated_replacement_cost": 1426233.19,
+      "created_at": "2026-06-28T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0127",
+      "code": "IFX-INV-00127",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.903999,
+      "longitude": -122.300021,
+      "estimated_replacement_cost": 1163154.82,
+      "created_at": "2025-12-23T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0128",
+      "code": "IFX-INV-00128",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.549283,
+      "longitude": -122.323442,
+      "estimated_replacement_cost": 855823.98,
+      "created_at": "2026-04-11T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0129",
+      "code": "IFX-INV-00129",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.764652,
+      "longitude": -122.529292,
+      "estimated_replacement_cost": 200763.46,
+      "created_at": "2026-02-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0130",
+      "code": "IFX-INV-00130",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 38.016954,
+      "longitude": -122.255191,
+      "estimated_replacement_cost": 713142.22,
+      "created_at": "2026-08-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0131",
+      "code": "IFX-INV-00131",
+      "status": "STANDBY",
+      "condition_score": 54,
+      "latitude": 37.601288,
+      "longitude": -122.551984,
+      "estimated_replacement_cost": 592255.16,
+      "created_at": "2025-05-03T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0132",
+      "code": "IFX-INV-00132",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.991703,
+      "longitude": -122.489508,
+      "estimated_replacement_cost": 26948.36,
+      "created_at": "2025-01-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0133",
+      "code": "IFX-INV-00133",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.720051,
+      "longitude": -122.515635,
+      "estimated_replacement_cost": 226720.77,
+      "created_at": "2026-05-17T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0134",
+      "code": "IFX-INV-00134",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.794742,
+      "longitude": -122.481852,
+      "estimated_replacement_cost": 650429.01,
+      "created_at": "2025-06-30T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0135",
+      "code": "IFX-INV-00135",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 38.01156,
+      "longitude": -122.528612,
+      "estimated_replacement_cost": 479994.33,
+      "created_at": "2026-03-12T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0136",
+      "code": "IFX-INV-00136",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.912811,
+      "longitude": -122.185606,
+      "estimated_replacement_cost": 1154010.37,
+      "created_at": "2025-11-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0137",
+      "code": "IFX-INV-00137",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.768918,
+      "longitude": -122.551375,
+      "estimated_replacement_cost": 552685.84,
+      "created_at": "2025-11-27T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0138",
+      "code": "IFX-INV-00138",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.756371,
+      "longitude": -122.454321,
+      "estimated_replacement_cost": 550698.2,
+      "created_at": "2025-08-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0139",
+      "code": "IFX-INV-00139",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.619055,
+      "longitude": -122.255492,
+      "estimated_replacement_cost": 1407585.69,
+      "created_at": "2025-04-18T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0140",
+      "code": "IFX-INV-00140",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.956662,
+      "longitude": -122.31566,
+      "estimated_replacement_cost": 232828.91,
+      "created_at": "2025-11-05T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0141",
+      "code": "IFX-INV-00141",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.964121,
+      "longitude": -122.623117,
+      "estimated_replacement_cost": 81920.17,
+      "created_at": "2025-05-29T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0142",
+      "code": "IFX-INV-00142",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.569841,
+      "longitude": -122.278549,
+      "estimated_replacement_cost": 151396.78,
+      "created_at": "2026-05-10T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0143",
+      "code": "IFX-INV-00143",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.905315,
+      "longitude": -122.524692,
+      "estimated_replacement_cost": 1018526.78,
+      "created_at": "2025-08-30T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0144",
+      "code": "IFX-INV-00144",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.893574,
+      "longitude": -122.347078,
+      "estimated_replacement_cost": 1192306.27,
+      "created_at": "2025-12-08T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0145",
+      "code": "IFX-INV-00145",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.748184,
+      "longitude": -122.55169,
+      "estimated_replacement_cost": 104206.96,
+      "created_at": "2025-10-03T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0146",
+      "code": "IFX-INV-00146",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.814967,
+      "longitude": -122.518901,
+      "estimated_replacement_cost": 485402.25,
+      "created_at": "2025-05-13T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0147",
+      "code": "IFX-INV-00147",
+      "status": "OPERATIONAL",
+      "condition_score": 70,
+      "latitude": 37.58323,
+      "longitude": -122.641056,
+      "estimated_replacement_cost": 1436313.49,
+      "created_at": "2025-04-11T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0148",
+      "code": "IFX-INV-00148",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.916601,
+      "longitude": -122.286618,
+      "estimated_replacement_cost": 267331.91,
+      "created_at": "2025-06-24T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0149",
+      "code": "IFX-INV-00149",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.794794,
+      "longitude": -122.629588,
+      "estimated_replacement_cost": 501123.1,
+      "created_at": "2025-06-14T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_inventory.inventoryrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Inventory Asset Segment #0150",
+      "code": "IFX-INV-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 38.018331,
+      "longitude": -122.173077,
+      "estimated_replacement_cost": 636998.49,
+      "created_at": "2025-04-05T10:34:25.467222",
+      "updated_at": "2026-09-08T10:34:25.467222",
+      "notes": "Standard municipal engineering inventory record for inventory.",
+      "metadata": {
+        "spec_code": "SPEC-INVENTORY-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]

@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0001",
+      "code": "IFX-ANA-00001",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.738224,
+      "longitude": -122.52331,
+      "estimated_replacement_cost": 237337.92,
+      "created_at": "2026-06-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0002",
+      "code": "IFX-ANA-00002",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.544792,
+      "longitude": -122.231201,
+      "estimated_replacement_cost": 152623.39,
+      "created_at": "2025-02-03T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0003",
+      "code": "IFX-ANA-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.737849,
+      "longitude": -122.177928,
+      "estimated_replacement_cost": 876048.0,
+      "created_at": "2025-02-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0004",
+      "code": "IFX-ANA-00004",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.657281,
+      "longitude": -122.283904,
+      "estimated_replacement_cost": 219929.1,
+      "created_at": "2026-06-23T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0005",
+      "code": "IFX-ANA-00005",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.983745,
+      "longitude": -122.255725,
+      "estimated_replacement_cost": 336888.11,
+      "created_at": "2026-06-12T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0006",
+      "code": "IFX-ANA-00006",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 38.004148,
+      "longitude": -122.385561,
+      "estimated_replacement_cost": 685518.78,
+      "created_at": "2025-02-03T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0007",
+      "code": "IFX-ANA-00007",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.617435,
+      "longitude": -122.638293,
+      "estimated_replacement_cost": 152182.51,
+      "created_at": "2026-06-21T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0008",
+      "code": "IFX-ANA-00008",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.801167,
+      "longitude": -122.416558,
+      "estimated_replacement_cost": 694094.67,
+      "created_at": "2025-03-01T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0009",
+      "code": "IFX-ANA-00009",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.859688,
+      "longitude": -122.169565,
+      "estimated_replacement_cost": 1023943.68,
+      "created_at": "2025-07-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0010",
+      "code": "IFX-ANA-00010",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.985974,
+      "longitude": -122.350705,
+      "estimated_replacement_cost": 1219575.13,
+      "created_at": "2026-02-08T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0011",
+      "code": "IFX-ANA-00011",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.621068,
+      "longitude": -122.272108,
+      "estimated_replacement_cost": 1366719.59,
+      "created_at": "2024-12-04T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0012",
+      "code": "IFX-ANA-00012",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.609717,
+      "longitude": -122.48282,
+      "estimated_replacement_cost": 413188.62,
+      "created_at": "2025-12-08T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0013",
+      "code": "IFX-ANA-00013",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.693658,
+      "longitude": -122.647716,
+      "estimated_replacement_cost": 364646.29,
+      "created_at": "2025-09-16T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0014",
+      "code": "IFX-ANA-00014",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 68,
+      "latitude": 37.636285,
+      "longitude": -122.315725,
+      "estimated_replacement_cost": 801412.03,
+      "created_at": "2025-06-22T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0015",
+      "code": "IFX-ANA-00015",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.773338,
+      "longitude": -122.449965,
+      "estimated_replacement_cost": 319660.12,
+      "created_at": "2026-03-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0016",
+      "code": "IFX-ANA-00016",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.602471,
+      "longitude": -122.5192,
+      "estimated_replacement_cost": 611967.78,
+      "created_at": "2024-09-26T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0017",
+      "code": "IFX-ANA-00017",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.875883,
+      "longitude": -122.405404,
+      "estimated_replacement_cost": 1144585.25,
+      "created_at": "2025-10-08T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0018",
+      "code": "IFX-ANA-00018",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.832805,
+      "longitude": -122.508137,
+      "estimated_replacement_cost": 989442.46,
+      "created_at": "2026-07-03T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0019",
+      "code": "IFX-ANA-00019",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.929809,
+      "longitude": -122.462687,
+      "estimated_replacement_cost": 334756.08,
+      "created_at": "2025-02-15T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0020",
+      "code": "IFX-ANA-00020",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.558167,
+      "longitude": -122.353247,
+      "estimated_replacement_cost": 465623.94,
+      "created_at": "2025-07-02T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0021",
+      "code": "IFX-ANA-00021",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.551874,
+      "longitude": -122.292987,
+      "estimated_replacement_cost": 174679.26,
+      "created_at": "2026-04-29T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0022",
+      "code": "IFX-ANA-00022",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.827491,
+      "longitude": -122.414807,
+      "estimated_replacement_cost": 1300081.67,
+      "created_at": "2026-06-23T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0023",
+      "code": "IFX-ANA-00023",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.570582,
+      "longitude": -122.658799,
+      "estimated_replacement_cost": 45859.41,
+      "created_at": "2026-03-21T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0024",
+      "code": "IFX-ANA-00024",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.794418,
+      "longitude": -122.285833,
+      "estimated_replacement_cost": 75382.35,
+      "created_at": "2026-09-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0025",
+      "code": "IFX-ANA-00025",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.579311,
+      "longitude": -122.656416,
+      "estimated_replacement_cost": 98218.13,
+      "created_at": "2025-05-03T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0026",
+      "code": "IFX-ANA-00026",
+      "status": "STANDBY",
+      "condition_score": 61,
+      "latitude": 37.575606,
+      "longitude": -122.207241,
+      "estimated_replacement_cost": 1041409.08,
+      "created_at": "2025-09-22T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0027",
+      "code": "IFX-ANA-00027",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.549409,
+      "longitude": -122.613896,
+      "estimated_replacement_cost": 606186.92,
+      "created_at": "2026-03-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0028",
+      "code": "IFX-ANA-00028",
+      "status": "INSPECTED",
+      "condition_score": 78,
+      "latitude": 37.905234,
+      "longitude": -122.182444,
+      "estimated_replacement_cost": 1426977.34,
+      "created_at": "2025-10-24T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0029",
+      "code": "IFX-ANA-00029",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.542672,
+      "longitude": -122.344064,
+      "estimated_replacement_cost": 721425.22,
+      "created_at": "2025-02-20T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0030",
+      "code": "IFX-ANA-00030",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.636142,
+      "longitude": -122.279993,
+      "estimated_replacement_cost": 1194648.33,
+      "created_at": "2025-07-07T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0031",
+      "code": "IFX-ANA-00031",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.855284,
+      "longitude": -122.592266,
+      "estimated_replacement_cost": 59272.95,
+      "created_at": "2025-10-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0032",
+      "code": "IFX-ANA-00032",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.966807,
+      "longitude": -122.278877,
+      "estimated_replacement_cost": 704851.67,
+      "created_at": "2025-12-31T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0033",
+      "code": "IFX-ANA-00033",
+      "status": "INSPECTED",
+      "condition_score": 61,
+      "latitude": 37.780734,
+      "longitude": -122.570545,
+      "estimated_replacement_cost": 886164.91,
+      "created_at": "2026-05-20T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0034",
+      "code": "IFX-ANA-00034",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 38.006549,
+      "longitude": -122.502704,
+      "estimated_replacement_cost": 1251863.26,
+      "created_at": "2026-01-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0035",
+      "code": "IFX-ANA-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.639605,
+      "longitude": -122.441282,
+      "estimated_replacement_cost": 1064360.73,
+      "created_at": "2026-08-08T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0036",
+      "code": "IFX-ANA-00036",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.60733,
+      "longitude": -122.383997,
+      "estimated_replacement_cost": 1135959.97,
+      "created_at": "2026-06-10T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0037",
+      "code": "IFX-ANA-00037",
+      "status": "ACTIVE",
+      "condition_score": 57,
+      "latitude": 37.558413,
+      "longitude": -122.527184,
+      "estimated_replacement_cost": 509659.12,
+      "created_at": "2026-08-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0038",
+      "code": "IFX-ANA-00038",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.757899,
+      "longitude": -122.434193,
+      "estimated_replacement_cost": 1027651.61,
+      "created_at": "2025-07-08T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0039",
+      "code": "IFX-ANA-00039",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.882951,
+      "longitude": -122.423959,
+      "estimated_replacement_cost": 599822.61,
+      "created_at": "2026-07-19T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0040",
+      "code": "IFX-ANA-00040",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.728667,
+      "longitude": -122.585355,
+      "estimated_replacement_cost": 484951.46,
+      "created_at": "2025-11-01T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0041",
+      "code": "IFX-ANA-00041",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.724947,
+      "longitude": -122.235538,
+      "estimated_replacement_cost": 747567.48,
+      "created_at": "2025-06-09T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0042",
+      "code": "IFX-ANA-00042",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.951232,
+      "longitude": -122.667175,
+      "estimated_replacement_cost": 1089405.99,
+      "created_at": "2026-06-02T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0043",
+      "code": "IFX-ANA-00043",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.993637,
+      "longitude": -122.639596,
+      "estimated_replacement_cost": 402854.45,
+      "created_at": "2025-07-09T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0044",
+      "code": "IFX-ANA-00044",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.528731,
+      "longitude": -122.60312,
+      "estimated_replacement_cost": 728530.27,
+      "created_at": "2026-07-20T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0045",
+      "code": "IFX-ANA-00045",
+      "status": "STANDBY",
+      "condition_score": 54,
+      "latitude": 37.900089,
+      "longitude": -122.486461,
+      "estimated_replacement_cost": 561989.14,
+      "created_at": "2026-05-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0046",
+      "code": "IFX-ANA-00046",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.651015,
+      "longitude": -122.481247,
+      "estimated_replacement_cost": 1411408.79,
+      "created_at": "2025-03-23T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0047",
+      "code": "IFX-ANA-00047",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.984402,
+      "longitude": -122.483539,
+      "estimated_replacement_cost": 703050.57,
+      "created_at": "2025-04-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0048",
+      "code": "IFX-ANA-00048",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.95511,
+      "longitude": -122.486953,
+      "estimated_replacement_cost": 338789.05,
+      "created_at": "2026-08-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0049",
+      "code": "IFX-ANA-00049",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.762046,
+      "longitude": -122.365751,
+      "estimated_replacement_cost": 123018.67,
+      "created_at": "2025-05-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0050",
+      "code": "IFX-ANA-00050",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.823198,
+      "longitude": -122.259028,
+      "estimated_replacement_cost": 912448.19,
+      "created_at": "2026-02-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0051",
+      "code": "IFX-ANA-00051",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.605547,
+      "longitude": -122.654049,
+      "estimated_replacement_cost": 231596.29,
+      "created_at": "2025-10-12T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0052",
+      "code": "IFX-ANA-00052",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.933227,
+      "longitude": -122.49456,
+      "estimated_replacement_cost": 1079030.9,
+      "created_at": "2026-03-02T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0053",
+      "code": "IFX-ANA-00053",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.836834,
+      "longitude": -122.253291,
+      "estimated_replacement_cost": 752619.82,
+      "created_at": "2026-03-19T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0054",
+      "code": "IFX-ANA-00054",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.925714,
+      "longitude": -122.614111,
+      "estimated_replacement_cost": 128972.08,
+      "created_at": "2025-03-15T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0055",
+      "code": "IFX-ANA-00055",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.548985,
+      "longitude": -122.575891,
+      "estimated_replacement_cost": 1095930.93,
+      "created_at": "2025-10-19T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0056",
+      "code": "IFX-ANA-00056",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.823414,
+      "longitude": -122.568678,
+      "estimated_replacement_cost": 1224724.64,
+      "created_at": "2024-10-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0057",
+      "code": "IFX-ANA-00057",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.826488,
+      "longitude": -122.455185,
+      "estimated_replacement_cost": 740414.99,
+      "created_at": "2025-11-08T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0058",
+      "code": "IFX-ANA-00058",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.649781,
+      "longitude": -122.436255,
+      "estimated_replacement_cost": 1317358.59,
+      "created_at": "2025-05-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0059",
+      "code": "IFX-ANA-00059",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.880449,
+      "longitude": -122.321056,
+      "estimated_replacement_cost": 733245.74,
+      "created_at": "2026-02-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0060",
+      "code": "IFX-ANA-00060",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.679772,
+      "longitude": -122.662348,
+      "estimated_replacement_cost": 1352610.59,
+      "created_at": "2026-07-21T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0061",
+      "code": "IFX-ANA-00061",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 38.006621,
+      "longitude": -122.183932,
+      "estimated_replacement_cost": 1180250.99,
+      "created_at": "2025-03-27T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0062",
+      "code": "IFX-ANA-00062",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.707982,
+      "longitude": -122.240564,
+      "estimated_replacement_cost": 401015.32,
+      "created_at": "2024-09-23T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0063",
+      "code": "IFX-ANA-00063",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.797893,
+      "longitude": -122.327128,
+      "estimated_replacement_cost": 544616.27,
+      "created_at": "2025-08-24T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0064",
+      "code": "IFX-ANA-00064",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.911535,
+      "longitude": -122.459862,
+      "estimated_replacement_cost": 337548.96,
+      "created_at": "2025-11-21T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0065",
+      "code": "IFX-ANA-00065",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.838898,
+      "longitude": -122.424907,
+      "estimated_replacement_cost": 782793.01,
+      "created_at": "2024-11-19T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0066",
+      "code": "IFX-ANA-00066",
+      "status": "OPERATIONAL",
+      "condition_score": 60,
+      "latitude": 37.978806,
+      "longitude": -122.29422,
+      "estimated_replacement_cost": 999351.93,
+      "created_at": "2024-10-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0067",
+      "code": "IFX-ANA-00067",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.707414,
+      "longitude": -122.189928,
+      "estimated_replacement_cost": 951542.6,
+      "created_at": "2026-01-26T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0068",
+      "code": "IFX-ANA-00068",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.966216,
+      "longitude": -122.622659,
+      "estimated_replacement_cost": 201440.43,
+      "created_at": "2025-02-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0069",
+      "code": "IFX-ANA-00069",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.880367,
+      "longitude": -122.39476,
+      "estimated_replacement_cost": 661853.38,
+      "created_at": "2025-11-26T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0070",
+      "code": "IFX-ANA-00070",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.937204,
+      "longitude": -122.31096,
+      "estimated_replacement_cost": 1109707.57,
+      "created_at": "2025-01-16T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0071",
+      "code": "IFX-ANA-00071",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.908034,
+      "longitude": -122.439727,
+      "estimated_replacement_cost": 857102.97,
+      "created_at": "2026-07-30T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0072",
+      "code": "IFX-ANA-00072",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.765567,
+      "longitude": -122.488449,
+      "estimated_replacement_cost": 550028.02,
+      "created_at": "2024-10-11T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0073",
+      "code": "IFX-ANA-00073",
+      "status": "INSPECTED",
+      "condition_score": 66,
+      "latitude": 37.882655,
+      "longitude": -122.537396,
+      "estimated_replacement_cost": 364949.33,
+      "created_at": "2025-05-17T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0074",
+      "code": "IFX-ANA-00074",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.639937,
+      "longitude": -122.323255,
+      "estimated_replacement_cost": 707718.4,
+      "created_at": "2025-11-18T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0075",
+      "code": "IFX-ANA-00075",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.717776,
+      "longitude": -122.421428,
+      "estimated_replacement_cost": 1484027.09,
+      "created_at": "2024-11-23T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0076",
+      "code": "IFX-ANA-00076",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.746633,
+      "longitude": -122.373528,
+      "estimated_replacement_cost": 460920.21,
+      "created_at": "2025-05-04T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0077",
+      "code": "IFX-ANA-00077",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.846254,
+      "longitude": -122.484907,
+      "estimated_replacement_cost": 940778.8,
+      "created_at": "2025-08-05T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0078",
+      "code": "IFX-ANA-00078",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.558171,
+      "longitude": -122.434136,
+      "estimated_replacement_cost": 1193070.23,
+      "created_at": "2026-02-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0079",
+      "code": "IFX-ANA-00079",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.952047,
+      "longitude": -122.583262,
+      "estimated_replacement_cost": 1040004.88,
+      "created_at": "2024-11-04T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0080",
+      "code": "IFX-ANA-00080",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.928361,
+      "longitude": -122.389699,
+      "estimated_replacement_cost": 59811.61,
+      "created_at": "2026-03-04T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0081",
+      "code": "IFX-ANA-00081",
+      "status": "OPERATIONAL",
+      "condition_score": 68,
+      "latitude": 37.600197,
+      "longitude": -122.284487,
+      "estimated_replacement_cost": 871525.25,
+      "created_at": "2025-10-15T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0082",
+      "code": "IFX-ANA-00082",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.94548,
+      "longitude": -122.393032,
+      "estimated_replacement_cost": 757618.57,
+      "created_at": "2026-02-01T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0083",
+      "code": "IFX-ANA-00083",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 38.002398,
+      "longitude": -122.519242,
+      "estimated_replacement_cost": 997166.74,
+      "created_at": "2026-09-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0084",
+      "code": "IFX-ANA-00084",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.556981,
+      "longitude": -122.331053,
+      "estimated_replacement_cost": 923353.84,
+      "created_at": "2025-07-15T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0085",
+      "code": "IFX-ANA-00085",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.966097,
+      "longitude": -122.297994,
+      "estimated_replacement_cost": 83608.37,
+      "created_at": "2025-07-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0086",
+      "code": "IFX-ANA-00086",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.792592,
+      "longitude": -122.259523,
+      "estimated_replacement_cost": 188545.11,
+      "created_at": "2025-09-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0087",
+      "code": "IFX-ANA-00087",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.979387,
+      "longitude": -122.495286,
+      "estimated_replacement_cost": 819663.27,
+      "created_at": "2025-11-14T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0088",
+      "code": "IFX-ANA-00088",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.553173,
+      "longitude": -122.535631,
+      "estimated_replacement_cost": 1311230.48,
+      "created_at": "2026-06-15T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0089",
+      "code": "IFX-ANA-00089",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.537125,
+      "longitude": -122.509154,
+      "estimated_replacement_cost": 291810.99,
+      "created_at": "2024-11-15T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0090",
+      "code": "IFX-ANA-00090",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.974896,
+      "longitude": -122.53889,
+      "estimated_replacement_cost": 769891.24,
+      "created_at": "2026-01-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0091",
+      "code": "IFX-ANA-00091",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.997053,
+      "longitude": -122.55975,
+      "estimated_replacement_cost": 383346.74,
+      "created_at": "2025-05-07T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0092",
+      "code": "IFX-ANA-00092",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.909449,
+      "longitude": -122.569158,
+      "estimated_replacement_cost": 651265.69,
+      "created_at": "2025-01-04T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0093",
+      "code": "IFX-ANA-00093",
+      "status": "STANDBY",
+      "condition_score": 74,
+      "latitude": 38.011214,
+      "longitude": -122.336739,
+      "estimated_replacement_cost": 1497440.58,
+      "created_at": "2025-08-09T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0094",
+      "code": "IFX-ANA-00094",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.826681,
+      "longitude": -122.388533,
+      "estimated_replacement_cost": 417200.85,
+      "created_at": "2025-10-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0095",
+      "code": "IFX-ANA-00095",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 87,
+      "latitude": 37.908186,
+      "longitude": -122.401127,
+      "estimated_replacement_cost": 1483660.88,
+      "created_at": "2025-06-30T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0096",
+      "code": "IFX-ANA-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 37.632764,
+      "longitude": -122.471395,
+      "estimated_replacement_cost": 856363.14,
+      "created_at": "2026-07-14T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0097",
+      "code": "IFX-ANA-00097",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.93955,
+      "longitude": -122.560291,
+      "estimated_replacement_cost": 583594.42,
+      "created_at": "2026-03-05T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0098",
+      "code": "IFX-ANA-00098",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.95113,
+      "longitude": -122.411696,
+      "estimated_replacement_cost": 103048.7,
+      "created_at": "2026-06-07T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0099",
+      "code": "IFX-ANA-00099",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.889477,
+      "longitude": -122.408183,
+      "estimated_replacement_cost": 931307.62,
+      "created_at": "2025-12-23T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0100",
+      "code": "IFX-ANA-00100",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.719332,
+      "longitude": -122.247798,
+      "estimated_replacement_cost": 1329458.96,
+      "created_at": "2025-07-13T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0101",
+      "code": "IFX-ANA-00101",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.656857,
+      "longitude": -122.445004,
+      "estimated_replacement_cost": 329299.83,
+      "created_at": "2025-01-20T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0102",
+      "code": "IFX-ANA-00102",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.638632,
+      "longitude": -122.562748,
+      "estimated_replacement_cost": 360978.61,
+      "created_at": "2024-12-14T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0103",
+      "code": "IFX-ANA-00103",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.730995,
+      "longitude": -122.224145,
+      "estimated_replacement_cost": 205984.62,
+      "created_at": "2025-03-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0104",
+      "code": "IFX-ANA-00104",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.759067,
+      "longitude": -122.63732,
+      "estimated_replacement_cost": 380902.66,
+      "created_at": "2024-11-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0105",
+      "code": "IFX-ANA-00105",
+      "status": "INSPECTED",
+      "condition_score": 73,
+      "latitude": 37.838204,
+      "longitude": -122.264324,
+      "estimated_replacement_cost": 1153603.27,
+      "created_at": "2025-05-28T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0106",
+      "code": "IFX-ANA-00106",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.665341,
+      "longitude": -122.606241,
+      "estimated_replacement_cost": 1147133.79,
+      "created_at": "2026-06-14T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0107",
+      "code": "IFX-ANA-00107",
+      "status": "STANDBY",
+      "condition_score": 51,
+      "latitude": 37.937057,
+      "longitude": -122.584338,
+      "estimated_replacement_cost": 263057.64,
+      "created_at": "2024-09-21T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0108",
+      "code": "IFX-ANA-00108",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.713778,
+      "longitude": -122.652026,
+      "estimated_replacement_cost": 589099.44,
+      "created_at": "2024-11-09T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0109",
+      "code": "IFX-ANA-00109",
+      "status": "INSPECTED",
+      "condition_score": 95,
+      "latitude": 37.593158,
+      "longitude": -122.528776,
+      "estimated_replacement_cost": 435309.74,
+      "created_at": "2025-12-07T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0110",
+      "code": "IFX-ANA-00110",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.720731,
+      "longitude": -122.450725,
+      "estimated_replacement_cost": 571753.12,
+      "created_at": "2024-10-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0111",
+      "code": "IFX-ANA-00111",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.567997,
+      "longitude": -122.301526,
+      "estimated_replacement_cost": 366289.91,
+      "created_at": "2026-05-11T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0112",
+      "code": "IFX-ANA-00112",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.807928,
+      "longitude": -122.401963,
+      "estimated_replacement_cost": 926527.76,
+      "created_at": "2024-10-04T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0113",
+      "code": "IFX-ANA-00113",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.843016,
+      "longitude": -122.356073,
+      "estimated_replacement_cost": 566858.75,
+      "created_at": "2025-12-30T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0114",
+      "code": "IFX-ANA-00114",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.565275,
+      "longitude": -122.557236,
+      "estimated_replacement_cost": 446582.83,
+      "created_at": "2025-07-11T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0115",
+      "code": "IFX-ANA-00115",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.985264,
+      "longitude": -122.324956,
+      "estimated_replacement_cost": 1013441.01,
+      "created_at": "2026-03-12T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0116",
+      "code": "IFX-ANA-00116",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.911897,
+      "longitude": -122.245989,
+      "estimated_replacement_cost": 625243.14,
+      "created_at": "2024-11-16T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0117",
+      "code": "IFX-ANA-00117",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.609734,
+      "longitude": -122.518482,
+      "estimated_replacement_cost": 1421361.12,
+      "created_at": "2026-06-07T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0118",
+      "code": "IFX-ANA-00118",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.666276,
+      "longitude": -122.660132,
+      "estimated_replacement_cost": 358062.34,
+      "created_at": "2026-08-14T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0119",
+      "code": "IFX-ANA-00119",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.773875,
+      "longitude": -122.565838,
+      "estimated_replacement_cost": 241592.12,
+      "created_at": "2025-04-21T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0120",
+      "code": "IFX-ANA-00120",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.976242,
+      "longitude": -122.464087,
+      "estimated_replacement_cost": 531732.16,
+      "created_at": "2025-09-19T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0121",
+      "code": "IFX-ANA-00121",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.826512,
+      "longitude": -122.266574,
+      "estimated_replacement_cost": 1144285.93,
+      "created_at": "2025-08-14T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0122",
+      "code": "IFX-ANA-00122",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.863775,
+      "longitude": -122.549677,
+      "estimated_replacement_cost": 1254956.79,
+      "created_at": "2024-10-22T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0123",
+      "code": "IFX-ANA-00123",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.732574,
+      "longitude": -122.602942,
+      "estimated_replacement_cost": 1200623.74,
+      "created_at": "2025-07-31T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0124",
+      "code": "IFX-ANA-00124",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.769585,
+      "longitude": -122.364885,
+      "estimated_replacement_cost": 1015111.96,
+      "created_at": "2025-01-16T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0125",
+      "code": "IFX-ANA-00125",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.598861,
+      "longitude": -122.619038,
+      "estimated_replacement_cost": 493140.59,
+      "created_at": "2026-04-18T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0126",
+      "code": "IFX-ANA-00126",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.877572,
+      "longitude": -122.217594,
+      "estimated_replacement_cost": 77695.58,
+      "created_at": "2025-05-27T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0127",
+      "code": "IFX-ANA-00127",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.875025,
+      "longitude": -122.653167,
+      "estimated_replacement_cost": 759808.96,
+      "created_at": "2025-10-23T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0128",
+      "code": "IFX-ANA-00128",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.932824,
+      "longitude": -122.495371,
+      "estimated_replacement_cost": 1253880.19,
+      "created_at": "2024-09-30T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0129",
+      "code": "IFX-ANA-00129",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.824526,
+      "longitude": -122.316678,
+      "estimated_replacement_cost": 1220628.31,
+      "created_at": "2025-11-25T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0130",
+      "code": "IFX-ANA-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.873562,
+      "longitude": -122.397934,
+      "estimated_replacement_cost": 234934.05,
+      "created_at": "2025-02-22T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0131",
+      "code": "IFX-ANA-00131",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 38.011273,
+      "longitude": -122.436523,
+      "estimated_replacement_cost": 1202146.58,
+      "created_at": "2025-01-17T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0132",
+      "code": "IFX-ANA-00132",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.830599,
+      "longitude": -122.374301,
+      "estimated_replacement_cost": 1296084.84,
+      "created_at": "2024-11-16T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0133",
+      "code": "IFX-ANA-00133",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.829859,
+      "longitude": -122.277347,
+      "estimated_replacement_cost": 1282470.09,
+      "created_at": "2026-09-01T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0134",
+      "code": "IFX-ANA-00134",
+      "status": "INSPECTED",
+      "condition_score": 82,
+      "latitude": 37.723987,
+      "longitude": -122.479366,
+      "estimated_replacement_cost": 857572.47,
+      "created_at": "2024-10-29T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0135",
+      "code": "IFX-ANA-00135",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.56352,
+      "longitude": -122.335709,
+      "estimated_replacement_cost": 433678.47,
+      "created_at": "2026-03-18T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0136",
+      "code": "IFX-ANA-00136",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.856187,
+      "longitude": -122.340522,
+      "estimated_replacement_cost": 1067713.38,
+      "created_at": "2025-03-27T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0137",
+      "code": "IFX-ANA-00137",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.618121,
+      "longitude": -122.266226,
+      "estimated_replacement_cost": 1467433.23,
+      "created_at": "2025-04-16T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0138",
+      "code": "IFX-ANA-00138",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.674016,
+      "longitude": -122.52425,
+      "estimated_replacement_cost": 794661.01,
+      "created_at": "2025-11-10T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0139",
+      "code": "IFX-ANA-00139",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.689331,
+      "longitude": -122.442105,
+      "estimated_replacement_cost": 847508.47,
+      "created_at": "2026-04-16T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0140",
+      "code": "IFX-ANA-00140",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.996528,
+      "longitude": -122.176433,
+      "estimated_replacement_cost": 463766.81,
+      "created_at": "2026-08-14T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0141",
+      "code": "IFX-ANA-00141",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.674545,
+      "longitude": -122.642732,
+      "estimated_replacement_cost": 335345.52,
+      "created_at": "2026-08-12T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0142",
+      "code": "IFX-ANA-00142",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.624639,
+      "longitude": -122.418972,
+      "estimated_replacement_cost": 385272.74,
+      "created_at": "2025-04-06T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0143",
+      "code": "IFX-ANA-00143",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.904031,
+      "longitude": -122.599602,
+      "estimated_replacement_cost": 390772.3,
+      "created_at": "2024-11-24T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0144",
+      "code": "IFX-ANA-00144",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.855988,
+      "longitude": -122.475018,
+      "estimated_replacement_cost": 728239.7,
+      "created_at": "2026-07-18T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0145",
+      "code": "IFX-ANA-00145",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.740126,
+      "longitude": -122.44287,
+      "estimated_replacement_cost": 701746.21,
+      "created_at": "2026-01-03T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0146",
+      "code": "IFX-ANA-00146",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.556495,
+      "longitude": -122.507483,
+      "estimated_replacement_cost": 603995.92,
+      "created_at": "2026-09-01T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0147",
+      "code": "IFX-ANA-00147",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.714608,
+      "longitude": -122.634915,
+      "estimated_replacement_cost": 1064419.46,
+      "created_at": "2024-10-04T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0148",
+      "code": "IFX-ANA-00148",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.617435,
+      "longitude": -122.513374,
+      "estimated_replacement_cost": 912951.4,
+      "created_at": "2025-05-15T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0149",
+      "code": "IFX-ANA-00149",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.558627,
+      "longitude": -122.431324,
+      "estimated_replacement_cost": 519832.95,
+      "created_at": "2024-11-18T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_analytics.analyticsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Analytics Asset Segment #0150",
+      "code": "IFX-ANA-00150",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.5814,
+      "longitude": -122.618525,
+      "estimated_replacement_cost": 74347.05,
+      "created_at": "2025-11-17T10:34:25.500141",
+      "updated_at": "2026-09-08T10:34:25.500141",
+      "notes": "Standard municipal engineering inventory record for analytics.",
+      "metadata": {
+        "spec_code": "SPEC-ANALYTICS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  }
+]

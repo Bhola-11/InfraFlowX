@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0001",
+      "code": "IFX-NOT-00001",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.808651,
+      "longitude": -122.393014,
+      "estimated_replacement_cost": 314263.0,
+      "created_at": "2025-01-07T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0002",
+      "code": "IFX-NOT-00002",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 38.023891,
+      "longitude": -122.328947,
+      "estimated_replacement_cost": 894759.3,
+      "created_at": "2025-05-23T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0003",
+      "code": "IFX-NOT-00003",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.787924,
+      "longitude": -122.496467,
+      "estimated_replacement_cost": 1474654.31,
+      "created_at": "2025-10-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0004",
+      "code": "IFX-NOT-00004",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.86655,
+      "longitude": -122.512861,
+      "estimated_replacement_cost": 570143.99,
+      "created_at": "2026-04-22T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0005",
+      "code": "IFX-NOT-00005",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.557606,
+      "longitude": -122.208261,
+      "estimated_replacement_cost": 289118.71,
+      "created_at": "2025-09-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0006",
+      "code": "IFX-NOT-00006",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.622883,
+      "longitude": -122.215188,
+      "estimated_replacement_cost": 529986.95,
+      "created_at": "2025-04-16T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0007",
+      "code": "IFX-NOT-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.813324,
+      "longitude": -122.436773,
+      "estimated_replacement_cost": 383142.14,
+      "created_at": "2024-12-11T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0008",
+      "code": "IFX-NOT-00008",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.629152,
+      "longitude": -122.659191,
+      "estimated_replacement_cost": 1410597.21,
+      "created_at": "2026-09-03T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0009",
+      "code": "IFX-NOT-00009",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.634909,
+      "longitude": -122.341157,
+      "estimated_replacement_cost": 1079717.27,
+      "created_at": "2025-07-05T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0010",
+      "code": "IFX-NOT-00010",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.821843,
+      "longitude": -122.506282,
+      "estimated_replacement_cost": 1321071.01,
+      "created_at": "2025-09-04T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0011",
+      "code": "IFX-NOT-00011",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 38.012714,
+      "longitude": -122.524399,
+      "estimated_replacement_cost": 200239.65,
+      "created_at": "2025-01-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0012",
+      "code": "IFX-NOT-00012",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.922822,
+      "longitude": -122.45782,
+      "estimated_replacement_cost": 702791.85,
+      "created_at": "2024-10-03T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0013",
+      "code": "IFX-NOT-00013",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.610703,
+      "longitude": -122.245174,
+      "estimated_replacement_cost": 1095393.05,
+      "created_at": "2025-07-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0014",
+      "code": "IFX-NOT-00014",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.598889,
+      "longitude": -122.574591,
+      "estimated_replacement_cost": 67760.1,
+      "created_at": "2025-07-29T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0015",
+      "code": "IFX-NOT-00015",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.953976,
+      "longitude": -122.488092,
+      "estimated_replacement_cost": 366144.24,
+      "created_at": "2025-11-16T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0016",
+      "code": "IFX-NOT-00016",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 38.006145,
+      "longitude": -122.258896,
+      "estimated_replacement_cost": 934370.2,
+      "created_at": "2025-06-26T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0017",
+      "code": "IFX-NOT-00017",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.855512,
+      "longitude": -122.220869,
+      "estimated_replacement_cost": 299514.61,
+      "created_at": "2025-10-24T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0018",
+      "code": "IFX-NOT-00018",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.803103,
+      "longitude": -122.299861,
+      "estimated_replacement_cost": 1498248.98,
+      "created_at": "2025-01-27T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0019",
+      "code": "IFX-NOT-00019",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.827102,
+      "longitude": -122.485075,
+      "estimated_replacement_cost": 1430864.59,
+      "created_at": "2026-04-20T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0020",
+      "code": "IFX-NOT-00020",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.568375,
+      "longitude": -122.462054,
+      "estimated_replacement_cost": 1187205.14,
+      "created_at": "2026-03-21T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0021",
+      "code": "IFX-NOT-00021",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.69647,
+      "longitude": -122.257055,
+      "estimated_replacement_cost": 814425.58,
+      "created_at": "2026-08-30T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0022",
+      "code": "IFX-NOT-00022",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.639457,
+      "longitude": -122.233299,
+      "estimated_replacement_cost": 1264713.31,
+      "created_at": "2025-09-26T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0023",
+      "code": "IFX-NOT-00023",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 37.53011,
+      "longitude": -122.477861,
+      "estimated_replacement_cost": 1483907.78,
+      "created_at": "2024-11-05T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0024",
+      "code": "IFX-NOT-00024",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.693867,
+      "longitude": -122.362948,
+      "estimated_replacement_cost": 1463276.55,
+      "created_at": "2026-08-02T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0025",
+      "code": "IFX-NOT-00025",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.54747,
+      "longitude": -122.383483,
+      "estimated_replacement_cost": 997400.84,
+      "created_at": "2025-12-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0026",
+      "code": "IFX-NOT-00026",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.682411,
+      "longitude": -122.404885,
+      "estimated_replacement_cost": 194820.11,
+      "created_at": "2024-12-07T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0027",
+      "code": "IFX-NOT-00027",
+      "status": "OPERATIONAL",
+      "condition_score": 83,
+      "latitude": 37.546751,
+      "longitude": -122.487717,
+      "estimated_replacement_cost": 139280.54,
+      "created_at": "2024-11-04T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0028",
+      "code": "IFX-NOT-00028",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.640652,
+      "longitude": -122.354863,
+      "estimated_replacement_cost": 1027557.09,
+      "created_at": "2025-12-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0029",
+      "code": "IFX-NOT-00029",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.725244,
+      "longitude": -122.31034,
+      "estimated_replacement_cost": 810347.97,
+      "created_at": "2026-02-28T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0030",
+      "code": "IFX-NOT-00030",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.593329,
+      "longitude": -122.199175,
+      "estimated_replacement_cost": 458566.75,
+      "created_at": "2024-11-05T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0031",
+      "code": "IFX-NOT-00031",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.960774,
+      "longitude": -122.253495,
+      "estimated_replacement_cost": 323808.72,
+      "created_at": "2025-04-27T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0032",
+      "code": "IFX-NOT-00032",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.659669,
+      "longitude": -122.263621,
+      "estimated_replacement_cost": 52411.15,
+      "created_at": "2025-06-29T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0033",
+      "code": "IFX-NOT-00033",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 38.000609,
+      "longitude": -122.490894,
+      "estimated_replacement_cost": 701178.87,
+      "created_at": "2025-09-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0034",
+      "code": "IFX-NOT-00034",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.955067,
+      "longitude": -122.46998,
+      "estimated_replacement_cost": 957556.26,
+      "created_at": "2025-12-06T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0035",
+      "code": "IFX-NOT-00035",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.529402,
+      "longitude": -122.649027,
+      "estimated_replacement_cost": 750014.23,
+      "created_at": "2024-10-29T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0036",
+      "code": "IFX-NOT-00036",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.890776,
+      "longitude": -122.486346,
+      "estimated_replacement_cost": 678731.93,
+      "created_at": "2025-05-22T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0037",
+      "code": "IFX-NOT-00037",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.676708,
+      "longitude": -122.614391,
+      "estimated_replacement_cost": 1160595.93,
+      "created_at": "2025-06-11T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0038",
+      "code": "IFX-NOT-00038",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.778191,
+      "longitude": -122.446879,
+      "estimated_replacement_cost": 1315102.35,
+      "created_at": "2026-05-07T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0039",
+      "code": "IFX-NOT-00039",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 38.016031,
+      "longitude": -122.19319,
+      "estimated_replacement_cost": 529841.25,
+      "created_at": "2025-12-02T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0040",
+      "code": "IFX-NOT-00040",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.634595,
+      "longitude": -122.543818,
+      "estimated_replacement_cost": 213864.17,
+      "created_at": "2025-05-02T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0041",
+      "code": "IFX-NOT-00041",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.827941,
+      "longitude": -122.277855,
+      "estimated_replacement_cost": 1358897.27,
+      "created_at": "2026-07-20T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0042",
+      "code": "IFX-NOT-00042",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.800093,
+      "longitude": -122.193023,
+      "estimated_replacement_cost": 1099917.74,
+      "created_at": "2026-05-23T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0043",
+      "code": "IFX-NOT-00043",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.925804,
+      "longitude": -122.357412,
+      "estimated_replacement_cost": 708495.8,
+      "created_at": "2026-06-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0044",
+      "code": "IFX-NOT-00044",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.942444,
+      "longitude": -122.570345,
+      "estimated_replacement_cost": 1429296.51,
+      "created_at": "2025-06-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0045",
+      "code": "IFX-NOT-00045",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.794406,
+      "longitude": -122.649541,
+      "estimated_replacement_cost": 511486.18,
+      "created_at": "2025-02-07T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0046",
+      "code": "IFX-NOT-00046",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.898824,
+      "longitude": -122.287953,
+      "estimated_replacement_cost": 1151010.4,
+      "created_at": "2026-03-10T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0047",
+      "code": "IFX-NOT-00047",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.676093,
+      "longitude": -122.191203,
+      "estimated_replacement_cost": 770156.03,
+      "created_at": "2024-11-15T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0048",
+      "code": "IFX-NOT-00048",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 38.009479,
+      "longitude": -122.227994,
+      "estimated_replacement_cost": 578265.22,
+      "created_at": "2026-07-08T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0049",
+      "code": "IFX-NOT-00049",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.843955,
+      "longitude": -122.668987,
+      "estimated_replacement_cost": 1005188.19,
+      "created_at": "2025-09-08T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0050",
+      "code": "IFX-NOT-00050",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.945727,
+      "longitude": -122.288378,
+      "estimated_replacement_cost": 145620.89,
+      "created_at": "2024-10-10T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0051",
+      "code": "IFX-NOT-00051",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.896909,
+      "longitude": -122.532809,
+      "estimated_replacement_cost": 341270.17,
+      "created_at": "2025-10-25T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0052",
+      "code": "IFX-NOT-00052",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.777212,
+      "longitude": -122.342436,
+      "estimated_replacement_cost": 1157637.63,
+      "created_at": "2025-07-05T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0053",
+      "code": "IFX-NOT-00053",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.649197,
+      "longitude": -122.668847,
+      "estimated_replacement_cost": 976805.71,
+      "created_at": "2026-06-29T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0054",
+      "code": "IFX-NOT-00054",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.983347,
+      "longitude": -122.648325,
+      "estimated_replacement_cost": 685366.65,
+      "created_at": "2025-07-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0055",
+      "code": "IFX-NOT-00055",
+      "status": "STANDBY",
+      "condition_score": 70,
+      "latitude": 37.868448,
+      "longitude": -122.201084,
+      "estimated_replacement_cost": 285704.6,
+      "created_at": "2024-11-22T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0056",
+      "code": "IFX-NOT-00056",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 66,
+      "latitude": 37.671096,
+      "longitude": -122.500386,
+      "estimated_replacement_cost": 816297.28,
+      "created_at": "2024-10-07T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0057",
+      "code": "IFX-NOT-00057",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.811764,
+      "longitude": -122.667786,
+      "estimated_replacement_cost": 1164015.59,
+      "created_at": "2025-01-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0058",
+      "code": "IFX-NOT-00058",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.658247,
+      "longitude": -122.26383,
+      "estimated_replacement_cost": 880039.05,
+      "created_at": "2025-09-21T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0059",
+      "code": "IFX-NOT-00059",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.830911,
+      "longitude": -122.390872,
+      "estimated_replacement_cost": 691527.31,
+      "created_at": "2025-11-19T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0060",
+      "code": "IFX-NOT-00060",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.974244,
+      "longitude": -122.392901,
+      "estimated_replacement_cost": 1402162.67,
+      "created_at": "2025-04-14T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0061",
+      "code": "IFX-NOT-00061",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.96363,
+      "longitude": -122.576929,
+      "estimated_replacement_cost": 432117.76,
+      "created_at": "2024-10-31T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0062",
+      "code": "IFX-NOT-00062",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 38.022767,
+      "longitude": -122.553404,
+      "estimated_replacement_cost": 1065839.97,
+      "created_at": "2026-06-07T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0063",
+      "code": "IFX-NOT-00063",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.929002,
+      "longitude": -122.59445,
+      "estimated_replacement_cost": 701418.04,
+      "created_at": "2026-06-23T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0064",
+      "code": "IFX-NOT-00064",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.606186,
+      "longitude": -122.415241,
+      "estimated_replacement_cost": 741806.73,
+      "created_at": "2024-10-21T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0065",
+      "code": "IFX-NOT-00065",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.548932,
+      "longitude": -122.218715,
+      "estimated_replacement_cost": 360561.15,
+      "created_at": "2024-12-26T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0066",
+      "code": "IFX-NOT-00066",
+      "status": "STANDBY",
+      "condition_score": 61,
+      "latitude": 37.864291,
+      "longitude": -122.205804,
+      "estimated_replacement_cost": 189973.13,
+      "created_at": "2025-11-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0067",
+      "code": "IFX-NOT-00067",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.967168,
+      "longitude": -122.387139,
+      "estimated_replacement_cost": 1218576.55,
+      "created_at": "2024-10-27T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0068",
+      "code": "IFX-NOT-00068",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.937487,
+      "longitude": -122.577234,
+      "estimated_replacement_cost": 377020.67,
+      "created_at": "2025-10-01T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0069",
+      "code": "IFX-NOT-00069",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.794292,
+      "longitude": -122.638313,
+      "estimated_replacement_cost": 962148.35,
+      "created_at": "2025-11-29T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0070",
+      "code": "IFX-NOT-00070",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.659965,
+      "longitude": -122.546198,
+      "estimated_replacement_cost": 1416056.85,
+      "created_at": "2025-03-27T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0071",
+      "code": "IFX-NOT-00071",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.765626,
+      "longitude": -122.173006,
+      "estimated_replacement_cost": 1191879.86,
+      "created_at": "2025-12-06T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0072",
+      "code": "IFX-NOT-00072",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.931985,
+      "longitude": -122.380917,
+      "estimated_replacement_cost": 1435961.62,
+      "created_at": "2025-08-28T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0073",
+      "code": "IFX-NOT-00073",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.682377,
+      "longitude": -122.237612,
+      "estimated_replacement_cost": 255549.41,
+      "created_at": "2026-02-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0074",
+      "code": "IFX-NOT-00074",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.822521,
+      "longitude": -122.27117,
+      "estimated_replacement_cost": 802365.68,
+      "created_at": "2025-09-20T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0075",
+      "code": "IFX-NOT-00075",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.668614,
+      "longitude": -122.236739,
+      "estimated_replacement_cost": 1028008.09,
+      "created_at": "2025-03-15T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0076",
+      "code": "IFX-NOT-00076",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 38.023858,
+      "longitude": -122.416922,
+      "estimated_replacement_cost": 206296.19,
+      "created_at": "2025-04-08T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0077",
+      "code": "IFX-NOT-00077",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.762838,
+      "longitude": -122.358817,
+      "estimated_replacement_cost": 1347359.0,
+      "created_at": "2025-08-18T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0078",
+      "code": "IFX-NOT-00078",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.617607,
+      "longitude": -122.571881,
+      "estimated_replacement_cost": 328170.53,
+      "created_at": "2026-06-12T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0079",
+      "code": "IFX-NOT-00079",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.674316,
+      "longitude": -122.458613,
+      "estimated_replacement_cost": 593591.77,
+      "created_at": "2024-12-12T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0080",
+      "code": "IFX-NOT-00080",
+      "status": "INSPECTED",
+      "condition_score": 72,
+      "latitude": 37.811726,
+      "longitude": -122.523714,
+      "estimated_replacement_cost": 262158.97,
+      "created_at": "2025-12-05T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0081",
+      "code": "IFX-NOT-00081",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.657964,
+      "longitude": -122.493842,
+      "estimated_replacement_cost": 522982.54,
+      "created_at": "2025-05-06T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0082",
+      "code": "IFX-NOT-00082",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.612503,
+      "longitude": -122.606438,
+      "estimated_replacement_cost": 903014.23,
+      "created_at": "2026-03-27T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0083",
+      "code": "IFX-NOT-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.896158,
+      "longitude": -122.577841,
+      "estimated_replacement_cost": 987093.97,
+      "created_at": "2026-05-24T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0084",
+      "code": "IFX-NOT-00084",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.773088,
+      "longitude": -122.342226,
+      "estimated_replacement_cost": 161922.66,
+      "created_at": "2025-10-19T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0085",
+      "code": "IFX-NOT-00085",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.601311,
+      "longitude": -122.242176,
+      "estimated_replacement_cost": 855296.48,
+      "created_at": "2025-10-12T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0086",
+      "code": "IFX-NOT-00086",
+      "status": "STANDBY",
+      "condition_score": 74,
+      "latitude": 37.67978,
+      "longitude": -122.298875,
+      "estimated_replacement_cost": 1328046.76,
+      "created_at": "2026-02-16T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0087",
+      "code": "IFX-NOT-00087",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.531574,
+      "longitude": -122.594841,
+      "estimated_replacement_cost": 1125621.57,
+      "created_at": "2025-02-10T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0088",
+      "code": "IFX-NOT-00088",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.808356,
+      "longitude": -122.294403,
+      "estimated_replacement_cost": 383174.62,
+      "created_at": "2025-02-26T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0089",
+      "code": "IFX-NOT-00089",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.735218,
+      "longitude": -122.536946,
+      "estimated_replacement_cost": 843895.26,
+      "created_at": "2025-11-02T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0090",
+      "code": "IFX-NOT-00090",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.675139,
+      "longitude": -122.239466,
+      "estimated_replacement_cost": 660205.87,
+      "created_at": "2026-02-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0091",
+      "code": "IFX-NOT-00091",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.850093,
+      "longitude": -122.555288,
+      "estimated_replacement_cost": 1436661.47,
+      "created_at": "2026-07-29T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0092",
+      "code": "IFX-NOT-00092",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 38.010094,
+      "longitude": -122.508707,
+      "estimated_replacement_cost": 521422.37,
+      "created_at": "2025-08-14T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0093",
+      "code": "IFX-NOT-00093",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.875501,
+      "longitude": -122.283307,
+      "estimated_replacement_cost": 1290893.94,
+      "created_at": "2024-12-20T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0094",
+      "code": "IFX-NOT-00094",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.89105,
+      "longitude": -122.40388,
+      "estimated_replacement_cost": 34994.27,
+      "created_at": "2025-12-23T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0095",
+      "code": "IFX-NOT-00095",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.822059,
+      "longitude": -122.321674,
+      "estimated_replacement_cost": 1158767.96,
+      "created_at": "2026-04-20T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0096",
+      "code": "IFX-NOT-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.964141,
+      "longitude": -122.55827,
+      "estimated_replacement_cost": 1486906.4,
+      "created_at": "2025-10-24T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0097",
+      "code": "IFX-NOT-00097",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.799097,
+      "longitude": -122.188229,
+      "estimated_replacement_cost": 339362.74,
+      "created_at": "2026-01-24T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0098",
+      "code": "IFX-NOT-00098",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.798504,
+      "longitude": -122.317895,
+      "estimated_replacement_cost": 1357758.07,
+      "created_at": "2025-02-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0099",
+      "code": "IFX-NOT-00099",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.770336,
+      "longitude": -122.579694,
+      "estimated_replacement_cost": 690909.82,
+      "created_at": "2025-01-27T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0100",
+      "code": "IFX-NOT-00100",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 37.829663,
+      "longitude": -122.264788,
+      "estimated_replacement_cost": 678093.67,
+      "created_at": "2026-02-03T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0101",
+      "code": "IFX-NOT-00101",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 79,
+      "latitude": 37.933832,
+      "longitude": -122.593464,
+      "estimated_replacement_cost": 959152.31,
+      "created_at": "2026-01-06T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0102",
+      "code": "IFX-NOT-00102",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.576479,
+      "longitude": -122.57719,
+      "estimated_replacement_cost": 1455047.57,
+      "created_at": "2025-02-07T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0103",
+      "code": "IFX-NOT-00103",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.9397,
+      "longitude": -122.495333,
+      "estimated_replacement_cost": 387211.35,
+      "created_at": "2025-12-27T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0104",
+      "code": "IFX-NOT-00104",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.713295,
+      "longitude": -122.35515,
+      "estimated_replacement_cost": 496006.02,
+      "created_at": "2025-01-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0105",
+      "code": "IFX-NOT-00105",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.64825,
+      "longitude": -122.299447,
+      "estimated_replacement_cost": 170531.69,
+      "created_at": "2026-08-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0106",
+      "code": "IFX-NOT-00106",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.816056,
+      "longitude": -122.35153,
+      "estimated_replacement_cost": 885942.06,
+      "created_at": "2025-12-14T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0107",
+      "code": "IFX-NOT-00107",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.721804,
+      "longitude": -122.172122,
+      "estimated_replacement_cost": 1367710.72,
+      "created_at": "2025-11-19T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0108",
+      "code": "IFX-NOT-00108",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.597199,
+      "longitude": -122.659529,
+      "estimated_replacement_cost": 169651.33,
+      "created_at": "2024-10-18T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0109",
+      "code": "IFX-NOT-00109",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.754235,
+      "longitude": -122.327248,
+      "estimated_replacement_cost": 596606.33,
+      "created_at": "2025-09-18T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0110",
+      "code": "IFX-NOT-00110",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.711033,
+      "longitude": -122.538638,
+      "estimated_replacement_cost": 645269.26,
+      "created_at": "2026-05-26T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0111",
+      "code": "IFX-NOT-00111",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.90501,
+      "longitude": -122.343367,
+      "estimated_replacement_cost": 183950.38,
+      "created_at": "2025-08-22T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0112",
+      "code": "IFX-NOT-00112",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.623094,
+      "longitude": -122.287606,
+      "estimated_replacement_cost": 854700.35,
+      "created_at": "2026-08-25T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0113",
+      "code": "IFX-NOT-00113",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.904802,
+      "longitude": -122.666307,
+      "estimated_replacement_cost": 1166902.51,
+      "created_at": "2025-01-31T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0114",
+      "code": "IFX-NOT-00114",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.857615,
+      "longitude": -122.259564,
+      "estimated_replacement_cost": 1384086.28,
+      "created_at": "2024-09-22T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0115",
+      "code": "IFX-NOT-00115",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.804827,
+      "longitude": -122.169844,
+      "estimated_replacement_cost": 1359723.02,
+      "created_at": "2024-10-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0116",
+      "code": "IFX-NOT-00116",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.835158,
+      "longitude": -122.364361,
+      "estimated_replacement_cost": 664648.25,
+      "created_at": "2025-10-29T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0117",
+      "code": "IFX-NOT-00117",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.789612,
+      "longitude": -122.278457,
+      "estimated_replacement_cost": 1371165.69,
+      "created_at": "2025-12-06T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0118",
+      "code": "IFX-NOT-00118",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.661674,
+      "longitude": -122.244594,
+      "estimated_replacement_cost": 755462.78,
+      "created_at": "2025-11-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0119",
+      "code": "IFX-NOT-00119",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.944771,
+      "longitude": -122.299062,
+      "estimated_replacement_cost": 858858.3,
+      "created_at": "2026-02-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0120",
+      "code": "IFX-NOT-00120",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.735859,
+      "longitude": -122.445256,
+      "estimated_replacement_cost": 284409.49,
+      "created_at": "2025-05-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0121",
+      "code": "IFX-NOT-00121",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.951213,
+      "longitude": -122.425662,
+      "estimated_replacement_cost": 935579.86,
+      "created_at": "2024-09-24T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0122",
+      "code": "IFX-NOT-00122",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.66432,
+      "longitude": -122.605361,
+      "estimated_replacement_cost": 1159549.15,
+      "created_at": "2025-06-25T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0123",
+      "code": "IFX-NOT-00123",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.851147,
+      "longitude": -122.460238,
+      "estimated_replacement_cost": 1243271.48,
+      "created_at": "2025-02-13T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0124",
+      "code": "IFX-NOT-00124",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.872568,
+      "longitude": -122.547821,
+      "estimated_replacement_cost": 1072675.12,
+      "created_at": "2025-07-10T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0125",
+      "code": "IFX-NOT-00125",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.731304,
+      "longitude": -122.664583,
+      "estimated_replacement_cost": 397289.84,
+      "created_at": "2025-03-05T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0126",
+      "code": "IFX-NOT-00126",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.961903,
+      "longitude": -122.402888,
+      "estimated_replacement_cost": 620624.67,
+      "created_at": "2026-05-09T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0127",
+      "code": "IFX-NOT-00127",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.612898,
+      "longitude": -122.514147,
+      "estimated_replacement_cost": 807606.14,
+      "created_at": "2026-05-16T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0128",
+      "code": "IFX-NOT-00128",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.962169,
+      "longitude": -122.312834,
+      "estimated_replacement_cost": 58725.89,
+      "created_at": "2025-07-21T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0129",
+      "code": "IFX-NOT-00129",
+      "status": "INSPECTED",
+      "condition_score": 61,
+      "latitude": 37.721669,
+      "longitude": -122.275504,
+      "estimated_replacement_cost": 645600.31,
+      "created_at": "2024-12-02T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0130",
+      "code": "IFX-NOT-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 87,
+      "latitude": 37.751735,
+      "longitude": -122.494687,
+      "estimated_replacement_cost": 1007521.7,
+      "created_at": "2026-01-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0131",
+      "code": "IFX-NOT-00131",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.726953,
+      "longitude": -122.587066,
+      "estimated_replacement_cost": 523020.33,
+      "created_at": "2025-12-22T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0132",
+      "code": "IFX-NOT-00132",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.970589,
+      "longitude": -122.271649,
+      "estimated_replacement_cost": 862753.53,
+      "created_at": "2025-11-01T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0133",
+      "code": "IFX-NOT-00133",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.973853,
+      "longitude": -122.661631,
+      "estimated_replacement_cost": 674312.04,
+      "created_at": "2025-07-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0134",
+      "code": "IFX-NOT-00134",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.946009,
+      "longitude": -122.54476,
+      "estimated_replacement_cost": 152058.98,
+      "created_at": "2025-10-08T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0135",
+      "code": "IFX-NOT-00135",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.86105,
+      "longitude": -122.412657,
+      "estimated_replacement_cost": 84722.31,
+      "created_at": "2026-04-18T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0136",
+      "code": "IFX-NOT-00136",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.702518,
+      "longitude": -122.419749,
+      "estimated_replacement_cost": 514169.28,
+      "created_at": "2024-09-28T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0137",
+      "code": "IFX-NOT-00137",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.861193,
+      "longitude": -122.545178,
+      "estimated_replacement_cost": 451513.26,
+      "created_at": "2026-08-25T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0138",
+      "code": "IFX-NOT-00138",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.65805,
+      "longitude": -122.633981,
+      "estimated_replacement_cost": 1111751.79,
+      "created_at": "2025-02-20T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0139",
+      "code": "IFX-NOT-00139",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.879892,
+      "longitude": -122.619107,
+      "estimated_replacement_cost": 1398809.22,
+      "created_at": "2026-01-01T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0140",
+      "code": "IFX-NOT-00140",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.934423,
+      "longitude": -122.405527,
+      "estimated_replacement_cost": 1222620.04,
+      "created_at": "2024-12-30T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0141",
+      "code": "IFX-NOT-00141",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.661553,
+      "longitude": -122.490968,
+      "estimated_replacement_cost": 1270560.75,
+      "created_at": "2025-09-20T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0142",
+      "code": "IFX-NOT-00142",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.987922,
+      "longitude": -122.556091,
+      "estimated_replacement_cost": 966383.78,
+      "created_at": "2025-08-28T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0143",
+      "code": "IFX-NOT-00143",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.708509,
+      "longitude": -122.634328,
+      "estimated_replacement_cost": 569040.55,
+      "created_at": "2025-09-18T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0144",
+      "code": "IFX-NOT-00144",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.760705,
+      "longitude": -122.270618,
+      "estimated_replacement_cost": 971204.23,
+      "created_at": "2026-01-04T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0145",
+      "code": "IFX-NOT-00145",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 37.756244,
+      "longitude": -122.384182,
+      "estimated_replacement_cost": 1093151.46,
+      "created_at": "2024-10-10T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0146",
+      "code": "IFX-NOT-00146",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.686927,
+      "longitude": -122.465264,
+      "estimated_replacement_cost": 754988.66,
+      "created_at": "2025-03-12T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0147",
+      "code": "IFX-NOT-00147",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.800231,
+      "longitude": -122.422497,
+      "estimated_replacement_cost": 540271.87,
+      "created_at": "2024-10-17T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0148",
+      "code": "IFX-NOT-00148",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.9837,
+      "longitude": -122.657175,
+      "estimated_replacement_cost": 539211.41,
+      "created_at": "2026-06-22T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0149",
+      "code": "IFX-NOT-00149",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 38.014288,
+      "longitude": -122.63108,
+      "estimated_replacement_cost": 1339126.89,
+      "created_at": "2024-10-18T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_notifications.notificationsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Notifications Asset Segment #0150",
+      "code": "IFX-NOT-00150",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.546233,
+      "longitude": -122.438768,
+      "estimated_replacement_cost": 1241500.67,
+      "created_at": "2024-10-23T10:34:25.488843",
+      "updated_at": "2026-09-08T10:34:25.488843",
+      "notes": "Standard municipal engineering inventory record for notifications.",
+      "metadata": {
+        "spec_code": "SPEC-NOTIFICATIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  }
+]

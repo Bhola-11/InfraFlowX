@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0001",
+      "code": "IFX-BRI-00001",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.654198,
+      "longitude": -122.473655,
+      "estimated_replacement_cost": 861468.22,
+      "created_at": "2026-06-03T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0002",
+      "code": "IFX-BRI-00002",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.690296,
+      "longitude": -122.603028,
+      "estimated_replacement_cost": 1283719.11,
+      "created_at": "2025-01-09T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0003",
+      "code": "IFX-BRI-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.826956,
+      "longitude": -122.490338,
+      "estimated_replacement_cost": 1010423.92,
+      "created_at": "2025-10-25T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0004",
+      "code": "IFX-BRI-00004",
+      "status": "INSPECTED",
+      "condition_score": 67,
+      "latitude": 37.579321,
+      "longitude": -122.352623,
+      "estimated_replacement_cost": 1355370.76,
+      "created_at": "2026-01-07T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0005",
+      "code": "IFX-BRI-00005",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.556681,
+      "longitude": -122.544244,
+      "estimated_replacement_cost": 174273.15,
+      "created_at": "2024-12-20T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0006",
+      "code": "IFX-BRI-00006",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.617524,
+      "longitude": -122.184798,
+      "estimated_replacement_cost": 1223986.85,
+      "created_at": "2025-12-10T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0007",
+      "code": "IFX-BRI-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.91332,
+      "longitude": -122.4544,
+      "estimated_replacement_cost": 630074.0,
+      "created_at": "2025-11-11T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0008",
+      "code": "IFX-BRI-00008",
+      "status": "ACTIVE",
+      "condition_score": 97,
+      "latitude": 37.769798,
+      "longitude": -122.408389,
+      "estimated_replacement_cost": 155697.92,
+      "created_at": "2025-09-12T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0009",
+      "code": "IFX-BRI-00009",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.876458,
+      "longitude": -122.5083,
+      "estimated_replacement_cost": 395910.59,
+      "created_at": "2026-04-23T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0010",
+      "code": "IFX-BRI-00010",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.982256,
+      "longitude": -122.177443,
+      "estimated_replacement_cost": 514024.8,
+      "created_at": "2025-10-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0011",
+      "code": "IFX-BRI-00011",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 38.020439,
+      "longitude": -122.30191,
+      "estimated_replacement_cost": 1067655.46,
+      "created_at": "2025-05-11T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0012",
+      "code": "IFX-BRI-00012",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.891924,
+      "longitude": -122.222874,
+      "estimated_replacement_cost": 784079.76,
+      "created_at": "2026-05-09T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0013",
+      "code": "IFX-BRI-00013",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.823128,
+      "longitude": -122.404257,
+      "estimated_replacement_cost": 1355475.59,
+      "created_at": "2025-02-06T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0014",
+      "code": "IFX-BRI-00014",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.965719,
+      "longitude": -122.62,
+      "estimated_replacement_cost": 789024.11,
+      "created_at": "2025-09-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0015",
+      "code": "IFX-BRI-00015",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.999975,
+      "longitude": -122.499925,
+      "estimated_replacement_cost": 788859.65,
+      "created_at": "2026-03-22T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0016",
+      "code": "IFX-BRI-00016",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.911766,
+      "longitude": -122.364797,
+      "estimated_replacement_cost": 1102409.03,
+      "created_at": "2024-12-17T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0017",
+      "code": "IFX-BRI-00017",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.774646,
+      "longitude": -122.662839,
+      "estimated_replacement_cost": 1165209.63,
+      "created_at": "2024-10-19T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0018",
+      "code": "IFX-BRI-00018",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.578546,
+      "longitude": -122.185552,
+      "estimated_replacement_cost": 696948.92,
+      "created_at": "2025-07-03T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0019",
+      "code": "IFX-BRI-00019",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.734159,
+      "longitude": -122.397508,
+      "estimated_replacement_cost": 297028.77,
+      "created_at": "2024-10-16T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0020",
+      "code": "IFX-BRI-00020",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.836939,
+      "longitude": -122.292119,
+      "estimated_replacement_cost": 89280.18,
+      "created_at": "2026-05-28T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0021",
+      "code": "IFX-BRI-00021",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.625549,
+      "longitude": -122.530381,
+      "estimated_replacement_cost": 1065000.87,
+      "created_at": "2025-04-09T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0022",
+      "code": "IFX-BRI-00022",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.862813,
+      "longitude": -122.643759,
+      "estimated_replacement_cost": 285492.56,
+      "created_at": "2026-05-22T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0023",
+      "code": "IFX-BRI-00023",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.75269,
+      "longitude": -122.497947,
+      "estimated_replacement_cost": 1378606.53,
+      "created_at": "2025-06-05T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0024",
+      "code": "IFX-BRI-00024",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.976638,
+      "longitude": -122.613323,
+      "estimated_replacement_cost": 787464.68,
+      "created_at": "2026-08-17T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0025",
+      "code": "IFX-BRI-00025",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.577977,
+      "longitude": -122.277115,
+      "estimated_replacement_cost": 532598.27,
+      "created_at": "2024-10-20T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0026",
+      "code": "IFX-BRI-00026",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.641098,
+      "longitude": -122.505366,
+      "estimated_replacement_cost": 1186426.79,
+      "created_at": "2026-03-18T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0027",
+      "code": "IFX-BRI-00027",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 37.555497,
+      "longitude": -122.281857,
+      "estimated_replacement_cost": 270918.28,
+      "created_at": "2025-01-23T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0028",
+      "code": "IFX-BRI-00028",
+      "status": "STANDBY",
+      "condition_score": 54,
+      "latitude": 37.925478,
+      "longitude": -122.407127,
+      "estimated_replacement_cost": 296476.38,
+      "created_at": "2025-05-30T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0029",
+      "code": "IFX-BRI-00029",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.630555,
+      "longitude": -122.329801,
+      "estimated_replacement_cost": 786207.08,
+      "created_at": "2025-04-13T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0030",
+      "code": "IFX-BRI-00030",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.767698,
+      "longitude": -122.642678,
+      "estimated_replacement_cost": 804663.76,
+      "created_at": "2024-11-15T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0031",
+      "code": "IFX-BRI-00031",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.738695,
+      "longitude": -122.215089,
+      "estimated_replacement_cost": 1307692.25,
+      "created_at": "2025-12-23T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0032",
+      "code": "IFX-BRI-00032",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.806722,
+      "longitude": -122.410592,
+      "estimated_replacement_cost": 425169.32,
+      "created_at": "2025-12-24T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0033",
+      "code": "IFX-BRI-00033",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.959046,
+      "longitude": -122.381638,
+      "estimated_replacement_cost": 768769.96,
+      "created_at": "2025-03-15T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0034",
+      "code": "IFX-BRI-00034",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.597667,
+      "longitude": -122.476119,
+      "estimated_replacement_cost": 1269628.38,
+      "created_at": "2026-07-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0035",
+      "code": "IFX-BRI-00035",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.700081,
+      "longitude": -122.517014,
+      "estimated_replacement_cost": 1420067.21,
+      "created_at": "2025-02-23T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0036",
+      "code": "IFX-BRI-00036",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.567616,
+      "longitude": -122.171548,
+      "estimated_replacement_cost": 876944.88,
+      "created_at": "2026-04-28T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0037",
+      "code": "IFX-BRI-00037",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.838312,
+      "longitude": -122.446584,
+      "estimated_replacement_cost": 469274.61,
+      "created_at": "2026-01-24T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0038",
+      "code": "IFX-BRI-00038",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.843081,
+      "longitude": -122.484484,
+      "estimated_replacement_cost": 1377535.49,
+      "created_at": "2025-12-27T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0039",
+      "code": "IFX-BRI-00039",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.707638,
+      "longitude": -122.17501,
+      "estimated_replacement_cost": 822652.69,
+      "created_at": "2024-12-22T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0040",
+      "code": "IFX-BRI-00040",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.994731,
+      "longitude": -122.474209,
+      "estimated_replacement_cost": 112446.07,
+      "created_at": "2025-01-14T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0041",
+      "code": "IFX-BRI-00041",
+      "status": "INSPECTED",
+      "condition_score": 78,
+      "latitude": 37.92126,
+      "longitude": -122.518408,
+      "estimated_replacement_cost": 475239.83,
+      "created_at": "2025-04-19T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0042",
+      "code": "IFX-BRI-00042",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.565233,
+      "longitude": -122.53048,
+      "estimated_replacement_cost": 474001.65,
+      "created_at": "2026-04-30T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0043",
+      "code": "IFX-BRI-00043",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.613617,
+      "longitude": -122.279877,
+      "estimated_replacement_cost": 1486662.59,
+      "created_at": "2025-12-23T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0044",
+      "code": "IFX-BRI-00044",
+      "status": "INSPECTED",
+      "condition_score": 66,
+      "latitude": 37.695898,
+      "longitude": -122.313887,
+      "estimated_replacement_cost": 307951.0,
+      "created_at": "2025-04-17T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0045",
+      "code": "IFX-BRI-00045",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.69663,
+      "longitude": -122.324121,
+      "estimated_replacement_cost": 1444139.92,
+      "created_at": "2026-05-11T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0046",
+      "code": "IFX-BRI-00046",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.638352,
+      "longitude": -122.238731,
+      "estimated_replacement_cost": 816973.73,
+      "created_at": "2026-06-17T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0047",
+      "code": "IFX-BRI-00047",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.884319,
+      "longitude": -122.66079,
+      "estimated_replacement_cost": 1387535.28,
+      "created_at": "2024-12-16T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0048",
+      "code": "IFX-BRI-00048",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.686057,
+      "longitude": -122.252852,
+      "estimated_replacement_cost": 1487526.46,
+      "created_at": "2026-04-25T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0049",
+      "code": "IFX-BRI-00049",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.631799,
+      "longitude": -122.468872,
+      "estimated_replacement_cost": 611236.9,
+      "created_at": "2025-01-13T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0050",
+      "code": "IFX-BRI-00050",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.625881,
+      "longitude": -122.659604,
+      "estimated_replacement_cost": 904801.08,
+      "created_at": "2025-06-07T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0051",
+      "code": "IFX-BRI-00051",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.548083,
+      "longitude": -122.171196,
+      "estimated_replacement_cost": 596916.06,
+      "created_at": "2025-02-05T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0052",
+      "code": "IFX-BRI-00052",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.945661,
+      "longitude": -122.356312,
+      "estimated_replacement_cost": 240013.77,
+      "created_at": "2024-10-04T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0053",
+      "code": "IFX-BRI-00053",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.773645,
+      "longitude": -122.436395,
+      "estimated_replacement_cost": 1225533.44,
+      "created_at": "2025-11-17T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0054",
+      "code": "IFX-BRI-00054",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.753335,
+      "longitude": -122.646835,
+      "estimated_replacement_cost": 1276859.4,
+      "created_at": "2025-02-18T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0055",
+      "code": "IFX-BRI-00055",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.682353,
+      "longitude": -122.308043,
+      "estimated_replacement_cost": 223974.4,
+      "created_at": "2025-07-21T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0056",
+      "code": "IFX-BRI-00056",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.952125,
+      "longitude": -122.530747,
+      "estimated_replacement_cost": 1248664.49,
+      "created_at": "2025-07-22T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0057",
+      "code": "IFX-BRI-00057",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.678387,
+      "longitude": -122.63245,
+      "estimated_replacement_cost": 1215712.74,
+      "created_at": "2026-06-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0058",
+      "code": "IFX-BRI-00058",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.58455,
+      "longitude": -122.247642,
+      "estimated_replacement_cost": 1206934.87,
+      "created_at": "2026-06-02T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0059",
+      "code": "IFX-BRI-00059",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.749213,
+      "longitude": -122.489203,
+      "estimated_replacement_cost": 1010195.11,
+      "created_at": "2025-02-24T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0060",
+      "code": "IFX-BRI-00060",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.674422,
+      "longitude": -122.254277,
+      "estimated_replacement_cost": 585182.21,
+      "created_at": "2025-05-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0061",
+      "code": "IFX-BRI-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.796817,
+      "longitude": -122.471202,
+      "estimated_replacement_cost": 1398143.75,
+      "created_at": "2026-06-20T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0062",
+      "code": "IFX-BRI-00062",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 68,
+      "latitude": 37.923212,
+      "longitude": -122.491019,
+      "estimated_replacement_cost": 1445361.41,
+      "created_at": "2026-05-07T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0063",
+      "code": "IFX-BRI-00063",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.733162,
+      "longitude": -122.272532,
+      "estimated_replacement_cost": 519269.86,
+      "created_at": "2025-06-29T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0064",
+      "code": "IFX-BRI-00064",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.795241,
+      "longitude": -122.41523,
+      "estimated_replacement_cost": 682380.54,
+      "created_at": "2025-09-04T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0065",
+      "code": "IFX-BRI-00065",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.8384,
+      "longitude": -122.239305,
+      "estimated_replacement_cost": 1493489.45,
+      "created_at": "2025-06-29T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0066",
+      "code": "IFX-BRI-00066",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.604344,
+      "longitude": -122.60884,
+      "estimated_replacement_cost": 299542.61,
+      "created_at": "2025-06-23T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0067",
+      "code": "IFX-BRI-00067",
+      "status": "OPERATIONAL",
+      "condition_score": 88,
+      "latitude": 37.974359,
+      "longitude": -122.567875,
+      "estimated_replacement_cost": 108398.99,
+      "created_at": "2026-03-21T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0068",
+      "code": "IFX-BRI-00068",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 38.022635,
+      "longitude": -122.377329,
+      "estimated_replacement_cost": 31136.48,
+      "created_at": "2025-08-29T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0069",
+      "code": "IFX-BRI-00069",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.620401,
+      "longitude": -122.224757,
+      "estimated_replacement_cost": 182884.26,
+      "created_at": "2024-12-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0070",
+      "code": "IFX-BRI-00070",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.774334,
+      "longitude": -122.392342,
+      "estimated_replacement_cost": 981347.61,
+      "created_at": "2026-06-24T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0071",
+      "code": "IFX-BRI-00071",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.770753,
+      "longitude": -122.479709,
+      "estimated_replacement_cost": 1307869.4,
+      "created_at": "2026-04-10T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0072",
+      "code": "IFX-BRI-00072",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.699536,
+      "longitude": -122.478024,
+      "estimated_replacement_cost": 981243.83,
+      "created_at": "2024-11-09T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0073",
+      "code": "IFX-BRI-00073",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.556551,
+      "longitude": -122.343903,
+      "estimated_replacement_cost": 1148713.8,
+      "created_at": "2026-08-25T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0074",
+      "code": "IFX-BRI-00074",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.689667,
+      "longitude": -122.602276,
+      "estimated_replacement_cost": 799424.77,
+      "created_at": "2026-03-05T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0075",
+      "code": "IFX-BRI-00075",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.724514,
+      "longitude": -122.354184,
+      "estimated_replacement_cost": 780700.58,
+      "created_at": "2025-12-24T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0076",
+      "code": "IFX-BRI-00076",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.716935,
+      "longitude": -122.610703,
+      "estimated_replacement_cost": 795833.14,
+      "created_at": "2024-10-10T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0077",
+      "code": "IFX-BRI-00077",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.913348,
+      "longitude": -122.56882,
+      "estimated_replacement_cost": 1345632.81,
+      "created_at": "2025-12-20T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0078",
+      "code": "IFX-BRI-00078",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.688173,
+      "longitude": -122.442873,
+      "estimated_replacement_cost": 925069.28,
+      "created_at": "2026-02-28T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0079",
+      "code": "IFX-BRI-00079",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.978015,
+      "longitude": -122.587191,
+      "estimated_replacement_cost": 841385.5,
+      "created_at": "2025-08-31T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0080",
+      "code": "IFX-BRI-00080",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.913863,
+      "longitude": -122.596373,
+      "estimated_replacement_cost": 1236072.69,
+      "created_at": "2025-10-02T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0081",
+      "code": "IFX-BRI-00081",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.723055,
+      "longitude": -122.423144,
+      "estimated_replacement_cost": 1027845.24,
+      "created_at": "2024-10-13T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0082",
+      "code": "IFX-BRI-00082",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.758363,
+      "longitude": -122.654382,
+      "estimated_replacement_cost": 909134.27,
+      "created_at": "2024-12-16T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0083",
+      "code": "IFX-BRI-00083",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.790819,
+      "longitude": -122.356184,
+      "estimated_replacement_cost": 1049607.39,
+      "created_at": "2025-10-16T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0084",
+      "code": "IFX-BRI-00084",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.728898,
+      "longitude": -122.512396,
+      "estimated_replacement_cost": 537547.61,
+      "created_at": "2025-12-18T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0085",
+      "code": "IFX-BRI-00085",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.696378,
+      "longitude": -122.398479,
+      "estimated_replacement_cost": 1171613.41,
+      "created_at": "2025-01-31T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0086",
+      "code": "IFX-BRI-00086",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.55158,
+      "longitude": -122.563576,
+      "estimated_replacement_cost": 717830.33,
+      "created_at": "2025-10-25T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0087",
+      "code": "IFX-BRI-00087",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.619323,
+      "longitude": -122.501975,
+      "estimated_replacement_cost": 531151.16,
+      "created_at": "2025-06-10T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0088",
+      "code": "IFX-BRI-00088",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.993781,
+      "longitude": -122.518989,
+      "estimated_replacement_cost": 593157.96,
+      "created_at": "2026-06-10T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0089",
+      "code": "IFX-BRI-00089",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.623371,
+      "longitude": -122.337103,
+      "estimated_replacement_cost": 1365974.95,
+      "created_at": "2025-08-28T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0090",
+      "code": "IFX-BRI-00090",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.962953,
+      "longitude": -122.571144,
+      "estimated_replacement_cost": 162045.66,
+      "created_at": "2024-10-21T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0091",
+      "code": "IFX-BRI-00091",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.792286,
+      "longitude": -122.18756,
+      "estimated_replacement_cost": 694269.37,
+      "created_at": "2025-07-03T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0092",
+      "code": "IFX-BRI-00092",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.744119,
+      "longitude": -122.525438,
+      "estimated_replacement_cost": 1444046.31,
+      "created_at": "2026-09-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0093",
+      "code": "IFX-BRI-00093",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.582371,
+      "longitude": -122.49614,
+      "estimated_replacement_cost": 944900.13,
+      "created_at": "2024-11-08T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0094",
+      "code": "IFX-BRI-00094",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.972618,
+      "longitude": -122.174571,
+      "estimated_replacement_cost": 465763.13,
+      "created_at": "2026-05-09T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0095",
+      "code": "IFX-BRI-00095",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.737177,
+      "longitude": -122.624165,
+      "estimated_replacement_cost": 721962.83,
+      "created_at": "2024-10-28T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0096",
+      "code": "IFX-BRI-00096",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.658705,
+      "longitude": -122.316793,
+      "estimated_replacement_cost": 924124.42,
+      "created_at": "2026-03-22T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0097",
+      "code": "IFX-BRI-00097",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.937679,
+      "longitude": -122.313516,
+      "estimated_replacement_cost": 1246471.98,
+      "created_at": "2025-06-03T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0098",
+      "code": "IFX-BRI-00098",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.913557,
+      "longitude": -122.321037,
+      "estimated_replacement_cost": 1177533.76,
+      "created_at": "2025-02-14T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0099",
+      "code": "IFX-BRI-00099",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.813778,
+      "longitude": -122.178086,
+      "estimated_replacement_cost": 1057061.11,
+      "created_at": "2025-12-31T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0100",
+      "code": "IFX-BRI-00100",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 38.004081,
+      "longitude": -122.655243,
+      "estimated_replacement_cost": 142248.86,
+      "created_at": "2025-11-18T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0101",
+      "code": "IFX-BRI-00101",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.525803,
+      "longitude": -122.249055,
+      "estimated_replacement_cost": 415516.93,
+      "created_at": "2025-10-30T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0102",
+      "code": "IFX-BRI-00102",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.616053,
+      "longitude": -122.550762,
+      "estimated_replacement_cost": 745683.75,
+      "created_at": "2026-07-11T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0103",
+      "code": "IFX-BRI-00103",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.73848,
+      "longitude": -122.595661,
+      "estimated_replacement_cost": 33879.85,
+      "created_at": "2026-01-26T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0104",
+      "code": "IFX-BRI-00104",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.591892,
+      "longitude": -122.482875,
+      "estimated_replacement_cost": 1045499.86,
+      "created_at": "2024-10-30T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0105",
+      "code": "IFX-BRI-00105",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.662246,
+      "longitude": -122.186162,
+      "estimated_replacement_cost": 104945.43,
+      "created_at": "2025-05-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0106",
+      "code": "IFX-BRI-00106",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 92,
+      "latitude": 37.718915,
+      "longitude": -122.406376,
+      "estimated_replacement_cost": 1014979.66,
+      "created_at": "2026-07-07T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0107",
+      "code": "IFX-BRI-00107",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.567317,
+      "longitude": -122.533734,
+      "estimated_replacement_cost": 700063.39,
+      "created_at": "2025-02-23T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0108",
+      "code": "IFX-BRI-00108",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.594553,
+      "longitude": -122.361848,
+      "estimated_replacement_cost": 1002248.8,
+      "created_at": "2025-06-30T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0109",
+      "code": "IFX-BRI-00109",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.650212,
+      "longitude": -122.530939,
+      "estimated_replacement_cost": 573840.99,
+      "created_at": "2026-03-24T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0110",
+      "code": "IFX-BRI-00110",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.920286,
+      "longitude": -122.564605,
+      "estimated_replacement_cost": 1230204.77,
+      "created_at": "2026-01-02T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0111",
+      "code": "IFX-BRI-00111",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.92215,
+      "longitude": -122.334312,
+      "estimated_replacement_cost": 1155519.49,
+      "created_at": "2024-12-26T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0112",
+      "code": "IFX-BRI-00112",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.870251,
+      "longitude": -122.532239,
+      "estimated_replacement_cost": 1243700.39,
+      "created_at": "2025-04-14T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0113",
+      "code": "IFX-BRI-00113",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.537837,
+      "longitude": -122.547703,
+      "estimated_replacement_cost": 678317.28,
+      "created_at": "2025-06-05T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0114",
+      "code": "IFX-BRI-00114",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.566159,
+      "longitude": -122.179774,
+      "estimated_replacement_cost": 793098.5,
+      "created_at": "2026-07-14T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0115",
+      "code": "IFX-BRI-00115",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.709241,
+      "longitude": -122.191784,
+      "estimated_replacement_cost": 692425.95,
+      "created_at": "2025-07-02T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0116",
+      "code": "IFX-BRI-00116",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.56734,
+      "longitude": -122.548694,
+      "estimated_replacement_cost": 930225.35,
+      "created_at": "2026-02-03T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0117",
+      "code": "IFX-BRI-00117",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.740736,
+      "longitude": -122.341114,
+      "estimated_replacement_cost": 280718.22,
+      "created_at": "2025-06-07T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0118",
+      "code": "IFX-BRI-00118",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.72528,
+      "longitude": -122.219963,
+      "estimated_replacement_cost": 1212701.85,
+      "created_at": "2024-10-03T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0119",
+      "code": "IFX-BRI-00119",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 38.023354,
+      "longitude": -122.197984,
+      "estimated_replacement_cost": 357276.93,
+      "created_at": "2025-11-05T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0120",
+      "code": "IFX-BRI-00120",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.756295,
+      "longitude": -122.191844,
+      "estimated_replacement_cost": 909600.46,
+      "created_at": "2025-04-20T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0121",
+      "code": "IFX-BRI-00121",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.68079,
+      "longitude": -122.610511,
+      "estimated_replacement_cost": 62555.55,
+      "created_at": "2025-10-27T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0122",
+      "code": "IFX-BRI-00122",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.666662,
+      "longitude": -122.579767,
+      "estimated_replacement_cost": 1305772.61,
+      "created_at": "2025-04-29T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0123",
+      "code": "IFX-BRI-00123",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.790247,
+      "longitude": -122.629517,
+      "estimated_replacement_cost": 863463.02,
+      "created_at": "2025-04-21T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0124",
+      "code": "IFX-BRI-00124",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.834651,
+      "longitude": -122.203055,
+      "estimated_replacement_cost": 86082.82,
+      "created_at": "2026-07-11T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0125",
+      "code": "IFX-BRI-00125",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.765115,
+      "longitude": -122.244616,
+      "estimated_replacement_cost": 1163546.15,
+      "created_at": "2026-05-21T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0126",
+      "code": "IFX-BRI-00126",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.719977,
+      "longitude": -122.632992,
+      "estimated_replacement_cost": 568386.35,
+      "created_at": "2025-08-04T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0127",
+      "code": "IFX-BRI-00127",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.996417,
+      "longitude": -122.530775,
+      "estimated_replacement_cost": 443290.51,
+      "created_at": "2026-02-05T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0128",
+      "code": "IFX-BRI-00128",
+      "status": "INSPECTED",
+      "condition_score": 82,
+      "latitude": 37.864322,
+      "longitude": -122.196308,
+      "estimated_replacement_cost": 570835.67,
+      "created_at": "2025-06-21T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0129",
+      "code": "IFX-BRI-00129",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.675011,
+      "longitude": -122.294286,
+      "estimated_replacement_cost": 869413.07,
+      "created_at": "2026-07-27T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0130",
+      "code": "IFX-BRI-00130",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 38.013713,
+      "longitude": -122.620663,
+      "estimated_replacement_cost": 395463.47,
+      "created_at": "2026-04-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0131",
+      "code": "IFX-BRI-00131",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.549582,
+      "longitude": -122.550506,
+      "estimated_replacement_cost": 234170.37,
+      "created_at": "2026-07-04T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0132",
+      "code": "IFX-BRI-00132",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.784318,
+      "longitude": -122.370696,
+      "estimated_replacement_cost": 716115.8,
+      "created_at": "2026-07-18T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0133",
+      "code": "IFX-BRI-00133",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.703683,
+      "longitude": -122.531626,
+      "estimated_replacement_cost": 471228.92,
+      "created_at": "2024-11-29T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0134",
+      "code": "IFX-BRI-00134",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.741691,
+      "longitude": -122.320091,
+      "estimated_replacement_cost": 894604.27,
+      "created_at": "2025-08-01T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0135",
+      "code": "IFX-BRI-00135",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.694998,
+      "longitude": -122.488013,
+      "estimated_replacement_cost": 504433.28,
+      "created_at": "2024-10-28T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0136",
+      "code": "IFX-BRI-00136",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.556394,
+      "longitude": -122.176802,
+      "estimated_replacement_cost": 149244.04,
+      "created_at": "2024-12-10T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0137",
+      "code": "IFX-BRI-00137",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.681111,
+      "longitude": -122.496441,
+      "estimated_replacement_cost": 1386783.67,
+      "created_at": "2026-07-17T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0138",
+      "code": "IFX-BRI-00138",
+      "status": "INSPECTED",
+      "condition_score": 66,
+      "latitude": 37.551886,
+      "longitude": -122.397843,
+      "estimated_replacement_cost": 1447892.71,
+      "created_at": "2026-02-07T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0139",
+      "code": "IFX-BRI-00139",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.821726,
+      "longitude": -122.265904,
+      "estimated_replacement_cost": 232726.33,
+      "created_at": "2025-11-10T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0140",
+      "code": "IFX-BRI-00140",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.577759,
+      "longitude": -122.56089,
+      "estimated_replacement_cost": 1087000.15,
+      "created_at": "2026-04-08T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0141",
+      "code": "IFX-BRI-00141",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.630379,
+      "longitude": -122.554789,
+      "estimated_replacement_cost": 1031877.31,
+      "created_at": "2025-04-08T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0142",
+      "code": "IFX-BRI-00142",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.939567,
+      "longitude": -122.462634,
+      "estimated_replacement_cost": 309444.51,
+      "created_at": "2025-03-02T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0143",
+      "code": "IFX-BRI-00143",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.900325,
+      "longitude": -122.461963,
+      "estimated_replacement_cost": 104853.33,
+      "created_at": "2025-12-15T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0144",
+      "code": "IFX-BRI-00144",
+      "status": "OPERATIONAL",
+      "condition_score": 74,
+      "latitude": 37.702814,
+      "longitude": -122.203259,
+      "estimated_replacement_cost": 101892.78,
+      "created_at": "2026-03-02T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0145",
+      "code": "IFX-BRI-00145",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.724799,
+      "longitude": -122.439489,
+      "estimated_replacement_cost": 669772.31,
+      "created_at": "2024-10-14T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0146",
+      "code": "IFX-BRI-00146",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.592124,
+      "longitude": -122.668845,
+      "estimated_replacement_cost": 625859.12,
+      "created_at": "2025-06-30T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0147",
+      "code": "IFX-BRI-00147",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.779573,
+      "longitude": -122.574792,
+      "estimated_replacement_cost": 1449354.54,
+      "created_at": "2025-09-16T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0148",
+      "code": "IFX-BRI-00148",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.526161,
+      "longitude": -122.462649,
+      "estimated_replacement_cost": 364535.81,
+      "created_at": "2026-05-17T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0149",
+      "code": "IFX-BRI-00149",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.893556,
+      "longitude": -122.207474,
+      "estimated_replacement_cost": 1166628.63,
+      "created_at": "2025-09-15T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_bridges.bridgesrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Bridges Asset Segment #0150",
+      "code": "IFX-BRI-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 85,
+      "latitude": 37.828407,
+      "longitude": -122.452604,
+      "estimated_replacement_cost": 906542.25,
+      "created_at": "2025-01-19T10:34:25.296219",
+      "updated_at": "2026-09-08T10:34:25.296219",
+      "notes": "Standard municipal engineering inventory record for bridges.",
+      "metadata": {
+        "spec_code": "SPEC-BRIDGES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  }
+]

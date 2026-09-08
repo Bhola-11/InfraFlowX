@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0001",
+      "code": "IFX-CON-00001",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.890298,
+      "longitude": -122.328041,
+      "estimated_replacement_cost": 713198.74,
+      "created_at": "2026-06-01T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0002",
+      "code": "IFX-CON-00002",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.793798,
+      "longitude": -122.258312,
+      "estimated_replacement_cost": 836466.48,
+      "created_at": "2026-07-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0003",
+      "code": "IFX-CON-00003",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.8019,
+      "longitude": -122.342558,
+      "estimated_replacement_cost": 698610.83,
+      "created_at": "2026-06-12T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0004",
+      "code": "IFX-CON-00004",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.781618,
+      "longitude": -122.238706,
+      "estimated_replacement_cost": 31052.24,
+      "created_at": "2024-11-12T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0005",
+      "code": "IFX-CON-00005",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.54709,
+      "longitude": -122.392688,
+      "estimated_replacement_cost": 657558.01,
+      "created_at": "2026-08-03T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0006",
+      "code": "IFX-CON-00006",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 37.889159,
+      "longitude": -122.225673,
+      "estimated_replacement_cost": 146111.74,
+      "created_at": "2025-02-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0007",
+      "code": "IFX-CON-00007",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.635545,
+      "longitude": -122.53588,
+      "estimated_replacement_cost": 513136.22,
+      "created_at": "2025-02-14T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0008",
+      "code": "IFX-CON-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.685619,
+      "longitude": -122.184587,
+      "estimated_replacement_cost": 1141135.92,
+      "created_at": "2025-10-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0009",
+      "code": "IFX-CON-00009",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.895528,
+      "longitude": -122.630102,
+      "estimated_replacement_cost": 260457.43,
+      "created_at": "2024-11-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0010",
+      "code": "IFX-CON-00010",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.835019,
+      "longitude": -122.226365,
+      "estimated_replacement_cost": 951986.14,
+      "created_at": "2025-01-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0011",
+      "code": "IFX-CON-00011",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.726493,
+      "longitude": -122.348864,
+      "estimated_replacement_cost": 1256503.68,
+      "created_at": "2025-06-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0012",
+      "code": "IFX-CON-00012",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.77651,
+      "longitude": -122.215258,
+      "estimated_replacement_cost": 343085.61,
+      "created_at": "2026-08-28T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0013",
+      "code": "IFX-CON-00013",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 37.979127,
+      "longitude": -122.615009,
+      "estimated_replacement_cost": 1181845.81,
+      "created_at": "2025-10-06T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0014",
+      "code": "IFX-CON-00014",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.605928,
+      "longitude": -122.348741,
+      "estimated_replacement_cost": 1228015.12,
+      "created_at": "2026-07-16T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0015",
+      "code": "IFX-CON-00015",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.943432,
+      "longitude": -122.307864,
+      "estimated_replacement_cost": 1118178.87,
+      "created_at": "2025-05-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0016",
+      "code": "IFX-CON-00016",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.93274,
+      "longitude": -122.647569,
+      "estimated_replacement_cost": 719752.15,
+      "created_at": "2024-11-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0017",
+      "code": "IFX-CON-00017",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.804025,
+      "longitude": -122.481065,
+      "estimated_replacement_cost": 1044880.43,
+      "created_at": "2025-02-10T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0018",
+      "code": "IFX-CON-00018",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.881654,
+      "longitude": -122.468276,
+      "estimated_replacement_cost": 1183467.88,
+      "created_at": "2025-07-29T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0019",
+      "code": "IFX-CON-00019",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.679159,
+      "longitude": -122.242182,
+      "estimated_replacement_cost": 422955.9,
+      "created_at": "2025-10-23T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0020",
+      "code": "IFX-CON-00020",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.542455,
+      "longitude": -122.463496,
+      "estimated_replacement_cost": 25693.41,
+      "created_at": "2025-05-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0021",
+      "code": "IFX-CON-00021",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.999353,
+      "longitude": -122.480212,
+      "estimated_replacement_cost": 1062585.77,
+      "created_at": "2025-10-14T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0022",
+      "code": "IFX-CON-00022",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.840787,
+      "longitude": -122.569241,
+      "estimated_replacement_cost": 271495.1,
+      "created_at": "2025-03-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0023",
+      "code": "IFX-CON-00023",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.905535,
+      "longitude": -122.604377,
+      "estimated_replacement_cost": 713570.79,
+      "created_at": "2026-01-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0024",
+      "code": "IFX-CON-00024",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 66,
+      "latitude": 37.793529,
+      "longitude": -122.52345,
+      "estimated_replacement_cost": 1228731.52,
+      "created_at": "2025-08-13T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0025",
+      "code": "IFX-CON-00025",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.988789,
+      "longitude": -122.406676,
+      "estimated_replacement_cost": 1197847.37,
+      "created_at": "2025-01-24T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0026",
+      "code": "IFX-CON-00026",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.754281,
+      "longitude": -122.412647,
+      "estimated_replacement_cost": 418496.13,
+      "created_at": "2025-08-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0027",
+      "code": "IFX-CON-00027",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.983329,
+      "longitude": -122.195992,
+      "estimated_replacement_cost": 1490886.3,
+      "created_at": "2025-12-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0028",
+      "code": "IFX-CON-00028",
+      "status": "OPERATIONAL",
+      "condition_score": 88,
+      "latitude": 37.756835,
+      "longitude": -122.188552,
+      "estimated_replacement_cost": 609532.24,
+      "created_at": "2025-05-08T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0029",
+      "code": "IFX-CON-00029",
+      "status": "STANDBY",
+      "condition_score": 62,
+      "latitude": 37.701706,
+      "longitude": -122.449341,
+      "estimated_replacement_cost": 1141072.81,
+      "created_at": "2026-08-26T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0030",
+      "code": "IFX-CON-00030",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.85959,
+      "longitude": -122.345546,
+      "estimated_replacement_cost": 1338495.0,
+      "created_at": "2025-01-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0031",
+      "code": "IFX-CON-00031",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.697234,
+      "longitude": -122.595199,
+      "estimated_replacement_cost": 751812.26,
+      "created_at": "2024-10-11T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0032",
+      "code": "IFX-CON-00032",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.74545,
+      "longitude": -122.180528,
+      "estimated_replacement_cost": 956282.47,
+      "created_at": "2025-02-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0033",
+      "code": "IFX-CON-00033",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.742644,
+      "longitude": -122.480231,
+      "estimated_replacement_cost": 1157646.04,
+      "created_at": "2026-01-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0034",
+      "code": "IFX-CON-00034",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.847654,
+      "longitude": -122.553378,
+      "estimated_replacement_cost": 1451305.42,
+      "created_at": "2025-11-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0035",
+      "code": "IFX-CON-00035",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.595288,
+      "longitude": -122.472371,
+      "estimated_replacement_cost": 188689.4,
+      "created_at": "2024-11-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0036",
+      "code": "IFX-CON-00036",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.980446,
+      "longitude": -122.371808,
+      "estimated_replacement_cost": 948202.46,
+      "created_at": "2025-09-25T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0037",
+      "code": "IFX-CON-00037",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.546437,
+      "longitude": -122.344447,
+      "estimated_replacement_cost": 453597.86,
+      "created_at": "2024-10-02T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0038",
+      "code": "IFX-CON-00038",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 66,
+      "latitude": 37.839239,
+      "longitude": -122.383141,
+      "estimated_replacement_cost": 126576.62,
+      "created_at": "2026-03-23T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0039",
+      "code": "IFX-CON-00039",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.767751,
+      "longitude": -122.329482,
+      "estimated_replacement_cost": 590666.23,
+      "created_at": "2025-09-28T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0040",
+      "code": "IFX-CON-00040",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.857146,
+      "longitude": -122.326223,
+      "estimated_replacement_cost": 515481.59,
+      "created_at": "2025-03-18T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0041",
+      "code": "IFX-CON-00041",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.865183,
+      "longitude": -122.377324,
+      "estimated_replacement_cost": 1237906.26,
+      "created_at": "2025-04-23T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0042",
+      "code": "IFX-CON-00042",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.714209,
+      "longitude": -122.236246,
+      "estimated_replacement_cost": 469546.46,
+      "created_at": "2024-12-16T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0043",
+      "code": "IFX-CON-00043",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.915448,
+      "longitude": -122.508219,
+      "estimated_replacement_cost": 195976.45,
+      "created_at": "2026-08-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0044",
+      "code": "IFX-CON-00044",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 38.004864,
+      "longitude": -122.358419,
+      "estimated_replacement_cost": 280267.98,
+      "created_at": "2026-09-03T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0045",
+      "code": "IFX-CON-00045",
+      "status": "STANDBY",
+      "condition_score": 63,
+      "latitude": 37.9246,
+      "longitude": -122.555401,
+      "estimated_replacement_cost": 142888.81,
+      "created_at": "2025-10-28T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0046",
+      "code": "IFX-CON-00046",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 37.871899,
+      "longitude": -122.37402,
+      "estimated_replacement_cost": 62820.14,
+      "created_at": "2026-03-06T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0047",
+      "code": "IFX-CON-00047",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.972474,
+      "longitude": -122.595036,
+      "estimated_replacement_cost": 436489.26,
+      "created_at": "2025-05-11T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0048",
+      "code": "IFX-CON-00048",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.657854,
+      "longitude": -122.256677,
+      "estimated_replacement_cost": 947991.73,
+      "created_at": "2026-05-16T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0049",
+      "code": "IFX-CON-00049",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 79,
+      "latitude": 37.718569,
+      "longitude": -122.665731,
+      "estimated_replacement_cost": 938963.24,
+      "created_at": "2025-12-24T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0050",
+      "code": "IFX-CON-00050",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.977374,
+      "longitude": -122.365319,
+      "estimated_replacement_cost": 405016.85,
+      "created_at": "2026-05-20T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0051",
+      "code": "IFX-CON-00051",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.863863,
+      "longitude": -122.183751,
+      "estimated_replacement_cost": 655692.31,
+      "created_at": "2025-01-23T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0052",
+      "code": "IFX-CON-00052",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.705352,
+      "longitude": -122.211915,
+      "estimated_replacement_cost": 844501.49,
+      "created_at": "2025-06-01T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0053",
+      "code": "IFX-CON-00053",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.657268,
+      "longitude": -122.236906,
+      "estimated_replacement_cost": 29848.01,
+      "created_at": "2025-03-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0054",
+      "code": "IFX-CON-00054",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.537221,
+      "longitude": -122.279928,
+      "estimated_replacement_cost": 611598.31,
+      "created_at": "2025-05-04T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0055",
+      "code": "IFX-CON-00055",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.909062,
+      "longitude": -122.194332,
+      "estimated_replacement_cost": 1403592.34,
+      "created_at": "2025-11-10T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0056",
+      "code": "IFX-CON-00056",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.579062,
+      "longitude": -122.660709,
+      "estimated_replacement_cost": 799344.98,
+      "created_at": "2025-04-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0057",
+      "code": "IFX-CON-00057",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.763576,
+      "longitude": -122.382126,
+      "estimated_replacement_cost": 108538.06,
+      "created_at": "2025-12-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0058",
+      "code": "IFX-CON-00058",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.714252,
+      "longitude": -122.514346,
+      "estimated_replacement_cost": 965859.44,
+      "created_at": "2025-01-26T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0059",
+      "code": "IFX-CON-00059",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.674359,
+      "longitude": -122.32144,
+      "estimated_replacement_cost": 1195996.82,
+      "created_at": "2026-02-02T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0060",
+      "code": "IFX-CON-00060",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.844282,
+      "longitude": -122.37796,
+      "estimated_replacement_cost": 465304.57,
+      "created_at": "2025-05-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0061",
+      "code": "IFX-CON-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.814214,
+      "longitude": -122.209243,
+      "estimated_replacement_cost": 591333.92,
+      "created_at": "2025-03-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0062",
+      "code": "IFX-CON-00062",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.923989,
+      "longitude": -122.349626,
+      "estimated_replacement_cost": 1371861.55,
+      "created_at": "2026-07-30T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0063",
+      "code": "IFX-CON-00063",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.539443,
+      "longitude": -122.639179,
+      "estimated_replacement_cost": 1408100.89,
+      "created_at": "2024-10-02T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0064",
+      "code": "IFX-CON-00064",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.961788,
+      "longitude": -122.452755,
+      "estimated_replacement_cost": 1123536.34,
+      "created_at": "2025-05-29T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0065",
+      "code": "IFX-CON-00065",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.864047,
+      "longitude": -122.260731,
+      "estimated_replacement_cost": 421078.41,
+      "created_at": "2026-06-10T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0066",
+      "code": "IFX-CON-00066",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.895582,
+      "longitude": -122.634286,
+      "estimated_replacement_cost": 1017728.43,
+      "created_at": "2025-08-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0067",
+      "code": "IFX-CON-00067",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.949186,
+      "longitude": -122.250888,
+      "estimated_replacement_cost": 190077.33,
+      "created_at": "2026-06-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0068",
+      "code": "IFX-CON-00068",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.836952,
+      "longitude": -122.562735,
+      "estimated_replacement_cost": 63348.72,
+      "created_at": "2024-11-11T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0069",
+      "code": "IFX-CON-00069",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.7718,
+      "longitude": -122.19711,
+      "estimated_replacement_cost": 814125.7,
+      "created_at": "2024-10-12T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0070",
+      "code": "IFX-CON-00070",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.546583,
+      "longitude": -122.576915,
+      "estimated_replacement_cost": 461486.96,
+      "created_at": "2025-12-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0071",
+      "code": "IFX-CON-00071",
+      "status": "INSPECTED",
+      "condition_score": 95,
+      "latitude": 37.637356,
+      "longitude": -122.533856,
+      "estimated_replacement_cost": 1069895.88,
+      "created_at": "2024-10-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0072",
+      "code": "IFX-CON-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.644405,
+      "longitude": -122.331253,
+      "estimated_replacement_cost": 424655.35,
+      "created_at": "2025-04-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0073",
+      "code": "IFX-CON-00073",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.774459,
+      "longitude": -122.23525,
+      "estimated_replacement_cost": 1441468.06,
+      "created_at": "2025-08-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0074",
+      "code": "IFX-CON-00074",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.775222,
+      "longitude": -122.451742,
+      "estimated_replacement_cost": 872918.86,
+      "created_at": "2024-10-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0075",
+      "code": "IFX-CON-00075",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.760055,
+      "longitude": -122.419441,
+      "estimated_replacement_cost": 185974.82,
+      "created_at": "2024-12-08T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0076",
+      "code": "IFX-CON-00076",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.535266,
+      "longitude": -122.276283,
+      "estimated_replacement_cost": 1405639.88,
+      "created_at": "2025-01-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0077",
+      "code": "IFX-CON-00077",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.65393,
+      "longitude": -122.185654,
+      "estimated_replacement_cost": 283644.97,
+      "created_at": "2026-05-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0078",
+      "code": "IFX-CON-00078",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.91979,
+      "longitude": -122.474082,
+      "estimated_replacement_cost": 431008.89,
+      "created_at": "2025-02-24T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0079",
+      "code": "IFX-CON-00079",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 65,
+      "latitude": 37.681101,
+      "longitude": -122.35736,
+      "estimated_replacement_cost": 849042.91,
+      "created_at": "2025-10-18T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0080",
+      "code": "IFX-CON-00080",
+      "status": "OPERATIONAL",
+      "condition_score": 74,
+      "latitude": 37.780901,
+      "longitude": -122.566285,
+      "estimated_replacement_cost": 27390.89,
+      "created_at": "2025-05-13T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0081",
+      "code": "IFX-CON-00081",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.866735,
+      "longitude": -122.547156,
+      "estimated_replacement_cost": 94861.16,
+      "created_at": "2025-05-31T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0082",
+      "code": "IFX-CON-00082",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.905891,
+      "longitude": -122.592959,
+      "estimated_replacement_cost": 479971.89,
+      "created_at": "2025-03-11T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0083",
+      "code": "IFX-CON-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 38.007452,
+      "longitude": -122.501301,
+      "estimated_replacement_cost": 488565.71,
+      "created_at": "2026-03-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0084",
+      "code": "IFX-CON-00084",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.919321,
+      "longitude": -122.479967,
+      "estimated_replacement_cost": 1261671.11,
+      "created_at": "2026-01-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0085",
+      "code": "IFX-CON-00085",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.828195,
+      "longitude": -122.273762,
+      "estimated_replacement_cost": 186501.4,
+      "created_at": "2025-07-11T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0086",
+      "code": "IFX-CON-00086",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.69839,
+      "longitude": -122.526919,
+      "estimated_replacement_cost": 224320.32,
+      "created_at": "2026-03-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0087",
+      "code": "IFX-CON-00087",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.691719,
+      "longitude": -122.435046,
+      "estimated_replacement_cost": 1028261.58,
+      "created_at": "2026-08-14T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0088",
+      "code": "IFX-CON-00088",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.831008,
+      "longitude": -122.482325,
+      "estimated_replacement_cost": 608500.85,
+      "created_at": "2025-04-01T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0089",
+      "code": "IFX-CON-00089",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.735962,
+      "longitude": -122.572776,
+      "estimated_replacement_cost": 175631.54,
+      "created_at": "2026-03-29T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0090",
+      "code": "IFX-CON-00090",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 38.009327,
+      "longitude": -122.66744,
+      "estimated_replacement_cost": 944556.24,
+      "created_at": "2025-07-31T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0091",
+      "code": "IFX-CON-00091",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.815081,
+      "longitude": -122.418544,
+      "estimated_replacement_cost": 812449.75,
+      "created_at": "2025-12-06T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0092",
+      "code": "IFX-CON-00092",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.668453,
+      "longitude": -122.217621,
+      "estimated_replacement_cost": 905249.44,
+      "created_at": "2026-06-13T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0093",
+      "code": "IFX-CON-00093",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.688243,
+      "longitude": -122.557675,
+      "estimated_replacement_cost": 1448396.95,
+      "created_at": "2025-11-15T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0094",
+      "code": "IFX-CON-00094",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.718678,
+      "longitude": -122.275201,
+      "estimated_replacement_cost": 285274.1,
+      "created_at": "2026-05-22T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0095",
+      "code": "IFX-CON-00095",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.838719,
+      "longitude": -122.392099,
+      "estimated_replacement_cost": 54783.32,
+      "created_at": "2025-06-11T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0096",
+      "code": "IFX-CON-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.573918,
+      "longitude": -122.540652,
+      "estimated_replacement_cost": 1402232.0,
+      "created_at": "2026-05-30T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0097",
+      "code": "IFX-CON-00097",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 38.006569,
+      "longitude": -122.483634,
+      "estimated_replacement_cost": 777332.32,
+      "created_at": "2026-07-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0098",
+      "code": "IFX-CON-00098",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.815112,
+      "longitude": -122.245195,
+      "estimated_replacement_cost": 849545.75,
+      "created_at": "2025-03-28T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0099",
+      "code": "IFX-CON-00099",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.713579,
+      "longitude": -122.225447,
+      "estimated_replacement_cost": 898708.39,
+      "created_at": "2024-11-14T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0100",
+      "code": "IFX-CON-00100",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.612158,
+      "longitude": -122.276735,
+      "estimated_replacement_cost": 570515.02,
+      "created_at": "2025-03-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0101",
+      "code": "IFX-CON-00101",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.823453,
+      "longitude": -122.324684,
+      "estimated_replacement_cost": 856251.23,
+      "created_at": "2026-02-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0102",
+      "code": "IFX-CON-00102",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.687338,
+      "longitude": -122.592786,
+      "estimated_replacement_cost": 936725.42,
+      "created_at": "2024-12-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0103",
+      "code": "IFX-CON-00103",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.750595,
+      "longitude": -122.575086,
+      "estimated_replacement_cost": 1157062.69,
+      "created_at": "2025-05-06T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0104",
+      "code": "IFX-CON-00104",
+      "status": "OPERATIONAL",
+      "condition_score": 66,
+      "latitude": 37.812541,
+      "longitude": -122.286193,
+      "estimated_replacement_cost": 1405389.3,
+      "created_at": "2025-07-02T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0105",
+      "code": "IFX-CON-00105",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.833675,
+      "longitude": -122.539646,
+      "estimated_replacement_cost": 297342.88,
+      "created_at": "2025-11-24T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0106",
+      "code": "IFX-CON-00106",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.934736,
+      "longitude": -122.550229,
+      "estimated_replacement_cost": 434943.72,
+      "created_at": "2026-08-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0107",
+      "code": "IFX-CON-00107",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.658793,
+      "longitude": -122.369712,
+      "estimated_replacement_cost": 1277868.44,
+      "created_at": "2026-04-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0108",
+      "code": "IFX-CON-00108",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.586457,
+      "longitude": -122.48717,
+      "estimated_replacement_cost": 679062.14,
+      "created_at": "2024-12-09T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0109",
+      "code": "IFX-CON-00109",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.538957,
+      "longitude": -122.365102,
+      "estimated_replacement_cost": 1284536.72,
+      "created_at": "2024-11-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0110",
+      "code": "IFX-CON-00110",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.541896,
+      "longitude": -122.402741,
+      "estimated_replacement_cost": 364668.49,
+      "created_at": "2024-11-12T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0111",
+      "code": "IFX-CON-00111",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.647649,
+      "longitude": -122.353435,
+      "estimated_replacement_cost": 878255.28,
+      "created_at": "2025-09-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0112",
+      "code": "IFX-CON-00112",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.553748,
+      "longitude": -122.514989,
+      "estimated_replacement_cost": 331669.98,
+      "created_at": "2026-07-31T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0113",
+      "code": "IFX-CON-00113",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.904786,
+      "longitude": -122.230221,
+      "estimated_replacement_cost": 796331.92,
+      "created_at": "2025-12-12T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0114",
+      "code": "IFX-CON-00114",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.938214,
+      "longitude": -122.179168,
+      "estimated_replacement_cost": 336877.86,
+      "created_at": "2025-04-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0115",
+      "code": "IFX-CON-00115",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.640626,
+      "longitude": -122.2501,
+      "estimated_replacement_cost": 1000936.88,
+      "created_at": "2026-08-02T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0116",
+      "code": "IFX-CON-00116",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.578405,
+      "longitude": -122.229207,
+      "estimated_replacement_cost": 1073882.52,
+      "created_at": "2025-08-14T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0117",
+      "code": "IFX-CON-00117",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.853743,
+      "longitude": -122.432572,
+      "estimated_replacement_cost": 750325.61,
+      "created_at": "2026-05-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0118",
+      "code": "IFX-CON-00118",
+      "status": "ACTIVE",
+      "condition_score": 57,
+      "latitude": 37.809099,
+      "longitude": -122.174256,
+      "estimated_replacement_cost": 548878.96,
+      "created_at": "2026-08-21T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0119",
+      "code": "IFX-CON-00119",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.814309,
+      "longitude": -122.189337,
+      "estimated_replacement_cost": 128937.78,
+      "created_at": "2024-10-08T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0120",
+      "code": "IFX-CON-00120",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.962985,
+      "longitude": -122.633039,
+      "estimated_replacement_cost": 1049566.23,
+      "created_at": "2025-06-26T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0121",
+      "code": "IFX-CON-00121",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.603166,
+      "longitude": -122.438846,
+      "estimated_replacement_cost": 1479330.56,
+      "created_at": "2025-02-14T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0122",
+      "code": "IFX-CON-00122",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.611875,
+      "longitude": -122.299196,
+      "estimated_replacement_cost": 757218.63,
+      "created_at": "2025-10-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0123",
+      "code": "IFX-CON-00123",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.95978,
+      "longitude": -122.24659,
+      "estimated_replacement_cost": 1048172.2,
+      "created_at": "2024-10-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0124",
+      "code": "IFX-CON-00124",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.526318,
+      "longitude": -122.34102,
+      "estimated_replacement_cost": 297264.75,
+      "created_at": "2024-11-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0125",
+      "code": "IFX-CON-00125",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.993326,
+      "longitude": -122.278791,
+      "estimated_replacement_cost": 1325173.83,
+      "created_at": "2025-07-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0126",
+      "code": "IFX-CON-00126",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.742834,
+      "longitude": -122.557933,
+      "estimated_replacement_cost": 539887.63,
+      "created_at": "2024-12-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0127",
+      "code": "IFX-CON-00127",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.626856,
+      "longitude": -122.401378,
+      "estimated_replacement_cost": 276030.13,
+      "created_at": "2026-02-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0128",
+      "code": "IFX-CON-00128",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.621447,
+      "longitude": -122.311853,
+      "estimated_replacement_cost": 65488.27,
+      "created_at": "2026-05-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0129",
+      "code": "IFX-CON-00129",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.853605,
+      "longitude": -122.48321,
+      "estimated_replacement_cost": 1162071.88,
+      "created_at": "2025-08-10T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0130",
+      "code": "IFX-CON-00130",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.68491,
+      "longitude": -122.443182,
+      "estimated_replacement_cost": 238343.47,
+      "created_at": "2025-03-16T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0131",
+      "code": "IFX-CON-00131",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.682983,
+      "longitude": -122.446908,
+      "estimated_replacement_cost": 334479.63,
+      "created_at": "2026-02-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0132",
+      "code": "IFX-CON-00132",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.976626,
+      "longitude": -122.42621,
+      "estimated_replacement_cost": 1132226.61,
+      "created_at": "2025-09-23T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0133",
+      "code": "IFX-CON-00133",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.677068,
+      "longitude": -122.553271,
+      "estimated_replacement_cost": 1284674.44,
+      "created_at": "2026-05-12T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0134",
+      "code": "IFX-CON-00134",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.852956,
+      "longitude": -122.34029,
+      "estimated_replacement_cost": 1263506.36,
+      "created_at": "2026-04-03T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0135",
+      "code": "IFX-CON-00135",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.925571,
+      "longitude": -122.445348,
+      "estimated_replacement_cost": 397511.24,
+      "created_at": "2024-10-21T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0136",
+      "code": "IFX-CON-00136",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.70955,
+      "longitude": -122.404221,
+      "estimated_replacement_cost": 1238230.11,
+      "created_at": "2026-05-21T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0137",
+      "code": "IFX-CON-00137",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.822285,
+      "longitude": -122.603045,
+      "estimated_replacement_cost": 559324.02,
+      "created_at": "2026-02-04T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0138",
+      "code": "IFX-CON-00138",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.989535,
+      "longitude": -122.562847,
+      "estimated_replacement_cost": 870219.22,
+      "created_at": "2025-01-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0139",
+      "code": "IFX-CON-00139",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.856893,
+      "longitude": -122.4626,
+      "estimated_replacement_cost": 532384.99,
+      "created_at": "2025-04-17T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0140",
+      "code": "IFX-CON-00140",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.676068,
+      "longitude": -122.528727,
+      "estimated_replacement_cost": 529561.01,
+      "created_at": "2025-11-27T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0141",
+      "code": "IFX-CON-00141",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.673527,
+      "longitude": -122.169818,
+      "estimated_replacement_cost": 180218.79,
+      "created_at": "2026-06-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0142",
+      "code": "IFX-CON-00142",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.868995,
+      "longitude": -122.435567,
+      "estimated_replacement_cost": 1367505.94,
+      "created_at": "2024-12-29T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0143",
+      "code": "IFX-CON-00143",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.784775,
+      "longitude": -122.43804,
+      "estimated_replacement_cost": 819991.79,
+      "created_at": "2025-03-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0144",
+      "code": "IFX-CON-00144",
+      "status": "INSPECTED",
+      "condition_score": 73,
+      "latitude": 37.714031,
+      "longitude": -122.497524,
+      "estimated_replacement_cost": 1063384.34,
+      "created_at": "2026-06-11T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0145",
+      "code": "IFX-CON-00145",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.776974,
+      "longitude": -122.279531,
+      "estimated_replacement_cost": 1062128.55,
+      "created_at": "2025-06-19T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0146",
+      "code": "IFX-CON-00146",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.743487,
+      "longitude": -122.231654,
+      "estimated_replacement_cost": 1342160.82,
+      "created_at": "2025-01-25T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0147",
+      "code": "IFX-CON-00147",
+      "status": "OPERATIONAL",
+      "condition_score": 60,
+      "latitude": 37.68985,
+      "longitude": -122.228006,
+      "estimated_replacement_cost": 920201.18,
+      "created_at": "2025-10-05T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0148",
+      "code": "IFX-CON-00148",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.933416,
+      "longitude": -122.658707,
+      "estimated_replacement_cost": 430415.91,
+      "created_at": "2026-08-18T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0149",
+      "code": "IFX-CON-00149",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.807204,
+      "longitude": -122.647034,
+      "estimated_replacement_cost": 555133.34,
+      "created_at": "2026-02-04T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_conditions.conditionsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Conditions Asset Segment #0150",
+      "code": "IFX-CON-00150",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.866044,
+      "longitude": -122.219071,
+      "estimated_replacement_cost": 31985.23,
+      "created_at": "2026-06-07T10:34:25.363025",
+      "updated_at": "2026-09-08T10:34:25.363025",
+      "notes": "Standard municipal engineering inventory record for conditions.",
+      "metadata": {
+        "spec_code": "SPEC-CONDITIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  }
+]

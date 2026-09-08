@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0001",
+      "code": "IFX-DOC-00001",
+      "status": "INSPECTED",
+      "condition_score": 93,
+      "latitude": 37.669547,
+      "longitude": -122.590093,
+      "estimated_replacement_cost": 458514.38,
+      "created_at": "2026-08-21T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0002",
+      "code": "IFX-DOC-00002",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.547607,
+      "longitude": -122.3352,
+      "estimated_replacement_cost": 192801.43,
+      "created_at": "2026-04-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0003",
+      "code": "IFX-DOC-00003",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.604964,
+      "longitude": -122.451573,
+      "estimated_replacement_cost": 25767.44,
+      "created_at": "2025-02-26T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0004",
+      "code": "IFX-DOC-00004",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.913168,
+      "longitude": -122.376809,
+      "estimated_replacement_cost": 309691.55,
+      "created_at": "2025-01-04T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0005",
+      "code": "IFX-DOC-00005",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.649095,
+      "longitude": -122.318994,
+      "estimated_replacement_cost": 373896.99,
+      "created_at": "2026-01-08T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0006",
+      "code": "IFX-DOC-00006",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.666936,
+      "longitude": -122.310066,
+      "estimated_replacement_cost": 1384291.75,
+      "created_at": "2026-06-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0007",
+      "code": "IFX-DOC-00007",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.8139,
+      "longitude": -122.475705,
+      "estimated_replacement_cost": 979260.65,
+      "created_at": "2024-11-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0008",
+      "code": "IFX-DOC-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.888932,
+      "longitude": -122.591134,
+      "estimated_replacement_cost": 710134.85,
+      "created_at": "2026-07-31T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0009",
+      "code": "IFX-DOC-00009",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.775453,
+      "longitude": -122.54097,
+      "estimated_replacement_cost": 1018600.28,
+      "created_at": "2026-05-06T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0010",
+      "code": "IFX-DOC-00010",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.69041,
+      "longitude": -122.653824,
+      "estimated_replacement_cost": 422664.39,
+      "created_at": "2025-11-04T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0011",
+      "code": "IFX-DOC-00011",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.679517,
+      "longitude": -122.632417,
+      "estimated_replacement_cost": 1256208.18,
+      "created_at": "2024-11-07T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0012",
+      "code": "IFX-DOC-00012",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.969861,
+      "longitude": -122.521591,
+      "estimated_replacement_cost": 1011050.24,
+      "created_at": "2025-07-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0013",
+      "code": "IFX-DOC-00013",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.838911,
+      "longitude": -122.418732,
+      "estimated_replacement_cost": 1485697.29,
+      "created_at": "2024-11-25T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0014",
+      "code": "IFX-DOC-00014",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.986483,
+      "longitude": -122.475451,
+      "estimated_replacement_cost": 1229702.05,
+      "created_at": "2025-06-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0015",
+      "code": "IFX-DOC-00015",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.54449,
+      "longitude": -122.346777,
+      "estimated_replacement_cost": 1067934.43,
+      "created_at": "2025-11-04T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0016",
+      "code": "IFX-DOC-00016",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.849525,
+      "longitude": -122.362332,
+      "estimated_replacement_cost": 454648.28,
+      "created_at": "2025-07-17T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0017",
+      "code": "IFX-DOC-00017",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.979744,
+      "longitude": -122.469097,
+      "estimated_replacement_cost": 653788.46,
+      "created_at": "2025-05-30T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0018",
+      "code": "IFX-DOC-00018",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.730214,
+      "longitude": -122.627417,
+      "estimated_replacement_cost": 392307.66,
+      "created_at": "2026-07-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0019",
+      "code": "IFX-DOC-00019",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.597053,
+      "longitude": -122.404064,
+      "estimated_replacement_cost": 987479.96,
+      "created_at": "2026-06-29T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0020",
+      "code": "IFX-DOC-00020",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.927521,
+      "longitude": -122.583215,
+      "estimated_replacement_cost": 600410.62,
+      "created_at": "2024-09-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0021",
+      "code": "IFX-DOC-00021",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.97199,
+      "longitude": -122.199228,
+      "estimated_replacement_cost": 1347354.19,
+      "created_at": "2026-04-17T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0022",
+      "code": "IFX-DOC-00022",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.769184,
+      "longitude": -122.510122,
+      "estimated_replacement_cost": 1172873.46,
+      "created_at": "2025-01-09T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0023",
+      "code": "IFX-DOC-00023",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 38.018166,
+      "longitude": -122.510752,
+      "estimated_replacement_cost": 934802.49,
+      "created_at": "2026-03-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0024",
+      "code": "IFX-DOC-00024",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.770246,
+      "longitude": -122.345896,
+      "estimated_replacement_cost": 1010859.93,
+      "created_at": "2025-12-17T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0025",
+      "code": "IFX-DOC-00025",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.864958,
+      "longitude": -122.356187,
+      "estimated_replacement_cost": 1441798.06,
+      "created_at": "2026-01-07T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0026",
+      "code": "IFX-DOC-00026",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.826379,
+      "longitude": -122.518312,
+      "estimated_replacement_cost": 898668.95,
+      "created_at": "2024-11-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0027",
+      "code": "IFX-DOC-00027",
+      "status": "ACTIVE",
+      "condition_score": 64,
+      "latitude": 37.7631,
+      "longitude": -122.49403,
+      "estimated_replacement_cost": 412022.75,
+      "created_at": "2025-02-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0028",
+      "code": "IFX-DOC-00028",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.574345,
+      "longitude": -122.614819,
+      "estimated_replacement_cost": 606720.3,
+      "created_at": "2025-01-30T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0029",
+      "code": "IFX-DOC-00029",
+      "status": "ACTIVE",
+      "condition_score": 97,
+      "latitude": 37.829925,
+      "longitude": -122.667921,
+      "estimated_replacement_cost": 596791.22,
+      "created_at": "2026-04-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0030",
+      "code": "IFX-DOC-00030",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 38.023105,
+      "longitude": -122.452835,
+      "estimated_replacement_cost": 421914.41,
+      "created_at": "2026-02-03T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0031",
+      "code": "IFX-DOC-00031",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.913905,
+      "longitude": -122.564594,
+      "estimated_replacement_cost": 981002.17,
+      "created_at": "2026-06-25T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0032",
+      "code": "IFX-DOC-00032",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.910854,
+      "longitude": -122.60175,
+      "estimated_replacement_cost": 86252.41,
+      "created_at": "2024-10-03T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0033",
+      "code": "IFX-DOC-00033",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.686607,
+      "longitude": -122.290747,
+      "estimated_replacement_cost": 988732.2,
+      "created_at": "2025-12-13T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0034",
+      "code": "IFX-DOC-00034",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 38.006091,
+      "longitude": -122.639403,
+      "estimated_replacement_cost": 233360.91,
+      "created_at": "2026-05-01T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0035",
+      "code": "IFX-DOC-00035",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 38.007226,
+      "longitude": -122.404588,
+      "estimated_replacement_cost": 1080244.77,
+      "created_at": "2025-03-14T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0036",
+      "code": "IFX-DOC-00036",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.965044,
+      "longitude": -122.359346,
+      "estimated_replacement_cost": 380800.83,
+      "created_at": "2024-10-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0037",
+      "code": "IFX-DOC-00037",
+      "status": "STANDBY",
+      "condition_score": 70,
+      "latitude": 37.615704,
+      "longitude": -122.218508,
+      "estimated_replacement_cost": 894062.0,
+      "created_at": "2025-12-21T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0038",
+      "code": "IFX-DOC-00038",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.614196,
+      "longitude": -122.595581,
+      "estimated_replacement_cost": 805688.01,
+      "created_at": "2024-12-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0039",
+      "code": "IFX-DOC-00039",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.859003,
+      "longitude": -122.530068,
+      "estimated_replacement_cost": 520568.92,
+      "created_at": "2025-03-16T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0040",
+      "code": "IFX-DOC-00040",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.865118,
+      "longitude": -122.460414,
+      "estimated_replacement_cost": 248678.33,
+      "created_at": "2025-03-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0041",
+      "code": "IFX-DOC-00041",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 68,
+      "latitude": 37.820441,
+      "longitude": -122.508075,
+      "estimated_replacement_cost": 161250.53,
+      "created_at": "2025-11-22T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0042",
+      "code": "IFX-DOC-00042",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.588999,
+      "longitude": -122.430269,
+      "estimated_replacement_cost": 1372367.84,
+      "created_at": "2025-12-20T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0043",
+      "code": "IFX-DOC-00043",
+      "status": "ACTIVE",
+      "condition_score": 85,
+      "latitude": 37.962202,
+      "longitude": -122.541846,
+      "estimated_replacement_cost": 1044496.4,
+      "created_at": "2025-06-14T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0044",
+      "code": "IFX-DOC-00044",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.874209,
+      "longitude": -122.659151,
+      "estimated_replacement_cost": 1436621.45,
+      "created_at": "2026-06-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0045",
+      "code": "IFX-DOC-00045",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.755617,
+      "longitude": -122.3239,
+      "estimated_replacement_cost": 1289207.03,
+      "created_at": "2025-11-20T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0046",
+      "code": "IFX-DOC-00046",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.782959,
+      "longitude": -122.334105,
+      "estimated_replacement_cost": 977180.04,
+      "created_at": "2025-03-02T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0047",
+      "code": "IFX-DOC-00047",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.862829,
+      "longitude": -122.33165,
+      "estimated_replacement_cost": 1344696.56,
+      "created_at": "2026-06-12T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0048",
+      "code": "IFX-DOC-00048",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.752376,
+      "longitude": -122.469841,
+      "estimated_replacement_cost": 1310751.84,
+      "created_at": "2026-04-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0049",
+      "code": "IFX-DOC-00049",
+      "status": "ACTIVE",
+      "condition_score": 72,
+      "latitude": 37.830555,
+      "longitude": -122.415515,
+      "estimated_replacement_cost": 673625.14,
+      "created_at": "2025-09-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0050",
+      "code": "IFX-DOC-00050",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.765431,
+      "longitude": -122.510771,
+      "estimated_replacement_cost": 687796.87,
+      "created_at": "2025-12-17T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0051",
+      "code": "IFX-DOC-00051",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 38.012844,
+      "longitude": -122.511888,
+      "estimated_replacement_cost": 455717.61,
+      "created_at": "2025-12-12T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0052",
+      "code": "IFX-DOC-00052",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.876822,
+      "longitude": -122.468835,
+      "estimated_replacement_cost": 722326.42,
+      "created_at": "2025-12-06T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0053",
+      "code": "IFX-DOC-00053",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.994403,
+      "longitude": -122.275405,
+      "estimated_replacement_cost": 439617.69,
+      "created_at": "2025-04-30T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0054",
+      "code": "IFX-DOC-00054",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.713953,
+      "longitude": -122.416072,
+      "estimated_replacement_cost": 454550.71,
+      "created_at": "2025-08-26T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0055",
+      "code": "IFX-DOC-00055",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.928348,
+      "longitude": -122.575259,
+      "estimated_replacement_cost": 1400483.76,
+      "created_at": "2026-01-24T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0056",
+      "code": "IFX-DOC-00056",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.54374,
+      "longitude": -122.298599,
+      "estimated_replacement_cost": 945983.72,
+      "created_at": "2026-09-02T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0057",
+      "code": "IFX-DOC-00057",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.794234,
+      "longitude": -122.331265,
+      "estimated_replacement_cost": 159610.47,
+      "created_at": "2025-05-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0058",
+      "code": "IFX-DOC-00058",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.803012,
+      "longitude": -122.348701,
+      "estimated_replacement_cost": 934101.85,
+      "created_at": "2025-01-28T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0059",
+      "code": "IFX-DOC-00059",
+      "status": "ACTIVE",
+      "condition_score": 96,
+      "latitude": 37.864217,
+      "longitude": -122.353204,
+      "estimated_replacement_cost": 632421.2,
+      "created_at": "2025-07-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0060",
+      "code": "IFX-DOC-00060",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.89902,
+      "longitude": -122.648097,
+      "estimated_replacement_cost": 1239510.63,
+      "created_at": "2025-05-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0061",
+      "code": "IFX-DOC-00061",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.576152,
+      "longitude": -122.286898,
+      "estimated_replacement_cost": 596709.14,
+      "created_at": "2024-12-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0062",
+      "code": "IFX-DOC-00062",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.574949,
+      "longitude": -122.435345,
+      "estimated_replacement_cost": 1166626.16,
+      "created_at": "2026-04-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0063",
+      "code": "IFX-DOC-00063",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.563115,
+      "longitude": -122.617581,
+      "estimated_replacement_cost": 86342.93,
+      "created_at": "2025-05-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0064",
+      "code": "IFX-DOC-00064",
+      "status": "STANDBY",
+      "condition_score": 70,
+      "latitude": 37.843137,
+      "longitude": -122.327064,
+      "estimated_replacement_cost": 1255090.55,
+      "created_at": "2025-04-21T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0065",
+      "code": "IFX-DOC-00065",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.79387,
+      "longitude": -122.371682,
+      "estimated_replacement_cost": 932846.19,
+      "created_at": "2026-02-26T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0066",
+      "code": "IFX-DOC-00066",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.650763,
+      "longitude": -122.451244,
+      "estimated_replacement_cost": 1175768.32,
+      "created_at": "2025-03-09T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0067",
+      "code": "IFX-DOC-00067",
+      "status": "STANDBY",
+      "condition_score": 63,
+      "latitude": 37.889969,
+      "longitude": -122.505261,
+      "estimated_replacement_cost": 344878.16,
+      "created_at": "2026-03-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0068",
+      "code": "IFX-DOC-00068",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.861737,
+      "longitude": -122.491677,
+      "estimated_replacement_cost": 1490906.26,
+      "created_at": "2025-11-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0069",
+      "code": "IFX-DOC-00069",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 38.010217,
+      "longitude": -122.178492,
+      "estimated_replacement_cost": 551092.25,
+      "created_at": "2025-01-29T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0070",
+      "code": "IFX-DOC-00070",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.554689,
+      "longitude": -122.605735,
+      "estimated_replacement_cost": 739529.24,
+      "created_at": "2024-12-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0071",
+      "code": "IFX-DOC-00071",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.711441,
+      "longitude": -122.43514,
+      "estimated_replacement_cost": 486397.55,
+      "created_at": "2026-04-20T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0072",
+      "code": "IFX-DOC-00072",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.887871,
+      "longitude": -122.38357,
+      "estimated_replacement_cost": 308328.93,
+      "created_at": "2025-09-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0073",
+      "code": "IFX-DOC-00073",
+      "status": "OPERATIONAL",
+      "condition_score": 60,
+      "latitude": 37.937435,
+      "longitude": -122.308252,
+      "estimated_replacement_cost": 230934.47,
+      "created_at": "2025-07-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0074",
+      "code": "IFX-DOC-00074",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.88399,
+      "longitude": -122.623157,
+      "estimated_replacement_cost": 780641.97,
+      "created_at": "2024-12-25T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0075",
+      "code": "IFX-DOC-00075",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.891541,
+      "longitude": -122.205637,
+      "estimated_replacement_cost": 63710.74,
+      "created_at": "2026-01-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0076",
+      "code": "IFX-DOC-00076",
+      "status": "OPERATIONAL",
+      "condition_score": 60,
+      "latitude": 37.777664,
+      "longitude": -122.453778,
+      "estimated_replacement_cost": 1427222.6,
+      "created_at": "2025-06-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0077",
+      "code": "IFX-DOC-00077",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.654364,
+      "longitude": -122.322255,
+      "estimated_replacement_cost": 389866.46,
+      "created_at": "2025-12-16T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0078",
+      "code": "IFX-DOC-00078",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.636321,
+      "longitude": -122.353853,
+      "estimated_replacement_cost": 247629.21,
+      "created_at": "2026-07-03T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0079",
+      "code": "IFX-DOC-00079",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.592375,
+      "longitude": -122.51557,
+      "estimated_replacement_cost": 651714.63,
+      "created_at": "2024-10-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0080",
+      "code": "IFX-DOC-00080",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.940368,
+      "longitude": -122.433343,
+      "estimated_replacement_cost": 97207.68,
+      "created_at": "2025-06-02T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0081",
+      "code": "IFX-DOC-00081",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.561334,
+      "longitude": -122.326383,
+      "estimated_replacement_cost": 1342621.74,
+      "created_at": "2025-07-21T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0082",
+      "code": "IFX-DOC-00082",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.586376,
+      "longitude": -122.252354,
+      "estimated_replacement_cost": 678826.45,
+      "created_at": "2025-03-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0083",
+      "code": "IFX-DOC-00083",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.617867,
+      "longitude": -122.325037,
+      "estimated_replacement_cost": 1371291.16,
+      "created_at": "2025-06-03T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0084",
+      "code": "IFX-DOC-00084",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.526914,
+      "longitude": -122.599415,
+      "estimated_replacement_cost": 730608.97,
+      "created_at": "2025-02-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0085",
+      "code": "IFX-DOC-00085",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.751007,
+      "longitude": -122.199982,
+      "estimated_replacement_cost": 1310161.5,
+      "created_at": "2026-07-21T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0086",
+      "code": "IFX-DOC-00086",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.629965,
+      "longitude": -122.423886,
+      "estimated_replacement_cost": 569679.36,
+      "created_at": "2024-10-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0087",
+      "code": "IFX-DOC-00087",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.582099,
+      "longitude": -122.441081,
+      "estimated_replacement_cost": 782765.14,
+      "created_at": "2025-11-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0088",
+      "code": "IFX-DOC-00088",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.707784,
+      "longitude": -122.381444,
+      "estimated_replacement_cost": 69122.32,
+      "created_at": "2025-03-04T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0089",
+      "code": "IFX-DOC-00089",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.954704,
+      "longitude": -122.45566,
+      "estimated_replacement_cost": 1001051.38,
+      "created_at": "2024-11-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0090",
+      "code": "IFX-DOC-00090",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.872313,
+      "longitude": -122.482008,
+      "estimated_replacement_cost": 209317.85,
+      "created_at": "2026-03-14T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0091",
+      "code": "IFX-DOC-00091",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.97224,
+      "longitude": -122.417874,
+      "estimated_replacement_cost": 1097077.16,
+      "created_at": "2025-03-16T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0092",
+      "code": "IFX-DOC-00092",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.60454,
+      "longitude": -122.564853,
+      "estimated_replacement_cost": 586744.63,
+      "created_at": "2026-02-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0093",
+      "code": "IFX-DOC-00093",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.874695,
+      "longitude": -122.251432,
+      "estimated_replacement_cost": 659802.54,
+      "created_at": "2025-10-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0094",
+      "code": "IFX-DOC-00094",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.961736,
+      "longitude": -122.186684,
+      "estimated_replacement_cost": 1198135.35,
+      "created_at": "2024-11-16T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0095",
+      "code": "IFX-DOC-00095",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.6504,
+      "longitude": -122.569995,
+      "estimated_replacement_cost": 214334.86,
+      "created_at": "2025-09-07T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0096",
+      "code": "IFX-DOC-00096",
+      "status": "STANDBY",
+      "condition_score": 75,
+      "latitude": 37.701972,
+      "longitude": -122.597214,
+      "estimated_replacement_cost": 731116.53,
+      "created_at": "2024-12-07T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0097",
+      "code": "IFX-DOC-00097",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.633532,
+      "longitude": -122.20243,
+      "estimated_replacement_cost": 874759.36,
+      "created_at": "2026-01-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0098",
+      "code": "IFX-DOC-00098",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.785769,
+      "longitude": -122.658588,
+      "estimated_replacement_cost": 1016832.04,
+      "created_at": "2024-10-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0099",
+      "code": "IFX-DOC-00099",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.596884,
+      "longitude": -122.581685,
+      "estimated_replacement_cost": 461969.78,
+      "created_at": "2025-11-30T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0100",
+      "code": "IFX-DOC-00100",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.896652,
+      "longitude": -122.272537,
+      "estimated_replacement_cost": 1390213.01,
+      "created_at": "2025-07-19T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0101",
+      "code": "IFX-DOC-00101",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 38.015834,
+      "longitude": -122.465289,
+      "estimated_replacement_cost": 791661.14,
+      "created_at": "2025-11-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0102",
+      "code": "IFX-DOC-00102",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.778354,
+      "longitude": -122.391814,
+      "estimated_replacement_cost": 817769.01,
+      "created_at": "2025-04-09T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0103",
+      "code": "IFX-DOC-00103",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.631051,
+      "longitude": -122.429983,
+      "estimated_replacement_cost": 47377.13,
+      "created_at": "2025-07-21T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0104",
+      "code": "IFX-DOC-00104",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.851615,
+      "longitude": -122.212664,
+      "estimated_replacement_cost": 357539.4,
+      "created_at": "2026-01-12T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0105",
+      "code": "IFX-DOC-00105",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.658901,
+      "longitude": -122.296058,
+      "estimated_replacement_cost": 1257670.56,
+      "created_at": "2025-05-14T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0106",
+      "code": "IFX-DOC-00106",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.889701,
+      "longitude": -122.357849,
+      "estimated_replacement_cost": 1154550.41,
+      "created_at": "2026-08-25T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0107",
+      "code": "IFX-DOC-00107",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.954929,
+      "longitude": -122.339943,
+      "estimated_replacement_cost": 890149.12,
+      "created_at": "2026-05-10T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0108",
+      "code": "IFX-DOC-00108",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.61163,
+      "longitude": -122.305171,
+      "estimated_replacement_cost": 88429.78,
+      "created_at": "2025-10-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0109",
+      "code": "IFX-DOC-00109",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.546103,
+      "longitude": -122.565588,
+      "estimated_replacement_cost": 496026.63,
+      "created_at": "2026-01-29T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0110",
+      "code": "IFX-DOC-00110",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.628359,
+      "longitude": -122.310515,
+      "estimated_replacement_cost": 1297982.97,
+      "created_at": "2026-01-29T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0111",
+      "code": "IFX-DOC-00111",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.965791,
+      "longitude": -122.340033,
+      "estimated_replacement_cost": 536646.88,
+      "created_at": "2026-05-22T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0112",
+      "code": "IFX-DOC-00112",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.538764,
+      "longitude": -122.49371,
+      "estimated_replacement_cost": 466750.19,
+      "created_at": "2025-02-06T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0113",
+      "code": "IFX-DOC-00113",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.933162,
+      "longitude": -122.63812,
+      "estimated_replacement_cost": 325617.45,
+      "created_at": "2025-06-08T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0114",
+      "code": "IFX-DOC-00114",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.771184,
+      "longitude": -122.351416,
+      "estimated_replacement_cost": 213856.82,
+      "created_at": "2025-06-17T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0115",
+      "code": "IFX-DOC-00115",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.694973,
+      "longitude": -122.467374,
+      "estimated_replacement_cost": 1144396.8,
+      "created_at": "2025-10-02T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0116",
+      "code": "IFX-DOC-00116",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.99753,
+      "longitude": -122.232208,
+      "estimated_replacement_cost": 323844.59,
+      "created_at": "2025-08-21T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0117",
+      "code": "IFX-DOC-00117",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.80494,
+      "longitude": -122.188635,
+      "estimated_replacement_cost": 540195.17,
+      "created_at": "2025-09-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0118",
+      "code": "IFX-DOC-00118",
+      "status": "INSPECTED",
+      "condition_score": 67,
+      "latitude": 37.902029,
+      "longitude": -122.633153,
+      "estimated_replacement_cost": 255126.07,
+      "created_at": "2025-04-23T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0119",
+      "code": "IFX-DOC-00119",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.67841,
+      "longitude": -122.385401,
+      "estimated_replacement_cost": 519026.83,
+      "created_at": "2025-11-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0120",
+      "code": "IFX-DOC-00120",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.66981,
+      "longitude": -122.616838,
+      "estimated_replacement_cost": 518777.31,
+      "created_at": "2024-11-15T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0121",
+      "code": "IFX-DOC-00121",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.902698,
+      "longitude": -122.342108,
+      "estimated_replacement_cost": 367546.97,
+      "created_at": "2024-10-06T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0122",
+      "code": "IFX-DOC-00122",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.914057,
+      "longitude": -122.216703,
+      "estimated_replacement_cost": 722432.43,
+      "created_at": "2026-07-19T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0123",
+      "code": "IFX-DOC-00123",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.761381,
+      "longitude": -122.32577,
+      "estimated_replacement_cost": 560519.93,
+      "created_at": "2025-12-08T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0124",
+      "code": "IFX-DOC-00124",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.822086,
+      "longitude": -122.59573,
+      "estimated_replacement_cost": 779839.82,
+      "created_at": "2026-08-12T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0125",
+      "code": "IFX-DOC-00125",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.984744,
+      "longitude": -122.517977,
+      "estimated_replacement_cost": 1339859.17,
+      "created_at": "2025-09-03T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0126",
+      "code": "IFX-DOC-00126",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.885215,
+      "longitude": -122.589693,
+      "estimated_replacement_cost": 408315.21,
+      "created_at": "2025-07-13T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0127",
+      "code": "IFX-DOC-00127",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.867083,
+      "longitude": -122.444811,
+      "estimated_replacement_cost": 351146.4,
+      "created_at": "2025-02-26T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0128",
+      "code": "IFX-DOC-00128",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.856992,
+      "longitude": -122.231645,
+      "estimated_replacement_cost": 1235506.49,
+      "created_at": "2025-07-02T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0129",
+      "code": "IFX-DOC-00129",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.987753,
+      "longitude": -122.577508,
+      "estimated_replacement_cost": 148901.84,
+      "created_at": "2025-10-09T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0130",
+      "code": "IFX-DOC-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.927344,
+      "longitude": -122.513462,
+      "estimated_replacement_cost": 347325.33,
+      "created_at": "2025-11-28T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0131",
+      "code": "IFX-DOC-00131",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.929787,
+      "longitude": -122.541762,
+      "estimated_replacement_cost": 488753.14,
+      "created_at": "2026-03-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0132",
+      "code": "IFX-DOC-00132",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.878583,
+      "longitude": -122.178133,
+      "estimated_replacement_cost": 108022.93,
+      "created_at": "2024-10-31T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0133",
+      "code": "IFX-DOC-00133",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.980133,
+      "longitude": -122.640711,
+      "estimated_replacement_cost": 1485538.98,
+      "created_at": "2025-09-17T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0134",
+      "code": "IFX-DOC-00134",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.614968,
+      "longitude": -122.362053,
+      "estimated_replacement_cost": 425221.9,
+      "created_at": "2026-05-06T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0135",
+      "code": "IFX-DOC-00135",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.70397,
+      "longitude": -122.440496,
+      "estimated_replacement_cost": 1346923.33,
+      "created_at": "2025-08-31T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0136",
+      "code": "IFX-DOC-00136",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.805849,
+      "longitude": -122.202631,
+      "estimated_replacement_cost": 171987.96,
+      "created_at": "2026-01-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0137",
+      "code": "IFX-DOC-00137",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.537792,
+      "longitude": -122.377449,
+      "estimated_replacement_cost": 1104931.26,
+      "created_at": "2026-08-13T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0138",
+      "code": "IFX-DOC-00138",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.537317,
+      "longitude": -122.252235,
+      "estimated_replacement_cost": 1248577.67,
+      "created_at": "2026-03-31T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0139",
+      "code": "IFX-DOC-00139",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.632151,
+      "longitude": -122.188679,
+      "estimated_replacement_cost": 1277790.71,
+      "created_at": "2025-06-30T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0140",
+      "code": "IFX-DOC-00140",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.954679,
+      "longitude": -122.232242,
+      "estimated_replacement_cost": 189493.72,
+      "created_at": "2025-08-20T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0141",
+      "code": "IFX-DOC-00141",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.881503,
+      "longitude": -122.349386,
+      "estimated_replacement_cost": 459339.94,
+      "created_at": "2024-12-09T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0142",
+      "code": "IFX-DOC-00142",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.924714,
+      "longitude": -122.203632,
+      "estimated_replacement_cost": 752934.85,
+      "created_at": "2025-08-22T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0143",
+      "code": "IFX-DOC-00143",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.755682,
+      "longitude": -122.600548,
+      "estimated_replacement_cost": 138607.92,
+      "created_at": "2024-11-18T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0144",
+      "code": "IFX-DOC-00144",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.617284,
+      "longitude": -122.437998,
+      "estimated_replacement_cost": 486086.84,
+      "created_at": "2024-10-10T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0145",
+      "code": "IFX-DOC-00145",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.642074,
+      "longitude": -122.627232,
+      "estimated_replacement_cost": 1139096.47,
+      "created_at": "2025-03-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0146",
+      "code": "IFX-DOC-00146",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 38.019777,
+      "longitude": -122.479982,
+      "estimated_replacement_cost": 693579.36,
+      "created_at": "2026-03-27T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0147",
+      "code": "IFX-DOC-00147",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.527914,
+      "longitude": -122.270344,
+      "estimated_replacement_cost": 1191242.74,
+      "created_at": "2025-09-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0148",
+      "code": "IFX-DOC-00148",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.936133,
+      "longitude": -122.380254,
+      "estimated_replacement_cost": 290658.25,
+      "created_at": "2025-06-05T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0149",
+      "code": "IFX-DOC-00149",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.557864,
+      "longitude": -122.369954,
+      "estimated_replacement_cost": 1155887.13,
+      "created_at": "2025-09-06T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_documents.documentsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Documents Asset Segment #0150",
+      "code": "IFX-DOC-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.684911,
+      "longitude": -122.38028,
+      "estimated_replacement_cost": 1196359.6,
+      "created_at": "2024-10-11T10:34:25.455733",
+      "updated_at": "2026-09-08T10:34:25.455733",
+      "notes": "Standard municipal engineering inventory record for documents.",
+      "metadata": {
+        "spec_code": "SPEC-DOCUMENTS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  }
+]

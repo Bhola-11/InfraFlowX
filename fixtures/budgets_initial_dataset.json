@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0001",
+      "code": "IFX-BUD-00001",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.652524,
+      "longitude": -122.39425,
+      "estimated_replacement_cost": 98927.62,
+      "created_at": "2025-07-06T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0002",
+      "code": "IFX-BUD-00002",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.592062,
+      "longitude": -122.46668,
+      "estimated_replacement_cost": 380092.53,
+      "created_at": "2024-12-10T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0003",
+      "code": "IFX-BUD-00003",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.97692,
+      "longitude": -122.591237,
+      "estimated_replacement_cost": 700339.38,
+      "created_at": "2026-01-08T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0004",
+      "code": "IFX-BUD-00004",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.90871,
+      "longitude": -122.423982,
+      "estimated_replacement_cost": 1127414.92,
+      "created_at": "2026-07-27T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0005",
+      "code": "IFX-BUD-00005",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.866695,
+      "longitude": -122.607367,
+      "estimated_replacement_cost": 1034363.72,
+      "created_at": "2026-07-31T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0006",
+      "code": "IFX-BUD-00006",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 38.023157,
+      "longitude": -122.385312,
+      "estimated_replacement_cost": 853482.9,
+      "created_at": "2025-12-18T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0007",
+      "code": "IFX-BUD-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.852549,
+      "longitude": -122.571144,
+      "estimated_replacement_cost": 35122.89,
+      "created_at": "2026-04-20T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0008",
+      "code": "IFX-BUD-00008",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.596769,
+      "longitude": -122.584395,
+      "estimated_replacement_cost": 1427603.56,
+      "created_at": "2025-10-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0009",
+      "code": "IFX-BUD-00009",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.677392,
+      "longitude": -122.282879,
+      "estimated_replacement_cost": 89765.0,
+      "created_at": "2026-07-08T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0010",
+      "code": "IFX-BUD-00010",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 38.011607,
+      "longitude": -122.271313,
+      "estimated_replacement_cost": 996294.54,
+      "created_at": "2025-04-30T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0011",
+      "code": "IFX-BUD-00011",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.53329,
+      "longitude": -122.533657,
+      "estimated_replacement_cost": 1075385.53,
+      "created_at": "2025-11-03T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0012",
+      "code": "IFX-BUD-00012",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.724703,
+      "longitude": -122.548184,
+      "estimated_replacement_cost": 1265701.58,
+      "created_at": "2024-10-09T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0013",
+      "code": "IFX-BUD-00013",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.57584,
+      "longitude": -122.514214,
+      "estimated_replacement_cost": 524606.19,
+      "created_at": "2024-10-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0014",
+      "code": "IFX-BUD-00014",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.713155,
+      "longitude": -122.495366,
+      "estimated_replacement_cost": 479040.22,
+      "created_at": "2026-08-18T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0015",
+      "code": "IFX-BUD-00015",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.73023,
+      "longitude": -122.45978,
+      "estimated_replacement_cost": 523789.32,
+      "created_at": "2026-07-09T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0016",
+      "code": "IFX-BUD-00016",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.594416,
+      "longitude": -122.424741,
+      "estimated_replacement_cost": 1150444.6,
+      "created_at": "2025-02-27T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0017",
+      "code": "IFX-BUD-00017",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.798345,
+      "longitude": -122.534961,
+      "estimated_replacement_cost": 211780.92,
+      "created_at": "2026-03-18T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0018",
+      "code": "IFX-BUD-00018",
+      "status": "INSPECTED",
+      "condition_score": 73,
+      "latitude": 37.739386,
+      "longitude": -122.440955,
+      "estimated_replacement_cost": 74400.64,
+      "created_at": "2026-05-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0019",
+      "code": "IFX-BUD-00019",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.761205,
+      "longitude": -122.190991,
+      "estimated_replacement_cost": 812950.58,
+      "created_at": "2025-11-13T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0020",
+      "code": "IFX-BUD-00020",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.658783,
+      "longitude": -122.572931,
+      "estimated_replacement_cost": 1105207.32,
+      "created_at": "2025-04-14T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0021",
+      "code": "IFX-BUD-00021",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.993984,
+      "longitude": -122.553065,
+      "estimated_replacement_cost": 843749.66,
+      "created_at": "2026-03-23T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0022",
+      "code": "IFX-BUD-00022",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.777464,
+      "longitude": -122.210036,
+      "estimated_replacement_cost": 141097.66,
+      "created_at": "2025-10-09T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0023",
+      "code": "IFX-BUD-00023",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.871779,
+      "longitude": -122.488256,
+      "estimated_replacement_cost": 455978.8,
+      "created_at": "2025-12-09T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0024",
+      "code": "IFX-BUD-00024",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.746448,
+      "longitude": -122.666506,
+      "estimated_replacement_cost": 823207.71,
+      "created_at": "2025-03-22T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0025",
+      "code": "IFX-BUD-00025",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.940401,
+      "longitude": -122.520672,
+      "estimated_replacement_cost": 844922.22,
+      "created_at": "2025-10-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0026",
+      "code": "IFX-BUD-00026",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.692899,
+      "longitude": -122.439695,
+      "estimated_replacement_cost": 953856.76,
+      "created_at": "2026-03-12T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0027",
+      "code": "IFX-BUD-00027",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.918716,
+      "longitude": -122.36594,
+      "estimated_replacement_cost": 1075286.62,
+      "created_at": "2025-04-04T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0028",
+      "code": "IFX-BUD-00028",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 38.008016,
+      "longitude": -122.357991,
+      "estimated_replacement_cost": 692176.55,
+      "created_at": "2025-04-19T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0029",
+      "code": "IFX-BUD-00029",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.860746,
+      "longitude": -122.499839,
+      "estimated_replacement_cost": 779362.67,
+      "created_at": "2025-01-27T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0030",
+      "code": "IFX-BUD-00030",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 38.005777,
+      "longitude": -122.665831,
+      "estimated_replacement_cost": 1277600.29,
+      "created_at": "2024-11-17T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0031",
+      "code": "IFX-BUD-00031",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.832841,
+      "longitude": -122.276392,
+      "estimated_replacement_cost": 976646.44,
+      "created_at": "2025-08-31T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0032",
+      "code": "IFX-BUD-00032",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.662762,
+      "longitude": -122.458978,
+      "estimated_replacement_cost": 834968.2,
+      "created_at": "2026-08-10T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0033",
+      "code": "IFX-BUD-00033",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.948993,
+      "longitude": -122.237789,
+      "estimated_replacement_cost": 822609.63,
+      "created_at": "2025-09-14T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0034",
+      "code": "IFX-BUD-00034",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.823467,
+      "longitude": -122.276948,
+      "estimated_replacement_cost": 474223.45,
+      "created_at": "2025-05-03T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0035",
+      "code": "IFX-BUD-00035",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.676204,
+      "longitude": -122.436249,
+      "estimated_replacement_cost": 883108.26,
+      "created_at": "2025-04-02T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0036",
+      "code": "IFX-BUD-00036",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.81863,
+      "longitude": -122.320438,
+      "estimated_replacement_cost": 933432.0,
+      "created_at": "2026-08-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0037",
+      "code": "IFX-BUD-00037",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.985006,
+      "longitude": -122.45692,
+      "estimated_replacement_cost": 548126.5,
+      "created_at": "2025-02-07T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0038",
+      "code": "IFX-BUD-00038",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.817226,
+      "longitude": -122.241917,
+      "estimated_replacement_cost": 1196181.83,
+      "created_at": "2026-05-21T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0039",
+      "code": "IFX-BUD-00039",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.639313,
+      "longitude": -122.455273,
+      "estimated_replacement_cost": 797160.84,
+      "created_at": "2025-06-04T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0040",
+      "code": "IFX-BUD-00040",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 38.006084,
+      "longitude": -122.566171,
+      "estimated_replacement_cost": 223481.93,
+      "created_at": "2025-03-19T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0041",
+      "code": "IFX-BUD-00041",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 37.646428,
+      "longitude": -122.331476,
+      "estimated_replacement_cost": 1428440.71,
+      "created_at": "2025-06-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0042",
+      "code": "IFX-BUD-00042",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.831263,
+      "longitude": -122.217733,
+      "estimated_replacement_cost": 281580.34,
+      "created_at": "2025-03-17T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0043",
+      "code": "IFX-BUD-00043",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.868264,
+      "longitude": -122.594765,
+      "estimated_replacement_cost": 1338664.58,
+      "created_at": "2026-03-27T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0044",
+      "code": "IFX-BUD-00044",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.830673,
+      "longitude": -122.468546,
+      "estimated_replacement_cost": 1493602.74,
+      "created_at": "2026-06-06T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0045",
+      "code": "IFX-BUD-00045",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.672785,
+      "longitude": -122.230534,
+      "estimated_replacement_cost": 1440331.69,
+      "created_at": "2025-04-07T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0046",
+      "code": "IFX-BUD-00046",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.750799,
+      "longitude": -122.486292,
+      "estimated_replacement_cost": 1352138.42,
+      "created_at": "2026-08-31T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0047",
+      "code": "IFX-BUD-00047",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.892058,
+      "longitude": -122.365627,
+      "estimated_replacement_cost": 1149294.59,
+      "created_at": "2024-09-29T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0048",
+      "code": "IFX-BUD-00048",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.576366,
+      "longitude": -122.65677,
+      "estimated_replacement_cost": 967542.03,
+      "created_at": "2024-09-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0049",
+      "code": "IFX-BUD-00049",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.740806,
+      "longitude": -122.538235,
+      "estimated_replacement_cost": 933321.54,
+      "created_at": "2024-10-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0050",
+      "code": "IFX-BUD-00050",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.792331,
+      "longitude": -122.405845,
+      "estimated_replacement_cost": 37940.11,
+      "created_at": "2024-10-22T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0051",
+      "code": "IFX-BUD-00051",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.74688,
+      "longitude": -122.349541,
+      "estimated_replacement_cost": 742915.9,
+      "created_at": "2025-07-31T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0052",
+      "code": "IFX-BUD-00052",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.595955,
+      "longitude": -122.260765,
+      "estimated_replacement_cost": 514996.32,
+      "created_at": "2025-05-21T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0053",
+      "code": "IFX-BUD-00053",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.824996,
+      "longitude": -122.192869,
+      "estimated_replacement_cost": 1460334.32,
+      "created_at": "2025-07-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0054",
+      "code": "IFX-BUD-00054",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.670889,
+      "longitude": -122.212418,
+      "estimated_replacement_cost": 276103.55,
+      "created_at": "2026-03-05T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0055",
+      "code": "IFX-BUD-00055",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.971432,
+      "longitude": -122.452161,
+      "estimated_replacement_cost": 150557.51,
+      "created_at": "2024-09-24T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0056",
+      "code": "IFX-BUD-00056",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.938463,
+      "longitude": -122.312547,
+      "estimated_replacement_cost": 425950.29,
+      "created_at": "2026-02-24T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0057",
+      "code": "IFX-BUD-00057",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 87,
+      "latitude": 37.53022,
+      "longitude": -122.210974,
+      "estimated_replacement_cost": 1099778.13,
+      "created_at": "2025-01-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0058",
+      "code": "IFX-BUD-00058",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.950058,
+      "longitude": -122.624838,
+      "estimated_replacement_cost": 294868.28,
+      "created_at": "2024-10-22T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0059",
+      "code": "IFX-BUD-00059",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.982164,
+      "longitude": -122.231176,
+      "estimated_replacement_cost": 1074799.23,
+      "created_at": "2025-05-31T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0060",
+      "code": "IFX-BUD-00060",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.735711,
+      "longitude": -122.534108,
+      "estimated_replacement_cost": 1233643.79,
+      "created_at": "2026-01-08T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0061",
+      "code": "IFX-BUD-00061",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.883604,
+      "longitude": -122.305976,
+      "estimated_replacement_cost": 893564.19,
+      "created_at": "2025-10-22T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0062",
+      "code": "IFX-BUD-00062",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.850574,
+      "longitude": -122.362782,
+      "estimated_replacement_cost": 205414.01,
+      "created_at": "2026-08-21T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0063",
+      "code": "IFX-BUD-00063",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.599755,
+      "longitude": -122.265345,
+      "estimated_replacement_cost": 183833.19,
+      "created_at": "2026-03-08T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0064",
+      "code": "IFX-BUD-00064",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.659304,
+      "longitude": -122.320983,
+      "estimated_replacement_cost": 819028.42,
+      "created_at": "2026-01-31T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0065",
+      "code": "IFX-BUD-00065",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.562392,
+      "longitude": -122.231792,
+      "estimated_replacement_cost": 627944.94,
+      "created_at": "2025-07-19T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0066",
+      "code": "IFX-BUD-00066",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.573607,
+      "longitude": -122.58389,
+      "estimated_replacement_cost": 106795.5,
+      "created_at": "2025-04-20T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0067",
+      "code": "IFX-BUD-00067",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.777058,
+      "longitude": -122.663821,
+      "estimated_replacement_cost": 1272756.24,
+      "created_at": "2025-02-18T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0068",
+      "code": "IFX-BUD-00068",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.610032,
+      "longitude": -122.366413,
+      "estimated_replacement_cost": 284876.45,
+      "created_at": "2025-02-04T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0069",
+      "code": "IFX-BUD-00069",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 38.017328,
+      "longitude": -122.319595,
+      "estimated_replacement_cost": 410735.13,
+      "created_at": "2026-06-06T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0070",
+      "code": "IFX-BUD-00070",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.591287,
+      "longitude": -122.447324,
+      "estimated_replacement_cost": 843851.59,
+      "created_at": "2026-04-14T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0071",
+      "code": "IFX-BUD-00071",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.747524,
+      "longitude": -122.5837,
+      "estimated_replacement_cost": 943297.99,
+      "created_at": "2025-11-30T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0072",
+      "code": "IFX-BUD-00072",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.883139,
+      "longitude": -122.414112,
+      "estimated_replacement_cost": 265285.88,
+      "created_at": "2025-11-12T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0073",
+      "code": "IFX-BUD-00073",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.687529,
+      "longitude": -122.378803,
+      "estimated_replacement_cost": 128682.21,
+      "created_at": "2026-08-24T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0074",
+      "code": "IFX-BUD-00074",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.9472,
+      "longitude": -122.563902,
+      "estimated_replacement_cost": 498165.15,
+      "created_at": "2026-01-29T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0075",
+      "code": "IFX-BUD-00075",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.872754,
+      "longitude": -122.530696,
+      "estimated_replacement_cost": 141570.77,
+      "created_at": "2025-03-20T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0076",
+      "code": "IFX-BUD-00076",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.905962,
+      "longitude": -122.663514,
+      "estimated_replacement_cost": 485592.63,
+      "created_at": "2026-03-13T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0077",
+      "code": "IFX-BUD-00077",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.998971,
+      "longitude": -122.560222,
+      "estimated_replacement_cost": 289455.98,
+      "created_at": "2026-04-24T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0078",
+      "code": "IFX-BUD-00078",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.996757,
+      "longitude": -122.179376,
+      "estimated_replacement_cost": 1487105.75,
+      "created_at": "2025-12-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0079",
+      "code": "IFX-BUD-00079",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.554794,
+      "longitude": -122.284236,
+      "estimated_replacement_cost": 1395171.74,
+      "created_at": "2025-01-21T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0080",
+      "code": "IFX-BUD-00080",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.67571,
+      "longitude": -122.296325,
+      "estimated_replacement_cost": 900652.16,
+      "created_at": "2025-02-24T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0081",
+      "code": "IFX-BUD-00081",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.773444,
+      "longitude": -122.505804,
+      "estimated_replacement_cost": 303901.43,
+      "created_at": "2025-02-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0082",
+      "code": "IFX-BUD-00082",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.554617,
+      "longitude": -122.645592,
+      "estimated_replacement_cost": 1385554.47,
+      "created_at": "2026-06-01T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0083",
+      "code": "IFX-BUD-00083",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 38.010166,
+      "longitude": -122.345116,
+      "estimated_replacement_cost": 688523.95,
+      "created_at": "2026-07-12T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0084",
+      "code": "IFX-BUD-00084",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 38.013265,
+      "longitude": -122.361841,
+      "estimated_replacement_cost": 948704.98,
+      "created_at": "2024-11-30T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0085",
+      "code": "IFX-BUD-00085",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.835457,
+      "longitude": -122.541156,
+      "estimated_replacement_cost": 1459205.84,
+      "created_at": "2026-04-15T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0086",
+      "code": "IFX-BUD-00086",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.746393,
+      "longitude": -122.318309,
+      "estimated_replacement_cost": 1090086.26,
+      "created_at": "2025-02-20T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0087",
+      "code": "IFX-BUD-00087",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.914145,
+      "longitude": -122.212763,
+      "estimated_replacement_cost": 112902.14,
+      "created_at": "2025-12-15T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0088",
+      "code": "IFX-BUD-00088",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.646991,
+      "longitude": -122.405756,
+      "estimated_replacement_cost": 784010.14,
+      "created_at": "2025-02-01T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0089",
+      "code": "IFX-BUD-00089",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.804934,
+      "longitude": -122.652464,
+      "estimated_replacement_cost": 996284.57,
+      "created_at": "2026-07-03T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0090",
+      "code": "IFX-BUD-00090",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.856111,
+      "longitude": -122.639652,
+      "estimated_replacement_cost": 716877.72,
+      "created_at": "2025-07-01T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0091",
+      "code": "IFX-BUD-00091",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.591001,
+      "longitude": -122.528719,
+      "estimated_replacement_cost": 894837.24,
+      "created_at": "2025-09-23T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0092",
+      "code": "IFX-BUD-00092",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.900974,
+      "longitude": -122.293053,
+      "estimated_replacement_cost": 658854.26,
+      "created_at": "2026-03-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0093",
+      "code": "IFX-BUD-00093",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.616764,
+      "longitude": -122.377656,
+      "estimated_replacement_cost": 917152.85,
+      "created_at": "2025-01-04T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0094",
+      "code": "IFX-BUD-00094",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.710832,
+      "longitude": -122.36416,
+      "estimated_replacement_cost": 899040.87,
+      "created_at": "2024-12-03T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0095",
+      "code": "IFX-BUD-00095",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.767014,
+      "longitude": -122.66542,
+      "estimated_replacement_cost": 570727.35,
+      "created_at": "2025-12-21T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0096",
+      "code": "IFX-BUD-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.965744,
+      "longitude": -122.189502,
+      "estimated_replacement_cost": 52243.32,
+      "created_at": "2024-09-27T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0097",
+      "code": "IFX-BUD-00097",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.825812,
+      "longitude": -122.420276,
+      "estimated_replacement_cost": 1381758.88,
+      "created_at": "2026-04-22T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0098",
+      "code": "IFX-BUD-00098",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.857673,
+      "longitude": -122.473146,
+      "estimated_replacement_cost": 187845.08,
+      "created_at": "2026-05-30T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0099",
+      "code": "IFX-BUD-00099",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.676802,
+      "longitude": -122.341223,
+      "estimated_replacement_cost": 1165021.22,
+      "created_at": "2025-05-14T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0100",
+      "code": "IFX-BUD-00100",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.925372,
+      "longitude": -122.49342,
+      "estimated_replacement_cost": 105629.69,
+      "created_at": "2025-12-30T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0101",
+      "code": "IFX-BUD-00101",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.982091,
+      "longitude": -122.573508,
+      "estimated_replacement_cost": 1463220.31,
+      "created_at": "2025-02-10T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0102",
+      "code": "IFX-BUD-00102",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 87,
+      "latitude": 37.697657,
+      "longitude": -122.312467,
+      "estimated_replacement_cost": 1271793.52,
+      "created_at": "2025-11-12T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0103",
+      "code": "IFX-BUD-00103",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.869717,
+      "longitude": -122.550449,
+      "estimated_replacement_cost": 147619.02,
+      "created_at": "2025-07-22T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0104",
+      "code": "IFX-BUD-00104",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.849832,
+      "longitude": -122.504916,
+      "estimated_replacement_cost": 1098835.82,
+      "created_at": "2026-07-11T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0105",
+      "code": "IFX-BUD-00105",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.613519,
+      "longitude": -122.390879,
+      "estimated_replacement_cost": 79112.97,
+      "created_at": "2025-04-14T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0106",
+      "code": "IFX-BUD-00106",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.573433,
+      "longitude": -122.418517,
+      "estimated_replacement_cost": 328108.28,
+      "created_at": "2025-11-16T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0107",
+      "code": "IFX-BUD-00107",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.537194,
+      "longitude": -122.642318,
+      "estimated_replacement_cost": 585886.98,
+      "created_at": "2026-09-07T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0108",
+      "code": "IFX-BUD-00108",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.661501,
+      "longitude": -122.413992,
+      "estimated_replacement_cost": 475745.17,
+      "created_at": "2025-08-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0109",
+      "code": "IFX-BUD-00109",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 37.847287,
+      "longitude": -122.49403,
+      "estimated_replacement_cost": 1074803.3,
+      "created_at": "2025-04-29T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0110",
+      "code": "IFX-BUD-00110",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.789343,
+      "longitude": -122.423707,
+      "estimated_replacement_cost": 310045.1,
+      "created_at": "2026-08-11T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0111",
+      "code": "IFX-BUD-00111",
+      "status": "INSPECTED",
+      "condition_score": 82,
+      "latitude": 37.771201,
+      "longitude": -122.377695,
+      "estimated_replacement_cost": 201342.78,
+      "created_at": "2025-02-25T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0112",
+      "code": "IFX-BUD-00112",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.576489,
+      "longitude": -122.278489,
+      "estimated_replacement_cost": 629922.79,
+      "created_at": "2024-11-05T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0113",
+      "code": "IFX-BUD-00113",
+      "status": "STANDBY",
+      "condition_score": 51,
+      "latitude": 37.952703,
+      "longitude": -122.207182,
+      "estimated_replacement_cost": 1463421.02,
+      "created_at": "2025-12-27T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0114",
+      "code": "IFX-BUD-00114",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.745824,
+      "longitude": -122.623977,
+      "estimated_replacement_cost": 1452563.78,
+      "created_at": "2026-02-12T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0115",
+      "code": "IFX-BUD-00115",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 37.735993,
+      "longitude": -122.348586,
+      "estimated_replacement_cost": 574587.52,
+      "created_at": "2026-06-29T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0116",
+      "code": "IFX-BUD-00116",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.919405,
+      "longitude": -122.335238,
+      "estimated_replacement_cost": 1112649.9,
+      "created_at": "2025-12-05T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0117",
+      "code": "IFX-BUD-00117",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.567403,
+      "longitude": -122.515516,
+      "estimated_replacement_cost": 50992.78,
+      "created_at": "2025-11-09T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0118",
+      "code": "IFX-BUD-00118",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.839562,
+      "longitude": -122.639915,
+      "estimated_replacement_cost": 721722.54,
+      "created_at": "2025-08-07T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0119",
+      "code": "IFX-BUD-00119",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.624793,
+      "longitude": -122.199038,
+      "estimated_replacement_cost": 1384000.24,
+      "created_at": "2025-10-02T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0120",
+      "code": "IFX-BUD-00120",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.916939,
+      "longitude": -122.36922,
+      "estimated_replacement_cost": 603732.97,
+      "created_at": "2025-03-18T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0121",
+      "code": "IFX-BUD-00121",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.682388,
+      "longitude": -122.365344,
+      "estimated_replacement_cost": 639875.45,
+      "created_at": "2024-12-23T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0122",
+      "code": "IFX-BUD-00122",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.653932,
+      "longitude": -122.368346,
+      "estimated_replacement_cost": 590700.85,
+      "created_at": "2025-12-18T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0123",
+      "code": "IFX-BUD-00123",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.757483,
+      "longitude": -122.466192,
+      "estimated_replacement_cost": 1493271.4,
+      "created_at": "2026-09-01T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0124",
+      "code": "IFX-BUD-00124",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.914831,
+      "longitude": -122.252429,
+      "estimated_replacement_cost": 855723.84,
+      "created_at": "2025-03-29T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0125",
+      "code": "IFX-BUD-00125",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.742177,
+      "longitude": -122.449305,
+      "estimated_replacement_cost": 432125.66,
+      "created_at": "2025-12-28T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0126",
+      "code": "IFX-BUD-00126",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 38.020953,
+      "longitude": -122.254826,
+      "estimated_replacement_cost": 365778.08,
+      "created_at": "2025-03-21T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0127",
+      "code": "IFX-BUD-00127",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.969904,
+      "longitude": -122.372388,
+      "estimated_replacement_cost": 77036.77,
+      "created_at": "2025-08-25T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0128",
+      "code": "IFX-BUD-00128",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.537313,
+      "longitude": -122.266403,
+      "estimated_replacement_cost": 895358.29,
+      "created_at": "2025-08-25T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0129",
+      "code": "IFX-BUD-00129",
+      "status": "STANDBY",
+      "condition_score": 74,
+      "latitude": 37.980745,
+      "longitude": -122.547292,
+      "estimated_replacement_cost": 775397.86,
+      "created_at": "2025-10-23T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0130",
+      "code": "IFX-BUD-00130",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.647997,
+      "longitude": -122.339859,
+      "estimated_replacement_cost": 414760.03,
+      "created_at": "2026-07-17T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0131",
+      "code": "IFX-BUD-00131",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.741882,
+      "longitude": -122.628262,
+      "estimated_replacement_cost": 943125.89,
+      "created_at": "2025-11-17T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0132",
+      "code": "IFX-BUD-00132",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.996383,
+      "longitude": -122.349788,
+      "estimated_replacement_cost": 629309.39,
+      "created_at": "2025-08-10T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0133",
+      "code": "IFX-BUD-00133",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.688382,
+      "longitude": -122.567838,
+      "estimated_replacement_cost": 475714.2,
+      "created_at": "2026-01-26T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0134",
+      "code": "IFX-BUD-00134",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.540578,
+      "longitude": -122.177171,
+      "estimated_replacement_cost": 1074493.43,
+      "created_at": "2025-03-16T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0135",
+      "code": "IFX-BUD-00135",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 38.000957,
+      "longitude": -122.557662,
+      "estimated_replacement_cost": 470876.04,
+      "created_at": "2026-07-24T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0136",
+      "code": "IFX-BUD-00136",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.736576,
+      "longitude": -122.402756,
+      "estimated_replacement_cost": 636862.43,
+      "created_at": "2026-02-21T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0137",
+      "code": "IFX-BUD-00137",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.532409,
+      "longitude": -122.560209,
+      "estimated_replacement_cost": 304349.38,
+      "created_at": "2025-10-14T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0138",
+      "code": "IFX-BUD-00138",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.732909,
+      "longitude": -122.450944,
+      "estimated_replacement_cost": 412694.84,
+      "created_at": "2025-02-02T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0139",
+      "code": "IFX-BUD-00139",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.64047,
+      "longitude": -122.169613,
+      "estimated_replacement_cost": 823398.39,
+      "created_at": "2026-02-07T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0140",
+      "code": "IFX-BUD-00140",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.999071,
+      "longitude": -122.564858,
+      "estimated_replacement_cost": 630331.46,
+      "created_at": "2025-03-16T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0141",
+      "code": "IFX-BUD-00141",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.908325,
+      "longitude": -122.399997,
+      "estimated_replacement_cost": 1305214.45,
+      "created_at": "2025-07-10T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0142",
+      "code": "IFX-BUD-00142",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.562829,
+      "longitude": -122.412912,
+      "estimated_replacement_cost": 75535.19,
+      "created_at": "2025-12-22T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0143",
+      "code": "IFX-BUD-00143",
+      "status": "ACTIVE",
+      "condition_score": 94,
+      "latitude": 37.549142,
+      "longitude": -122.340033,
+      "estimated_replacement_cost": 91803.0,
+      "created_at": "2026-09-02T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0144",
+      "code": "IFX-BUD-00144",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.92001,
+      "longitude": -122.311902,
+      "estimated_replacement_cost": 1489900.26,
+      "created_at": "2026-05-19T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0145",
+      "code": "IFX-BUD-00145",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.685846,
+      "longitude": -122.289111,
+      "estimated_replacement_cost": 1243420.66,
+      "created_at": "2025-04-29T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0146",
+      "code": "IFX-BUD-00146",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.575273,
+      "longitude": -122.395095,
+      "estimated_replacement_cost": 1281806.43,
+      "created_at": "2025-09-07T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0147",
+      "code": "IFX-BUD-00147",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.865932,
+      "longitude": -122.443933,
+      "estimated_replacement_cost": 521280.49,
+      "created_at": "2026-01-02T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0148",
+      "code": "IFX-BUD-00148",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.899893,
+      "longitude": -122.346539,
+      "estimated_replacement_cost": 1426683.88,
+      "created_at": "2026-02-11T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0149",
+      "code": "IFX-BUD-00149",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.771858,
+      "longitude": -122.366689,
+      "estimated_replacement_cost": 294172.5,
+      "created_at": "2024-09-25T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_budgets.budgetsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Budgets Asset Segment #0150",
+      "code": "IFX-BUD-00150",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.658911,
+      "longitude": -122.636831,
+      "estimated_replacement_cost": 337987.19,
+      "created_at": "2025-10-03T10:34:25.421828",
+      "updated_at": "2026-09-08T10:34:25.421828",
+      "notes": "Standard municipal engineering inventory record for budgets.",
+      "metadata": {
+        "spec_code": "SPEC-BUDGETS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  }
+]

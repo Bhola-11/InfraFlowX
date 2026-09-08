@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0001",
+      "code": "IFX-WOR-00001",
+      "status": "INSPECTED",
+      "condition_score": 67,
+      "latitude": 37.9171,
+      "longitude": -122.392716,
+      "estimated_replacement_cost": 1413755.31,
+      "created_at": "2026-01-11T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0002",
+      "code": "IFX-WOR-00002",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.754598,
+      "longitude": -122.494678,
+      "estimated_replacement_cost": 853496.4,
+      "created_at": "2025-08-28T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0003",
+      "code": "IFX-WOR-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.672967,
+      "longitude": -122.252494,
+      "estimated_replacement_cost": 760378.9,
+      "created_at": "2025-07-03T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0004",
+      "code": "IFX-WOR-00004",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.75432,
+      "longitude": -122.541245,
+      "estimated_replacement_cost": 349285.44,
+      "created_at": "2026-09-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0005",
+      "code": "IFX-WOR-00005",
+      "status": "STANDBY",
+      "condition_score": 61,
+      "latitude": 37.908156,
+      "longitude": -122.565646,
+      "estimated_replacement_cost": 512480.3,
+      "created_at": "2025-04-23T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0006",
+      "code": "IFX-WOR-00006",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.698248,
+      "longitude": -122.534294,
+      "estimated_replacement_cost": 1274108.18,
+      "created_at": "2024-12-08T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0007",
+      "code": "IFX-WOR-00007",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.823725,
+      "longitude": -122.19906,
+      "estimated_replacement_cost": 1399011.62,
+      "created_at": "2025-12-01T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0008",
+      "code": "IFX-WOR-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.849965,
+      "longitude": -122.457819,
+      "estimated_replacement_cost": 111083.13,
+      "created_at": "2025-03-21T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0009",
+      "code": "IFX-WOR-00009",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.664667,
+      "longitude": -122.269739,
+      "estimated_replacement_cost": 1081820.46,
+      "created_at": "2025-03-17T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0010",
+      "code": "IFX-WOR-00010",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.579278,
+      "longitude": -122.327004,
+      "estimated_replacement_cost": 1082603.62,
+      "created_at": "2025-06-02T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0011",
+      "code": "IFX-WOR-00011",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.539797,
+      "longitude": -122.31154,
+      "estimated_replacement_cost": 1445741.82,
+      "created_at": "2026-03-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0012",
+      "code": "IFX-WOR-00012",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.966992,
+      "longitude": -122.525894,
+      "estimated_replacement_cost": 45158.62,
+      "created_at": "2024-11-12T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0013",
+      "code": "IFX-WOR-00013",
+      "status": "OPERATIONAL",
+      "condition_score": 78,
+      "latitude": 37.842468,
+      "longitude": -122.611881,
+      "estimated_replacement_cost": 45164.46,
+      "created_at": "2024-10-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0014",
+      "code": "IFX-WOR-00014",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 37.650396,
+      "longitude": -122.252097,
+      "estimated_replacement_cost": 1201047.1,
+      "created_at": "2025-07-23T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0015",
+      "code": "IFX-WOR-00015",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.741562,
+      "longitude": -122.313288,
+      "estimated_replacement_cost": 910668.0,
+      "created_at": "2025-06-11T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0016",
+      "code": "IFX-WOR-00016",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.613568,
+      "longitude": -122.314429,
+      "estimated_replacement_cost": 192109.13,
+      "created_at": "2025-01-11T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0017",
+      "code": "IFX-WOR-00017",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.594233,
+      "longitude": -122.198885,
+      "estimated_replacement_cost": 1075749.17,
+      "created_at": "2025-07-18T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0018",
+      "code": "IFX-WOR-00018",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.626296,
+      "longitude": -122.448014,
+      "estimated_replacement_cost": 427409.33,
+      "created_at": "2024-12-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0019",
+      "code": "IFX-WOR-00019",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 38.002691,
+      "longitude": -122.472469,
+      "estimated_replacement_cost": 1295448.91,
+      "created_at": "2025-03-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0020",
+      "code": "IFX-WOR-00020",
+      "status": "OPERATIONAL",
+      "condition_score": 83,
+      "latitude": 37.701815,
+      "longitude": -122.283933,
+      "estimated_replacement_cost": 283456.36,
+      "created_at": "2025-12-22T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0021",
+      "code": "IFX-WOR-00021",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.720004,
+      "longitude": -122.463264,
+      "estimated_replacement_cost": 704340.67,
+      "created_at": "2026-06-25T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0022",
+      "code": "IFX-WOR-00022",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.984966,
+      "longitude": -122.630169,
+      "estimated_replacement_cost": 200702.39,
+      "created_at": "2026-04-22T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0023",
+      "code": "IFX-WOR-00023",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.586399,
+      "longitude": -122.354902,
+      "estimated_replacement_cost": 150492.4,
+      "created_at": "2025-02-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0024",
+      "code": "IFX-WOR-00024",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.687133,
+      "longitude": -122.214286,
+      "estimated_replacement_cost": 1311284.55,
+      "created_at": "2025-05-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0025",
+      "code": "IFX-WOR-00025",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.948298,
+      "longitude": -122.251597,
+      "estimated_replacement_cost": 713978.65,
+      "created_at": "2024-10-25T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0026",
+      "code": "IFX-WOR-00026",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.636588,
+      "longitude": -122.287422,
+      "estimated_replacement_cost": 1283002.14,
+      "created_at": "2024-11-01T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0027",
+      "code": "IFX-WOR-00027",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.858728,
+      "longitude": -122.351442,
+      "estimated_replacement_cost": 325883.98,
+      "created_at": "2025-11-17T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0028",
+      "code": "IFX-WOR-00028",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.794504,
+      "longitude": -122.20992,
+      "estimated_replacement_cost": 110011.78,
+      "created_at": "2026-02-03T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0029",
+      "code": "IFX-WOR-00029",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.686932,
+      "longitude": -122.215063,
+      "estimated_replacement_cost": 869617.36,
+      "created_at": "2024-10-21T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0030",
+      "code": "IFX-WOR-00030",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.95492,
+      "longitude": -122.369324,
+      "estimated_replacement_cost": 1104354.41,
+      "created_at": "2025-10-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0031",
+      "code": "IFX-WOR-00031",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.882414,
+      "longitude": -122.358315,
+      "estimated_replacement_cost": 426659.48,
+      "created_at": "2026-05-15T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0032",
+      "code": "IFX-WOR-00032",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.801855,
+      "longitude": -122.177667,
+      "estimated_replacement_cost": 1306285.76,
+      "created_at": "2025-09-12T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0033",
+      "code": "IFX-WOR-00033",
+      "status": "STANDBY",
+      "condition_score": 69,
+      "latitude": 37.628958,
+      "longitude": -122.254378,
+      "estimated_replacement_cost": 667705.71,
+      "created_at": "2024-12-16T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0034",
+      "code": "IFX-WOR-00034",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.60565,
+      "longitude": -122.514333,
+      "estimated_replacement_cost": 755092.39,
+      "created_at": "2024-12-24T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0035",
+      "code": "IFX-WOR-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.936924,
+      "longitude": -122.478251,
+      "estimated_replacement_cost": 669552.5,
+      "created_at": "2026-03-26T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0036",
+      "code": "IFX-WOR-00036",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.805032,
+      "longitude": -122.19187,
+      "estimated_replacement_cost": 1215870.26,
+      "created_at": "2025-05-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0037",
+      "code": "IFX-WOR-00037",
+      "status": "ACTIVE",
+      "condition_score": 99,
+      "latitude": 37.987118,
+      "longitude": -122.455933,
+      "estimated_replacement_cost": 69592.32,
+      "created_at": "2025-08-05T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0038",
+      "code": "IFX-WOR-00038",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 38.00061,
+      "longitude": -122.587058,
+      "estimated_replacement_cost": 497427.68,
+      "created_at": "2024-09-30T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0039",
+      "code": "IFX-WOR-00039",
+      "status": "STANDBY",
+      "condition_score": 98,
+      "latitude": 37.724188,
+      "longitude": -122.552059,
+      "estimated_replacement_cost": 1262766.04,
+      "created_at": "2026-08-01T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0040",
+      "code": "IFX-WOR-00040",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.554586,
+      "longitude": -122.346404,
+      "estimated_replacement_cost": 1013731.52,
+      "created_at": "2025-12-24T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0041",
+      "code": "IFX-WOR-00041",
+      "status": "OPERATIONAL",
+      "condition_score": 51,
+      "latitude": 37.859549,
+      "longitude": -122.412675,
+      "estimated_replacement_cost": 1388439.54,
+      "created_at": "2026-08-15T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0042",
+      "code": "IFX-WOR-00042",
+      "status": "INSPECTED",
+      "condition_score": 82,
+      "latitude": 37.795809,
+      "longitude": -122.471554,
+      "estimated_replacement_cost": 931051.61,
+      "created_at": "2026-03-22T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0043",
+      "code": "IFX-WOR-00043",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.591041,
+      "longitude": -122.235074,
+      "estimated_replacement_cost": 470699.58,
+      "created_at": "2026-07-18T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0044",
+      "code": "IFX-WOR-00044",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.535646,
+      "longitude": -122.636136,
+      "estimated_replacement_cost": 646044.85,
+      "created_at": "2024-09-20T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0045",
+      "code": "IFX-WOR-00045",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.873923,
+      "longitude": -122.214027,
+      "estimated_replacement_cost": 1097267.62,
+      "created_at": "2026-06-18T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0046",
+      "code": "IFX-WOR-00046",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.686719,
+      "longitude": -122.357221,
+      "estimated_replacement_cost": 883209.95,
+      "created_at": "2025-08-15T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0047",
+      "code": "IFX-WOR-00047",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.993309,
+      "longitude": -122.235945,
+      "estimated_replacement_cost": 556032.85,
+      "created_at": "2026-04-16T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0048",
+      "code": "IFX-WOR-00048",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.837212,
+      "longitude": -122.291551,
+      "estimated_replacement_cost": 1071258.29,
+      "created_at": "2025-11-27T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0049",
+      "code": "IFX-WOR-00049",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.691579,
+      "longitude": -122.22194,
+      "estimated_replacement_cost": 938752.41,
+      "created_at": "2024-10-20T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0050",
+      "code": "IFX-WOR-00050",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.920482,
+      "longitude": -122.209603,
+      "estimated_replacement_cost": 816003.74,
+      "created_at": "2026-03-16T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0051",
+      "code": "IFX-WOR-00051",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.899611,
+      "longitude": -122.225227,
+      "estimated_replacement_cost": 568223.44,
+      "created_at": "2024-10-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0052",
+      "code": "IFX-WOR-00052",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.752459,
+      "longitude": -122.544268,
+      "estimated_replacement_cost": 1409261.38,
+      "created_at": "2025-02-23T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0053",
+      "code": "IFX-WOR-00053",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.783755,
+      "longitude": -122.222583,
+      "estimated_replacement_cost": 242367.72,
+      "created_at": "2025-01-07T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0054",
+      "code": "IFX-WOR-00054",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.853751,
+      "longitude": -122.275867,
+      "estimated_replacement_cost": 1296416.19,
+      "created_at": "2025-01-28T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0055",
+      "code": "IFX-WOR-00055",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.549767,
+      "longitude": -122.291521,
+      "estimated_replacement_cost": 648899.76,
+      "created_at": "2025-06-02T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0056",
+      "code": "IFX-WOR-00056",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.696842,
+      "longitude": -122.40472,
+      "estimated_replacement_cost": 1200327.58,
+      "created_at": "2025-06-13T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0057",
+      "code": "IFX-WOR-00057",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.531299,
+      "longitude": -122.281231,
+      "estimated_replacement_cost": 622734.48,
+      "created_at": "2025-09-05T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0058",
+      "code": "IFX-WOR-00058",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.976884,
+      "longitude": -122.45089,
+      "estimated_replacement_cost": 1269628.15,
+      "created_at": "2025-05-09T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0059",
+      "code": "IFX-WOR-00059",
+      "status": "OPERATIONAL",
+      "condition_score": 68,
+      "latitude": 37.600695,
+      "longitude": -122.241541,
+      "estimated_replacement_cost": 214432.68,
+      "created_at": "2025-10-03T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0060",
+      "code": "IFX-WOR-00060",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.855557,
+      "longitude": -122.395375,
+      "estimated_replacement_cost": 464552.97,
+      "created_at": "2026-04-24T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0061",
+      "code": "IFX-WOR-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.875842,
+      "longitude": -122.336927,
+      "estimated_replacement_cost": 186482.44,
+      "created_at": "2025-06-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0062",
+      "code": "IFX-WOR-00062",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.801195,
+      "longitude": -122.418407,
+      "estimated_replacement_cost": 260746.09,
+      "created_at": "2025-04-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0063",
+      "code": "IFX-WOR-00063",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.802565,
+      "longitude": -122.500657,
+      "estimated_replacement_cost": 1464831.84,
+      "created_at": "2026-03-02T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0064",
+      "code": "IFX-WOR-00064",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.752596,
+      "longitude": -122.548583,
+      "estimated_replacement_cost": 571438.07,
+      "created_at": "2024-11-17T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0065",
+      "code": "IFX-WOR-00065",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 37.615999,
+      "longitude": -122.370969,
+      "estimated_replacement_cost": 739255.26,
+      "created_at": "2024-11-16T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0066",
+      "code": "IFX-WOR-00066",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 38.022273,
+      "longitude": -122.665111,
+      "estimated_replacement_cost": 914697.45,
+      "created_at": "2025-10-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0067",
+      "code": "IFX-WOR-00067",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.814758,
+      "longitude": -122.310125,
+      "estimated_replacement_cost": 447172.07,
+      "created_at": "2024-10-18T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0068",
+      "code": "IFX-WOR-00068",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.679104,
+      "longitude": -122.562123,
+      "estimated_replacement_cost": 75443.88,
+      "created_at": "2025-10-05T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0069",
+      "code": "IFX-WOR-00069",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.647494,
+      "longitude": -122.189775,
+      "estimated_replacement_cost": 666126.7,
+      "created_at": "2026-08-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0070",
+      "code": "IFX-WOR-00070",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.684736,
+      "longitude": -122.541341,
+      "estimated_replacement_cost": 335322.92,
+      "created_at": "2025-06-17T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0071",
+      "code": "IFX-WOR-00071",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.783258,
+      "longitude": -122.540286,
+      "estimated_replacement_cost": 794293.28,
+      "created_at": "2024-12-19T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0072",
+      "code": "IFX-WOR-00072",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.707541,
+      "longitude": -122.546436,
+      "estimated_replacement_cost": 1468566.4,
+      "created_at": "2026-01-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0073",
+      "code": "IFX-WOR-00073",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.849187,
+      "longitude": -122.526863,
+      "estimated_replacement_cost": 193074.25,
+      "created_at": "2026-08-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0074",
+      "code": "IFX-WOR-00074",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.722607,
+      "longitude": -122.452243,
+      "estimated_replacement_cost": 165891.73,
+      "created_at": "2026-01-05T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0075",
+      "code": "IFX-WOR-00075",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 38.013966,
+      "longitude": -122.631022,
+      "estimated_replacement_cost": 1070484.72,
+      "created_at": "2026-01-09T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0076",
+      "code": "IFX-WOR-00076",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.650949,
+      "longitude": -122.559222,
+      "estimated_replacement_cost": 713303.28,
+      "created_at": "2026-02-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0077",
+      "code": "IFX-WOR-00077",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.539461,
+      "longitude": -122.654138,
+      "estimated_replacement_cost": 964209.07,
+      "created_at": "2026-04-16T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0078",
+      "code": "IFX-WOR-00078",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 38.01121,
+      "longitude": -122.607808,
+      "estimated_replacement_cost": 462001.97,
+      "created_at": "2026-05-23T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0079",
+      "code": "IFX-WOR-00079",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.932006,
+      "longitude": -122.566962,
+      "estimated_replacement_cost": 777142.56,
+      "created_at": "2025-12-17T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0080",
+      "code": "IFX-WOR-00080",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.86101,
+      "longitude": -122.348653,
+      "estimated_replacement_cost": 1171713.12,
+      "created_at": "2026-01-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0081",
+      "code": "IFX-WOR-00081",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.958096,
+      "longitude": -122.217451,
+      "estimated_replacement_cost": 1164894.07,
+      "created_at": "2026-02-12T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0082",
+      "code": "IFX-WOR-00082",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 37.87961,
+      "longitude": -122.667262,
+      "estimated_replacement_cost": 625741.22,
+      "created_at": "2025-05-31T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0083",
+      "code": "IFX-WOR-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.771497,
+      "longitude": -122.463279,
+      "estimated_replacement_cost": 1306616.54,
+      "created_at": "2026-04-15T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0084",
+      "code": "IFX-WOR-00084",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.878843,
+      "longitude": -122.347176,
+      "estimated_replacement_cost": 801154.72,
+      "created_at": "2026-04-07T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0085",
+      "code": "IFX-WOR-00085",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.822924,
+      "longitude": -122.490737,
+      "estimated_replacement_cost": 289982.09,
+      "created_at": "2024-10-23T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0086",
+      "code": "IFX-WOR-00086",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.572703,
+      "longitude": -122.390772,
+      "estimated_replacement_cost": 187315.65,
+      "created_at": "2025-05-02T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0087",
+      "code": "IFX-WOR-00087",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.550142,
+      "longitude": -122.531963,
+      "estimated_replacement_cost": 388076.36,
+      "created_at": "2025-10-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0088",
+      "code": "IFX-WOR-00088",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.75525,
+      "longitude": -122.552382,
+      "estimated_replacement_cost": 592894.4,
+      "created_at": "2026-07-12T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0089",
+      "code": "IFX-WOR-00089",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.739218,
+      "longitude": -122.359032,
+      "estimated_replacement_cost": 106459.75,
+      "created_at": "2025-07-05T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0090",
+      "code": "IFX-WOR-00090",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.739626,
+      "longitude": -122.652282,
+      "estimated_replacement_cost": 758009.58,
+      "created_at": "2024-11-20T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0091",
+      "code": "IFX-WOR-00091",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.642589,
+      "longitude": -122.577442,
+      "estimated_replacement_cost": 1478233.31,
+      "created_at": "2026-04-14T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0092",
+      "code": "IFX-WOR-00092",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 37.747692,
+      "longitude": -122.178619,
+      "estimated_replacement_cost": 869980.66,
+      "created_at": "2025-04-29T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0093",
+      "code": "IFX-WOR-00093",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.753332,
+      "longitude": -122.627378,
+      "estimated_replacement_cost": 419167.23,
+      "created_at": "2026-04-02T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0094",
+      "code": "IFX-WOR-00094",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.899617,
+      "longitude": -122.391027,
+      "estimated_replacement_cost": 1283704.13,
+      "created_at": "2026-02-26T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0095",
+      "code": "IFX-WOR-00095",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.8914,
+      "longitude": -122.427089,
+      "estimated_replacement_cost": 1047683.09,
+      "created_at": "2025-12-03T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0096",
+      "code": "IFX-WOR-00096",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.634661,
+      "longitude": -122.264017,
+      "estimated_replacement_cost": 1016203.87,
+      "created_at": "2025-02-03T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0097",
+      "code": "IFX-WOR-00097",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.558359,
+      "longitude": -122.371203,
+      "estimated_replacement_cost": 780417.54,
+      "created_at": "2026-07-23T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0098",
+      "code": "IFX-WOR-00098",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.95316,
+      "longitude": -122.604127,
+      "estimated_replacement_cost": 797144.27,
+      "created_at": "2026-07-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0099",
+      "code": "IFX-WOR-00099",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.782417,
+      "longitude": -122.472272,
+      "estimated_replacement_cost": 769670.39,
+      "created_at": "2025-02-08T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0100",
+      "code": "IFX-WOR-00100",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.526957,
+      "longitude": -122.476345,
+      "estimated_replacement_cost": 1452717.22,
+      "created_at": "2025-04-20T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0101",
+      "code": "IFX-WOR-00101",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.825574,
+      "longitude": -122.367635,
+      "estimated_replacement_cost": 897283.28,
+      "created_at": "2024-10-27T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0102",
+      "code": "IFX-WOR-00102",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.682633,
+      "longitude": -122.372809,
+      "estimated_replacement_cost": 657576.76,
+      "created_at": "2026-01-08T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0103",
+      "code": "IFX-WOR-00103",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.660762,
+      "longitude": -122.353006,
+      "estimated_replacement_cost": 600121.54,
+      "created_at": "2025-08-30T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0104",
+      "code": "IFX-WOR-00104",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.540313,
+      "longitude": -122.553957,
+      "estimated_replacement_cost": 38790.05,
+      "created_at": "2025-11-20T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0105",
+      "code": "IFX-WOR-00105",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.760306,
+      "longitude": -122.345823,
+      "estimated_replacement_cost": 350212.02,
+      "created_at": "2025-02-16T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0106",
+      "code": "IFX-WOR-00106",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.731185,
+      "longitude": -122.661624,
+      "estimated_replacement_cost": 1357872.57,
+      "created_at": "2025-02-06T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0107",
+      "code": "IFX-WOR-00107",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.885137,
+      "longitude": -122.459731,
+      "estimated_replacement_cost": 631141.76,
+      "created_at": "2025-06-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0108",
+      "code": "IFX-WOR-00108",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.861509,
+      "longitude": -122.312741,
+      "estimated_replacement_cost": 256473.38,
+      "created_at": "2024-11-26T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0109",
+      "code": "IFX-WOR-00109",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.581717,
+      "longitude": -122.58601,
+      "estimated_replacement_cost": 658861.55,
+      "created_at": "2026-04-15T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0110",
+      "code": "IFX-WOR-00110",
+      "status": "STANDBY",
+      "condition_score": 54,
+      "latitude": 37.695463,
+      "longitude": -122.548494,
+      "estimated_replacement_cost": 842866.53,
+      "created_at": "2024-10-27T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0111",
+      "code": "IFX-WOR-00111",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.616661,
+      "longitude": -122.207009,
+      "estimated_replacement_cost": 782186.23,
+      "created_at": "2024-10-03T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0112",
+      "code": "IFX-WOR-00112",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.618412,
+      "longitude": -122.617855,
+      "estimated_replacement_cost": 433735.57,
+      "created_at": "2025-07-09T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0113",
+      "code": "IFX-WOR-00113",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.962676,
+      "longitude": -122.194393,
+      "estimated_replacement_cost": 982741.81,
+      "created_at": "2025-08-14T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0114",
+      "code": "IFX-WOR-00114",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.864152,
+      "longitude": -122.574649,
+      "estimated_replacement_cost": 839977.78,
+      "created_at": "2026-04-20T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0115",
+      "code": "IFX-WOR-00115",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.941001,
+      "longitude": -122.291099,
+      "estimated_replacement_cost": 1353960.46,
+      "created_at": "2025-12-09T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0116",
+      "code": "IFX-WOR-00116",
+      "status": "INSPECTED",
+      "condition_score": 70,
+      "latitude": 37.635256,
+      "longitude": -122.587639,
+      "estimated_replacement_cost": 78051.43,
+      "created_at": "2025-05-15T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0117",
+      "code": "IFX-WOR-00117",
+      "status": "INSPECTED",
+      "condition_score": 53,
+      "latitude": 37.569198,
+      "longitude": -122.57515,
+      "estimated_replacement_cost": 1269176.4,
+      "created_at": "2025-01-01T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0118",
+      "code": "IFX-WOR-00118",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.688713,
+      "longitude": -122.631298,
+      "estimated_replacement_cost": 694350.46,
+      "created_at": "2025-03-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0119",
+      "code": "IFX-WOR-00119",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.725657,
+      "longitude": -122.466174,
+      "estimated_replacement_cost": 847553.33,
+      "created_at": "2026-01-27T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0120",
+      "code": "IFX-WOR-00120",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.625385,
+      "longitude": -122.333849,
+      "estimated_replacement_cost": 373317.45,
+      "created_at": "2025-07-05T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0121",
+      "code": "IFX-WOR-00121",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.824487,
+      "longitude": -122.620027,
+      "estimated_replacement_cost": 748718.28,
+      "created_at": "2025-05-14T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0122",
+      "code": "IFX-WOR-00122",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.857672,
+      "longitude": -122.499398,
+      "estimated_replacement_cost": 400980.69,
+      "created_at": "2024-11-11T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0123",
+      "code": "IFX-WOR-00123",
+      "status": "ACTIVE",
+      "condition_score": 70,
+      "latitude": 37.95412,
+      "longitude": -122.518431,
+      "estimated_replacement_cost": 772469.56,
+      "created_at": "2026-08-08T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0124",
+      "code": "IFX-WOR-00124",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.65991,
+      "longitude": -122.436947,
+      "estimated_replacement_cost": 1317335.86,
+      "created_at": "2025-12-20T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0125",
+      "code": "IFX-WOR-00125",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.697841,
+      "longitude": -122.404255,
+      "estimated_replacement_cost": 738772.34,
+      "created_at": "2026-05-27T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0126",
+      "code": "IFX-WOR-00126",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.544364,
+      "longitude": -122.605101,
+      "estimated_replacement_cost": 894621.95,
+      "created_at": "2026-02-01T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0127",
+      "code": "IFX-WOR-00127",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.603642,
+      "longitude": -122.24454,
+      "estimated_replacement_cost": 1260408.28,
+      "created_at": "2025-09-09T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0128",
+      "code": "IFX-WOR-00128",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.596375,
+      "longitude": -122.342839,
+      "estimated_replacement_cost": 331395.7,
+      "created_at": "2026-03-22T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0129",
+      "code": "IFX-WOR-00129",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.779844,
+      "longitude": -122.361138,
+      "estimated_replacement_cost": 175676.9,
+      "created_at": "2026-03-13T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0130",
+      "code": "IFX-WOR-00130",
+      "status": "INSPECTED",
+      "condition_score": 78,
+      "latitude": 37.759637,
+      "longitude": -122.452729,
+      "estimated_replacement_cost": 1196219.17,
+      "created_at": "2026-05-26T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0131",
+      "code": "IFX-WOR-00131",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.863362,
+      "longitude": -122.317246,
+      "estimated_replacement_cost": 269208.97,
+      "created_at": "2024-10-12T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0132",
+      "code": "IFX-WOR-00132",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.592801,
+      "longitude": -122.557953,
+      "estimated_replacement_cost": 432134.44,
+      "created_at": "2026-04-21T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0133",
+      "code": "IFX-WOR-00133",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.758331,
+      "longitude": -122.267167,
+      "estimated_replacement_cost": 988940.31,
+      "created_at": "2025-05-22T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0134",
+      "code": "IFX-WOR-00134",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.929219,
+      "longitude": -122.387147,
+      "estimated_replacement_cost": 83991.84,
+      "created_at": "2026-09-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0135",
+      "code": "IFX-WOR-00135",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.950353,
+      "longitude": -122.517995,
+      "estimated_replacement_cost": 544609.89,
+      "created_at": "2025-08-14T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0136",
+      "code": "IFX-WOR-00136",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.901597,
+      "longitude": -122.668823,
+      "estimated_replacement_cost": 959247.78,
+      "created_at": "2026-08-10T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0137",
+      "code": "IFX-WOR-00137",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.997285,
+      "longitude": -122.646353,
+      "estimated_replacement_cost": 854144.59,
+      "created_at": "2025-04-04T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0138",
+      "code": "IFX-WOR-00138",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.579822,
+      "longitude": -122.523187,
+      "estimated_replacement_cost": 96924.74,
+      "created_at": "2025-10-08T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0139",
+      "code": "IFX-WOR-00139",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.594066,
+      "longitude": -122.372014,
+      "estimated_replacement_cost": 1248201.59,
+      "created_at": "2026-05-25T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0140",
+      "code": "IFX-WOR-00140",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 93,
+      "latitude": 37.915917,
+      "longitude": -122.455904,
+      "estimated_replacement_cost": 838877.15,
+      "created_at": "2024-11-18T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0141",
+      "code": "IFX-WOR-00141",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.555043,
+      "longitude": -122.62539,
+      "estimated_replacement_cost": 1181696.71,
+      "created_at": "2026-02-19T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0142",
+      "code": "IFX-WOR-00142",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.790026,
+      "longitude": -122.354196,
+      "estimated_replacement_cost": 1478295.1,
+      "created_at": "2026-08-16T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0143",
+      "code": "IFX-WOR-00143",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.774203,
+      "longitude": -122.520402,
+      "estimated_replacement_cost": 336763.23,
+      "created_at": "2026-05-12T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0144",
+      "code": "IFX-WOR-00144",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.527429,
+      "longitude": -122.605638,
+      "estimated_replacement_cost": 260099.79,
+      "created_at": "2026-06-27T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0145",
+      "code": "IFX-WOR-00145",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.690773,
+      "longitude": -122.43471,
+      "estimated_replacement_cost": 1334335.47,
+      "created_at": "2026-05-29T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0146",
+      "code": "IFX-WOR-00146",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.992912,
+      "longitude": -122.654541,
+      "estimated_replacement_cost": 444086.73,
+      "created_at": "2024-10-13T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0147",
+      "code": "IFX-WOR-00147",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.904439,
+      "longitude": -122.48092,
+      "estimated_replacement_cost": 1301116.58,
+      "created_at": "2025-09-03T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0148",
+      "code": "IFX-WOR-00148",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 38.020785,
+      "longitude": -122.656066,
+      "estimated_replacement_cost": 1301110.49,
+      "created_at": "2025-03-24T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0149",
+      "code": "IFX-WOR-00149",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.638956,
+      "longitude": -122.614021,
+      "estimated_replacement_cost": 1467582.1,
+      "created_at": "2024-11-15T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_workorders.workordersrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Workorders Asset Segment #0150",
+      "code": "IFX-WOR-00150",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.680386,
+      "longitude": -122.351005,
+      "estimated_replacement_cost": 757864.93,
+      "created_at": "2025-05-17T10:34:25.386195",
+      "updated_at": "2026-09-08T10:34:25.386195",
+      "notes": "Standard municipal engineering inventory record for workorders.",
+      "metadata": {
+        "spec_code": "SPEC-WORKORDERS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]

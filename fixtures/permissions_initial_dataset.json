@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0001",
+      "code": "IFX-PER-00001",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.797934,
+      "longitude": -122.430077,
+      "estimated_replacement_cost": 48285.64,
+      "created_at": "2026-07-31T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0002",
+      "code": "IFX-PER-00002",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.726777,
+      "longitude": -122.543579,
+      "estimated_replacement_cost": 159670.44,
+      "created_at": "2025-12-05T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0003",
+      "code": "IFX-PER-00003",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.967649,
+      "longitude": -122.483052,
+      "estimated_replacement_cost": 1216282.49,
+      "created_at": "2025-02-03T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0004",
+      "code": "IFX-PER-00004",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.538301,
+      "longitude": -122.200877,
+      "estimated_replacement_cost": 753553.71,
+      "created_at": "2025-10-31T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0005",
+      "code": "IFX-PER-00005",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.895284,
+      "longitude": -122.575945,
+      "estimated_replacement_cost": 771048.55,
+      "created_at": "2025-11-02T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0006",
+      "code": "IFX-PER-00006",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.96042,
+      "longitude": -122.39175,
+      "estimated_replacement_cost": 1051803.52,
+      "created_at": "2024-11-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0007",
+      "code": "IFX-PER-00007",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.742589,
+      "longitude": -122.488119,
+      "estimated_replacement_cost": 1032051.57,
+      "created_at": "2024-12-19T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0008",
+      "code": "IFX-PER-00008",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.716575,
+      "longitude": -122.587993,
+      "estimated_replacement_cost": 282310.13,
+      "created_at": "2024-12-27T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0009",
+      "code": "IFX-PER-00009",
+      "status": "OPERATIONAL",
+      "condition_score": 100,
+      "latitude": 37.998791,
+      "longitude": -122.589652,
+      "estimated_replacement_cost": 508217.31,
+      "created_at": "2026-08-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0010",
+      "code": "IFX-PER-00010",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.871911,
+      "longitude": -122.232683,
+      "estimated_replacement_cost": 236169.22,
+      "created_at": "2025-04-25T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0011",
+      "code": "IFX-PER-00011",
+      "status": "STANDBY",
+      "condition_score": 52,
+      "latitude": 37.565754,
+      "longitude": -122.405907,
+      "estimated_replacement_cost": 1475355.47,
+      "created_at": "2025-10-06T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0012",
+      "code": "IFX-PER-00012",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.652735,
+      "longitude": -122.226167,
+      "estimated_replacement_cost": 1329059.18,
+      "created_at": "2025-08-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0013",
+      "code": "IFX-PER-00013",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.550862,
+      "longitude": -122.287343,
+      "estimated_replacement_cost": 1008825.17,
+      "created_at": "2026-01-23T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0014",
+      "code": "IFX-PER-00014",
+      "status": "OPERATIONAL",
+      "condition_score": 92,
+      "latitude": 37.803153,
+      "longitude": -122.584134,
+      "estimated_replacement_cost": 1236106.3,
+      "created_at": "2026-05-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0015",
+      "code": "IFX-PER-00015",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.886094,
+      "longitude": -122.378299,
+      "estimated_replacement_cost": 1433056.16,
+      "created_at": "2025-11-10T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0016",
+      "code": "IFX-PER-00016",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.863572,
+      "longitude": -122.330225,
+      "estimated_replacement_cost": 71406.46,
+      "created_at": "2025-06-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0017",
+      "code": "IFX-PER-00017",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.836118,
+      "longitude": -122.204618,
+      "estimated_replacement_cost": 887617.55,
+      "created_at": "2025-07-19T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0018",
+      "code": "IFX-PER-00018",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.577225,
+      "longitude": -122.289008,
+      "estimated_replacement_cost": 294384.81,
+      "created_at": "2025-06-14T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0019",
+      "code": "IFX-PER-00019",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.867714,
+      "longitude": -122.648081,
+      "estimated_replacement_cost": 82653.5,
+      "created_at": "2026-02-25T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0020",
+      "code": "IFX-PER-00020",
+      "status": "ACTIVE",
+      "condition_score": 100,
+      "latitude": 38.011674,
+      "longitude": -122.385218,
+      "estimated_replacement_cost": 364982.23,
+      "created_at": "2025-11-28T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0021",
+      "code": "IFX-PER-00021",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.998805,
+      "longitude": -122.384502,
+      "estimated_replacement_cost": 389248.92,
+      "created_at": "2026-05-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0022",
+      "code": "IFX-PER-00022",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.941542,
+      "longitude": -122.440051,
+      "estimated_replacement_cost": 1299416.98,
+      "created_at": "2024-10-06T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0023",
+      "code": "IFX-PER-00023",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.690543,
+      "longitude": -122.595424,
+      "estimated_replacement_cost": 167957.88,
+      "created_at": "2024-11-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0024",
+      "code": "IFX-PER-00024",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 68,
+      "latitude": 37.65031,
+      "longitude": -122.229337,
+      "estimated_replacement_cost": 1176613.49,
+      "created_at": "2025-01-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0025",
+      "code": "IFX-PER-00025",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.644888,
+      "longitude": -122.43095,
+      "estimated_replacement_cost": 421196.69,
+      "created_at": "2025-10-21T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0026",
+      "code": "IFX-PER-00026",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.586374,
+      "longitude": -122.265481,
+      "estimated_replacement_cost": 752378.66,
+      "created_at": "2025-07-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0027",
+      "code": "IFX-PER-00027",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.812753,
+      "longitude": -122.240057,
+      "estimated_replacement_cost": 756659.01,
+      "created_at": "2025-08-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0028",
+      "code": "IFX-PER-00028",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.56294,
+      "longitude": -122.64753,
+      "estimated_replacement_cost": 291404.89,
+      "created_at": "2026-04-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0029",
+      "code": "IFX-PER-00029",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.895065,
+      "longitude": -122.327832,
+      "estimated_replacement_cost": 824952.0,
+      "created_at": "2026-08-17T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0030",
+      "code": "IFX-PER-00030",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.938431,
+      "longitude": -122.184849,
+      "estimated_replacement_cost": 443120.81,
+      "created_at": "2025-07-13T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0031",
+      "code": "IFX-PER-00031",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 38.013004,
+      "longitude": -122.52452,
+      "estimated_replacement_cost": 1255130.72,
+      "created_at": "2026-09-01T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0032",
+      "code": "IFX-PER-00032",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.631798,
+      "longitude": -122.294915,
+      "estimated_replacement_cost": 626321.37,
+      "created_at": "2025-12-05T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0033",
+      "code": "IFX-PER-00033",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.642373,
+      "longitude": -122.460444,
+      "estimated_replacement_cost": 155157.63,
+      "created_at": "2025-08-16T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0034",
+      "code": "IFX-PER-00034",
+      "status": "ACTIVE",
+      "condition_score": 59,
+      "latitude": 37.892087,
+      "longitude": -122.621215,
+      "estimated_replacement_cost": 1002235.33,
+      "created_at": "2025-02-09T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0035",
+      "code": "IFX-PER-00035",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 37.737187,
+      "longitude": -122.36533,
+      "estimated_replacement_cost": 606011.33,
+      "created_at": "2026-05-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0036",
+      "code": "IFX-PER-00036",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.99829,
+      "longitude": -122.294995,
+      "estimated_replacement_cost": 1494500.47,
+      "created_at": "2025-12-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0037",
+      "code": "IFX-PER-00037",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 37.585424,
+      "longitude": -122.630265,
+      "estimated_replacement_cost": 702413.6,
+      "created_at": "2026-03-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0038",
+      "code": "IFX-PER-00038",
+      "status": "OPERATIONAL",
+      "condition_score": 85,
+      "latitude": 37.788315,
+      "longitude": -122.530123,
+      "estimated_replacement_cost": 1301171.75,
+      "created_at": "2025-09-03T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0039",
+      "code": "IFX-PER-00039",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.670704,
+      "longitude": -122.403374,
+      "estimated_replacement_cost": 656987.63,
+      "created_at": "2025-02-21T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0040",
+      "code": "IFX-PER-00040",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.68171,
+      "longitude": -122.327953,
+      "estimated_replacement_cost": 462330.02,
+      "created_at": "2026-01-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0041",
+      "code": "IFX-PER-00041",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 96,
+      "latitude": 37.759191,
+      "longitude": -122.32853,
+      "estimated_replacement_cost": 1338128.79,
+      "created_at": "2024-12-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0042",
+      "code": "IFX-PER-00042",
+      "status": "ACTIVE",
+      "condition_score": 53,
+      "latitude": 37.766265,
+      "longitude": -122.425068,
+      "estimated_replacement_cost": 1323836.81,
+      "created_at": "2025-05-06T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0043",
+      "code": "IFX-PER-00043",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 38.019016,
+      "longitude": -122.395111,
+      "estimated_replacement_cost": 470721.28,
+      "created_at": "2025-08-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0044",
+      "code": "IFX-PER-00044",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.622024,
+      "longitude": -122.535062,
+      "estimated_replacement_cost": 182756.77,
+      "created_at": "2025-02-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0045",
+      "code": "IFX-PER-00045",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.813797,
+      "longitude": -122.34615,
+      "estimated_replacement_cost": 830555.55,
+      "created_at": "2025-01-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0046",
+      "code": "IFX-PER-00046",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.668892,
+      "longitude": -122.209664,
+      "estimated_replacement_cost": 764916.14,
+      "created_at": "2025-07-19T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0047",
+      "code": "IFX-PER-00047",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.837679,
+      "longitude": -122.440995,
+      "estimated_replacement_cost": 1471855.11,
+      "created_at": "2025-04-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0048",
+      "code": "IFX-PER-00048",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.552708,
+      "longitude": -122.191751,
+      "estimated_replacement_cost": 649061.1,
+      "created_at": "2025-07-27T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0049",
+      "code": "IFX-PER-00049",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.967933,
+      "longitude": -122.352189,
+      "estimated_replacement_cost": 1437620.64,
+      "created_at": "2026-07-30T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0050",
+      "code": "IFX-PER-00050",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.595124,
+      "longitude": -122.185232,
+      "estimated_replacement_cost": 1145314.69,
+      "created_at": "2026-08-21T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0051",
+      "code": "IFX-PER-00051",
+      "status": "OPERATIONAL",
+      "condition_score": 62,
+      "latitude": 37.916228,
+      "longitude": -122.421629,
+      "estimated_replacement_cost": 456332.54,
+      "created_at": "2026-07-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0052",
+      "code": "IFX-PER-00052",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.72786,
+      "longitude": -122.396194,
+      "estimated_replacement_cost": 141666.16,
+      "created_at": "2026-09-06T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0053",
+      "code": "IFX-PER-00053",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.789811,
+      "longitude": -122.245555,
+      "estimated_replacement_cost": 1212443.71,
+      "created_at": "2026-08-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0054",
+      "code": "IFX-PER-00054",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 38.018203,
+      "longitude": -122.211128,
+      "estimated_replacement_cost": 859923.75,
+      "created_at": "2025-12-04T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0055",
+      "code": "IFX-PER-00055",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.67185,
+      "longitude": -122.31155,
+      "estimated_replacement_cost": 1197539.85,
+      "created_at": "2024-09-26T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0056",
+      "code": "IFX-PER-00056",
+      "status": "ACTIVE",
+      "condition_score": 97,
+      "latitude": 37.93367,
+      "longitude": -122.182894,
+      "estimated_replacement_cost": 627752.03,
+      "created_at": "2026-05-04T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0057",
+      "code": "IFX-PER-00057",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.952114,
+      "longitude": -122.362009,
+      "estimated_replacement_cost": 926918.15,
+      "created_at": "2024-12-12T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0058",
+      "code": "IFX-PER-00058",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.937622,
+      "longitude": -122.215047,
+      "estimated_replacement_cost": 836577.48,
+      "created_at": "2025-02-04T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0059",
+      "code": "IFX-PER-00059",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.583076,
+      "longitude": -122.244747,
+      "estimated_replacement_cost": 361418.55,
+      "created_at": "2025-12-17T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0060",
+      "code": "IFX-PER-00060",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.991711,
+      "longitude": -122.3965,
+      "estimated_replacement_cost": 726481.35,
+      "created_at": "2026-04-15T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0061",
+      "code": "IFX-PER-00061",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.683525,
+      "longitude": -122.456606,
+      "estimated_replacement_cost": 291615.93,
+      "created_at": "2024-10-06T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0062",
+      "code": "IFX-PER-00062",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.739402,
+      "longitude": -122.346275,
+      "estimated_replacement_cost": 965806.33,
+      "created_at": "2024-11-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0063",
+      "code": "IFX-PER-00063",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.841615,
+      "longitude": -122.21205,
+      "estimated_replacement_cost": 770848.35,
+      "created_at": "2024-12-15T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0064",
+      "code": "IFX-PER-00064",
+      "status": "INSPECTED",
+      "condition_score": 96,
+      "latitude": 37.707063,
+      "longitude": -122.438745,
+      "estimated_replacement_cost": 1176176.75,
+      "created_at": "2025-07-28T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0065",
+      "code": "IFX-PER-00065",
+      "status": "ACTIVE",
+      "condition_score": 50,
+      "latitude": 37.656398,
+      "longitude": -122.60486,
+      "estimated_replacement_cost": 1193570.72,
+      "created_at": "2025-10-05T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0066",
+      "code": "IFX-PER-00066",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 38.019792,
+      "longitude": -122.362415,
+      "estimated_replacement_cost": 800660.84,
+      "created_at": "2025-11-16T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0067",
+      "code": "IFX-PER-00067",
+      "status": "STANDBY",
+      "condition_score": 63,
+      "latitude": 37.72905,
+      "longitude": -122.503567,
+      "estimated_replacement_cost": 459028.86,
+      "created_at": "2024-12-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0068",
+      "code": "IFX-PER-00068",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.829152,
+      "longitude": -122.196938,
+      "estimated_replacement_cost": 711203.24,
+      "created_at": "2026-06-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0069",
+      "code": "IFX-PER-00069",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.743234,
+      "longitude": -122.309925,
+      "estimated_replacement_cost": 400483.11,
+      "created_at": "2025-11-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0070",
+      "code": "IFX-PER-00070",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.676929,
+      "longitude": -122.446101,
+      "estimated_replacement_cost": 1035109.0,
+      "created_at": "2025-01-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0071",
+      "code": "IFX-PER-00071",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.710518,
+      "longitude": -122.460502,
+      "estimated_replacement_cost": 117541.98,
+      "created_at": "2026-01-21T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0072",
+      "code": "IFX-PER-00072",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.967914,
+      "longitude": -122.385795,
+      "estimated_replacement_cost": 243374.95,
+      "created_at": "2026-01-16T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0073",
+      "code": "IFX-PER-00073",
+      "status": "OPERATIONAL",
+      "condition_score": 94,
+      "latitude": 37.887855,
+      "longitude": -122.270005,
+      "estimated_replacement_cost": 945665.52,
+      "created_at": "2026-01-01T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0074",
+      "code": "IFX-PER-00074",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.597607,
+      "longitude": -122.170658,
+      "estimated_replacement_cost": 1335069.01,
+      "created_at": "2025-04-19T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0075",
+      "code": "IFX-PER-00075",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.844995,
+      "longitude": -122.371515,
+      "estimated_replacement_cost": 296746.76,
+      "created_at": "2025-08-27T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0076",
+      "code": "IFX-PER-00076",
+      "status": "INSPECTED",
+      "condition_score": 73,
+      "latitude": 37.737364,
+      "longitude": -122.546759,
+      "estimated_replacement_cost": 335726.18,
+      "created_at": "2024-12-15T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0077",
+      "code": "IFX-PER-00077",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.996423,
+      "longitude": -122.494284,
+      "estimated_replacement_cost": 92198.83,
+      "created_at": "2025-03-05T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0078",
+      "code": "IFX-PER-00078",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.938708,
+      "longitude": -122.323931,
+      "estimated_replacement_cost": 958713.98,
+      "created_at": "2026-06-13T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0079",
+      "code": "IFX-PER-00079",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.842024,
+      "longitude": -122.279376,
+      "estimated_replacement_cost": 343310.56,
+      "created_at": "2024-11-03T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0080",
+      "code": "IFX-PER-00080",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.827744,
+      "longitude": -122.370784,
+      "estimated_replacement_cost": 1429334.82,
+      "created_at": "2025-03-03T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0081",
+      "code": "IFX-PER-00081",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.879262,
+      "longitude": -122.422246,
+      "estimated_replacement_cost": 849138.34,
+      "created_at": "2025-05-25T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0082",
+      "code": "IFX-PER-00082",
+      "status": "STANDBY",
+      "condition_score": 76,
+      "latitude": 37.986231,
+      "longitude": -122.6465,
+      "estimated_replacement_cost": 374037.95,
+      "created_at": "2024-09-27T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0083",
+      "code": "IFX-PER-00083",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.652138,
+      "longitude": -122.469004,
+      "estimated_replacement_cost": 790333.21,
+      "created_at": "2026-06-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0084",
+      "code": "IFX-PER-00084",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.913362,
+      "longitude": -122.537996,
+      "estimated_replacement_cost": 213652.32,
+      "created_at": "2026-06-26T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0085",
+      "code": "IFX-PER-00085",
+      "status": "OPERATIONAL",
+      "condition_score": 60,
+      "latitude": 37.797032,
+      "longitude": -122.553696,
+      "estimated_replacement_cost": 371008.89,
+      "created_at": "2024-11-13T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0086",
+      "code": "IFX-PER-00086",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 38.011181,
+      "longitude": -122.402187,
+      "estimated_replacement_cost": 657415.2,
+      "created_at": "2025-11-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0087",
+      "code": "IFX-PER-00087",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 37.773172,
+      "longitude": -122.382471,
+      "estimated_replacement_cost": 294542.86,
+      "created_at": "2025-06-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0088",
+      "code": "IFX-PER-00088",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.995529,
+      "longitude": -122.538368,
+      "estimated_replacement_cost": 883216.63,
+      "created_at": "2025-01-28T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0089",
+      "code": "IFX-PER-00089",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.999206,
+      "longitude": -122.500262,
+      "estimated_replacement_cost": 75182.33,
+      "created_at": "2025-01-13T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0090",
+      "code": "IFX-PER-00090",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.803659,
+      "longitude": -122.488662,
+      "estimated_replacement_cost": 844741.89,
+      "created_at": "2025-07-15T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0091",
+      "code": "IFX-PER-00091",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.606936,
+      "longitude": -122.376672,
+      "estimated_replacement_cost": 191016.29,
+      "created_at": "2026-01-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0092",
+      "code": "IFX-PER-00092",
+      "status": "OPERATIONAL",
+      "condition_score": 55,
+      "latitude": 37.9791,
+      "longitude": -122.395063,
+      "estimated_replacement_cost": 427744.21,
+      "created_at": "2026-05-01T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0093",
+      "code": "IFX-PER-00093",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.760693,
+      "longitude": -122.366178,
+      "estimated_replacement_cost": 142235.16,
+      "created_at": "2026-07-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0094",
+      "code": "IFX-PER-00094",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.678556,
+      "longitude": -122.279134,
+      "estimated_replacement_cost": 973953.93,
+      "created_at": "2025-11-05T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0095",
+      "code": "IFX-PER-00095",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.613126,
+      "longitude": -122.435303,
+      "estimated_replacement_cost": 28553.83,
+      "created_at": "2025-11-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0096",
+      "code": "IFX-PER-00096",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 37.978484,
+      "longitude": -122.236971,
+      "estimated_replacement_cost": 47355.62,
+      "created_at": "2025-02-02T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0097",
+      "code": "IFX-PER-00097",
+      "status": "STANDBY",
+      "condition_score": 58,
+      "latitude": 37.665757,
+      "longitude": -122.37779,
+      "estimated_replacement_cost": 49206.71,
+      "created_at": "2026-01-16T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0098",
+      "code": "IFX-PER-00098",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.544759,
+      "longitude": -122.388697,
+      "estimated_replacement_cost": 409576.5,
+      "created_at": "2025-09-05T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0099",
+      "code": "IFX-PER-00099",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.687962,
+      "longitude": -122.487943,
+      "estimated_replacement_cost": 395756.34,
+      "created_at": "2026-04-21T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0100",
+      "code": "IFX-PER-00100",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.538404,
+      "longitude": -122.347894,
+      "estimated_replacement_cost": 612410.74,
+      "created_at": "2026-06-27T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0101",
+      "code": "IFX-PER-00101",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.784141,
+      "longitude": -122.664238,
+      "estimated_replacement_cost": 575344.16,
+      "created_at": "2026-02-16T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0102",
+      "code": "IFX-PER-00102",
+      "status": "OPERATIONAL",
+      "condition_score": 88,
+      "latitude": 37.871852,
+      "longitude": -122.526851,
+      "estimated_replacement_cost": 1023105.54,
+      "created_at": "2025-06-01T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0103",
+      "code": "IFX-PER-00103",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.816885,
+      "longitude": -122.42729,
+      "estimated_replacement_cost": 1155965.63,
+      "created_at": "2026-08-25T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0104",
+      "code": "IFX-PER-00104",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.577523,
+      "longitude": -122.549664,
+      "estimated_replacement_cost": 1042837.79,
+      "created_at": "2024-10-21T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0105",
+      "code": "IFX-PER-00105",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.818538,
+      "longitude": -122.283664,
+      "estimated_replacement_cost": 95127.22,
+      "created_at": "2025-12-28T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0106",
+      "code": "IFX-PER-00106",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.790752,
+      "longitude": -122.326546,
+      "estimated_replacement_cost": 801258.81,
+      "created_at": "2025-10-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0107",
+      "code": "IFX-PER-00107",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.776523,
+      "longitude": -122.497555,
+      "estimated_replacement_cost": 233133.74,
+      "created_at": "2025-12-13T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0108",
+      "code": "IFX-PER-00108",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.967514,
+      "longitude": -122.186756,
+      "estimated_replacement_cost": 1498518.23,
+      "created_at": "2026-07-02T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0109",
+      "code": "IFX-PER-00109",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.916519,
+      "longitude": -122.412325,
+      "estimated_replacement_cost": 908708.43,
+      "created_at": "2025-09-28T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0110",
+      "code": "IFX-PER-00110",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.577214,
+      "longitude": -122.556076,
+      "estimated_replacement_cost": 651353.09,
+      "created_at": "2025-02-06T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0111",
+      "code": "IFX-PER-00111",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.820955,
+      "longitude": -122.559346,
+      "estimated_replacement_cost": 1103908.76,
+      "created_at": "2025-04-09T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0112",
+      "code": "IFX-PER-00112",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.746639,
+      "longitude": -122.463669,
+      "estimated_replacement_cost": 491803.94,
+      "created_at": "2025-12-07T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0113",
+      "code": "IFX-PER-00113",
+      "status": "INSPECTED",
+      "condition_score": 94,
+      "latitude": 37.557894,
+      "longitude": -122.283448,
+      "estimated_replacement_cost": 186369.31,
+      "created_at": "2026-05-03T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0114",
+      "code": "IFX-PER-00114",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.577342,
+      "longitude": -122.427398,
+      "estimated_replacement_cost": 421197.92,
+      "created_at": "2025-01-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0115",
+      "code": "IFX-PER-00115",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.857586,
+      "longitude": -122.65515,
+      "estimated_replacement_cost": 361372.42,
+      "created_at": "2025-06-03T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0116",
+      "code": "IFX-PER-00116",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.936966,
+      "longitude": -122.424053,
+      "estimated_replacement_cost": 968222.23,
+      "created_at": "2026-01-04T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0117",
+      "code": "IFX-PER-00117",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.943418,
+      "longitude": -122.321229,
+      "estimated_replacement_cost": 455661.88,
+      "created_at": "2026-05-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0118",
+      "code": "IFX-PER-00118",
+      "status": "STANDBY",
+      "condition_score": 74,
+      "latitude": 37.81858,
+      "longitude": -122.254364,
+      "estimated_replacement_cost": 1433903.51,
+      "created_at": "2026-05-18T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0119",
+      "code": "IFX-PER-00119",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.729067,
+      "longitude": -122.237333,
+      "estimated_replacement_cost": 721499.87,
+      "created_at": "2026-05-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0120",
+      "code": "IFX-PER-00120",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.947664,
+      "longitude": -122.432561,
+      "estimated_replacement_cost": 1223511.45,
+      "created_at": "2026-08-12T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0121",
+      "code": "IFX-PER-00121",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.775371,
+      "longitude": -122.522607,
+      "estimated_replacement_cost": 751577.49,
+      "created_at": "2026-04-13T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0122",
+      "code": "IFX-PER-00122",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.765853,
+      "longitude": -122.434531,
+      "estimated_replacement_cost": 1132713.8,
+      "created_at": "2025-04-13T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0123",
+      "code": "IFX-PER-00123",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 37.542904,
+      "longitude": -122.214843,
+      "estimated_replacement_cost": 466679.5,
+      "created_at": "2024-10-30T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0124",
+      "code": "IFX-PER-00124",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.740504,
+      "longitude": -122.175933,
+      "estimated_replacement_cost": 974561.67,
+      "created_at": "2026-02-15T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0125",
+      "code": "IFX-PER-00125",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.55696,
+      "longitude": -122.624581,
+      "estimated_replacement_cost": 1260372.65,
+      "created_at": "2024-09-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0126",
+      "code": "IFX-PER-00126",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.91809,
+      "longitude": -122.434704,
+      "estimated_replacement_cost": 1463943.77,
+      "created_at": "2026-07-24T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0127",
+      "code": "IFX-PER-00127",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.852151,
+      "longitude": -122.448713,
+      "estimated_replacement_cost": 1417279.4,
+      "created_at": "2026-01-14T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0128",
+      "code": "IFX-PER-00128",
+      "status": "STANDBY",
+      "condition_score": 93,
+      "latitude": 37.978,
+      "longitude": -122.339112,
+      "estimated_replacement_cost": 1032914.25,
+      "created_at": "2026-03-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0129",
+      "code": "IFX-PER-00129",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.653823,
+      "longitude": -122.21127,
+      "estimated_replacement_cost": 1240305.16,
+      "created_at": "2024-10-05T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0130",
+      "code": "IFX-PER-00130",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.85771,
+      "longitude": -122.413075,
+      "estimated_replacement_cost": 1402063.22,
+      "created_at": "2025-01-03T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0131",
+      "code": "IFX-PER-00131",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 38.009061,
+      "longitude": -122.487138,
+      "estimated_replacement_cost": 1270001.89,
+      "created_at": "2025-07-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0132",
+      "code": "IFX-PER-00132",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.895108,
+      "longitude": -122.51753,
+      "estimated_replacement_cost": 25965.09,
+      "created_at": "2026-03-19T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0133",
+      "code": "IFX-PER-00133",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.953913,
+      "longitude": -122.34371,
+      "estimated_replacement_cost": 102226.98,
+      "created_at": "2025-11-08T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0134",
+      "code": "IFX-PER-00134",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.583222,
+      "longitude": -122.576513,
+      "estimated_replacement_cost": 456376.22,
+      "created_at": "2025-10-07T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0135",
+      "code": "IFX-PER-00135",
+      "status": "STANDBY",
+      "condition_score": 63,
+      "latitude": 37.723176,
+      "longitude": -122.505874,
+      "estimated_replacement_cost": 1151172.13,
+      "created_at": "2024-12-30T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0136",
+      "code": "IFX-PER-00136",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.947401,
+      "longitude": -122.281544,
+      "estimated_replacement_cost": 155050.39,
+      "created_at": "2025-12-11T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0137",
+      "code": "IFX-PER-00137",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.569527,
+      "longitude": -122.442682,
+      "estimated_replacement_cost": 429793.72,
+      "created_at": "2025-12-10T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0138",
+      "code": "IFX-PER-00138",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.833025,
+      "longitude": -122.428244,
+      "estimated_replacement_cost": 1375537.11,
+      "created_at": "2026-07-07T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0139",
+      "code": "IFX-PER-00139",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.668431,
+      "longitude": -122.640696,
+      "estimated_replacement_cost": 258557.41,
+      "created_at": "2026-02-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0140",
+      "code": "IFX-PER-00140",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.947538,
+      "longitude": -122.508053,
+      "estimated_replacement_cost": 150753.47,
+      "created_at": "2025-04-26T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0141",
+      "code": "IFX-PER-00141",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.996493,
+      "longitude": -122.475959,
+      "estimated_replacement_cost": 52656.82,
+      "created_at": "2025-03-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0142",
+      "code": "IFX-PER-00142",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.559467,
+      "longitude": -122.513693,
+      "estimated_replacement_cost": 775664.39,
+      "created_at": "2024-11-10T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0143",
+      "code": "IFX-PER-00143",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.999128,
+      "longitude": -122.446006,
+      "estimated_replacement_cost": 924096.5,
+      "created_at": "2025-08-31T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0144",
+      "code": "IFX-PER-00144",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.811367,
+      "longitude": -122.638782,
+      "estimated_replacement_cost": 497020.96,
+      "created_at": "2025-10-01T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0145",
+      "code": "IFX-PER-00145",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.624596,
+      "longitude": -122.218349,
+      "estimated_replacement_cost": 1252982.09,
+      "created_at": "2024-09-18T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0146",
+      "code": "IFX-PER-00146",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.888738,
+      "longitude": -122.262986,
+      "estimated_replacement_cost": 56923.72,
+      "created_at": "2026-07-29T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0147",
+      "code": "IFX-PER-00147",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.827929,
+      "longitude": -122.599843,
+      "estimated_replacement_cost": 521029.36,
+      "created_at": "2025-03-19T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0148",
+      "code": "IFX-PER-00148",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.903774,
+      "longitude": -122.456396,
+      "estimated_replacement_cost": 697507.1,
+      "created_at": "2025-01-17T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0149",
+      "code": "IFX-PER-00149",
+      "status": "STANDBY",
+      "condition_score": 74,
+      "latitude": 37.620368,
+      "longitude": -122.649924,
+      "estimated_replacement_cost": 1258598.23,
+      "created_at": "2025-11-20T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_permissions.permissionsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Permissions Asset Segment #0150",
+      "code": "IFX-PER-00150",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.91362,
+      "longitude": -122.578344,
+      "estimated_replacement_cost": 335339.6,
+      "created_at": "2025-03-22T10:34:25.532100",
+      "updated_at": "2026-09-08T10:34:25.532100",
+      "notes": "Standard municipal engineering inventory record for permissions.",
+      "metadata": {
+        "spec_code": "SPEC-PERMISSIONS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]

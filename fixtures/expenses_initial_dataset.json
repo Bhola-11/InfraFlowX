@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0001",
+      "code": "IFX-EXP-00001",
+      "status": "INSPECTED",
+      "condition_score": 89,
+      "latitude": 37.769721,
+      "longitude": -122.309031,
+      "estimated_replacement_cost": 698524.01,
+      "created_at": "2026-02-07T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0002",
+      "code": "IFX-EXP-00002",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.748561,
+      "longitude": -122.656715,
+      "estimated_replacement_cost": 1109465.8,
+      "created_at": "2025-11-26T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0003",
+      "code": "IFX-EXP-00003",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.853421,
+      "longitude": -122.175159,
+      "estimated_replacement_cost": 463354.38,
+      "created_at": "2025-07-08T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0004",
+      "code": "IFX-EXP-00004",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.591474,
+      "longitude": -122.225577,
+      "estimated_replacement_cost": 506092.49,
+      "created_at": "2025-07-24T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0005",
+      "code": "IFX-EXP-00005",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.759371,
+      "longitude": -122.327803,
+      "estimated_replacement_cost": 472240.22,
+      "created_at": "2025-07-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0006",
+      "code": "IFX-EXP-00006",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.541238,
+      "longitude": -122.203229,
+      "estimated_replacement_cost": 1490844.16,
+      "created_at": "2025-05-05T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0007",
+      "code": "IFX-EXP-00007",
+      "status": "STANDBY",
+      "condition_score": 97,
+      "latitude": 37.836891,
+      "longitude": -122.52581,
+      "estimated_replacement_cost": 399267.59,
+      "created_at": "2025-09-29T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0008",
+      "code": "IFX-EXP-00008",
+      "status": "OPERATIONAL",
+      "condition_score": 97,
+      "latitude": 37.584998,
+      "longitude": -122.430297,
+      "estimated_replacement_cost": 1054431.27,
+      "created_at": "2025-08-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0009",
+      "code": "IFX-EXP-00009",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.705186,
+      "longitude": -122.366761,
+      "estimated_replacement_cost": 704347.7,
+      "created_at": "2025-12-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0010",
+      "code": "IFX-EXP-00010",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.673536,
+      "longitude": -122.394977,
+      "estimated_replacement_cost": 1302805.04,
+      "created_at": "2026-01-28T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0011",
+      "code": "IFX-EXP-00011",
+      "status": "INSPECTED",
+      "condition_score": 72,
+      "latitude": 37.56553,
+      "longitude": -122.551678,
+      "estimated_replacement_cost": 568158.43,
+      "created_at": "2025-04-04T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0012",
+      "code": "IFX-EXP-00012",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.947869,
+      "longitude": -122.229619,
+      "estimated_replacement_cost": 129703.5,
+      "created_at": "2024-12-09T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0013",
+      "code": "IFX-EXP-00013",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 37.867039,
+      "longitude": -122.377607,
+      "estimated_replacement_cost": 1152150.84,
+      "created_at": "2026-06-04T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0014",
+      "code": "IFX-EXP-00014",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.525872,
+      "longitude": -122.657367,
+      "estimated_replacement_cost": 438570.47,
+      "created_at": "2025-09-26T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0015",
+      "code": "IFX-EXP-00015",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.692951,
+      "longitude": -122.368112,
+      "estimated_replacement_cost": 742565.46,
+      "created_at": "2025-12-31T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0016",
+      "code": "IFX-EXP-00016",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.959428,
+      "longitude": -122.380108,
+      "estimated_replacement_cost": 1487391.87,
+      "created_at": "2025-05-27T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0017",
+      "code": "IFX-EXP-00017",
+      "status": "INSPECTED",
+      "condition_score": 63,
+      "latitude": 37.914031,
+      "longitude": -122.383178,
+      "estimated_replacement_cost": 430820.18,
+      "created_at": "2025-02-19T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0018",
+      "code": "IFX-EXP-00018",
+      "status": "STANDBY",
+      "condition_score": 84,
+      "latitude": 37.619891,
+      "longitude": -122.616608,
+      "estimated_replacement_cost": 1051451.87,
+      "created_at": "2025-11-08T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0019",
+      "code": "IFX-EXP-00019",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.776129,
+      "longitude": -122.349174,
+      "estimated_replacement_cost": 242315.97,
+      "created_at": "2024-12-14T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0020",
+      "code": "IFX-EXP-00020",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.98227,
+      "longitude": -122.590455,
+      "estimated_replacement_cost": 1141631.98,
+      "created_at": "2025-01-30T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0021",
+      "code": "IFX-EXP-00021",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.565415,
+      "longitude": -122.26315,
+      "estimated_replacement_cost": 853731.67,
+      "created_at": "2026-04-16T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0022",
+      "code": "IFX-EXP-00022",
+      "status": "INSPECTED",
+      "condition_score": 95,
+      "latitude": 37.68143,
+      "longitude": -122.582663,
+      "estimated_replacement_cost": 62280.77,
+      "created_at": "2025-08-11T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0023",
+      "code": "IFX-EXP-00023",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.752236,
+      "longitude": -122.608946,
+      "estimated_replacement_cost": 188237.36,
+      "created_at": "2025-01-16T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0024",
+      "code": "IFX-EXP-00024",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.600242,
+      "longitude": -122.332556,
+      "estimated_replacement_cost": 200308.34,
+      "created_at": "2025-09-29T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0025",
+      "code": "IFX-EXP-00025",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.733824,
+      "longitude": -122.663251,
+      "estimated_replacement_cost": 645773.07,
+      "created_at": "2026-04-23T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0026",
+      "code": "IFX-EXP-00026",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.746268,
+      "longitude": -122.256908,
+      "estimated_replacement_cost": 1445071.5,
+      "created_at": "2025-05-03T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0027",
+      "code": "IFX-EXP-00027",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.788801,
+      "longitude": -122.567161,
+      "estimated_replacement_cost": 1070199.26,
+      "created_at": "2025-02-15T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0028",
+      "code": "IFX-EXP-00028",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.681462,
+      "longitude": -122.665923,
+      "estimated_replacement_cost": 1283986.55,
+      "created_at": "2026-04-09T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0029",
+      "code": "IFX-EXP-00029",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.99526,
+      "longitude": -122.597062,
+      "estimated_replacement_cost": 1193860.26,
+      "created_at": "2025-12-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0030",
+      "code": "IFX-EXP-00030",
+      "status": "INSPECTED",
+      "condition_score": 66,
+      "latitude": 38.00523,
+      "longitude": -122.568411,
+      "estimated_replacement_cost": 722965.25,
+      "created_at": "2025-02-21T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0031",
+      "code": "IFX-EXP-00031",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.80519,
+      "longitude": -122.668676,
+      "estimated_replacement_cost": 180181.29,
+      "created_at": "2026-06-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0032",
+      "code": "IFX-EXP-00032",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.653279,
+      "longitude": -122.366284,
+      "estimated_replacement_cost": 988463.48,
+      "created_at": "2026-08-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0033",
+      "code": "IFX-EXP-00033",
+      "status": "ACTIVE",
+      "condition_score": 77,
+      "latitude": 37.971812,
+      "longitude": -122.652163,
+      "estimated_replacement_cost": 622091.61,
+      "created_at": "2024-11-27T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0034",
+      "code": "IFX-EXP-00034",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.815432,
+      "longitude": -122.551674,
+      "estimated_replacement_cost": 439212.2,
+      "created_at": "2025-07-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0035",
+      "code": "IFX-EXP-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.699326,
+      "longitude": -122.37133,
+      "estimated_replacement_cost": 918365.11,
+      "created_at": "2025-08-26T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0036",
+      "code": "IFX-EXP-00036",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.609878,
+      "longitude": -122.375108,
+      "estimated_replacement_cost": 515543.51,
+      "created_at": "2026-04-14T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0037",
+      "code": "IFX-EXP-00037",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.740756,
+      "longitude": -122.345015,
+      "estimated_replacement_cost": 901777.31,
+      "created_at": "2025-06-22T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0038",
+      "code": "IFX-EXP-00038",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.670146,
+      "longitude": -122.326518,
+      "estimated_replacement_cost": 130843.87,
+      "created_at": "2024-12-04T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0039",
+      "code": "IFX-EXP-00039",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 98,
+      "latitude": 37.687274,
+      "longitude": -122.520631,
+      "estimated_replacement_cost": 1287564.26,
+      "created_at": "2025-03-05T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0040",
+      "code": "IFX-EXP-00040",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.646946,
+      "longitude": -122.310192,
+      "estimated_replacement_cost": 733734.47,
+      "created_at": "2026-07-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0041",
+      "code": "IFX-EXP-00041",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.96637,
+      "longitude": -122.627018,
+      "estimated_replacement_cost": 1228483.83,
+      "created_at": "2026-03-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0042",
+      "code": "IFX-EXP-00042",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.784937,
+      "longitude": -122.195435,
+      "estimated_replacement_cost": 1061440.67,
+      "created_at": "2024-12-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0043",
+      "code": "IFX-EXP-00043",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 38.004176,
+      "longitude": -122.645434,
+      "estimated_replacement_cost": 470950.84,
+      "created_at": "2024-10-21T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0044",
+      "code": "IFX-EXP-00044",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.834551,
+      "longitude": -122.391728,
+      "estimated_replacement_cost": 100250.72,
+      "created_at": "2026-02-04T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0045",
+      "code": "IFX-EXP-00045",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 38.022304,
+      "longitude": -122.245566,
+      "estimated_replacement_cost": 567909.68,
+      "created_at": "2025-04-21T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0046",
+      "code": "IFX-EXP-00046",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.670465,
+      "longitude": -122.267544,
+      "estimated_replacement_cost": 795208.91,
+      "created_at": "2026-08-01T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0047",
+      "code": "IFX-EXP-00047",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.62867,
+      "longitude": -122.644861,
+      "estimated_replacement_cost": 644336.04,
+      "created_at": "2025-05-30T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0048",
+      "code": "IFX-EXP-00048",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.695696,
+      "longitude": -122.453579,
+      "estimated_replacement_cost": 1483850.7,
+      "created_at": "2025-03-02T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0049",
+      "code": "IFX-EXP-00049",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.986632,
+      "longitude": -122.221221,
+      "estimated_replacement_cost": 531256.43,
+      "created_at": "2025-11-16T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0050",
+      "code": "IFX-EXP-00050",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.693352,
+      "longitude": -122.263489,
+      "estimated_replacement_cost": 1492947.85,
+      "created_at": "2025-11-07T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0051",
+      "code": "IFX-EXP-00051",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 37.780339,
+      "longitude": -122.577064,
+      "estimated_replacement_cost": 844411.41,
+      "created_at": "2026-02-08T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0052",
+      "code": "IFX-EXP-00052",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 37.824874,
+      "longitude": -122.317693,
+      "estimated_replacement_cost": 1479167.86,
+      "created_at": "2025-02-11T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0053",
+      "code": "IFX-EXP-00053",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 38.006015,
+      "longitude": -122.57806,
+      "estimated_replacement_cost": 440953.75,
+      "created_at": "2025-04-21T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0054",
+      "code": "IFX-EXP-00054",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 51,
+      "latitude": 37.876228,
+      "longitude": -122.443374,
+      "estimated_replacement_cost": 551062.43,
+      "created_at": "2026-04-20T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0055",
+      "code": "IFX-EXP-00055",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.934615,
+      "longitude": -122.447021,
+      "estimated_replacement_cost": 1418921.72,
+      "created_at": "2025-08-27T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0056",
+      "code": "IFX-EXP-00056",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.52772,
+      "longitude": -122.184521,
+      "estimated_replacement_cost": 99271.72,
+      "created_at": "2025-04-17T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0057",
+      "code": "IFX-EXP-00057",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.886649,
+      "longitude": -122.567285,
+      "estimated_replacement_cost": 1179246.2,
+      "created_at": "2025-02-17T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0058",
+      "code": "IFX-EXP-00058",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.960331,
+      "longitude": -122.449247,
+      "estimated_replacement_cost": 54948.87,
+      "created_at": "2025-01-08T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0059",
+      "code": "IFX-EXP-00059",
+      "status": "STANDBY",
+      "condition_score": 63,
+      "latitude": 37.826821,
+      "longitude": -122.378923,
+      "estimated_replacement_cost": 1498583.79,
+      "created_at": "2026-03-11T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0060",
+      "code": "IFX-EXP-00060",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.695223,
+      "longitude": -122.211233,
+      "estimated_replacement_cost": 1213951.34,
+      "created_at": "2026-07-29T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0061",
+      "code": "IFX-EXP-00061",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.994186,
+      "longitude": -122.658298,
+      "estimated_replacement_cost": 552387.18,
+      "created_at": "2026-02-02T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0062",
+      "code": "IFX-EXP-00062",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.741193,
+      "longitude": -122.658183,
+      "estimated_replacement_cost": 535066.12,
+      "created_at": "2025-11-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0063",
+      "code": "IFX-EXP-00063",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.632642,
+      "longitude": -122.340433,
+      "estimated_replacement_cost": 721854.87,
+      "created_at": "2025-08-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0064",
+      "code": "IFX-EXP-00064",
+      "status": "INSPECTED",
+      "condition_score": 67,
+      "latitude": 37.872311,
+      "longitude": -122.472231,
+      "estimated_replacement_cost": 682650.39,
+      "created_at": "2026-04-09T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0065",
+      "code": "IFX-EXP-00065",
+      "status": "STANDBY",
+      "condition_score": 73,
+      "latitude": 38.001994,
+      "longitude": -122.185849,
+      "estimated_replacement_cost": 463013.97,
+      "created_at": "2026-07-18T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0066",
+      "code": "IFX-EXP-00066",
+      "status": "INSPECTED",
+      "condition_score": 78,
+      "latitude": 37.881791,
+      "longitude": -122.532192,
+      "estimated_replacement_cost": 720541.59,
+      "created_at": "2025-07-09T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0067",
+      "code": "IFX-EXP-00067",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.556136,
+      "longitude": -122.611691,
+      "estimated_replacement_cost": 874649.36,
+      "created_at": "2025-02-09T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0068",
+      "code": "IFX-EXP-00068",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.537755,
+      "longitude": -122.178612,
+      "estimated_replacement_cost": 1359527.42,
+      "created_at": "2026-01-19T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0069",
+      "code": "IFX-EXP-00069",
+      "status": "INSPECTED",
+      "condition_score": 75,
+      "latitude": 37.710164,
+      "longitude": -122.340117,
+      "estimated_replacement_cost": 852974.2,
+      "created_at": "2026-05-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0070",
+      "code": "IFX-EXP-00070",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 52,
+      "latitude": 38.016059,
+      "longitude": -122.423354,
+      "estimated_replacement_cost": 432843.26,
+      "created_at": "2024-12-02T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0071",
+      "code": "IFX-EXP-00071",
+      "status": "INSPECTED",
+      "condition_score": 98,
+      "latitude": 37.720717,
+      "longitude": -122.186945,
+      "estimated_replacement_cost": 34894.18,
+      "created_at": "2026-08-22T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0072",
+      "code": "IFX-EXP-00072",
+      "status": "STANDBY",
+      "condition_score": 54,
+      "latitude": 37.926298,
+      "longitude": -122.301989,
+      "estimated_replacement_cost": 608580.33,
+      "created_at": "2026-08-11T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0073",
+      "code": "IFX-EXP-00073",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.767662,
+      "longitude": -122.452955,
+      "estimated_replacement_cost": 1403988.84,
+      "created_at": "2026-04-07T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0074",
+      "code": "IFX-EXP-00074",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.810084,
+      "longitude": -122.404836,
+      "estimated_replacement_cost": 385625.3,
+      "created_at": "2026-06-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0075",
+      "code": "IFX-EXP-00075",
+      "status": "OPERATIONAL",
+      "condition_score": 93,
+      "latitude": 37.91981,
+      "longitude": -122.308909,
+      "estimated_replacement_cost": 1347907.04,
+      "created_at": "2025-03-03T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0076",
+      "code": "IFX-EXP-00076",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.62578,
+      "longitude": -122.564125,
+      "estimated_replacement_cost": 991745.32,
+      "created_at": "2026-06-08T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0077",
+      "code": "IFX-EXP-00077",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 38.021107,
+      "longitude": -122.183004,
+      "estimated_replacement_cost": 163944.83,
+      "created_at": "2026-06-13T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0078",
+      "code": "IFX-EXP-00078",
+      "status": "INSPECTED",
+      "condition_score": 86,
+      "latitude": 37.654724,
+      "longitude": -122.542337,
+      "estimated_replacement_cost": 1462118.73,
+      "created_at": "2025-07-29T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0079",
+      "code": "IFX-EXP-00079",
+      "status": "OPERATIONAL",
+      "condition_score": 84,
+      "latitude": 37.760181,
+      "longitude": -122.408036,
+      "estimated_replacement_cost": 298555.97,
+      "created_at": "2025-07-01T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0080",
+      "code": "IFX-EXP-00080",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.613125,
+      "longitude": -122.583995,
+      "estimated_replacement_cost": 1172378.86,
+      "created_at": "2025-08-20T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0081",
+      "code": "IFX-EXP-00081",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.80606,
+      "longitude": -122.527815,
+      "estimated_replacement_cost": 229083.73,
+      "created_at": "2026-05-28T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0082",
+      "code": "IFX-EXP-00082",
+      "status": "ACTIVE",
+      "condition_score": 89,
+      "latitude": 37.995343,
+      "longitude": -122.386217,
+      "estimated_replacement_cost": 1290759.06,
+      "created_at": "2024-12-13T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0083",
+      "code": "IFX-EXP-00083",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.948928,
+      "longitude": -122.180801,
+      "estimated_replacement_cost": 1392927.21,
+      "created_at": "2026-07-17T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0084",
+      "code": "IFX-EXP-00084",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.631685,
+      "longitude": -122.241011,
+      "estimated_replacement_cost": 611554.46,
+      "created_at": "2026-04-23T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0085",
+      "code": "IFX-EXP-00085",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.585891,
+      "longitude": -122.323606,
+      "estimated_replacement_cost": 1219000.42,
+      "created_at": "2024-09-29T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0086",
+      "code": "IFX-EXP-00086",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.849759,
+      "longitude": -122.402852,
+      "estimated_replacement_cost": 1415348.09,
+      "created_at": "2025-01-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0087",
+      "code": "IFX-EXP-00087",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.541543,
+      "longitude": -122.634271,
+      "estimated_replacement_cost": 429970.68,
+      "created_at": "2024-10-13T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0088",
+      "code": "IFX-EXP-00088",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 38.008836,
+      "longitude": -122.169854,
+      "estimated_replacement_cost": 230484.64,
+      "created_at": "2025-02-06T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0089",
+      "code": "IFX-EXP-00089",
+      "status": "INSPECTED",
+      "condition_score": 64,
+      "latitude": 37.734362,
+      "longitude": -122.428765,
+      "estimated_replacement_cost": 250171.39,
+      "created_at": "2026-01-19T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0090",
+      "code": "IFX-EXP-00090",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.70013,
+      "longitude": -122.344036,
+      "estimated_replacement_cost": 1296710.5,
+      "created_at": "2025-03-14T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0091",
+      "code": "IFX-EXP-00091",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.997714,
+      "longitude": -122.437305,
+      "estimated_replacement_cost": 751636.35,
+      "created_at": "2025-01-29T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0092",
+      "code": "IFX-EXP-00092",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.753087,
+      "longitude": -122.345079,
+      "estimated_replacement_cost": 198524.8,
+      "created_at": "2025-08-08T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0093",
+      "code": "IFX-EXP-00093",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.809426,
+      "longitude": -122.602806,
+      "estimated_replacement_cost": 896443.45,
+      "created_at": "2026-08-18T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0094",
+      "code": "IFX-EXP-00094",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.703788,
+      "longitude": -122.622198,
+      "estimated_replacement_cost": 648022.85,
+      "created_at": "2025-07-27T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0095",
+      "code": "IFX-EXP-00095",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.9308,
+      "longitude": -122.276358,
+      "estimated_replacement_cost": 1271610.62,
+      "created_at": "2026-01-21T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0096",
+      "code": "IFX-EXP-00096",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.541489,
+      "longitude": -122.52281,
+      "estimated_replacement_cost": 464230.36,
+      "created_at": "2025-12-17T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0097",
+      "code": "IFX-EXP-00097",
+      "status": "OPERATIONAL",
+      "condition_score": 93,
+      "latitude": 37.58946,
+      "longitude": -122.389073,
+      "estimated_replacement_cost": 990532.11,
+      "created_at": "2024-11-29T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0098",
+      "code": "IFX-EXP-00098",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.60704,
+      "longitude": -122.230732,
+      "estimated_replacement_cost": 512834.11,
+      "created_at": "2025-11-26T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0099",
+      "code": "IFX-EXP-00099",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 86,
+      "latitude": 37.865291,
+      "longitude": -122.371269,
+      "estimated_replacement_cost": 820329.74,
+      "created_at": "2025-11-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0100",
+      "code": "IFX-EXP-00100",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.667929,
+      "longitude": -122.282144,
+      "estimated_replacement_cost": 423228.68,
+      "created_at": "2024-10-14T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0101",
+      "code": "IFX-EXP-00101",
+      "status": "INSPECTED",
+      "condition_score": 72,
+      "latitude": 37.822429,
+      "longitude": -122.178408,
+      "estimated_replacement_cost": 793901.81,
+      "created_at": "2024-12-26T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0102",
+      "code": "IFX-EXP-00102",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.737806,
+      "longitude": -122.494164,
+      "estimated_replacement_cost": 794574.23,
+      "created_at": "2025-09-28T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0103",
+      "code": "IFX-EXP-00103",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.622096,
+      "longitude": -122.237404,
+      "estimated_replacement_cost": 30756.47,
+      "created_at": "2025-06-01T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0104",
+      "code": "IFX-EXP-00104",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 38.003521,
+      "longitude": -122.600193,
+      "estimated_replacement_cost": 181406.95,
+      "created_at": "2025-09-03T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0105",
+      "code": "IFX-EXP-00105",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.614412,
+      "longitude": -122.286602,
+      "estimated_replacement_cost": 1046358.04,
+      "created_at": "2025-06-13T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0106",
+      "code": "IFX-EXP-00106",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.981104,
+      "longitude": -122.615961,
+      "estimated_replacement_cost": 313545.31,
+      "created_at": "2026-04-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0107",
+      "code": "IFX-EXP-00107",
+      "status": "STANDBY",
+      "condition_score": 54,
+      "latitude": 37.776266,
+      "longitude": -122.397814,
+      "estimated_replacement_cost": 220180.34,
+      "created_at": "2025-05-26T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0108",
+      "code": "IFX-EXP-00108",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.936165,
+      "longitude": -122.645596,
+      "estimated_replacement_cost": 911328.99,
+      "created_at": "2025-10-16T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0109",
+      "code": "IFX-EXP-00109",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.901286,
+      "longitude": -122.203365,
+      "estimated_replacement_cost": 977207.86,
+      "created_at": "2026-03-20T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0110",
+      "code": "IFX-EXP-00110",
+      "status": "STANDBY",
+      "condition_score": 96,
+      "latitude": 37.734269,
+      "longitude": -122.427682,
+      "estimated_replacement_cost": 244967.23,
+      "created_at": "2024-10-11T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0111",
+      "code": "IFX-EXP-00111",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.810032,
+      "longitude": -122.325757,
+      "estimated_replacement_cost": 996191.94,
+      "created_at": "2026-08-01T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0112",
+      "code": "IFX-EXP-00112",
+      "status": "INSPECTED",
+      "condition_score": 76,
+      "latitude": 37.667607,
+      "longitude": -122.657801,
+      "estimated_replacement_cost": 1490696.49,
+      "created_at": "2026-03-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0113",
+      "code": "IFX-EXP-00113",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.75377,
+      "longitude": -122.396342,
+      "estimated_replacement_cost": 379133.76,
+      "created_at": "2025-05-03T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0114",
+      "code": "IFX-EXP-00114",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.625212,
+      "longitude": -122.355045,
+      "estimated_replacement_cost": 205021.6,
+      "created_at": "2026-07-13T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0115",
+      "code": "IFX-EXP-00115",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.875808,
+      "longitude": -122.539177,
+      "estimated_replacement_cost": 214542.2,
+      "created_at": "2026-05-12T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0116",
+      "code": "IFX-EXP-00116",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.891036,
+      "longitude": -122.315627,
+      "estimated_replacement_cost": 314255.11,
+      "created_at": "2026-05-26T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0117",
+      "code": "IFX-EXP-00117",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.899021,
+      "longitude": -122.577685,
+      "estimated_replacement_cost": 1192927.01,
+      "created_at": "2025-04-18T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0118",
+      "code": "IFX-EXP-00118",
+      "status": "INSPECTED",
+      "condition_score": 65,
+      "latitude": 37.997335,
+      "longitude": -122.616537,
+      "estimated_replacement_cost": 134764.4,
+      "created_at": "2026-06-28T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0119",
+      "code": "IFX-EXP-00119",
+      "status": "ACTIVE",
+      "condition_score": 74,
+      "latitude": 37.957193,
+      "longitude": -122.375617,
+      "estimated_replacement_cost": 993708.46,
+      "created_at": "2025-04-11T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0120",
+      "code": "IFX-EXP-00120",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.865018,
+      "longitude": -122.622757,
+      "estimated_replacement_cost": 700820.94,
+      "created_at": "2025-11-15T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0121",
+      "code": "IFX-EXP-00121",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.644628,
+      "longitude": -122.239031,
+      "estimated_replacement_cost": 369020.1,
+      "created_at": "2026-05-22T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0122",
+      "code": "IFX-EXP-00122",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.568474,
+      "longitude": -122.519686,
+      "estimated_replacement_cost": 507527.78,
+      "created_at": "2025-04-27T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0123",
+      "code": "IFX-EXP-00123",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.899092,
+      "longitude": -122.582871,
+      "estimated_replacement_cost": 1059600.32,
+      "created_at": "2026-04-10T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0124",
+      "code": "IFX-EXP-00124",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.724453,
+      "longitude": -122.4758,
+      "estimated_replacement_cost": 220579.8,
+      "created_at": "2026-05-07T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0125",
+      "code": "IFX-EXP-00125",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.949999,
+      "longitude": -122.421782,
+      "estimated_replacement_cost": 857286.18,
+      "created_at": "2025-04-02T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0126",
+      "code": "IFX-EXP-00126",
+      "status": "ACTIVE",
+      "condition_score": 61,
+      "latitude": 37.570349,
+      "longitude": -122.331299,
+      "estimated_replacement_cost": 856102.21,
+      "created_at": "2026-07-27T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0127",
+      "code": "IFX-EXP-00127",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 69,
+      "latitude": 37.587229,
+      "longitude": -122.394405,
+      "estimated_replacement_cost": 818528.47,
+      "created_at": "2025-09-20T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0128",
+      "code": "IFX-EXP-00128",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.848411,
+      "longitude": -122.622451,
+      "estimated_replacement_cost": 679442.83,
+      "created_at": "2025-05-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0129",
+      "code": "IFX-EXP-00129",
+      "status": "OPERATIONAL",
+      "condition_score": 74,
+      "latitude": 37.752749,
+      "longitude": -122.195898,
+      "estimated_replacement_cost": 1153386.56,
+      "created_at": "2024-12-19T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0130",
+      "code": "IFX-EXP-00130",
+      "status": "STANDBY",
+      "condition_score": 87,
+      "latitude": 37.560257,
+      "longitude": -122.392356,
+      "estimated_replacement_cost": 1410710.81,
+      "created_at": "2026-01-24T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0131",
+      "code": "IFX-EXP-00131",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.580873,
+      "longitude": -122.505542,
+      "estimated_replacement_cost": 701746.08,
+      "created_at": "2025-08-02T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0132",
+      "code": "IFX-EXP-00132",
+      "status": "ACTIVE",
+      "condition_score": 70,
+      "latitude": 37.917921,
+      "longitude": -122.414129,
+      "estimated_replacement_cost": 774220.4,
+      "created_at": "2026-01-03T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0133",
+      "code": "IFX-EXP-00133",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.801368,
+      "longitude": -122.594741,
+      "estimated_replacement_cost": 1396241.43,
+      "created_at": "2026-06-19T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0134",
+      "code": "IFX-EXP-00134",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.670661,
+      "longitude": -122.28825,
+      "estimated_replacement_cost": 116940.49,
+      "created_at": "2025-07-09T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0135",
+      "code": "IFX-EXP-00135",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.997121,
+      "longitude": -122.485976,
+      "estimated_replacement_cost": 39082.21,
+      "created_at": "2025-03-02T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0136",
+      "code": "IFX-EXP-00136",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.976291,
+      "longitude": -122.270247,
+      "estimated_replacement_cost": 1188973.24,
+      "created_at": "2025-11-28T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0137",
+      "code": "IFX-EXP-00137",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.774056,
+      "longitude": -122.272089,
+      "estimated_replacement_cost": 689063.59,
+      "created_at": "2025-11-14T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0138",
+      "code": "IFX-EXP-00138",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.990151,
+      "longitude": -122.253345,
+      "estimated_replacement_cost": 1457410.96,
+      "created_at": "2024-11-23T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0139",
+      "code": "IFX-EXP-00139",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.619784,
+      "longitude": -122.309754,
+      "estimated_replacement_cost": 178821.68,
+      "created_at": "2026-06-01T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0140",
+      "code": "IFX-EXP-00140",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.606486,
+      "longitude": -122.382296,
+      "estimated_replacement_cost": 996094.63,
+      "created_at": "2026-04-19T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0141",
+      "code": "IFX-EXP-00141",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.655465,
+      "longitude": -122.299299,
+      "estimated_replacement_cost": 1133517.91,
+      "created_at": "2025-10-25T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0142",
+      "code": "IFX-EXP-00142",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.703337,
+      "longitude": -122.617769,
+      "estimated_replacement_cost": 1369217.8,
+      "created_at": "2026-09-07T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0143",
+      "code": "IFX-EXP-00143",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.716468,
+      "longitude": -122.275259,
+      "estimated_replacement_cost": 305570.46,
+      "created_at": "2026-09-07T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0144",
+      "code": "IFX-EXP-00144",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.531594,
+      "longitude": -122.441192,
+      "estimated_replacement_cost": 243046.66,
+      "created_at": "2025-08-19T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0145",
+      "code": "IFX-EXP-00145",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.708535,
+      "longitude": -122.57199,
+      "estimated_replacement_cost": 1174248.97,
+      "created_at": "2025-06-23T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0146",
+      "code": "IFX-EXP-00146",
+      "status": "INSPECTED",
+      "condition_score": 84,
+      "latitude": 37.720589,
+      "longitude": -122.550234,
+      "estimated_replacement_cost": 1480195.67,
+      "created_at": "2026-02-20T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0147",
+      "code": "IFX-EXP-00147",
+      "status": "OPERATIONAL",
+      "condition_score": 67,
+      "latitude": 37.550338,
+      "longitude": -122.217586,
+      "estimated_replacement_cost": 1038305.6,
+      "created_at": "2024-12-24T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0148",
+      "code": "IFX-EXP-00148",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.951352,
+      "longitude": -122.603,
+      "estimated_replacement_cost": 159869.19,
+      "created_at": "2025-09-30T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0149",
+      "code": "IFX-EXP-00149",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.843328,
+      "longitude": -122.466772,
+      "estimated_replacement_cost": 1037408.11,
+      "created_at": "2025-05-23T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_expenses.expensesrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Expenses Asset Segment #0150",
+      "code": "IFX-EXP-00150",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.833154,
+      "longitude": -122.380701,
+      "estimated_replacement_cost": 494816.01,
+      "created_at": "2026-02-06T10:34:25.433868",
+      "updated_at": "2026-09-08T10:34:25.433868",
+      "notes": "Standard municipal engineering inventory record for expenses.",
+      "metadata": {
+        "spec_code": "SPEC-EXPENSES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]

@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0001",
+      "code": "IFX-CON-00001",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.990085,
+      "longitude": -122.662765,
+      "estimated_replacement_cost": 1412926.64,
+      "created_at": "2026-02-07T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0002",
+      "code": "IFX-CON-00002",
+      "status": "ACTIVE",
+      "condition_score": 83,
+      "latitude": 37.884424,
+      "longitude": -122.362722,
+      "estimated_replacement_cost": 91609.62,
+      "created_at": "2025-03-10T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0003",
+      "code": "IFX-CON-00003",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.739732,
+      "longitude": -122.550292,
+      "estimated_replacement_cost": 810253.59,
+      "created_at": "2026-01-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0004",
+      "code": "IFX-CON-00004",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.651791,
+      "longitude": -122.18526,
+      "estimated_replacement_cost": 868992.62,
+      "created_at": "2025-07-25T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0005",
+      "code": "IFX-CON-00005",
+      "status": "OPERATIONAL",
+      "condition_score": 71,
+      "latitude": 37.911766,
+      "longitude": -122.279118,
+      "estimated_replacement_cost": 560727.05,
+      "created_at": "2025-11-09T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0006",
+      "code": "IFX-CON-00006",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.623214,
+      "longitude": -122.597053,
+      "estimated_replacement_cost": 1413130.25,
+      "created_at": "2024-12-20T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0007",
+      "code": "IFX-CON-00007",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.98066,
+      "longitude": -122.378331,
+      "estimated_replacement_cost": 786105.79,
+      "created_at": "2025-08-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0008",
+      "code": "IFX-CON-00008",
+      "status": "OPERATIONAL",
+      "condition_score": 63,
+      "latitude": 37.711012,
+      "longitude": -122.334887,
+      "estimated_replacement_cost": 1211817.98,
+      "created_at": "2025-12-19T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0009",
+      "code": "IFX-CON-00009",
+      "status": "INSPECTED",
+      "condition_score": 74,
+      "latitude": 37.8501,
+      "longitude": -122.601656,
+      "estimated_replacement_cost": 84240.26,
+      "created_at": "2024-11-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0010",
+      "code": "IFX-CON-00010",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.542522,
+      "longitude": -122.299912,
+      "estimated_replacement_cost": 109486.2,
+      "created_at": "2024-11-20T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0011",
+      "code": "IFX-CON-00011",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.941538,
+      "longitude": -122.323416,
+      "estimated_replacement_cost": 643694.95,
+      "created_at": "2025-11-22T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0012",
+      "code": "IFX-CON-00012",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.809129,
+      "longitude": -122.373436,
+      "estimated_replacement_cost": 1385757.68,
+      "created_at": "2026-07-10T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0013",
+      "code": "IFX-CON-00013",
+      "status": "INSPECTED",
+      "condition_score": 78,
+      "latitude": 37.951574,
+      "longitude": -122.572272,
+      "estimated_replacement_cost": 43593.62,
+      "created_at": "2025-12-25T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0014",
+      "code": "IFX-CON-00014",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.949971,
+      "longitude": -122.504754,
+      "estimated_replacement_cost": 677388.99,
+      "created_at": "2025-01-31T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0015",
+      "code": "IFX-CON-00015",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 63,
+      "latitude": 37.742798,
+      "longitude": -122.374063,
+      "estimated_replacement_cost": 74430.33,
+      "created_at": "2024-12-31T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0016",
+      "code": "IFX-CON-00016",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.932555,
+      "longitude": -122.313563,
+      "estimated_replacement_cost": 592823.42,
+      "created_at": "2025-06-29T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0017",
+      "code": "IFX-CON-00017",
+      "status": "ACTIVE",
+      "condition_score": 79,
+      "latitude": 37.673812,
+      "longitude": -122.665174,
+      "estimated_replacement_cost": 536628.82,
+      "created_at": "2026-08-01T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0018",
+      "code": "IFX-CON-00018",
+      "status": "STANDBY",
+      "condition_score": 100,
+      "latitude": 37.85916,
+      "longitude": -122.232289,
+      "estimated_replacement_cost": 1267054.14,
+      "created_at": "2024-10-12T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0019",
+      "code": "IFX-CON-00019",
+      "status": "OPERATIONAL",
+      "condition_score": 99,
+      "latitude": 37.597669,
+      "longitude": -122.394164,
+      "estimated_replacement_cost": 229335.59,
+      "created_at": "2026-02-19T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0020",
+      "code": "IFX-CON-00020",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.824688,
+      "longitude": -122.540999,
+      "estimated_replacement_cost": 842334.81,
+      "created_at": "2026-08-03T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0021",
+      "code": "IFX-CON-00021",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.820477,
+      "longitude": -122.312151,
+      "estimated_replacement_cost": 629364.73,
+      "created_at": "2026-05-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0022",
+      "code": "IFX-CON-00022",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.975534,
+      "longitude": -122.497015,
+      "estimated_replacement_cost": 107779.24,
+      "created_at": "2025-12-30T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0023",
+      "code": "IFX-CON-00023",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.871319,
+      "longitude": -122.468607,
+      "estimated_replacement_cost": 293559.4,
+      "created_at": "2026-05-30T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0024",
+      "code": "IFX-CON-00024",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 37.651092,
+      "longitude": -122.376893,
+      "estimated_replacement_cost": 574452.04,
+      "created_at": "2026-04-22T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0025",
+      "code": "IFX-CON-00025",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.780967,
+      "longitude": -122.621762,
+      "estimated_replacement_cost": 112003.18,
+      "created_at": "2026-08-07T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0026",
+      "code": "IFX-CON-00026",
+      "status": "INSPECTED",
+      "condition_score": 57,
+      "latitude": 37.8402,
+      "longitude": -122.217521,
+      "estimated_replacement_cost": 1430701.58,
+      "created_at": "2025-08-27T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0027",
+      "code": "IFX-CON-00027",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.900404,
+      "longitude": -122.368044,
+      "estimated_replacement_cost": 406150.88,
+      "created_at": "2025-04-20T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0028",
+      "code": "IFX-CON-00028",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.614898,
+      "longitude": -122.500257,
+      "estimated_replacement_cost": 1317646.68,
+      "created_at": "2025-03-18T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0029",
+      "code": "IFX-CON-00029",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.757104,
+      "longitude": -122.6298,
+      "estimated_replacement_cost": 1249840.84,
+      "created_at": "2024-11-11T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0030",
+      "code": "IFX-CON-00030",
+      "status": "ACTIVE",
+      "condition_score": 65,
+      "latitude": 37.818485,
+      "longitude": -122.449036,
+      "estimated_replacement_cost": 523866.35,
+      "created_at": "2026-06-22T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0031",
+      "code": "IFX-CON-00031",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 83,
+      "latitude": 37.98419,
+      "longitude": -122.218864,
+      "estimated_replacement_cost": 340230.47,
+      "created_at": "2026-03-01T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0032",
+      "code": "IFX-CON-00032",
+      "status": "STANDBY",
+      "condition_score": 74,
+      "latitude": 37.615537,
+      "longitude": -122.629568,
+      "estimated_replacement_cost": 865285.15,
+      "created_at": "2025-11-22T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0033",
+      "code": "IFX-CON-00033",
+      "status": "ACTIVE",
+      "condition_score": 70,
+      "latitude": 37.820454,
+      "longitude": -122.351185,
+      "estimated_replacement_cost": 144274.64,
+      "created_at": "2025-09-08T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0034",
+      "code": "IFX-CON-00034",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.923737,
+      "longitude": -122.52738,
+      "estimated_replacement_cost": 810985.8,
+      "created_at": "2025-06-07T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0035",
+      "code": "IFX-CON-00035",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.623729,
+      "longitude": -122.329219,
+      "estimated_replacement_cost": 889388.3,
+      "created_at": "2025-03-29T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0036",
+      "code": "IFX-CON-00036",
+      "status": "STANDBY",
+      "condition_score": 60,
+      "latitude": 37.848317,
+      "longitude": -122.43287,
+      "estimated_replacement_cost": 268986.51,
+      "created_at": "2025-12-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0037",
+      "code": "IFX-CON-00037",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.888133,
+      "longitude": -122.246796,
+      "estimated_replacement_cost": 313243.58,
+      "created_at": "2025-04-22T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0038",
+      "code": "IFX-CON-00038",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.846871,
+      "longitude": -122.198803,
+      "estimated_replacement_cost": 740512.8,
+      "created_at": "2026-01-23T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0039",
+      "code": "IFX-CON-00039",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.924045,
+      "longitude": -122.659063,
+      "estimated_replacement_cost": 1001010.76,
+      "created_at": "2024-11-24T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0040",
+      "code": "IFX-CON-00040",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.978572,
+      "longitude": -122.55096,
+      "estimated_replacement_cost": 254510.78,
+      "created_at": "2025-03-09T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0041",
+      "code": "IFX-CON-00041",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.942128,
+      "longitude": -122.264461,
+      "estimated_replacement_cost": 1269295.08,
+      "created_at": "2025-03-02T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0042",
+      "code": "IFX-CON-00042",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.580321,
+      "longitude": -122.288172,
+      "estimated_replacement_cost": 1255968.52,
+      "created_at": "2025-07-11T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0043",
+      "code": "IFX-CON-00043",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.988124,
+      "longitude": -122.369348,
+      "estimated_replacement_cost": 812385.58,
+      "created_at": "2026-04-17T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0044",
+      "code": "IFX-CON-00044",
+      "status": "INSPECTED",
+      "condition_score": 50,
+      "latitude": 37.805319,
+      "longitude": -122.657129,
+      "estimated_replacement_cost": 635019.8,
+      "created_at": "2025-11-11T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0045",
+      "code": "IFX-CON-00045",
+      "status": "ACTIVE",
+      "condition_score": 51,
+      "latitude": 37.810687,
+      "longitude": -122.472389,
+      "estimated_replacement_cost": 1153275.73,
+      "created_at": "2025-05-10T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0046",
+      "code": "IFX-CON-00046",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.784425,
+      "longitude": -122.281409,
+      "estimated_replacement_cost": 526847.96,
+      "created_at": "2024-10-03T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0047",
+      "code": "IFX-CON-00047",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.65906,
+      "longitude": -122.419415,
+      "estimated_replacement_cost": 1174803.1,
+      "created_at": "2024-09-25T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0048",
+      "code": "IFX-CON-00048",
+      "status": "INSPECTED",
+      "condition_score": 51,
+      "latitude": 37.921985,
+      "longitude": -122.379374,
+      "estimated_replacement_cost": 862174.21,
+      "created_at": "2025-04-09T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0049",
+      "code": "IFX-CON-00049",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.830127,
+      "longitude": -122.334985,
+      "estimated_replacement_cost": 1107608.56,
+      "created_at": "2026-04-28T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0050",
+      "code": "IFX-CON-00050",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.983357,
+      "longitude": -122.208045,
+      "estimated_replacement_cost": 126125.98,
+      "created_at": "2024-11-11T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0051",
+      "code": "IFX-CON-00051",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.834744,
+      "longitude": -122.477472,
+      "estimated_replacement_cost": 1099633.69,
+      "created_at": "2026-01-06T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0052",
+      "code": "IFX-CON-00052",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 99,
+      "latitude": 37.965536,
+      "longitude": -122.466488,
+      "estimated_replacement_cost": 253621.49,
+      "created_at": "2024-10-18T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0053",
+      "code": "IFX-CON-00053",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.944083,
+      "longitude": -122.485475,
+      "estimated_replacement_cost": 831109.17,
+      "created_at": "2024-12-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0054",
+      "code": "IFX-CON-00054",
+      "status": "ACTIVE",
+      "condition_score": 75,
+      "latitude": 37.706473,
+      "longitude": -122.48739,
+      "estimated_replacement_cost": 149226.57,
+      "created_at": "2026-01-27T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0055",
+      "code": "IFX-CON-00055",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.819965,
+      "longitude": -122.179086,
+      "estimated_replacement_cost": 47753.03,
+      "created_at": "2025-04-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0056",
+      "code": "IFX-CON-00056",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.912641,
+      "longitude": -122.542764,
+      "estimated_replacement_cost": 1180013.58,
+      "created_at": "2025-10-20T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0057",
+      "code": "IFX-CON-00057",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.955006,
+      "longitude": -122.588847,
+      "estimated_replacement_cost": 194632.62,
+      "created_at": "2026-08-29T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0058",
+      "code": "IFX-CON-00058",
+      "status": "OPERATIONAL",
+      "condition_score": 66,
+      "latitude": 37.697853,
+      "longitude": -122.23254,
+      "estimated_replacement_cost": 199813.96,
+      "created_at": "2025-02-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0059",
+      "code": "IFX-CON-00059",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 90,
+      "latitude": 37.661342,
+      "longitude": -122.259152,
+      "estimated_replacement_cost": 370519.47,
+      "created_at": "2025-12-31T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0060",
+      "code": "IFX-CON-00060",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.664091,
+      "longitude": -122.193743,
+      "estimated_replacement_cost": 371216.16,
+      "created_at": "2025-08-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0061",
+      "code": "IFX-CON-00061",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.681321,
+      "longitude": -122.562843,
+      "estimated_replacement_cost": 995859.15,
+      "created_at": "2025-02-19T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0062",
+      "code": "IFX-CON-00062",
+      "status": "INSPECTED",
+      "condition_score": 100,
+      "latitude": 37.606055,
+      "longitude": -122.321406,
+      "estimated_replacement_cost": 1435296.0,
+      "created_at": "2026-03-18T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0063",
+      "code": "IFX-CON-00063",
+      "status": "ACTIVE",
+      "condition_score": 85,
+      "latitude": 37.555717,
+      "longitude": -122.24503,
+      "estimated_replacement_cost": 493438.04,
+      "created_at": "2025-11-27T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0064",
+      "code": "IFX-CON-00064",
+      "status": "STANDBY",
+      "condition_score": 64,
+      "latitude": 37.702944,
+      "longitude": -122.27755,
+      "estimated_replacement_cost": 962057.0,
+      "created_at": "2025-03-15T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0065",
+      "code": "IFX-CON-00065",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.850692,
+      "longitude": -122.314067,
+      "estimated_replacement_cost": 156902.2,
+      "created_at": "2025-11-08T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0066",
+      "code": "IFX-CON-00066",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.921403,
+      "longitude": -122.244961,
+      "estimated_replacement_cost": 289403.04,
+      "created_at": "2025-05-16T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0067",
+      "code": "IFX-CON-00067",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 79,
+      "latitude": 37.810533,
+      "longitude": -122.254245,
+      "estimated_replacement_cost": 25054.3,
+      "created_at": "2026-03-06T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0068",
+      "code": "IFX-CON-00068",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.699471,
+      "longitude": -122.4526,
+      "estimated_replacement_cost": 1326922.75,
+      "created_at": "2024-10-08T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0069",
+      "code": "IFX-CON-00069",
+      "status": "OPERATIONAL",
+      "condition_score": 95,
+      "latitude": 37.599736,
+      "longitude": -122.379017,
+      "estimated_replacement_cost": 151538.27,
+      "created_at": "2024-11-29T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0070",
+      "code": "IFX-CON-00070",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.965727,
+      "longitude": -122.524315,
+      "estimated_replacement_cost": 570631.53,
+      "created_at": "2025-04-20T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0071",
+      "code": "IFX-CON-00071",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 88,
+      "latitude": 37.697842,
+      "longitude": -122.63691,
+      "estimated_replacement_cost": 778351.6,
+      "created_at": "2025-04-10T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0072",
+      "code": "IFX-CON-00072",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 80,
+      "latitude": 37.830009,
+      "longitude": -122.655564,
+      "estimated_replacement_cost": 514336.66,
+      "created_at": "2026-07-24T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0073",
+      "code": "IFX-CON-00073",
+      "status": "INSPECTED",
+      "condition_score": 92,
+      "latitude": 37.931231,
+      "longitude": -122.314843,
+      "estimated_replacement_cost": 1386736.62,
+      "created_at": "2026-01-23T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0074",
+      "code": "IFX-CON-00074",
+      "status": "OPERATIONAL",
+      "condition_score": 75,
+      "latitude": 37.53913,
+      "longitude": -122.407794,
+      "estimated_replacement_cost": 1070670.11,
+      "created_at": "2025-07-12T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0075",
+      "code": "IFX-CON-00075",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.801016,
+      "longitude": -122.418345,
+      "estimated_replacement_cost": 1386085.77,
+      "created_at": "2025-10-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0076",
+      "code": "IFX-CON-00076",
+      "status": "INSPECTED",
+      "condition_score": 90,
+      "latitude": 37.62337,
+      "longitude": -122.268042,
+      "estimated_replacement_cost": 918743.05,
+      "created_at": "2024-09-18T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0077",
+      "code": "IFX-CON-00077",
+      "status": "INSPECTED",
+      "condition_score": 60,
+      "latitude": 37.661029,
+      "longitude": -122.301523,
+      "estimated_replacement_cost": 941883.79,
+      "created_at": "2024-12-31T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0078",
+      "code": "IFX-CON-00078",
+      "status": "ACTIVE",
+      "condition_score": 97,
+      "latitude": 37.972488,
+      "longitude": -122.297175,
+      "estimated_replacement_cost": 723287.34,
+      "created_at": "2026-03-01T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0079",
+      "code": "IFX-CON-00079",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.821174,
+      "longitude": -122.669121,
+      "estimated_replacement_cost": 1369914.64,
+      "created_at": "2024-12-18T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0080",
+      "code": "IFX-CON-00080",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 81,
+      "latitude": 37.612551,
+      "longitude": -122.221328,
+      "estimated_replacement_cost": 1431987.44,
+      "created_at": "2026-05-27T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0081",
+      "code": "IFX-CON-00081",
+      "status": "ACTIVE",
+      "condition_score": 82,
+      "latitude": 37.602921,
+      "longitude": -122.367026,
+      "estimated_replacement_cost": 71496.76,
+      "created_at": "2024-09-22T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0082",
+      "code": "IFX-CON-00082",
+      "status": "OPERATIONAL",
+      "condition_score": 64,
+      "latitude": 37.967558,
+      "longitude": -122.489987,
+      "estimated_replacement_cost": 267844.26,
+      "created_at": "2024-10-24T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0083",
+      "code": "IFX-CON-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.590728,
+      "longitude": -122.501968,
+      "estimated_replacement_cost": 237539.23,
+      "created_at": "2026-03-12T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0084",
+      "code": "IFX-CON-00084",
+      "status": "ACTIVE",
+      "condition_score": 81,
+      "latitude": 37.962432,
+      "longitude": -122.647794,
+      "estimated_replacement_cost": 1039220.32,
+      "created_at": "2026-08-24T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0085",
+      "code": "IFX-CON-00085",
+      "status": "INSPECTED",
+      "condition_score": 91,
+      "latitude": 37.924936,
+      "longitude": -122.381116,
+      "estimated_replacement_cost": 1022764.35,
+      "created_at": "2025-12-11T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0086",
+      "code": "IFX-CON-00086",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.759751,
+      "longitude": -122.173529,
+      "estimated_replacement_cost": 115659.83,
+      "created_at": "2025-06-02T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0087",
+      "code": "IFX-CON-00087",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.601763,
+      "longitude": -122.178983,
+      "estimated_replacement_cost": 994311.08,
+      "created_at": "2025-09-08T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0088",
+      "code": "IFX-CON-00088",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.905367,
+      "longitude": -122.382063,
+      "estimated_replacement_cost": 164043.15,
+      "created_at": "2026-05-25T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0089",
+      "code": "IFX-CON-00089",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.667837,
+      "longitude": -122.307146,
+      "estimated_replacement_cost": 1276779.18,
+      "created_at": "2026-04-07T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0090",
+      "code": "IFX-CON-00090",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.7593,
+      "longitude": -122.612777,
+      "estimated_replacement_cost": 1108149.83,
+      "created_at": "2026-01-19T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0091",
+      "code": "IFX-CON-00091",
+      "status": "STANDBY",
+      "condition_score": 65,
+      "latitude": 37.977453,
+      "longitude": -122.325135,
+      "estimated_replacement_cost": 1306865.87,
+      "created_at": "2024-11-26T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0092",
+      "code": "IFX-CON-00092",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 37.757645,
+      "longitude": -122.629034,
+      "estimated_replacement_cost": 1347660.07,
+      "created_at": "2025-11-03T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0093",
+      "code": "IFX-CON-00093",
+      "status": "ACTIVE",
+      "condition_score": 66,
+      "latitude": 37.820315,
+      "longitude": -122.521315,
+      "estimated_replacement_cost": 302498.56,
+      "created_at": "2025-01-15T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0094",
+      "code": "IFX-CON-00094",
+      "status": "STANDBY",
+      "condition_score": 94,
+      "latitude": 37.639288,
+      "longitude": -122.346852,
+      "estimated_replacement_cost": 1315126.42,
+      "created_at": "2024-10-11T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0095",
+      "code": "IFX-CON-00095",
+      "status": "STANDBY",
+      "condition_score": 70,
+      "latitude": 37.785939,
+      "longitude": -122.664875,
+      "estimated_replacement_cost": 109131.9,
+      "created_at": "2025-08-23T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0096",
+      "code": "IFX-CON-00096",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.902789,
+      "longitude": -122.438514,
+      "estimated_replacement_cost": 1166758.54,
+      "created_at": "2025-04-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0097",
+      "code": "IFX-CON-00097",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.656052,
+      "longitude": -122.667419,
+      "estimated_replacement_cost": 1044787.14,
+      "created_at": "2026-06-06T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0098",
+      "code": "IFX-CON-00098",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.927778,
+      "longitude": -122.277759,
+      "estimated_replacement_cost": 1148723.59,
+      "created_at": "2026-03-09T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0099",
+      "code": "IFX-CON-00099",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.763402,
+      "longitude": -122.311436,
+      "estimated_replacement_cost": 1121358.33,
+      "created_at": "2026-06-17T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0100",
+      "code": "IFX-CON-00100",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 37.616087,
+      "longitude": -122.291258,
+      "estimated_replacement_cost": 750990.94,
+      "created_at": "2024-10-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0101",
+      "code": "IFX-CON-00101",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 64,
+      "latitude": 37.72432,
+      "longitude": -122.663915,
+      "estimated_replacement_cost": 541566.41,
+      "created_at": "2025-10-11T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0102",
+      "code": "IFX-CON-00102",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 82,
+      "latitude": 37.542953,
+      "longitude": -122.563637,
+      "estimated_replacement_cost": 1095954.63,
+      "created_at": "2025-02-05T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0103",
+      "code": "IFX-CON-00103",
+      "status": "ACTIVE",
+      "condition_score": 67,
+      "latitude": 37.826883,
+      "longitude": -122.630186,
+      "estimated_replacement_cost": 537927.63,
+      "created_at": "2025-08-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0104",
+      "code": "IFX-CON-00104",
+      "status": "STANDBY",
+      "condition_score": 51,
+      "latitude": 37.817015,
+      "longitude": -122.186621,
+      "estimated_replacement_cost": 1286867.06,
+      "created_at": "2026-02-16T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0105",
+      "code": "IFX-CON-00105",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.953174,
+      "longitude": -122.295235,
+      "estimated_replacement_cost": 1242444.71,
+      "created_at": "2025-05-02T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0106",
+      "code": "IFX-CON-00106",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.578871,
+      "longitude": -122.212318,
+      "estimated_replacement_cost": 575303.61,
+      "created_at": "2025-07-26T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0107",
+      "code": "IFX-CON-00107",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.556881,
+      "longitude": -122.285596,
+      "estimated_replacement_cost": 241008.99,
+      "created_at": "2025-07-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0108",
+      "code": "IFX-CON-00108",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.61468,
+      "longitude": -122.621967,
+      "estimated_replacement_cost": 287983.14,
+      "created_at": "2024-12-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0109",
+      "code": "IFX-CON-00109",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.903145,
+      "longitude": -122.345585,
+      "estimated_replacement_cost": 1486160.9,
+      "created_at": "2025-12-16T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0110",
+      "code": "IFX-CON-00110",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.596915,
+      "longitude": -122.481532,
+      "estimated_replacement_cost": 294262.5,
+      "created_at": "2025-12-16T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0111",
+      "code": "IFX-CON-00111",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.536356,
+      "longitude": -122.346615,
+      "estimated_replacement_cost": 280273.85,
+      "created_at": "2026-02-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0112",
+      "code": "IFX-CON-00112",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.884549,
+      "longitude": -122.306264,
+      "estimated_replacement_cost": 983586.27,
+      "created_at": "2026-04-30T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0113",
+      "code": "IFX-CON-00113",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 53,
+      "latitude": 37.692445,
+      "longitude": -122.541818,
+      "estimated_replacement_cost": 1293439.54,
+      "created_at": "2024-12-20T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0114",
+      "code": "IFX-CON-00114",
+      "status": "STANDBY",
+      "condition_score": 91,
+      "latitude": 37.658462,
+      "longitude": -122.640202,
+      "estimated_replacement_cost": 535871.43,
+      "created_at": "2025-10-03T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0115",
+      "code": "IFX-CON-00115",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.792915,
+      "longitude": -122.261403,
+      "estimated_replacement_cost": 497967.44,
+      "created_at": "2025-04-23T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0116",
+      "code": "IFX-CON-00116",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 95,
+      "latitude": 37.843753,
+      "longitude": -122.19736,
+      "estimated_replacement_cost": 537153.72,
+      "created_at": "2024-10-10T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0117",
+      "code": "IFX-CON-00117",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.646679,
+      "longitude": -122.470402,
+      "estimated_replacement_cost": 51719.79,
+      "created_at": "2024-12-31T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0118",
+      "code": "IFX-CON-00118",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 71,
+      "latitude": 37.90169,
+      "longitude": -122.17589,
+      "estimated_replacement_cost": 290176.29,
+      "created_at": "2025-11-28T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0119",
+      "code": "IFX-CON-00119",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.784456,
+      "longitude": -122.310222,
+      "estimated_replacement_cost": 898233.79,
+      "created_at": "2025-03-06T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0120",
+      "code": "IFX-CON-00120",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.832945,
+      "longitude": -122.264341,
+      "estimated_replacement_cost": 242102.33,
+      "created_at": "2026-06-06T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0121",
+      "code": "IFX-CON-00121",
+      "status": "OPERATIONAL",
+      "condition_score": 83,
+      "latitude": 37.682622,
+      "longitude": -122.214106,
+      "estimated_replacement_cost": 1448660.42,
+      "created_at": "2025-03-28T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0122",
+      "code": "IFX-CON-00122",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.839627,
+      "longitude": -122.32995,
+      "estimated_replacement_cost": 909804.88,
+      "created_at": "2024-11-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0123",
+      "code": "IFX-CON-00123",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.90051,
+      "longitude": -122.202755,
+      "estimated_replacement_cost": 29953.42,
+      "created_at": "2025-05-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0124",
+      "code": "IFX-CON-00124",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.824483,
+      "longitude": -122.535737,
+      "estimated_replacement_cost": 761651.24,
+      "created_at": "2024-12-01T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0125",
+      "code": "IFX-CON-00125",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.801263,
+      "longitude": -122.42819,
+      "estimated_replacement_cost": 1282065.66,
+      "created_at": "2024-12-29T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0126",
+      "code": "IFX-CON-00126",
+      "status": "STANDBY",
+      "condition_score": 57,
+      "latitude": 37.586047,
+      "longitude": -122.306763,
+      "estimated_replacement_cost": 682520.73,
+      "created_at": "2025-02-01T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0127",
+      "code": "IFX-CON-00127",
+      "status": "STANDBY",
+      "condition_score": 89,
+      "latitude": 37.701258,
+      "longitude": -122.276571,
+      "estimated_replacement_cost": 826786.39,
+      "created_at": "2026-01-29T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0128",
+      "code": "IFX-CON-00128",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 37.785547,
+      "longitude": -122.231548,
+      "estimated_replacement_cost": 1174418.34,
+      "created_at": "2026-05-22T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0129",
+      "code": "IFX-CON-00129",
+      "status": "STANDBY",
+      "condition_score": 53,
+      "latitude": 37.700035,
+      "longitude": -122.630735,
+      "estimated_replacement_cost": 43853.58,
+      "created_at": "2024-10-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0130",
+      "code": "IFX-CON-00130",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.798475,
+      "longitude": -122.531028,
+      "estimated_replacement_cost": 893730.31,
+      "created_at": "2026-03-25T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0131",
+      "code": "IFX-CON-00131",
+      "status": "STANDBY",
+      "condition_score": 80,
+      "latitude": 37.555655,
+      "longitude": -122.506522,
+      "estimated_replacement_cost": 753277.3,
+      "created_at": "2025-02-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0132",
+      "code": "IFX-CON-00132",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.854645,
+      "longitude": -122.574606,
+      "estimated_replacement_cost": 1371438.74,
+      "created_at": "2025-07-30T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0133",
+      "code": "IFX-CON-00133",
+      "status": "ACTIVE",
+      "condition_score": 69,
+      "latitude": 37.823916,
+      "longitude": -122.421559,
+      "estimated_replacement_cost": 363967.86,
+      "created_at": "2025-02-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0134",
+      "code": "IFX-CON-00134",
+      "status": "INSPECTED",
+      "condition_score": 99,
+      "latitude": 37.911481,
+      "longitude": -122.347009,
+      "estimated_replacement_cost": 1026154.46,
+      "created_at": "2025-08-28T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0135",
+      "code": "IFX-CON-00135",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.989029,
+      "longitude": -122.349881,
+      "estimated_replacement_cost": 872478.88,
+      "created_at": "2024-12-17T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0136",
+      "code": "IFX-CON-00136",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 57,
+      "latitude": 37.530418,
+      "longitude": -122.534967,
+      "estimated_replacement_cost": 1159791.43,
+      "created_at": "2026-08-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0137",
+      "code": "IFX-CON-00137",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.957114,
+      "longitude": -122.245008,
+      "estimated_replacement_cost": 1365479.54,
+      "created_at": "2024-11-15T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0138",
+      "code": "IFX-CON-00138",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.594596,
+      "longitude": -122.664196,
+      "estimated_replacement_cost": 1279595.53,
+      "created_at": "2025-01-16T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0139",
+      "code": "IFX-CON-00139",
+      "status": "STANDBY",
+      "condition_score": 78,
+      "latitude": 37.578064,
+      "longitude": -122.2871,
+      "estimated_replacement_cost": 351929.27,
+      "created_at": "2025-05-16T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0140",
+      "code": "IFX-CON-00140",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 68,
+      "latitude": 37.654711,
+      "longitude": -122.440115,
+      "estimated_replacement_cost": 591657.19,
+      "created_at": "2024-12-24T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0141",
+      "code": "IFX-CON-00141",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.730933,
+      "longitude": -122.36224,
+      "estimated_replacement_cost": 1301472.62,
+      "created_at": "2025-09-14T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0142",
+      "code": "IFX-CON-00142",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.668815,
+      "longitude": -122.23494,
+      "estimated_replacement_cost": 1240485.91,
+      "created_at": "2026-02-04T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0143",
+      "code": "IFX-CON-00143",
+      "status": "STANDBY",
+      "condition_score": 77,
+      "latitude": 38.021725,
+      "longitude": -122.583042,
+      "estimated_replacement_cost": 387465.66,
+      "created_at": "2024-09-23T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0144",
+      "code": "IFX-CON-00144",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.885342,
+      "longitude": -122.457304,
+      "estimated_replacement_cost": 153593.92,
+      "created_at": "2025-11-07T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0145",
+      "code": "IFX-CON-00145",
+      "status": "OPERATIONAL",
+      "condition_score": 86,
+      "latitude": 37.602958,
+      "longitude": -122.658522,
+      "estimated_replacement_cost": 806060.66,
+      "created_at": "2026-06-26T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0146",
+      "code": "IFX-CON-00146",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.934368,
+      "longitude": -122.439439,
+      "estimated_replacement_cost": 49140.93,
+      "created_at": "2026-06-13T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0147",
+      "code": "IFX-CON-00147",
+      "status": "INSPECTED",
+      "condition_score": 54,
+      "latitude": 37.608333,
+      "longitude": -122.295806,
+      "estimated_replacement_cost": 602767.27,
+      "created_at": "2026-04-21T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0148",
+      "code": "IFX-CON-00148",
+      "status": "STANDBY",
+      "condition_score": 88,
+      "latitude": 38.009126,
+      "longitude": -122.538789,
+      "estimated_replacement_cost": 1212724.11,
+      "created_at": "2025-07-06T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0149",
+      "code": "IFX-CON-00149",
+      "status": "INSPECTED",
+      "condition_score": 68,
+      "latitude": 37.651763,
+      "longitude": -122.388726,
+      "estimated_replacement_cost": 948911.07,
+      "created_at": "2025-08-05T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_contractors.contractorsrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Contractors Asset Segment #0150",
+      "code": "IFX-CON-00150",
+      "status": "INSPECTED",
+      "condition_score": 61,
+      "latitude": 37.927129,
+      "longitude": -122.557996,
+      "estimated_replacement_cost": 1070030.74,
+      "created_at": "2024-12-27T10:34:25.410617",
+      "updated_at": "2026-09-08T10:34:25.410617",
+      "notes": "Standard municipal engineering inventory record for contractors.",
+      "metadata": {
+        "spec_code": "SPEC-CONTRACTORS-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  }
+]

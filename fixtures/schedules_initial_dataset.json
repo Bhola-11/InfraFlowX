@@ -1,0 +1,3302 @@
+[
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 1,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0001",
+      "code": "IFX-SCH-00001",
+      "status": "ACTIVE",
+      "condition_score": 92,
+      "latitude": 37.640368,
+      "longitude": -122.6447,
+      "estimated_replacement_cost": 1444452.71,
+      "created_at": "2026-07-13T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 2,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0002",
+      "code": "IFX-SCH-00002",
+      "status": "OPERATIONAL",
+      "condition_score": 54,
+      "latitude": 37.568609,
+      "longitude": -122.629857,
+      "estimated_replacement_cost": 727559.82,
+      "created_at": "2024-09-20T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 3,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0003",
+      "code": "IFX-SCH-00003",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 55,
+      "latitude": 37.849049,
+      "longitude": -122.482424,
+      "estimated_replacement_cost": 563718.4,
+      "created_at": "2026-04-30T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 4,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0004",
+      "code": "IFX-SCH-00004",
+      "status": "INSPECTED",
+      "condition_score": 83,
+      "latitude": 37.827621,
+      "longitude": -122.171727,
+      "estimated_replacement_cost": 349594.04,
+      "created_at": "2024-12-26T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 5,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0005",
+      "code": "IFX-SCH-00005",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.741393,
+      "longitude": -122.419925,
+      "estimated_replacement_cost": 157638.73,
+      "created_at": "2026-08-24T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 6,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0006",
+      "code": "IFX-SCH-00006",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.592573,
+      "longitude": -122.415898,
+      "estimated_replacement_cost": 78220.98,
+      "created_at": "2025-09-29T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 7,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0007",
+      "code": "IFX-SCH-00007",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.768573,
+      "longitude": -122.45014,
+      "estimated_replacement_cost": 898059.68,
+      "created_at": "2024-10-28T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 8,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0008",
+      "code": "IFX-SCH-00008",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 50,
+      "latitude": 37.730298,
+      "longitude": -122.581275,
+      "estimated_replacement_cost": 1379128.0,
+      "created_at": "2026-06-09T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 9,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0009",
+      "code": "IFX-SCH-00009",
+      "status": "INSPECTED",
+      "condition_score": 85,
+      "latitude": 37.666368,
+      "longitude": -122.475754,
+      "estimated_replacement_cost": 1093492.56,
+      "created_at": "2025-12-28T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 10,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0010",
+      "code": "IFX-SCH-00010",
+      "status": "STANDBY",
+      "condition_score": 95,
+      "latitude": 37.530361,
+      "longitude": -122.199097,
+      "estimated_replacement_cost": 775344.44,
+      "created_at": "2026-08-02T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 11,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0011",
+      "code": "IFX-SCH-00011",
+      "status": "OPERATIONAL",
+      "condition_score": 80,
+      "latitude": 37.920281,
+      "longitude": -122.369523,
+      "estimated_replacement_cost": 462995.68,
+      "created_at": "2026-07-31T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 12,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0012",
+      "code": "IFX-SCH-00012",
+      "status": "STANDBY",
+      "condition_score": 66,
+      "latitude": 38.021499,
+      "longitude": -122.363837,
+      "estimated_replacement_cost": 419183.14,
+      "created_at": "2024-11-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 13,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0013",
+      "code": "IFX-SCH-00013",
+      "status": "OPERATIONAL",
+      "condition_score": 59,
+      "latitude": 37.727938,
+      "longitude": -122.19905,
+      "estimated_replacement_cost": 857993.45,
+      "created_at": "2025-09-08T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 14,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0014",
+      "code": "IFX-SCH-00014",
+      "status": "ACTIVE",
+      "condition_score": 88,
+      "latitude": 37.598335,
+      "longitude": -122.523565,
+      "estimated_replacement_cost": 184302.54,
+      "created_at": "2025-01-23T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 15,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0015",
+      "code": "IFX-SCH-00015",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.941521,
+      "longitude": -122.507694,
+      "estimated_replacement_cost": 587226.84,
+      "created_at": "2026-06-02T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 16,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0016",
+      "code": "IFX-SCH-00016",
+      "status": "OPERATIONAL",
+      "condition_score": 79,
+      "latitude": 37.801471,
+      "longitude": -122.579295,
+      "estimated_replacement_cost": 825136.27,
+      "created_at": "2024-09-22T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 17,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0017",
+      "code": "IFX-SCH-00017",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.789443,
+      "longitude": -122.376636,
+      "estimated_replacement_cost": 172683.04,
+      "created_at": "2026-03-13T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 18,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0018",
+      "code": "IFX-SCH-00018",
+      "status": "ACTIVE",
+      "condition_score": 97,
+      "latitude": 37.827412,
+      "longitude": -122.577886,
+      "estimated_replacement_cost": 847663.37,
+      "created_at": "2026-08-31T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 19,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0019",
+      "code": "IFX-SCH-00019",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.584383,
+      "longitude": -122.560769,
+      "estimated_replacement_cost": 362507.5,
+      "created_at": "2025-06-12T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 20,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0020",
+      "code": "IFX-SCH-00020",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.574164,
+      "longitude": -122.441846,
+      "estimated_replacement_cost": 948436.16,
+      "created_at": "2026-05-01T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 21,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0021",
+      "code": "IFX-SCH-00021",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.743224,
+      "longitude": -122.227926,
+      "estimated_replacement_cost": 1363555.6,
+      "created_at": "2024-11-29T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 22,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0022",
+      "code": "IFX-SCH-00022",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 100,
+      "latitude": 37.970772,
+      "longitude": -122.183936,
+      "estimated_replacement_cost": 829463.35,
+      "created_at": "2025-06-20T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 23,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0023",
+      "code": "IFX-SCH-00023",
+      "status": "STANDBY",
+      "condition_score": 72,
+      "latitude": 37.955446,
+      "longitude": -122.610816,
+      "estimated_replacement_cost": 381824.76,
+      "created_at": "2025-05-18T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 24,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0024",
+      "code": "IFX-SCH-00024",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.565699,
+      "longitude": -122.476976,
+      "estimated_replacement_cost": 49827.98,
+      "created_at": "2025-03-14T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 25,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0025",
+      "code": "IFX-SCH-00025",
+      "status": "OPERATIONAL",
+      "condition_score": 60,
+      "latitude": 37.724375,
+      "longitude": -122.510341,
+      "estimated_replacement_cost": 743115.77,
+      "created_at": "2025-11-01T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 26,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0026",
+      "code": "IFX-SCH-00026",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 60,
+      "latitude": 37.774009,
+      "longitude": -122.570596,
+      "estimated_replacement_cost": 1206361.48,
+      "created_at": "2025-11-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 27,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0027",
+      "code": "IFX-SCH-00027",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.588738,
+      "longitude": -122.293555,
+      "estimated_replacement_cost": 1005370.8,
+      "created_at": "2026-02-18T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 28,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0028",
+      "code": "IFX-SCH-00028",
+      "status": "STANDBY",
+      "condition_score": 59,
+      "latitude": 37.628246,
+      "longitude": -122.17675,
+      "estimated_replacement_cost": 744537.39,
+      "created_at": "2026-05-19T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 29,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0029",
+      "code": "IFX-SCH-00029",
+      "status": "ACTIVE",
+      "condition_score": 70,
+      "latitude": 37.770798,
+      "longitude": -122.54027,
+      "estimated_replacement_cost": 231860.54,
+      "created_at": "2026-04-24T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 30,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0030",
+      "code": "IFX-SCH-00030",
+      "status": "STANDBY",
+      "condition_score": 86,
+      "latitude": 37.541302,
+      "longitude": -122.638291,
+      "estimated_replacement_cost": 671000.32,
+      "created_at": "2025-01-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 31,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0031",
+      "code": "IFX-SCH-00031",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.802361,
+      "longitude": -122.610953,
+      "estimated_replacement_cost": 239731.5,
+      "created_at": "2026-05-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 32,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0032",
+      "code": "IFX-SCH-00032",
+      "status": "OPERATIONAL",
+      "condition_score": 76,
+      "latitude": 37.772311,
+      "longitude": -122.34215,
+      "estimated_replacement_cost": 1166770.49,
+      "created_at": "2025-11-01T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 33,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0033",
+      "code": "IFX-SCH-00033",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.67069,
+      "longitude": -122.64917,
+      "estimated_replacement_cost": 247305.61,
+      "created_at": "2025-09-10T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 34,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0034",
+      "code": "IFX-SCH-00034",
+      "status": "INSPECTED",
+      "condition_score": 73,
+      "latitude": 37.861935,
+      "longitude": -122.514254,
+      "estimated_replacement_cost": 1270867.02,
+      "created_at": "2026-05-08T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 35,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0035",
+      "code": "IFX-SCH-00035",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.595031,
+      "longitude": -122.496899,
+      "estimated_replacement_cost": 1202016.42,
+      "created_at": "2026-04-27T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 36,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0036",
+      "code": "IFX-SCH-00036",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.575978,
+      "longitude": -122.317463,
+      "estimated_replacement_cost": 1299017.62,
+      "created_at": "2025-01-08T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 37,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0037",
+      "code": "IFX-SCH-00037",
+      "status": "ACTIVE",
+      "condition_score": 90,
+      "latitude": 37.595313,
+      "longitude": -122.249314,
+      "estimated_replacement_cost": 1135342.29,
+      "created_at": "2026-03-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 38,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0038",
+      "code": "IFX-SCH-00038",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.900446,
+      "longitude": -122.646841,
+      "estimated_replacement_cost": 39374.06,
+      "created_at": "2025-07-31T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 39,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0039",
+      "code": "IFX-SCH-00039",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 94,
+      "latitude": 37.643151,
+      "longitude": -122.504165,
+      "estimated_replacement_cost": 96618.06,
+      "created_at": "2026-08-15T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 40,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0040",
+      "code": "IFX-SCH-00040",
+      "status": "INSPECTED",
+      "condition_score": 55,
+      "latitude": 37.759496,
+      "longitude": -122.625882,
+      "estimated_replacement_cost": 438099.26,
+      "created_at": "2025-09-30T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 41,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0041",
+      "code": "IFX-SCH-00041",
+      "status": "OPERATIONAL",
+      "condition_score": 98,
+      "latitude": 38.01605,
+      "longitude": -122.366006,
+      "estimated_replacement_cost": 1245842.1,
+      "created_at": "2025-03-11T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 42,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0042",
+      "code": "IFX-SCH-00042",
+      "status": "ACTIVE",
+      "condition_score": 73,
+      "latitude": 37.936328,
+      "longitude": -122.343763,
+      "estimated_replacement_cost": 119610.89,
+      "created_at": "2025-10-08T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 43,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0043",
+      "code": "IFX-SCH-00043",
+      "status": "ACTIVE",
+      "condition_score": 93,
+      "latitude": 37.538441,
+      "longitude": -122.375151,
+      "estimated_replacement_cost": 886313.02,
+      "created_at": "2026-01-29T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 44,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0044",
+      "code": "IFX-SCH-00044",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.737748,
+      "longitude": -122.549569,
+      "estimated_replacement_cost": 707490.81,
+      "created_at": "2025-09-10T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 45,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0045",
+      "code": "IFX-SCH-00045",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 91,
+      "latitude": 37.548888,
+      "longitude": -122.315483,
+      "estimated_replacement_cost": 1309473.93,
+      "created_at": "2025-07-17T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 46,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0046",
+      "code": "IFX-SCH-00046",
+      "status": "OPERATIONAL",
+      "condition_score": 74,
+      "latitude": 37.680282,
+      "longitude": -122.660399,
+      "estimated_replacement_cost": 149994.0,
+      "created_at": "2026-01-09T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 47,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0047",
+      "code": "IFX-SCH-00047",
+      "status": "ACTIVE",
+      "condition_score": 62,
+      "latitude": 37.881534,
+      "longitude": -122.471132,
+      "estimated_replacement_cost": 213116.29,
+      "created_at": "2024-10-26T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 48,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0048",
+      "code": "IFX-SCH-00048",
+      "status": "OPERATIONAL",
+      "condition_score": 72,
+      "latitude": 37.527264,
+      "longitude": -122.41756,
+      "estimated_replacement_cost": 722715.03,
+      "created_at": "2026-08-16T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 49,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0049",
+      "code": "IFX-SCH-00049",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.761821,
+      "longitude": -122.361042,
+      "estimated_replacement_cost": 1248154.31,
+      "created_at": "2026-06-04T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 50,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0050",
+      "code": "IFX-SCH-00050",
+      "status": "INSPECTED",
+      "condition_score": 52,
+      "latitude": 37.816401,
+      "longitude": -122.395833,
+      "estimated_replacement_cost": 1095051.62,
+      "created_at": "2024-12-30T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 51,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0051",
+      "code": "IFX-SCH-00051",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.997284,
+      "longitude": -122.459262,
+      "estimated_replacement_cost": 600074.53,
+      "created_at": "2025-10-18T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 52,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0052",
+      "code": "IFX-SCH-00052",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.899554,
+      "longitude": -122.324117,
+      "estimated_replacement_cost": 744632.17,
+      "created_at": "2024-10-28T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 53,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0053",
+      "code": "IFX-SCH-00053",
+      "status": "ACTIVE",
+      "condition_score": 60,
+      "latitude": 37.664577,
+      "longitude": -122.547613,
+      "estimated_replacement_cost": 714524.51,
+      "created_at": "2025-06-02T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 54,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0054",
+      "code": "IFX-SCH-00054",
+      "status": "INSPECTED",
+      "condition_score": 97,
+      "latitude": 37.849837,
+      "longitude": -122.58862,
+      "estimated_replacement_cost": 739602.34,
+      "created_at": "2025-07-11T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 55,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0055",
+      "code": "IFX-SCH-00055",
+      "status": "INSPECTED",
+      "condition_score": 77,
+      "latitude": 37.559006,
+      "longitude": -122.582757,
+      "estimated_replacement_cost": 1339985.04,
+      "created_at": "2025-08-30T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 56,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0056",
+      "code": "IFX-SCH-00056",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.755776,
+      "longitude": -122.2855,
+      "estimated_replacement_cost": 1115324.22,
+      "created_at": "2024-11-27T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 57,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0057",
+      "code": "IFX-SCH-00057",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 76,
+      "latitude": 37.948831,
+      "longitude": -122.570017,
+      "estimated_replacement_cost": 114129.81,
+      "created_at": "2026-05-13T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 58,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0058",
+      "code": "IFX-SCH-00058",
+      "status": "INSPECTED",
+      "condition_score": 71,
+      "latitude": 37.738156,
+      "longitude": -122.418058,
+      "estimated_replacement_cost": 996591.6,
+      "created_at": "2025-05-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 59,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0059",
+      "code": "IFX-SCH-00059",
+      "status": "STANDBY",
+      "condition_score": 68,
+      "latitude": 37.758191,
+      "longitude": -122.548132,
+      "estimated_replacement_cost": 525331.25,
+      "created_at": "2025-06-09T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 60,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0060",
+      "code": "IFX-SCH-00060",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.551183,
+      "longitude": -122.374636,
+      "estimated_replacement_cost": 575665.99,
+      "created_at": "2026-09-02T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 61,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0061",
+      "code": "IFX-SCH-00061",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 89,
+      "latitude": 37.600653,
+      "longitude": -122.557378,
+      "estimated_replacement_cost": 100196.64,
+      "created_at": "2025-12-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 62,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0062",
+      "code": "IFX-SCH-00062",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 62,
+      "latitude": 38.017789,
+      "longitude": -122.376056,
+      "estimated_replacement_cost": 472153.5,
+      "created_at": "2026-03-26T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 63,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0063",
+      "code": "IFX-SCH-00063",
+      "status": "OPERATIONAL",
+      "condition_score": 90,
+      "latitude": 37.629086,
+      "longitude": -122.663005,
+      "estimated_replacement_cost": 524914.49,
+      "created_at": "2025-02-22T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 64,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0064",
+      "code": "IFX-SCH-00064",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 84,
+      "latitude": 37.988717,
+      "longitude": -122.29359,
+      "estimated_replacement_cost": 401967.45,
+      "created_at": "2024-12-14T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 65,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0065",
+      "code": "IFX-SCH-00065",
+      "status": "OPERATIONAL",
+      "condition_score": 91,
+      "latitude": 37.782317,
+      "longitude": -122.590787,
+      "estimated_replacement_cost": 1099184.43,
+      "created_at": "2026-04-19T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 66,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0066",
+      "code": "IFX-SCH-00066",
+      "status": "OPERATIONAL",
+      "condition_score": 96,
+      "latitude": 37.563172,
+      "longitude": -122.329011,
+      "estimated_replacement_cost": 1088614.43,
+      "created_at": "2026-06-09T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 67,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0067",
+      "code": "IFX-SCH-00067",
+      "status": "ACTIVE",
+      "condition_score": 68,
+      "latitude": 37.7803,
+      "longitude": -122.434391,
+      "estimated_replacement_cost": 496534.2,
+      "created_at": "2026-08-30T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 68,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0068",
+      "code": "IFX-SCH-00068",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.792967,
+      "longitude": -122.416719,
+      "estimated_replacement_cost": 169958.2,
+      "created_at": "2025-04-26T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 69,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0069",
+      "code": "IFX-SCH-00069",
+      "status": "ACTIVE",
+      "condition_score": 71,
+      "latitude": 37.695383,
+      "longitude": -122.638428,
+      "estimated_replacement_cost": 1246455.12,
+      "created_at": "2025-12-08T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 70,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0070",
+      "code": "IFX-SCH-00070",
+      "status": "STANDBY",
+      "condition_score": 92,
+      "latitude": 37.873465,
+      "longitude": -122.219852,
+      "estimated_replacement_cost": 984542.5,
+      "created_at": "2025-01-27T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 71,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0071",
+      "code": "IFX-SCH-00071",
+      "status": "STANDBY",
+      "condition_score": 90,
+      "latitude": 37.631105,
+      "longitude": -122.536516,
+      "estimated_replacement_cost": 711773.64,
+      "created_at": "2026-02-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 72,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0072",
+      "code": "IFX-SCH-00072",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 75,
+      "latitude": 37.700958,
+      "longitude": -122.398224,
+      "estimated_replacement_cost": 915655.3,
+      "created_at": "2024-10-24T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 73,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0073",
+      "code": "IFX-SCH-00073",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.777699,
+      "longitude": -122.262528,
+      "estimated_replacement_cost": 203911.12,
+      "created_at": "2025-05-25T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 74,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0074",
+      "code": "IFX-SCH-00074",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.98824,
+      "longitude": -122.615989,
+      "estimated_replacement_cost": 1304143.38,
+      "created_at": "2024-09-21T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 75,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0075",
+      "code": "IFX-SCH-00075",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 67,
+      "latitude": 38.018834,
+      "longitude": -122.536683,
+      "estimated_replacement_cost": 235120.11,
+      "created_at": "2026-03-19T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 76,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0076",
+      "code": "IFX-SCH-00076",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.777429,
+      "longitude": -122.50529,
+      "estimated_replacement_cost": 949542.58,
+      "created_at": "2024-10-20T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 77,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0077",
+      "code": "IFX-SCH-00077",
+      "status": "STANDBY",
+      "condition_score": 50,
+      "latitude": 37.739253,
+      "longitude": -122.566708,
+      "estimated_replacement_cost": 913242.83,
+      "created_at": "2024-11-11T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 78,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0078",
+      "code": "IFX-SCH-00078",
+      "status": "OPERATIONAL",
+      "condition_score": 57,
+      "latitude": 37.621976,
+      "longitude": -122.231499,
+      "estimated_replacement_cost": 514495.63,
+      "created_at": "2024-12-14T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 79,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0079",
+      "code": "IFX-SCH-00079",
+      "status": "STANDBY",
+      "condition_score": 56,
+      "latitude": 37.852119,
+      "longitude": -122.397278,
+      "estimated_replacement_cost": 998728.59,
+      "created_at": "2025-12-24T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 80,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0080",
+      "code": "IFX-SCH-00080",
+      "status": "STANDBY",
+      "condition_score": 99,
+      "latitude": 37.579662,
+      "longitude": -122.393898,
+      "estimated_replacement_cost": 1213110.42,
+      "created_at": "2024-10-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 81,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0081",
+      "code": "IFX-SCH-00081",
+      "status": "OPERATIONAL",
+      "condition_score": 58,
+      "latitude": 37.747169,
+      "longitude": -122.48865,
+      "estimated_replacement_cost": 298216.11,
+      "created_at": "2025-04-08T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 82,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0082",
+      "code": "IFX-SCH-00082",
+      "status": "OPERATIONAL",
+      "condition_score": 65,
+      "latitude": 37.718619,
+      "longitude": -122.547739,
+      "estimated_replacement_cost": 1382816.6,
+      "created_at": "2026-09-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 83,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0083",
+      "code": "IFX-SCH-00083",
+      "status": "OPERATIONAL",
+      "condition_score": 69,
+      "latitude": 37.99225,
+      "longitude": -122.363105,
+      "estimated_replacement_cost": 1264269.75,
+      "created_at": "2025-08-11T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 84,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0084",
+      "code": "IFX-SCH-00084",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 73,
+      "latitude": 37.726584,
+      "longitude": -122.402668,
+      "estimated_replacement_cost": 431553.47,
+      "created_at": "2025-11-17T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 85,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0085",
+      "code": "IFX-SCH-00085",
+      "status": "ACTIVE",
+      "condition_score": 63,
+      "latitude": 37.907988,
+      "longitude": -122.327142,
+      "estimated_replacement_cost": 369615.94,
+      "created_at": "2026-01-23T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 86,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0086",
+      "code": "IFX-SCH-00086",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 56,
+      "latitude": 37.7697,
+      "longitude": -122.630141,
+      "estimated_replacement_cost": 863245.18,
+      "created_at": "2024-10-27T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 87,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0087",
+      "code": "IFX-SCH-00087",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.533106,
+      "longitude": -122.322427,
+      "estimated_replacement_cost": 83921.42,
+      "created_at": "2025-02-22T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 88,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0088",
+      "code": "IFX-SCH-00088",
+      "status": "ACTIVE",
+      "condition_score": 54,
+      "latitude": 37.786807,
+      "longitude": -122.179281,
+      "estimated_replacement_cost": 719877.63,
+      "created_at": "2024-10-29T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 89,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0089",
+      "code": "IFX-SCH-00089",
+      "status": "OPERATIONAL",
+      "condition_score": 53,
+      "latitude": 37.811067,
+      "longitude": -122.317294,
+      "estimated_replacement_cost": 931641.38,
+      "created_at": "2025-05-11T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 90,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0090",
+      "code": "IFX-SCH-00090",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 77,
+      "latitude": 37.677749,
+      "longitude": -122.384376,
+      "estimated_replacement_cost": 1494027.88,
+      "created_at": "2025-04-17T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 91,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0091",
+      "code": "IFX-SCH-00091",
+      "status": "ACTIVE",
+      "condition_score": 76,
+      "latitude": 37.566502,
+      "longitude": -122.27222,
+      "estimated_replacement_cost": 731376.91,
+      "created_at": "2024-11-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 92,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0092",
+      "code": "IFX-SCH-00092",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 72,
+      "latitude": 37.788529,
+      "longitude": -122.542672,
+      "estimated_replacement_cost": 181565.52,
+      "created_at": "2024-12-25T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 93,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0093",
+      "code": "IFX-SCH-00093",
+      "status": "INSPECTED",
+      "condition_score": 87,
+      "latitude": 37.854039,
+      "longitude": -122.477298,
+      "estimated_replacement_cost": 657053.83,
+      "created_at": "2025-01-22T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 94,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0094",
+      "code": "IFX-SCH-00094",
+      "status": "STANDBY",
+      "condition_score": 55,
+      "latitude": 38.000828,
+      "longitude": -122.215285,
+      "estimated_replacement_cost": 588240.25,
+      "created_at": "2026-01-07T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 95,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0095",
+      "code": "IFX-SCH-00095",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.839397,
+      "longitude": -122.405926,
+      "estimated_replacement_cost": 96382.3,
+      "created_at": "2025-12-10T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 96,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0096",
+      "code": "IFX-SCH-00096",
+      "status": "STANDBY",
+      "condition_score": 82,
+      "latitude": 37.532825,
+      "longitude": -122.234969,
+      "estimated_replacement_cost": 1332479.38,
+      "created_at": "2025-08-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 97,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0097",
+      "code": "IFX-SCH-00097",
+      "status": "ACTIVE",
+      "condition_score": 52,
+      "latitude": 37.858894,
+      "longitude": -122.242545,
+      "estimated_replacement_cost": 1130484.37,
+      "created_at": "2026-05-04T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 98,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0098",
+      "code": "IFX-SCH-00098",
+      "status": "INSPECTED",
+      "condition_score": 69,
+      "latitude": 37.714867,
+      "longitude": -122.497661,
+      "estimated_replacement_cost": 1152266.24,
+      "created_at": "2026-01-03T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 99,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0099",
+      "code": "IFX-SCH-00099",
+      "status": "ACTIVE",
+      "condition_score": 78,
+      "latitude": 37.827553,
+      "longitude": -122.623247,
+      "estimated_replacement_cost": 834726.73,
+      "created_at": "2026-09-02T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 100,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0100",
+      "code": "IFX-SCH-00100",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.760205,
+      "longitude": -122.333409,
+      "estimated_replacement_cost": 745457.66,
+      "created_at": "2026-01-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 101,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0101",
+      "code": "IFX-SCH-00101",
+      "status": "OPERATIONAL",
+      "condition_score": 77,
+      "latitude": 37.597821,
+      "longitude": -122.38811,
+      "estimated_replacement_cost": 1334885.46,
+      "created_at": "2025-10-26T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 102,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0102",
+      "code": "IFX-SCH-00102",
+      "status": "OPERATIONAL",
+      "condition_score": 88,
+      "latitude": 37.890682,
+      "longitude": -122.509595,
+      "estimated_replacement_cost": 699757.85,
+      "created_at": "2026-02-27T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 103,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0103",
+      "code": "IFX-SCH-00103",
+      "status": "OPERATIONAL",
+      "condition_score": 61,
+      "latitude": 37.985365,
+      "longitude": -122.186414,
+      "estimated_replacement_cost": 614810.03,
+      "created_at": "2025-06-08T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 104,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0104",
+      "code": "IFX-SCH-00104",
+      "status": "INSPECTED",
+      "condition_score": 58,
+      "latitude": 37.706849,
+      "longitude": -122.617682,
+      "estimated_replacement_cost": 755923.69,
+      "created_at": "2026-06-10T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 105,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0105",
+      "code": "IFX-SCH-00105",
+      "status": "STANDBY",
+      "condition_score": 71,
+      "latitude": 37.841039,
+      "longitude": -122.321883,
+      "estimated_replacement_cost": 446384.24,
+      "created_at": "2025-02-24T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 106,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0106",
+      "code": "IFX-SCH-00106",
+      "status": "ACTIVE",
+      "condition_score": 84,
+      "latitude": 37.847785,
+      "longitude": -122.62787,
+      "estimated_replacement_cost": 870251.01,
+      "created_at": "2025-01-23T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 107,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0107",
+      "code": "IFX-SCH-00107",
+      "status": "ACTIVE",
+      "condition_score": 87,
+      "latitude": 37.970988,
+      "longitude": -122.342354,
+      "estimated_replacement_cost": 1150723.0,
+      "created_at": "2025-03-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 108,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0108",
+      "code": "IFX-SCH-00108",
+      "status": "ACTIVE",
+      "condition_score": 55,
+      "latitude": 37.653001,
+      "longitude": -122.646854,
+      "estimated_replacement_cost": 1072745.1,
+      "created_at": "2025-07-14T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 109,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0109",
+      "code": "IFX-SCH-00109",
+      "status": "STANDBY",
+      "condition_score": 85,
+      "latitude": 37.607871,
+      "longitude": -122.63752,
+      "estimated_replacement_cost": 660338.67,
+      "created_at": "2026-01-02T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 110,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0110",
+      "code": "IFX-SCH-00110",
+      "status": "INSPECTED",
+      "condition_score": 72,
+      "latitude": 37.715994,
+      "longitude": -122.183897,
+      "estimated_replacement_cost": 183791.14,
+      "created_at": "2026-04-29T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 111,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0111",
+      "code": "IFX-SCH-00111",
+      "status": "STANDBY",
+      "condition_score": 81,
+      "latitude": 37.886044,
+      "longitude": -122.667314,
+      "estimated_replacement_cost": 698779.32,
+      "created_at": "2025-06-01T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 112,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0112",
+      "code": "IFX-SCH-00112",
+      "status": "INSPECTED",
+      "condition_score": 81,
+      "latitude": 37.720869,
+      "longitude": -122.346197,
+      "estimated_replacement_cost": 378792.21,
+      "created_at": "2024-10-07T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 113,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0113",
+      "code": "IFX-SCH-00113",
+      "status": "ACTIVE",
+      "condition_score": 86,
+      "latitude": 37.949368,
+      "longitude": -122.406822,
+      "estimated_replacement_cost": 434006.93,
+      "created_at": "2026-05-06T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 114,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0114",
+      "code": "IFX-SCH-00114",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 59,
+      "latitude": 37.764517,
+      "longitude": -122.506052,
+      "estimated_replacement_cost": 967534.36,
+      "created_at": "2024-12-16T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 115,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0115",
+      "code": "IFX-SCH-00115",
+      "status": "OPERATIONAL",
+      "condition_score": 73,
+      "latitude": 37.556235,
+      "longitude": -122.499437,
+      "estimated_replacement_cost": 1320791.16,
+      "created_at": "2025-02-07T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 116,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0116",
+      "code": "IFX-SCH-00116",
+      "status": "ACTIVE",
+      "condition_score": 95,
+      "latitude": 37.657806,
+      "longitude": -122.614789,
+      "estimated_replacement_cost": 706475.0,
+      "created_at": "2026-08-26T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 117,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0117",
+      "code": "IFX-SCH-00117",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 79,
+      "latitude": 38.023495,
+      "longitude": -122.31937,
+      "estimated_replacement_cost": 475124.92,
+      "created_at": "2026-07-21T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 118,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0118",
+      "code": "IFX-SCH-00118",
+      "status": "ACTIVE",
+      "condition_score": 56,
+      "latitude": 37.935726,
+      "longitude": -122.361405,
+      "estimated_replacement_cost": 797223.81,
+      "created_at": "2026-08-19T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 119,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0119",
+      "code": "IFX-SCH-00119",
+      "status": "INSPECTED",
+      "condition_score": 79,
+      "latitude": 37.746475,
+      "longitude": -122.505383,
+      "estimated_replacement_cost": 647727.78,
+      "created_at": "2026-03-07T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 120,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0120",
+      "code": "IFX-SCH-00120",
+      "status": "STANDBY",
+      "condition_score": 83,
+      "latitude": 37.643202,
+      "longitude": -122.506474,
+      "estimated_replacement_cost": 955295.91,
+      "created_at": "2025-01-17T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 121,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0121",
+      "code": "IFX-SCH-00121",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.725476,
+      "longitude": -122.252137,
+      "estimated_replacement_cost": 774276.95,
+      "created_at": "2026-02-11T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 122,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0122",
+      "code": "IFX-SCH-00122",
+      "status": "ACTIVE",
+      "condition_score": 98,
+      "latitude": 37.596854,
+      "longitude": -122.666208,
+      "estimated_replacement_cost": 413966.16,
+      "created_at": "2025-11-17T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 123,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0123",
+      "code": "IFX-SCH-00123",
+      "status": "OPERATIONAL",
+      "condition_score": 82,
+      "latitude": 37.981296,
+      "longitude": -122.291957,
+      "estimated_replacement_cost": 1048771.55,
+      "created_at": "2026-01-19T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 124,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0124",
+      "code": "IFX-SCH-00124",
+      "status": "INSPECTED",
+      "condition_score": 95,
+      "latitude": 37.67845,
+      "longitude": -122.498623,
+      "estimated_replacement_cost": 728035.4,
+      "created_at": "2024-09-30T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 125,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0125",
+      "code": "IFX-SCH-00125",
+      "status": "INSPECTED",
+      "condition_score": 80,
+      "latitude": 37.813085,
+      "longitude": -122.285492,
+      "estimated_replacement_cost": 1344082.35,
+      "created_at": "2025-05-14T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 126,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0126",
+      "code": "IFX-SCH-00126",
+      "status": "INSPECTED",
+      "condition_score": 88,
+      "latitude": 37.657019,
+      "longitude": -122.385003,
+      "estimated_replacement_cost": 177505.64,
+      "created_at": "2025-11-30T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 127,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0127",
+      "code": "IFX-SCH-00127",
+      "status": "OPERATIONAL",
+      "condition_score": 52,
+      "latitude": 37.854034,
+      "longitude": -122.291604,
+      "estimated_replacement_cost": 419047.26,
+      "created_at": "2024-12-11T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 128,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0128",
+      "code": "IFX-SCH-00128",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 66,
+      "latitude": 37.620181,
+      "longitude": -122.640979,
+      "estimated_replacement_cost": 662636.51,
+      "created_at": "2025-04-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 129,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0129",
+      "code": "IFX-SCH-00129",
+      "status": "ACTIVE",
+      "condition_score": 91,
+      "latitude": 37.705368,
+      "longitude": -122.245476,
+      "estimated_replacement_cost": 992161.79,
+      "created_at": "2026-05-24T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 130,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0130",
+      "code": "IFX-SCH-00130",
+      "status": "INSPECTED",
+      "condition_score": 59,
+      "latitude": 37.748892,
+      "longitude": -122.332603,
+      "estimated_replacement_cost": 496599.69,
+      "created_at": "2025-03-19T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 131,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0131",
+      "code": "IFX-SCH-00131",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 78,
+      "latitude": 37.861892,
+      "longitude": -122.212069,
+      "estimated_replacement_cost": 1203959.5,
+      "created_at": "2025-08-04T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 132,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0132",
+      "code": "IFX-SCH-00132",
+      "status": "INSPECTED",
+      "condition_score": 62,
+      "latitude": 37.814266,
+      "longitude": -122.640785,
+      "estimated_replacement_cost": 1010043.53,
+      "created_at": "2026-06-20T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 133,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0133",
+      "code": "IFX-SCH-00133",
+      "status": "OPERATIONAL",
+      "condition_score": 81,
+      "latitude": 37.68262,
+      "longitude": -122.587667,
+      "estimated_replacement_cost": 425716.38,
+      "created_at": "2025-08-16T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 134,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0134",
+      "code": "IFX-SCH-00134",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.939544,
+      "longitude": -122.274162,
+      "estimated_replacement_cost": 1277555.04,
+      "created_at": "2026-07-25T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 135,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0135",
+      "code": "IFX-SCH-00135",
+      "status": "INSPECTED",
+      "condition_score": 56,
+      "latitude": 37.527363,
+      "longitude": -122.263871,
+      "estimated_replacement_cost": 130854.91,
+      "created_at": "2025-09-05T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 136,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0136",
+      "code": "IFX-SCH-00136",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 85,
+      "latitude": 37.997131,
+      "longitude": -122.403323,
+      "estimated_replacement_cost": 1187445.9,
+      "created_at": "2024-09-26T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 137,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0137",
+      "code": "IFX-SCH-00137",
+      "status": "OPERATIONAL",
+      "condition_score": 87,
+      "latitude": 38.001627,
+      "longitude": -122.430555,
+      "estimated_replacement_cost": 45436.7,
+      "created_at": "2026-05-17T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 138,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0138",
+      "code": "IFX-SCH-00138",
+      "status": "ACTIVE",
+      "condition_score": 58,
+      "latitude": 37.735351,
+      "longitude": -122.440939,
+      "estimated_replacement_cost": 348143.88,
+      "created_at": "2026-01-17T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 139,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0139",
+      "code": "IFX-SCH-00139",
+      "status": "OPERATIONAL",
+      "condition_score": 50,
+      "latitude": 37.836822,
+      "longitude": -122.573045,
+      "estimated_replacement_cost": 1195938.57,
+      "created_at": "2024-11-09T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 140,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0140",
+      "code": "IFX-SCH-00140",
+      "status": "STANDBY",
+      "condition_score": 67,
+      "latitude": 37.773805,
+      "longitude": -122.348056,
+      "estimated_replacement_cost": 114392.38,
+      "created_at": "2025-07-24T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 141,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0141",
+      "code": "IFX-SCH-00141",
+      "status": "ACTIVE",
+      "condition_score": 80,
+      "latitude": 37.774611,
+      "longitude": -122.44425,
+      "estimated_replacement_cost": 711252.73,
+      "created_at": "2025-01-23T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 142,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0142",
+      "code": "IFX-SCH-00142",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 74,
+      "latitude": 37.816566,
+      "longitude": -122.216105,
+      "estimated_replacement_cost": 707177.86,
+      "created_at": "2026-04-20T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 143,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0143",
+      "code": "IFX-SCH-00143",
+      "status": "OPERATIONAL",
+      "condition_score": 89,
+      "latitude": 37.541517,
+      "longitude": -122.594653,
+      "estimated_replacement_cost": 1417154.61,
+      "created_at": "2026-02-27T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 144,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0144",
+      "code": "IFX-SCH-00144",
+      "status": "STANDBY",
+      "condition_score": 79,
+      "latitude": 37.53865,
+      "longitude": -122.431873,
+      "estimated_replacement_cost": 1408159.2,
+      "created_at": "2025-03-18T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 6,
+        "criticality_level": "LOW"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 145,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0145",
+      "code": "IFX-SCH-00145",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 58,
+      "latitude": 37.759333,
+      "longitude": -122.424971,
+      "estimated_replacement_cost": 632385.0,
+      "created_at": "2025-10-20T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 146,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0146",
+      "code": "IFX-SCH-00146",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 54,
+      "latitude": 37.897396,
+      "longitude": -122.224411,
+      "estimated_replacement_cost": 1057677.47,
+      "created_at": "2025-07-01T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "HIGH"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 147,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0147",
+      "code": "IFX-SCH-00147",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 61,
+      "latitude": 37.575381,
+      "longitude": -122.381337,
+      "estimated_replacement_cost": 1349530.86,
+      "created_at": "2024-10-14T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 148,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0148",
+      "code": "IFX-SCH-00148",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 97,
+      "latitude": 37.57275,
+      "longitude": -122.572119,
+      "estimated_replacement_cost": 797589.21,
+      "created_at": "2025-04-25T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 24,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 149,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0149",
+      "code": "IFX-SCH-00149",
+      "status": "MAINTENANCE_REQUIRED",
+      "condition_score": 70,
+      "latitude": 37.704043,
+      "longitude": -122.48455,
+      "estimated_replacement_cost": 574799.8,
+      "created_at": "2024-10-20T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 36,
+        "criticality_level": "CRITICAL"
+      }
+    }
+  },
+  {
+    "model": "apps_schedules.schedulesrecord",
+    "pk": 150,
+    "fields": {
+      "tenant_id": 1,
+      "name": "Metropolitan Schedules Asset Segment #0150",
+      "code": "IFX-SCH-00150",
+      "status": "OPERATIONAL",
+      "condition_score": 56,
+      "latitude": 37.772534,
+      "longitude": -122.45977,
+      "estimated_replacement_cost": 1328634.27,
+      "created_at": "2025-03-21T10:34:25.477481",
+      "updated_at": "2026-09-08T10:34:25.477481",
+      "notes": "Standard municipal engineering inventory record for schedules.",
+      "metadata": {
+        "spec_code": "SPEC-SCHEDULES-2026",
+        "inspection_frequency_months": 12,
+        "criticality_level": "MEDIUM"
+      }
+    }
+  }
+]
